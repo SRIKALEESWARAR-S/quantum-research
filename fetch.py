@@ -21,7 +21,9 @@ def rr(lists):  # round-robin so no single source uses all the slots
 
 def feed_items(s):
     out = []
-    for e in feedparser.parse(s["url"], agent=UA).entries:
+    parsed = feedparser.parse(s["url"], agent=UA)
+    if getattr(parsed, "bozo", False): print("feed warning", s["name"], getattr(parsed, "bozo_exception", ""))
+    for e in parsed.entries:
         link = re.sub(r"v\d+$", "", e.link) if "arxiv.org" in e.link else e.link
         au = names([a.get("name") for a in e.get("authors", [])])
         out.append({"id": link, "url": link, "title": clean(e.title), "text": clean(e.get("summary", "")),
@@ -41,7 +43,7 @@ def journal_items(s):
         params={"sort": "created", "order": "desc", "rows": 10, "mailto": os.getenv("CONTACT_EMAIL", ""),
                 "select": "DOI,title,abstract,author,license,URL,created"})
     out = []
-    for w in r.json()["message"]["items"]:
+    for w in r.json().get("message", {}).get("items", []):
         ok = [l["URL"] for l in w.get("license", []) if OK.search(l.get("URL", ""))]
         if not ok or not w.get("title"):
             print("skip (license/title)", w.get("DOI")); continue
@@ -61,18 +63,40 @@ def ask(k, c, key, model, P, SYS):
         r = requests.post(url, headers={"x-goog-api-key": key}, json=payload, timeout=90)
         if r.status_code == 429:
             time.sleep(30 * (n + 1)); continue  # free-tier rate limit: wait and retry
-        r.raise_for_status()
-        t = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-        time.sleep(7)  # stay under free-tier requests per minute
-        return json.loads(re.sub(r"^```(json)?|```$", "", t.strip()).strip())
+        if not r.ok:
+            # Include the API response body in Actions logs; it usually explains invalid keys,
+            # disabled APIs, unavailable models, quota exhaustion, or malformed requests.
+            raise RuntimeError(f"Gemini HTTP {r.status_code}: {r.text[:1200]}")
+        body = r.json()
+        candidates = body.get("candidates") or []
+        if not candidates:
+            raise RuntimeError(f"Gemini returned no candidates: {json.dumps(body)[:1200]}")
+        content = candidates[0].get("content", {})
+        parts = content.get("parts") or []
+        t = next((p.get("text") for p in parts if p.get("text")), "")
+        if not t:
+            raise RuntimeError(f"Gemini returned no text: {json.dumps(body)[:1200]}")
+        time.sleep(7)  # modest rate-limit pacing
+        result = json.loads(re.sub(r"^```(?:json)?\s*|\s*```$", "", t.strip(), flags=re.I).strip())
+        if not isinstance(result, dict) or not isinstance(result.get("en"), dict) or not isinstance(result.get("ta"), dict):
+            raise RuntimeError("Gemini response JSON must contain en and ta objects")
+        return result
     raise RuntimeError("rate limited")
 
 def main():
-    key = os.environ["GEMINI_API_KEY"]; model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
-    per_tab = int(os.getenv("MAX_NEW", 4))
+    key = os.getenv("GEMINI_API_KEY", "").strip()
+    if not key:
+        raise RuntimeError("GEMINI_API_KEY is missing. Add it in repository Settings > Secrets and variables > Actions.")
+    model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+    per_tab = max(1, int(os.getenv("MAX_NEW", 4)))
+    print(f"Starting refresh; model={model}; max_new_per_tab={per_tab}")
     SRC = json.loads(rd("sources.json")); SYS = rd("prompts/system.txt")
     P = {k: rd(f"prompts/{k}.txt") for k in ("news", "quantum", "kids")}
-    DB = json.loads(rd("data.json")); seen = {i["id"] for i in DB["items"]}
+    DB = json.loads(rd("data.json"))
+    if not isinstance(DB, dict) or not isinstance(DB.get("items"), list):
+        raise RuntimeError("data.json must be a JSON object with an items array")
+    seen = {i["id"] for i in DB["items"] if isinstance(i, dict) and i.get("id")}
+    print(f"Existing archive items: {len(seen)}")
     total = 0
     for tab in ("news", "quantum"):
         lists = []
@@ -82,6 +106,7 @@ def main():
         for s in SRC[tab].get("journals", []):
             try: lists.append([c for c in journal_items(s) if c["id"] not in seen])
             except Exception as ex: print("journal failed", s["name"], ex)
+        print(f"{tab}: source candidate counts={[len(x) for x in lists]}, unique unseen={sum(len(x) for x in lists)}")
         n = 0
         for c in rr(lists):
             if n >= per_tab: break
@@ -99,10 +124,15 @@ def main():
                     it["kids"] = ask("kids", c, key, model, P, SYS)
                 DB["items"].append(it); seen.add(c["id"]); n += 1; total += 1
             except Exception as ex:
-                print("skip", c["id"], ex)
-    # items are only ever appended, never deleted: this is the archive
-    json.dump(DB, open(os.path.join(R, "data.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("added", total)
+                print("ERROR processing item", c.get("id", "(no id)"), repr(ex))
+    # Items are only ever appended, never deleted: this is the archive.
+    target = os.path.join(R, "data.json")
+    tmp = target + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(DB, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+    os.replace(tmp, target)
+    print(f"Refresh complete: added={total}; archive_total={len(DB['items'])}")
 
 if __name__ == "__main__":
     main()
