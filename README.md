@@ -1,35 +1,51 @@
-# Quantum Learn
+# Quantum Learn — Reworked
 
-A small, bilingual (English/Tamil) science-learning site for research news, quantum-computing preprints, and kid-friendly explanations.
+A lightweight, static science-learning site whose archive is updated by GitHub Actions. **RSS feeds are not required.** The refresh script uses public search/data APIs and degrades gracefully if one provider is unavailable.
 
-## Highlights
-- Responsive, accessible interface with English/Tamil switching, accent-color controls, month filtering, search, and browser text-to-speech.
-- Research summaries retain source links and author/licence credit.
-- Automated content refresh using GitHub Actions and the Gemini API.
-- Existing archive entries are preserved; refreshes append new items rather than replacing the archive.
+## Data sources
+
+- **GDELT DOC API** — recent science/technology news article metadata; no key required.
+- **OpenAlex Works API** — scholarly paper metadata and abstracts where available; no key required.
+- **Crossref REST API** — publication metadata and abstracts where available; no key required.
+- **arXiv search API** — recent quantum-physics preprints (Atom XML API, not an RSS feed); no key required.
+- **Google Programmable Search JSON API (optional)** — official Google search results endpoint. It is not HTML scraping and requires `GOOGLE_CSE_API_KEY` and `GOOGLE_CSE_ID` GitHub Actions secrets. Google Programmable Search has its own setup, quotas, and billing/eligibility rules; it is not required for the site to work.
 
 ## Run locally
-The site is static. From this directory, start any local web server, for example:
+
+Requires Python 3.10+.
 
 ```bash
-python -m http.server 8000
+python -m pip install -r requirements.txt
+python fetch.py
 ```
 
-Open `http://localhost:8000`. Opening `index.html` directly may prevent `data.json` from loading because browsers restrict local-file fetches.
+The first run may take a minute because the script queries several public APIs. It writes valid JSON to `data.json`, keeps existing archive entries, deduplicates by URL, and prints a per-source success/failure line. If an API is temporarily unavailable, other sources can still populate the archive. If every source fails and there is no existing data, the script exits with an error instead of claiming a successful empty refresh.
 
-## Enable automatic updates
-1. Push this directory to a GitHub repository.
-2. Add a repository Actions secret named `GEMINI_API_KEY`.
-3. In **Actions**, run **Refresh Quantum Learn** manually once. The workflow also runs every six hours.
-4. Confirm the workflow can commit updates to `data.json`. Keep workflow permissions limited to what is needed.
+Optional environment variables:
 
-Optional variables:
-- `GEMINI_MODEL`: model name; defaults to `gemini-2.5-flash`.
-- `MAX_NEW`: maximum new entries per category on each run; defaults to `4` in `fetch.py` (workflow currently sets `2`).
+- `CONTACT_EMAIL`: contact email for polite Crossref/OpenAlex use.
+- `GOOGLE_CSE_API_KEY`: Google Programmable Search JSON API key.
+- `GOOGLE_CSE_ID`: Programmable Search Engine ID (`cx`).
+- `MAX_PER_SOURCE`: records to request per source (3–30; default 12).
+- `MAX_TOTAL_NEW`: max new records to add per refresh (5–100; default 40).
 
-## Important notes
-- AI-generated explanations can be wrong. The interface links to the original source and labels AI summaries.
-- arXiv entries are preprints and are not peer reviewed.
-- Journal articles are included only when Crossref reports a licence matching the allowlist in `fetch.py` (CC BY, CC BY-SA, or CC0).
-- The initial `data.json` archive is empty. It populates after a successful workflow run.
-- Never put API keys in HTML, source control, or `data.json`; use GitHub Actions secrets.
+## Deploy on GitHub Pages
+
+1. Upload the contents of this folder to the **root of a GitHub repository**. The `.github/workflows/refresh.yml` file must be preserved.
+2. In **Settings → Pages**, select **Deploy from a branch** and choose your deployment branch and `/ (root)`.
+3. Open **Actions → Refresh Quantum Learn data → Run workflow** to run it once immediately.
+4. Open the workflow logs and check each source count. The workflow runs every six hours after that.
+5. If the workflow cannot push commits, open **Settings → Actions → General → Workflow permissions** and allow read/write repository permissions.
+
+The workflow commits only when `data.json` changes. The push-trigger excludes the workflow's own data-only commit, avoiding an endless run loop.
+
+## Google search: what to use
+
+Do **not** scrape Google result pages directly. They are unstable, can block automation, and may violate service terms. If Google search results are important, use the official Programmable Search JSON API with the two optional secrets above. For a no-key setup, GDELT + OpenAlex + Crossref + arXiv is the default and avoids depending on a single provider.
+
+## Notes
+
+- Search APIs return metadata and snippets/abstracts, not necessarily full article text. The site should link readers to the original publisher or paper.
+- News search results can include unrelated stories; review and tune the query if needed.
+- arXiv items are preprints and may not be peer reviewed.
+- Public API availability, rate limits, and search coverage can change. The script logs failures and is designed not to silently report a successful empty archive.

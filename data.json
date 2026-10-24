@@ -1,3 +1,41 @@
 {
- "items": []
+  "version": 2,
+  "updated_at": null,
+  "refresh": {
+    "sources_succeeded": 0,
+    "sources_total": 4,
+    "new_items": 0
+  },
+  "items": [
+    {
+      "id": "https://learning.quantum.ibm.com/",
+      "title": "Learn quantum computing with IBM Quantum",
+      "url": "https://learning.quantum.ibm.com/",
+      "summary": "A free learning portal with lessons and interactive material for building a foundation in quantum computing. This starter resource is provided so the site is useful before the first automated refresh.",
+      "source": "IBM Quantum Learning",
+      "category": "starter",
+      "date": "2026-10-24",
+      "author": "IBM Quantum"
+    },
+    {
+      "id": "https://quantum.country/qcvc",
+      "title": "Quantum computing for the very curious",
+      "url": "https://quantum.country/qcvc",
+      "summary": "An accessible, interactive introduction to core ideas behind quantum computing. Use it as a learning resource; it is not a news article or a peer-reviewed research paper.",
+      "source": "Quantum Country",
+      "category": "starter",
+      "date": "2026-10-24",
+      "author": "Quantum Country"
+    },
+    {
+      "id": "https://arxiv.org/list/quant-ph/recent",
+      "title": "Latest quantum physics preprints on arXiv",
+      "url": "https://arxiv.org/list/quant-ph/recent",
+      "summary": "Browse the latest submissions in the quantum physics category. Preprints may not have been peer reviewed. Automated refresh adds individual records from the arXiv search API.",
+      "source": "arXiv",
+      "category": "starter",
+      "date": "2026-10-24",
+      "author": "arXiv"
+    }
+  ]
 }

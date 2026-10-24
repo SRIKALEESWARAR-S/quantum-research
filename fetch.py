@@ -1,138 +1,242 @@
-import json, os, re, time, datetime, requests, feedparser
-R = os.path.dirname(os.path.abspath(__file__))
-UA = "QuantumLearn/1.0 (open-science education project)"
-# Only reuse journal papers whose license allows adaptation (CC BY, CC BY-SA, CC0)
-OK = re.compile(r"/licenses/by(-sa)?/|/publicdomain/zero/")
+#!/usr/bin/env python3
+"""Build Quantum Learn's archive from public JSON/XML search APIs (no RSS required).
 
-def rd(p): return open(os.path.join(R, p), encoding="utf-8").read()
-def clean(t): return re.sub(r"\s+", " ", re.sub("<[^>]+>", " ", t or "")).strip()
-def lic(u):
-    m = re.search(r"licenses/([a-z\-]+)/([\d.]+)", u)
-    return f"CC {m.group(1).upper()} {m.group(2)}" if m else "CC0"
-def names(a):
-    a = [x for x in a if x]
-    return ", ".join(a[:3]) + (" et al." if len(a) > 3 else "")
-def rr(lists):  # round-robin so no single source uses all the slots
-    out = []
-    for i in range(max([len(l) for l in lists], default=0)):
-        for l in lists:
-            if i < len(l): out.append(l[i])
-    return out
+Primary sources: GDELT news API, OpenAlex, Crossref, and arXiv's Atom API.
+Optional: Google Programmable Search JSON API when both CSE secrets are configured.
+"""
+from __future__ import annotations
+import datetime as dt
+import html
+import json
+import os
+import re
+import time
+import xml.etree.ElementTree as ET
+from pathlib import Path
+from typing import Any
+from urllib.parse import quote
+import requests
 
-def feed_items(s):
-    out = []
-    parsed = feedparser.parse(s["url"], agent=UA)
-    if getattr(parsed, "bozo", False): print("feed warning", s["name"], getattr(parsed, "bozo_exception", ""))
-    for e in parsed.entries:
-        link = re.sub(r"v\d+$", "", e.link) if "arxiv.org" in e.link else e.link
-        au = names([a.get("name") for a in e.get("authors", [])])
-        out.append({"id": link, "url": link, "title": clean(e.title), "text": clean(e.get("summary", "")),
-                    "source": s["name"], "credit": " · ".join(x for x in [au, s["name"], s.get("note")] if x)})
-    return out
+ROOT = Path(__file__).resolve().parent
+DATA_FILE = ROOT / "data.json"
+USER_AGENT = "QuantumLearn/2.0 (open research education; contact configured in CONTACT_EMAIL)"
+TIMEOUT = 25
+SESSION = requests.Session()
+SESSION.headers.update({"User-Agent": USER_AGENT, "Accept": "application/json, application/atom+xml, application/xml, */*"})
+TODAY = dt.datetime.now(dt.timezone.utc).date().isoformat()
+MAX_PER_SOURCE = max(3, min(30, int(os.getenv("MAX_PER_SOURCE", "12"))))
+MAX_TOTAL_NEW = max(5, min(100, int(os.getenv("MAX_TOTAL_NEW", "40"))))
 
-def oa_abs(doi):  # fallback: OpenAlex abstract (CC0 metadata)
-    try:
-        r = requests.get(f"https://api.openalex.org/works/doi:{doi}", params={"select": "abstract_inverted_index"}, headers={"User-Agent": UA}, timeout=30)
-        idx = r.json().get("abstract_inverted_index") or {}
-        return " ".join(w for _, w in sorted((p, w) for w, ps in idx.items() for p in ps))
-    except Exception:
+
+def clean(value: Any) -> str:
+    if not value:
         return ""
+    text = html.unescape(re.sub(r"<[^>]+>", " ", str(value)))
+    return re.sub(r"\s+", " ", text).strip()
 
-def journal_items(s):
-    r = requests.get(f"https://api.crossref.org/journals/{s['issn']}/works", headers={"User-Agent": UA}, timeout=60,
-        params={"sort": "created", "order": "desc", "rows": 10, "mailto": os.getenv("CONTACT_EMAIL", ""),
-                "select": "DOI,title,abstract,author,license,URL,created"})
+
+def get_json(url: str, params: dict | None = None) -> dict:
+    response = SESSION.get(url, params=params, timeout=TIMEOUT)
+    response.raise_for_status()
+    return response.json()
+
+
+def get_text(url: str, params: dict | None = None) -> str:
+    response = SESSION.get(url, params=params, timeout=TIMEOUT)
+    response.raise_for_status()
+    return response.text
+
+
+def authors(items: list[dict] | None) -> str:
+    names = []
+    for item in (items or [])[:4]:
+        name = clean(item.get("author") or item.get("name") or item.get("family") or "")
+        if item.get("given") and item.get("family"):
+            name = clean(f"{item['given']} {item['family']}")
+        if name:
+            names.append(name)
+    return ", ".join(names) + (" et al." if len(items or []) > 4 else "")
+
+
+def record(title: str, url: str, summary: str, source: str, category: str, date: str = "", author: str = "") -> dict | None:
+    title, url, summary = clean(title), clean(url), clean(summary)
+    if not title or not url.startswith(("https://", "http://")):
+        return None
+    if len(title) < 8:
+        return None
+    raw_date = str(date or "").strip()
+    # Normalize ISO dates, Crossref partial dates, and GDELT timestamps.
+    if re.fullmatch(r"\d{8}T\d{6}Z", raw_date):
+        raw_date = f"{raw_date[0:4]}-{raw_date[4:6]}-{raw_date[6:8]}"
+    elif re.fullmatch(r"\d{4}-\d{2}", raw_date):
+        raw_date += "-01"
+    elif re.fullmatch(r"\d{4}", raw_date):
+        raw_date += "-01-01"
+    parsed_date = raw_date[:10] if raw_date else TODAY
+    try:
+        dt.date.fromisoformat(parsed_date)
+    except ValueError:
+        parsed_date = TODAY
+    return {
+        "id": url.rstrip("/"), "title": title, "url": url, "summary": summary[:1800],
+        "source": source, "category": category, "date": parsed_date, "author": author,
+        "fetched_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
+    }
+
+
+def fetch_gdelt() -> list[dict]:
+    """GDELT article-list JSON API; no feed parser or key required."""
+    data = get_json("https://api.gdeltproject.org/api/v2/doc/doc", {
+        "query": '(quantum OR physics OR science OR technology) (research OR discovery OR study)',
+        "mode": "ArtList", "format": "json", "sort": "DateDesc", "maxrecords": MAX_PER_SOURCE,
+        "timespan": "7d", "sourcelang": "english"
+    })
     out = []
-    for w in r.json().get("message", {}).get("items", []):
-        ok = [l["URL"] for l in w.get("license", []) if OK.search(l.get("URL", ""))]
-        if not ok or not w.get("title"):
-            print("skip (license/title)", w.get("DOI")); continue
-        au = names([f"{a.get('given','')} {a.get('family','')}".strip() for a in w.get("author", [])])
-        link = "https://doi.org/" + w["DOI"]
-        out.append({"id": link, "url": link, "doi": w["DOI"], "title": clean(w["title"][0]), "text": clean(w.get("abstract")),
-                    "source": s["name"], "journal": f"{s['name']}, {w['created']['date-parts'][0][0]}",
-                    "credit": " · ".join(x for x in [au, s["name"], lic(ok[0])] if x)})
+    for a in data.get("articles", []):
+        item = record(a.get("title", ""), a.get("url", ""), a.get("seendate", ""),
+                      a.get("domain", "Science news"), "news", a.get("seendate", ""))
+        if item:
+            item["summary"] = "News article discovered through GDELT. Open the publisher's page for the full story."
+            out.append(item)
     return out
 
-def ask(k, c, key, model, P, SYS):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-    payload = {"system_instruction": {"parts": [{"text": SYS}]},
-        "contents": [{"parts": [{"text": f"{P[k]}\n\nTITLE: {c['title']}\nSOURCE: {c['url']}\nTEXT: {c['text'][:3000]}"}]}],
-        "generationConfig": {"responseMimeType": "application/json", "temperature": 0.3}}
-    for n in range(4):
-        r = requests.post(url, headers={"x-goog-api-key": key}, json=payload, timeout=90)
-        if r.status_code == 429:
-            time.sleep(30 * (n + 1)); continue  # free-tier rate limit: wait and retry
-        if not r.ok:
-            # Include the API response body in Actions logs; it usually explains invalid keys,
-            # disabled APIs, unavailable models, quota exhaustion, or malformed requests.
-            raise RuntimeError(f"Gemini HTTP {r.status_code}: {r.text[:1200]}")
-        body = r.json()
-        candidates = body.get("candidates") or []
-        if not candidates:
-            raise RuntimeError(f"Gemini returned no candidates: {json.dumps(body)[:1200]}")
-        content = candidates[0].get("content", {})
-        parts = content.get("parts") or []
-        t = next((p.get("text") for p in parts if p.get("text")), "")
-        if not t:
-            raise RuntimeError(f"Gemini returned no text: {json.dumps(body)[:1200]}")
-        time.sleep(7)  # modest rate-limit pacing
-        result = json.loads(re.sub(r"^```(?:json)?\s*|\s*```$", "", t.strip(), flags=re.I).strip())
-        if not isinstance(result, dict) or not isinstance(result.get("en"), dict) or not isinstance(result.get("ta"), dict):
-            raise RuntimeError("Gemini response JSON must contain en and ta objects")
-        return result
-    raise RuntimeError("rate limited")
 
-def main():
-    key = os.getenv("GEMINI_API_KEY", "").strip()
-    if not key:
-        raise RuntimeError("GEMINI_API_KEY is missing. Add it in repository Settings > Secrets and variables > Actions.")
-    model = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
-    per_tab = max(1, int(os.getenv("MAX_NEW", 4)))
-    print(f"Starting refresh; model={model}; max_new_per_tab={per_tab}")
-    SRC = json.loads(rd("sources.json")); SYS = rd("prompts/system.txt")
-    P = {k: rd(f"prompts/{k}.txt") for k in ("news", "quantum", "kids")}
-    DB = json.loads(rd("data.json"))
-    if not isinstance(DB, dict) or not isinstance(DB.get("items"), list):
-        raise RuntimeError("data.json must be a JSON object with an items array")
-    seen = {i["id"] for i in DB["items"] if isinstance(i, dict) and i.get("id")}
-    print(f"Existing archive items: {len(seen)}")
-    total = 0
-    for tab in ("news", "quantum"):
-        lists = []
-        for s in SRC[tab].get("feeds", []):
-            try: lists.append([c for c in feed_items(s) if c["id"] not in seen])
-            except Exception as ex: print("feed failed", s["name"], ex)
-        for s in SRC[tab].get("journals", []):
-            try: lists.append([c for c in journal_items(s) if c["id"] not in seen])
-            except Exception as ex: print("journal failed", s["name"], ex)
-        print(f"{tab}: source candidate counts={[len(x) for x in lists]}, unique unseen={sum(len(x) for x in lists)}")
-        n = 0
-        for c in rr(lists):
-            if n >= per_tab: break
-            try:
-                if len(c["text"]) < 80 and c.get("doi"): c["text"] = oa_abs(c["doi"])
-                if len(c["text"]) < 80: print("skip (no abstract)", c["id"]); continue
-                it = {"id": c["id"], "date": datetime.date.today().isoformat(), "title": c["title"],
-                      "source": c["source"], "url": c["url"], "credit": c["credit"]}
-                if tab == "news":
-                    it["news"] = ask("news", c, key, model, P, SYS)
-                    if c.get("journal"):
-                        for l in ("en", "ta"): it["news"].setdefault(l, {})["journal"] = c["journal"]
-                else:
-                    it["quantum"] = ask("quantum", c, key, model, P, SYS)
-                    it["kids"] = ask("kids", c, key, model, P, SYS)
-                DB["items"].append(it); seen.add(c["id"]); n += 1; total += 1
-            except Exception as ex:
-                print("ERROR processing item", c.get("id", "(no id)"), repr(ex))
-    # Items are only ever appended, never deleted: this is the archive.
-    target = os.path.join(R, "data.json")
-    tmp = target + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as f:
-        json.dump(DB, f, ensure_ascii=False, indent=1)
-        f.write("\n")
-    os.replace(tmp, target)
-    print(f"Refresh complete: added={total}; archive_total={len(DB['items'])}")
+def fetch_openalex() -> list[dict]:
+    """OpenAlex works API returns searchable scholarly metadata and abstracts."""
+    data = get_json("https://api.openalex.org/works", {
+        "search": "quantum computing quantum physics quantum information",
+        "filter": "from_publication_date:2023-01-01,type:article|preprint",
+        "sort": "publication_date:desc", "per-page": MAX_PER_SOURCE,
+        "select": "id,doi,title,publication_date,authorships,primary_location,open_access,abstract_inverted_index"
+    })
+    out = []
+    for w in data.get("results", []):
+        loc = w.get("primary_location") or {}
+        source_obj = loc.get("source") or {}
+        doi = w.get("doi") or ""
+        url = doi if doi.startswith("http") else (loc.get("landing_page_url") or w.get("id", ""))
+        inv = w.get("abstract_inverted_index") or {}
+        words = sorted((pos, word) for word, positions in inv.items() for pos in positions)
+        abstract = " ".join(word for _, word in words)
+        auth = authors([{"name": (a.get("author") or {}).get("display_name", "")} for a in w.get("authorships", [])])
+        item = record(w.get("title", ""), url, abstract, source_obj.get("display_name") or "OpenAlex", "research", w.get("publication_date", ""), auth)
+        if item:
+            item["doi"] = doi
+            item["open_access"] = bool((w.get("open_access") or {}).get("is_oa"))
+            out.append(item)
+    return out
+
+
+def fetch_crossref() -> list[dict]:
+    """Crossref REST API; works even when a publisher does not expose an RSS feed."""
+    email = os.getenv("CONTACT_EMAIL", "")
+    params = {
+        "query.bibliographic": "quantum computing quantum information quantum physics",
+        "filter": "from-pub-date:2023-01-01", "sort": "published", "order": "desc",
+        "rows": MAX_PER_SOURCE,
+        "select": "DOI,title,abstract,author,published,URL,type,container-title"
+    }
+    if email:
+        params["mailto"] = email
+    data = get_json("https://api.crossref.org/works", params)
+    out = []
+    for w in data.get("message", {}).get("items", []):
+        doi = w.get("DOI", "")
+        url = w.get("URL") or ("https://doi.org/" + doi if doi else "")
+        date_parts = (w.get("published") or {}).get("date-parts", [[]])[0]
+        date = "-".join(str(x).zfill(2) if i else str(x) for i, x in enumerate(date_parts)) if date_parts else ""
+        journal = (w.get("container-title") or ["Crossref"])[0]
+        item = record((w.get("title") or [""])[0], url, w.get("abstract", ""), journal, "research", date, authors(w.get("author")))
+        if item:
+            item["doi"] = doi
+            out.append(item)
+    return out
+
+
+def fetch_arxiv() -> list[dict]:
+    """arXiv search API (Atom XML), not an RSS subscription feed."""
+    xml = get_text("https://export.arxiv.org/api/query", {
+        "search_query": '(cat:quant-ph) OR (all:"quantum computing") OR (all:"quantum information")',
+        "start": 0, "max_results": MAX_PER_SOURCE, "sortBy": "submittedDate", "sortOrder": "descending"
+    })
+    ns = {"a": "http://www.w3.org/2005/Atom"}
+    root = ET.fromstring(xml)
+    out = []
+    for e in root.findall("a:entry", ns):
+        link = next((x.attrib.get("href", "") for x in e.findall("a:link", ns) if x.attrib.get("rel") == "alternate"), "")
+        title = clean(e.findtext("a:title", default="", namespaces=ns))
+        abstract = clean(e.findtext("a:summary", default="", namespaces=ns))
+        published = e.findtext("a:published", default="", namespaces=ns)[:10]
+        au = authors([{"name": clean(x.findtext("a:name", default="", namespaces=ns))} for x in e.findall("a:author", ns)])
+        item = record(title, link, abstract, "arXiv", "preprint", published, au)
+        if item:
+            item["note"] = "Preprint; not necessarily peer reviewed."
+            out.append(item)
+    return out
+
+
+def fetch_google_cse() -> list[dict]:
+    """Optional official Google Programmable Search JSON API; never scrape Google HTML."""
+    key, cx = os.getenv("GOOGLE_CSE_API_KEY", "").strip(), os.getenv("GOOGLE_CSE_ID", "").strip()
+    if not key or not cx:
+        print("Google CSE skipped: optional GOOGLE_CSE_API_KEY / GOOGLE_CSE_ID secrets not configured.")
+        return []
+    data = get_json("https://www.googleapis.com/customsearch/v1", {
+        "key": key, "cx": cx, "q": "quantum science research physics", "num": min(10, MAX_PER_SOURCE), "dateRestrict": "d7"
+    })
+    return [x for x in (record(a.get("title", ""), a.get("link", ""), a.get("snippet", ""),
+                                    a.get("displayLink", "Google Search"), "news", TODAY) for a in data.get("items", [])) if x]
+
+
+SOURCES = [("GDELT news API", fetch_gdelt), ("OpenAlex", fetch_openalex),
+           ("Crossref", fetch_crossref), ("arXiv API", fetch_arxiv)]
+if os.getenv("GOOGLE_CSE_API_KEY", "").strip() and os.getenv("GOOGLE_CSE_ID", "").strip():
+    SOURCES.append(("Google Programmable Search", fetch_google_cse))
+
+
+def main() -> None:
+    try:
+        db = json.loads(DATA_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        db = {"version": 2, "updated_at": None, "items": []}
+    if not isinstance(db, dict) or not isinstance(db.get("items"), list):
+        raise RuntimeError("data.json must contain an object with an items array")
+    old = {str(x.get("id")): x for x in db["items"] if isinstance(x, dict) and x.get("id")}
+    print(f"Starting Quantum Learn refresh; existing items={len(old)}; max new={MAX_TOTAL_NEW}")
+    candidates: list[dict] = []
+    successful_sources = 0
+    for name, fn in SOURCES:
+        try:
+            found = fn()
+            successful_sources += 1
+            print(f"{name}: {len(found)} records")
+            candidates.extend(found)
+        except Exception as exc:
+            print(f"WARNING: {name} failed: {type(exc).__name__}: {exc}")
+    # Prefer newest items, deduplicate by canonical URL, and keep prior archive entries.
+    unique: dict[str, dict] = {}
+    for x in candidates:
+        key = x["id"].rstrip("/")
+        if key not in unique:
+            unique[key] = x
+        elif len(x.get("summary", "")) > len(unique[key].get("summary", "")):
+            unique[key] = x
+    fresh = [x for x in unique.values() if x["id"] not in old]
+    fresh.sort(key=lambda x: x.get("date", ""), reverse=True)
+    fresh = fresh[:MAX_TOTAL_NEW]
+    # Keep the archive bounded; retain newest entries and any starter resources.
+    merged = {**old, **{x["id"]: x for x in fresh}}
+    items = sorted(merged.values(), key=lambda x: x.get("date", ""), reverse=True)[:500]
+    db = {"version": 2, "updated_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), "items": items,
+          "refresh": {"sources_succeeded": successful_sources, "sources_total": len(SOURCES), "new_items": len(fresh)}}
+    tmp = DATA_FILE.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(db, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    tmp.replace(DATA_FILE)
+    print(f"Refresh finished: new={len(fresh)}, total={len(items)}, source fetchers completed={successful_sources}/{len(SOURCES)}")
+    if successful_sources == 0:
+        raise RuntimeError("All data source requests failed; existing archive was preserved. See warnings above.")
+    if not items:
+        raise RuntimeError("No items were collected. Check network access and source API responses.")
 
 if __name__ == "__main__":
     main()
