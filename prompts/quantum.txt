@@ -1,0 +1,6 @@
+TASK: Write a structured technical brief of this quantum-computing preprint for a reader with an undergraduate physics or CS background.
+Return: {"en":{"problem":"","method":"","result":"","glossary":["term: meaning"],"why":""},"ta":{same keys}}
+- problem, method, result: 1-2 sentences each, specific to THIS paper, never generic.
+- result: only what the text states. If no quantitative result is given, write that the abstract does not state one.
+- glossary: 2-4 terms that actually appear in the text, each defined in under 20 words.
+- why: one hedged sentence ("could", "may") tied to the paper's own claim.

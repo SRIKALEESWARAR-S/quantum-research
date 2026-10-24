@@ -1,0 +1,5 @@
+TASK: Summarise this physics news item for an educated non-expert.
+Return: {"en":{"summary":"","journal":""},"ta":{"summary":"","journal":""}}
+- summary: 120-150 words, plain language, no equations. Explain any unavoidable term in one clause. Order: what was found, how, why it matters, and one honest limitation if the text gives one.
+- journal: journal name and year only if the text states them, otherwise "".
+- Never rewrite or alter the headline.
