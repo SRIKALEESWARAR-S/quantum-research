@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-24T14:12:33+00:00",
+  "updated_at": "2026-10-24T20:32:20+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -335,6 +335,138 @@
       "open_access": true
     },
     {
+      "id": "https://www.abc.com.py/economia/2026/10/24/ministerio-del-trabajo-ofrece-trabajo-estas-son-las-vacancias-salarios-y-requisitos",
+      "title": "Ministerio del Trabajo ofrece trabajo : estas son las vacancias , salarios y requisitos - Economía",
+      "url": "https://www.abc.com.py/economia/2026/10/24/ministerio-del-trabajo-ofrece-trabajo-estas-son-las-vacancias-salarios-y-requisitos/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "abc.com.py",
+      "category": "news",
+      "date": "2026-10-24",
+      "author": "",
+      "fetched_at": "2026-10-24T20:32:19+00:00"
+    },
+    {
+      "id": "https://www.thehindu.com/news/national/karnataka/eight-kle-tech-varsity-researchers-feature-in-global-top-2-list-of-scientists/article71619939.ece",
+      "title": "Eight KLE tech varsity researchers feature in global top 2 % list of scientists",
+      "url": "https://www.thehindu.com/news/national/karnataka/eight-kle-tech-varsity-researchers-feature-in-global-top-2-list-of-scientists/article71619939.ece",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "thehindu.com",
+      "category": "news",
+      "date": "2026-10-24",
+      "author": "",
+      "fetched_at": "2026-10-24T20:32:19+00:00"
+    },
+    {
+      "id": "https://lahora.gt/opinion/fernandocajas/2026/10/24/sin-libertad-no-hay-universidad",
+      "title": "Sin libertad no hay universidad",
+      "url": "https://lahora.gt/opinion/fernandocajas/2026/10/24/sin-libertad-no-hay-universidad/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "lahora.gt",
+      "category": "news",
+      "date": "2026-10-24",
+      "author": "",
+      "fetched_at": "2026-10-24T20:32:19+00:00"
+    },
+    {
+      "id": "https://allhiphop.com/features/drake-turns-40-40-things-ive-learned-from-drake",
+      "title": "Drake Turns 40 : 40 Things Ive Learned From Drake",
+      "url": "https://allhiphop.com/features/drake-turns-40-40-things-ive-learned-from-drake/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "allhiphop.com",
+      "category": "news",
+      "date": "2026-10-24",
+      "author": "",
+      "fetched_at": "2026-10-24T20:32:19+00:00"
+    },
+    {
+      "id": "https://www.courrierdesbalkans.fr/elections-en-serbie-fil-info-en-continu-le-tribunal-superieur-de-belgrade-se-prepare-a-deventuelles-interpellations-99497",
+      "title": "Élections en Serbie • fil info en continu | Le Tribunal supérieur de Belgrade se prépare à d éventuelles interpellations",
+      "url": "https://www.courrierdesbalkans.fr/elections-en-serbie-fil-info-en-continu-le-tribunal-superieur-de-belgrade-se-prepare-a-deventuelles-interpellations-99497/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "courrierdesbalkans.fr",
+      "category": "news",
+      "date": "2026-10-24",
+      "author": "",
+      "fetched_at": "2026-10-24T20:32:19+00:00"
+    },
+    {
+      "id": "https://techaeris.com/2026/10/24/is-the-iphone-duo-worth-it-reality-check",
+      "title": "Is the iPhone Duo Worth It ? A Reality Check on Foldable Hype",
+      "url": "https://techaeris.com/2026/10/24/is-the-iphone-duo-worth-it-reality-check/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "techaeris.com",
+      "category": "news",
+      "date": "2026-10-24",
+      "author": "",
+      "fetched_at": "2026-10-24T20:32:19+00:00"
+    },
+    {
+      "id": "https://www.volynnews.com/news/all/zelenskyy-zaprovadyv-sanktsiyi-proty-vyrobnykiv-rosiyskoyi-balistyky",
+      "title": "Зеленський запровадив санкції проти виробників російської балістики",
+      "url": "https://www.volynnews.com/news/all/zelenskyy-zaprovadyv-sanktsiyi-proty-vyrobnykiv-rosiyskoyi-balistyky/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "volynnews.com",
+      "category": "news",
+      "date": "2026-10-24",
+      "author": "",
+      "fetched_at": "2026-10-24T20:32:19+00:00"
+    },
+    {
+      "id": "https://www.rtrs.tv/vijesti/vijest.php?id=665310",
+      "title": "Зимско рачунање времена : Сат дуже сна , али и прилагођавање организма ( ВИДЕО )",
+      "url": "https://www.rtrs.tv/vijesti/vijest.php?id=665310",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "rtrs.tv",
+      "category": "news",
+      "date": "2026-10-24",
+      "author": "",
+      "fetched_at": "2026-10-24T20:32:19+00:00"
+    },
+    {
+      "id": "https://lesoleil.sn/actualites/education/le-senegal-sengage-pour-un-financement-accru-de-levaluation-des-apprentissages",
+      "title": "Le Sénégal sengage pour un financement accru de l évaluation des apprentissages",
+      "url": "https://lesoleil.sn/actualites/education/le-senegal-sengage-pour-un-financement-accru-de-levaluation-des-apprentissages/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "lesoleil.sn",
+      "category": "news",
+      "date": "2026-10-24",
+      "author": "",
+      "fetched_at": "2026-10-24T20:32:19+00:00"
+    },
+    {
+      "id": "https://www.leak.pt/digi-ameaca-fazer-as-malas-e-sair-de-portugal-calma",
+      "title": "DIGI ameaça fazer as malas e sair de Portugal ? Calma !",
+      "url": "https://www.leak.pt/digi-ameaca-fazer-as-malas-e-sair-de-portugal-calma/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "leak.pt",
+      "category": "news",
+      "date": "2026-10-24",
+      "author": "",
+      "fetched_at": "2026-10-24T20:32:19+00:00"
+    },
+    {
+      "id": "https://javedch.com/business/2026/10/24/1176194",
+      "title": "ایپل کا نیا فولڈ ایبل فون مارکیٹ میں آگیا ، قیمت جان کر حیران رہ جائیں گے",
+      "url": "https://javedch.com/business/2026/10/24/1176194",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "javedch.com",
+      "category": "news",
+      "date": "2026-10-24",
+      "author": "",
+      "fetched_at": "2026-10-24T20:32:19+00:00"
+    },
+    {
+      "id": "https://www.3cat.cat/3catinfo/de-la-televisio-als-estrimers-els-politics-busquen-nous-votants-fora-dels-mitjans-tradicionals/noticia/3435918",
+      "title": "De la televisió als estrímers : els polítics busquen nous votants fora dels mitjans tradicionals",
+      "url": "https://www.3cat.cat/3catinfo/de-la-televisio-als-estrimers-els-politics-busquen-nous-votants-fora-dels-mitjans-tradicionals/noticia/3435918/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "3cat.cat",
+      "category": "news",
+      "date": "2026-10-24",
+      "author": "",
+      "fetched_at": "2026-10-24T20:32:19+00:00"
+    },
+    {
       "id": "https://doi.org/10.37236/14684",
       "title": "Hook Immanantal Inequalities for Totally Nonnegative Matrices",
       "url": "https://doi.org/10.37236/14684",
@@ -511,11 +643,107 @@
       "author": "Hongrui Chen, Zhiyan Ding, Jianfeng Lu",
       "fetched_at": "2026-10-24T14:12:33+00:00",
       "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.31554v1",
+      "title": "ArcTN: Efficient Tensor-Network Contraction Planning for Quantum Circuit Simulation",
+      "url": "https://arxiv.org/abs/2610.31554v1",
+      "summary": "Tensor-network simulation of quantum circuits depends on contraction orders with low computational cost and small intermediate tensors, found without excessive planning time. We present ArcTN, a contraction-order optimization framework with two search presets. Light keeps planning overhead low, and Heavy spends more effort on refinement. Both combine randomized-greedy construction, subtree reconfiguration, and parallel tempering with stage-specific stopping rules. ArcTN also provides Fixed and Dynamic slicing to meet tensor-size limits and executes the returned orders. On the 30 QC32 quantum-circuit networks completed by all eight compared configurations, Light reduces FLOPs by 61.32% and plans 1.62$\\times$ faster than Cotengra Auto/CMA-ES, and Heavy reduces FLOPs by 43.83% and plans 7.21$\\times$ faster than Cotengra AutoHQ/Optuna. Heavy also needs 11.85% fewer FLOPs than OMECO TreeSA-8 and plans 1.33$\\times$ faster. Dynamic slicing meets the size limits in all 90 runs on 18 scalar-output networks and reduces total sliced FLOPs by 31.99% relative to Fixed slicing, at the cost of longer planning. With a common NumPy executor, Heavy has the lowest combined planning and execution time among five configurations on the runs that all of them completed. On 672 networks built from 320 MQT Bench circuits, Heavy obtains the lowest geometric-mean FLOPs on the 142 large networks while planning 3.1$\\times$ and 31$\\times$ faster than Cotengra AutoHQ and Hyper128.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-22",
+      "author": "Zhengyi Liu, Li Liu, Songtao Liu, Xianglong Liu et al.",
+      "fetched_at": "2026-10-24T20:32:20+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.31515v1",
+      "title": "Problem-aware sampling for bias and variance reduction in randomised Hamiltonian simulation",
+      "url": "https://arxiv.org/abs/2610.31515v1",
+      "summary": "Randomised quantum simulation algorithms such as qDRIFT reduce circuit depth by replacing deterministic product formulas with stochastic compilations, but achieving high accuracy can require many steps. In vanilla qDRIFT, Hamiltonian terms are sampled with probabilities proportional to their coefficient magnitudes. We propose StateDRIFT, a variant of qDRIFT which optimises its sampling distribution to estimate time-evolved quantities using knowledge of the initial state and target observable, with a provable truncation bound that keeps qDRIFT's guarantees. The distribution at each depth is chosen by solving an optimisation problem targeting bias and/or variance. StateDRIFT can significantly reduce the bias and variance of estimators, and hence circuit depth, which we test on short-time dynamics of lattice models and molecules under Jordan-Wigner up to 18 qubits. For example, with BeH2 StateDRIFT can reduce the number of two-qubit gates required to achieve a given accuracy from 11,201 to 983. StateDRIFT involves measuring observables and commutators on the initial state, so we propose two practical ways to estimate these: classical surrogates such as tensor networks, and classical shadows, which recover most or all of the saving from exact oracles in the systems tested.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-22",
+      "author": "Brian Coyle, Jonathan H. Fetherolf, Antonio Márquez Romero, Stefano Scali et al.",
+      "fetched_at": "2026-10-24T20:32:20+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.31501v1",
+      "title": "One-shot entanglement generation and distillation via Petz recovery and binary hypothesis testing",
+      "url": "https://arxiv.org/abs/2610.31501v1",
+      "summary": "How much entanglement can two distant laboratories share when their connection is noisy? We relate this question to deciding which of two quantum hypotheses is present. Our one-shot bounds apply to entanglement generation over a quantum channel and to one-way entanglement distillation from a shared state. We use Cheng's trace inequality to bound the infidelity of a Petz decoder in terms of a binary hypothesis testing cost. Applying the inequality before averaging over codes reduces the error analysis to computing a second moment of random subspaces. The proof covers every integer target dimension and treats rank-deficient states explicitly. A corollary expresses the achievable entanglement through hypothesis-testing coherent information, with a single logarithmic error slack and exact integer rounding. We also prove an error-preserving conversion from entanglement generation codes to entanglement transmission codes: the target dimension decreases by only a constant factor at fixed error, and the decoder is the original decoder followed by local processing. Consequently, for both entanglement generation and entanglement transmission, arbitrary pure reference-input states yield the same coherent-information rate, second-order Gaussian correction at the original error tolerance, and explicit achievable logarithmic remainder. For commuting testing hypotheses, the logarithmic remainder improves to a constant. These results give a direct route from binary distinguishability to explicit recovery guarantees and finite-resource quantum communication rates.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-22",
+      "author": "Matthew Can, Mark M. Wilde",
+      "fetched_at": "2026-10-24T20:32:20+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.31500v1",
+      "title": "The Impact of Markovian Errors on Random Circuits",
+      "url": "https://arxiv.org/abs/2610.31500v1",
+      "summary": "Randomized benchmarking (RB) returns a single decay parameter or gate error rate, but when the noise is gate-dependent that parameter is notoriously difficult to interpret. We study RB and related random-circuit benchmarks under small gate-local Markovian noise by factorizing each noisy gate into its ideal action followed by the exponential of a small error generator and then perturbing the RB $\\mathscr{L}$ matrix, which models the RB decay. For any low-error gate set that satisfies the requirements of RB (it is a sequence-asymptotic unitary 2-design), we show that Pauli-stochastic error rates contribute linearly to the RB decay parameter, while Hamiltonian error rates contribute through a gauge-invariant quadratic form. Pauli-correlation and active generators are absent from the linear term and enter only at higher order. For the single-qubit native gate set $\\{X_{π/2},Y_{π/2}\\}$ we derive this quadratic form explicitly in terms of three first-order gauge-invariant (FOGI) coordinates: the two intrinsic over-rotations and one relational axis-tilt error. The resulting formula explains the dependence of DRB on the sampling distribution and the compilation dependence of CRB. These results turn RB decay rates into interpretable functions of experimentally meaningful elementary error rates.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-22",
+      "author": "Anthony M. Polloreno, Timothy Proctor, Robin Blume-Kohout",
+      "fetched_at": "2026-10-24T20:32:20+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.31452v1",
+      "title": "Nanopillar metasurfaces uniting high optical reflectivity with ultracoherent nanomechanics",
+      "url": "https://arxiv.org/abs/2610.31452v1",
+      "summary": "Mechanically compliant mirrors are key components in cavity optomechanics. However, the requirements to achieve the best optical and mechanical performance are usually in direct competition. A high reflectivity for tightly focused beams entails thick reflectors, whereas ultracoherent flexural nanomechanics necessitates thin membranes. We eliminate this trade-off by introducing high-refractive-index nanopillar metasurfaces on top of a thin membrane. We pattern a 50 micrometer-diameter array of nanopillars to form a photonic crystal. The flat band behavior of guided resonances in the photonic crystal enables a reflectivity of 99.82(1)% for a tightly focused beam of 7 micrometer waist. The combination of two guided resonances creates a 100 nanometer-wide high-reflectivity band around 1550 nanometer. Simultaneously, the nanopillar patterning realizes a density-modulated phononic crystal that isolates an ultracoherent localized mechanical mode with a $Q\\cdot f$-product of $2\\cdot 10^{14}$Hz. The demonstrated nanopillar metasurfaces enable lightweight mirrors for room-temperature quantum optomechanics and for use as levitated mirrors or lightsails.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-22",
+      "author": "Alexander Jung, Anastasiia Ciers, Hannes Pfeifer, Albert Hansson et al.",
+      "fetched_at": "2026-10-24T20:32:20+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.31443v1",
+      "title": "ConQEC: Concolic Testing for Quantum Error-Correcting Code Implementations",
+      "url": "https://arxiv.org/abs/2610.31443v1",
+      "summary": "Quantum error-correcting code (QECC) implementations are hybrid software-control systems: measured syndromes drive decoder dispatch, recovery actions, and logical checks. Existing QECC verification techniques can prove formal obligations, and general quantum testing can expose final failures, but developers still lack a scalable testing workflow that generates concrete faults and explains where a QECC repair path first diverges. This paper presents ConQEC, to our knowledge the first concolic testing framework for QECC implementations. By combining concrete (Pauli) fault replay with symbolic repair-path constraints, ConQEC generates tests that expose not only final logical failures but also fault--syndrome--decoder--recovery (FSDR) diagnostics: the injected fault, observed syndrome, decoder decision, recovery action, oracle result, and earliest divergent stage. Its symbolic encoding of Pauli faults, syndrome predicates, decoder and recovery relations, and oracle checks enables this diagnostic workflow to scale beyond exponentially increasing amplitude-level quantum-state reasoning. We implemented ConQEC and evaluated it on generated source-level QECC families and public QECC artifacts with up to thousands of qubits. ConQEC detects the seeded bug in every experimental case and reports a replay-valid, fault-localizing FSDR witness for each.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-22",
+      "author": "Zihao Li, Ji Guan, Mingsheng Ying",
+      "fetched_at": "2026-10-24T20:32:20+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.31406v1",
+      "title": "Nonlinear quantum noise polarization in macroscopic nonlinear QED",
+      "url": "https://arxiv.org/abs/2610.31406v1",
+      "summary": "We construct a quantum theory of light in nonlinearly responding materials with dispersion and absorption and, in particular, show the emergence of non-Gaussian noise associated with nonlinear absorption processes. Our theory is based on a path-integral formulation of the microscopic Huttner-Barnett model including cubic matter self-interaction required for $χ^{(2)}$ nonlinear processes. We show that the noise polarization emerges naturally from a decoupling of the stochastic weights of the bath response which, in case of cubic self-interactions, leads to a decoupling via Airy functions. As the theory is, by construction, consistent with the nonlinear fluctuation-dissipation theorem, it constitutes a viable quantum theory of light in nonlinear media.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-22",
+      "author": "Arman Kashef, Stefan Scheel, Marco Ornigotti",
+      "fetched_at": "2026-10-24T20:32:20+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.31396v1",
+      "title": "Predictive electronic feedback control for narrow-linewidth lasers",
+      "url": "https://arxiv.org/abs/2610.31396v1",
+      "summary": "Narrow-linewidth lasers are essential for various key atom-laser interaction processes and optical setups in quantum coherent control, quantum precision measurement, and quantum information science. The Pound-Drever-Hall (PDH) technique is the standard method for the frequency-stabilization of narrow-linewidth lasers, but the inherent time delay in its feedback loop inevitably induces excessive phase noise, commonly known as servo bumps. Previous solutions primarily rely on additional optical components outside the electronic feedback control loop. Here, we propose and implement a generic method based on the Smith predictor to address the time-delay issue entirely within the electronic part of the PDH feedback control loop. We systematically demonstrate its capability to suppress phase noise and reduce servo bumps by adding only a single Field-Programmable Gate Array (FPGA) controller to the loop. This class of methods is demonstrated to be conceptually concise with minimal hardware overhead, effective in practice, and holds potential for a wide variety of future applications.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-22",
+      "author": "Jiatian Liu, Xuan Qi, Xiayang Fan, Shenchao Jin et al.",
+      "fetched_at": "2026-10-24T20:32:20+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
     }
   ],
   "refresh": {
     "sources_succeeded": 4,
     "sources_total": 4,
-    "new_items": 40
+    "new_items": 20
   }
 }
