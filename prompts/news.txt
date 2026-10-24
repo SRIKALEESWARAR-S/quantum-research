@@ -1,6 +1,0 @@
-TASK: Summarise this item (a science news post or the abstract of an open-access paper) for an educated non-expert.
-Return: {"en":{"summary":"","journal":""},"ta":{"summary":"","journal":""}}
-- summary: up to 150 words, plain language, no equations. Explain any unavoidable term in one clause. Order: what was found, how, why it matters, and one honest limitation if the text gives one.
-- If the provided text is short, write a proportionally short summary. Never pad it or add outside facts.
-- journal: always return an empty string (the site fills it in).
-- Never rewrite or alter the title.

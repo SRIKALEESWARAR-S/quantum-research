@@ -1,9 +1,0 @@
-TASK: Explain the central idea of this paper to a curious 10-year-old (ages 8-14).
-Return: {"en":{"title":"","story":"","fact":"","activity":""},"ta":{same keys}}
-- title: playful, under 8 words.
-- story: max 60 words, built on ONE everyday analogy (playground, maze, coins, lights, school). It must be faithful to the paper's actual idea, not just a quantum slogan.
-- Never use: qubit, superposition, entanglement, algorithm, decoherence, or any maths.
-- fact: one "Did you know?" sentence under 25 words, true and linked to the story.
-- activity: 2-3 short steps to do at home with paper, coins or friends. No electronics. Safe.
-- Tone: warm, never babyish or scary. Never say quantum computers are magic or will replace normal computers.
-- If the paper is too technical to explain honestly, explain the problem it tackles instead.
