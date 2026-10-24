@@ -1,0 +1,67 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Quantum Learn</title>
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--text:#1b1f2a;--mute:#5d6578;--line:#dde1ec;--accent:#5b4bdb}
+@media(prefers-color-scheme:dark){:root{--bg:#12141c;--card:#1b1f2c;--text:#eceef6;--mute:#9aa2b8;--line:#2d3347}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,'Noto Sans Tamil','Latha',sans-serif}
+.w{max-width:720px;margin:0 auto;padding:16px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+h1{margin:0;font-size:1.5rem}.mute{color:var(--mute);font-size:.85rem}
+.sw{display:flex;gap:6px;align-items:center}.sw button{width:22px;height:22px;border-radius:50%;border:2px solid var(--line);cursor:pointer;padding:0}
+.sw button[aria-pressed=true]{border-color:var(--text)}
+.lg{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:8px;padding:4px 10px;cursor:pointer;font:inherit}
+.tabs{display:flex;gap:4px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:4px;margin:14px 0}
+.tab{flex:1;border:0;background:none;color:var(--mute);padding:9px 2px;border-radius:9px;font:inherit;font-size:.9rem;cursor:pointer}
+.tab[aria-selected=true]{background:var(--accent);color:#fff}
+select{background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:8px;padding:6px;font:inherit}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin:12px 0}
+.card h3{margin:6px 0}.tag{background:var(--accent);color:#fff;border-radius:99px;padding:1px 10px;font-size:.75rem}
+.lb{font-weight:600;color:var(--accent);font-size:.85rem;margin-top:8px}
+.act{display:flex;gap:14px;align-items:center;margin-top:10px;flex-wrap:wrap}
+.act button,.act a{color:var(--accent);background:none;border:0;font:inherit;font-weight:600;cursor:pointer;text-decoration:none;padding:0}
+footer{border-top:1px solid var(--line);margin-top:24px;padding-top:12px}
+</style></head><body><div class="w">
+<div class="top"><div><h1>⚛️ Quantum Learn</h1><div class="mute" id="since"></div></div>
+<div class="sw" id="sw"></div></div>
+<div id="app"></div>
+<footer><div id="credit"></div><div class="mute" id="fair"></div></footer></div>
+<script>
+var T={en:{news:"Science News",quantum:"Quantum",kids:"For Kids",read:"🔊 Read aloud",stop:"⏹ Stop",orig:"Read original →",all:"Archive: all months",ai:"AI-generated summary. May contain errors; check the original.",pre:"arXiv preprint, not peer reviewed.",col:"Colour",prob:"Problem",meth:"Method",res:"Result",glo:"Glossary",why:"Why it matters",fact:"Did you know?",tryit:"Try it",none:"No items yet. Updates appear here every few hours.",since:"Launched 21 October 2026. Older items stay in the archive.",credit:"Developed by Sri Kaleeswarar S, supported by Open Science Labs.",fair:"Only short AI summaries are shown, always with the source and a link to the original.",nov:"No voice for this language on this device. Install one in your text-to-speech settings."},
+ta:{news:"அறிவியல் செய்திகள்",quantum:"குவாண்டம்",kids:"குழந்தைகளுக்கு",read:"🔊 சத்தமாகப் படி",stop:"⏹ நிறுத்து",orig:"மூலத்தைப் படிக்க →",all:"காப்பகம்: அனைத்து மாதங்கள்",ai:"செயற்கை நுண்ணறிவு சுருக்கம். பிழைகள் இருக்கலாம்; மூலத்தைச் சரிபார்க்கவும்.",pre:"arXiv முன்வெளியீடு; மதிப்பாய்வு செய்யப்படவில்லை.",col:"நிறம்",prob:"சிக்கல்",meth:"முறை",res:"முடிவு",glo:"சொற்களஞ்சியம்",why:"ஏன் முக்கியம்",fact:"உங்களுக்குத் தெரியுமா?",tryit:"செய்து பாருங்கள்",none:"இன்னும் பதிவுகள் இல்லை. சில மணி நேரத்திற்கு ஒருமுறை புதுப்பிக்கப்படும்.",since:"21 அக்டோபர் 2026 அன்று தொடங்கப்பட்டது. பழைய பதிவுகள் காப்பகத்தில் இருக்கும்.",credit:"Sri Kaleeswarar S உருவாக்கியது; Open Science Labs ஆதரவுடன்.",fair:"சுருக்கங்கள் மட்டுமே காட்டப்படும்; எப்போதும் மூலமும் இணைப்பும் உண்டு.",nov:"இந்தச் சாதனத்தில் இந்த மொழிக்கான குரல் இல்லை. உரை-ஒலி அமைப்புகளில் நிறுவவும்."}};
+var COL=["#5b4bdb","#0f766e","#c2410c","#be185d","#1d4ed8","#4d7c0f"];
+var S={lang:"en",tab:"news",month:"all",acc:COL[0]},D=[];
+try{var s=JSON.parse(localStorage.getItem("ql")||"{}");if(s.lang)S.lang=s.lang;if(s.acc)S.acc=s.acc}catch(e){}
+function save(){try{localStorage.setItem("ql",JSON.stringify({lang:S.lang,acc:S.acc}))}catch(e){}}
+function L(){return T[S.lang]}
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!=null)e.textContent=x;return e}
+function fmt(d,o){return new Date(d).toLocaleDateString(S.lang=="ta"?"ta-IN":"en-GB",o)}
+function parts(i,tab){var o=i[tab]||{},d=o[S.lang]||o.en||{},t=L();
+ if(tab=="news")return[[0,d.summary],[0,d.journal]];
+ if(tab=="quantum")return[[t.prob,d.problem],[t.meth,d.method],[t.res,d.result],[t.glo,(d.glossary||[]).join(" · ")],[t.why,d.why]];
+ return[[0,d.story],[t.fact,d.fact],[t.tryit,d.activity]]}
+function speak(x){var ss=window.speechSynthesis;if(!ss){alert(L().nov);return}ss.cancel();var c=S.lang=="ta"?"ta":"en";
+ var v=ss.getVoices().filter(function(y){return y.lang.toLowerCase().indexOf(c)==0})[0];
+ if(!v&&c=="ta"){alert(L().nov);return}var u=new SpeechSynthesisUtterance(x);u.lang=S.lang=="ta"?"ta-IN":"en-US";if(v)u.voice=v;ss.speak(u)}
+function render(){var t=L(),A=document.getElementById("app");A.textContent="";
+ document.documentElement.lang=S.lang;document.documentElement.style.setProperty("--accent",S.acc);
+ document.getElementById("since").textContent=t.since;document.getElementById("credit").textContent=t.credit;document.getElementById("fair").textContent=t.fair;
+ var sw=document.getElementById("sw");sw.textContent="";sw.appendChild(el("span","mute",t.col));
+ COL.forEach(function(c){var b=el("button");b.style.background=c;b.setAttribute("aria-label",c);b.setAttribute("aria-pressed",c==S.acc);b.onclick=function(){S.acc=c;save();render()};sw.appendChild(b)});
+ var lg=el("button","lg",S.lang=="en"?"தமிழ்":"EN");lg.onclick=function(){S.lang=S.lang=="en"?"ta":"en";save();render()};sw.appendChild(lg);
+ var tb=el("div","tabs");["news","quantum","kids"].forEach(function(k){var b=el("button","tab",t[k]);b.setAttribute("aria-selected",k==S.tab);b.onclick=function(){S.tab=k;S.month="all";render()};tb.appendChild(b)});A.appendChild(tb);
+ var its=D.filter(function(i){return i[S.tab]}).sort(function(a,b){return b.date.localeCompare(a.date)});
+ var ms=[];its.forEach(function(i){var m=i.date.slice(0,7);if(ms.indexOf(m)<0)ms.push(m)});
+ var sel=el("select");var o=el("option",0,t.all);o.value="all";sel.appendChild(o);
+ ms.forEach(function(m){var p=el("option",0,fmt(m+"-01",{month:"long",year:"numeric"}));p.value=m;sel.appendChild(p)});
+ sel.value=S.month;sel.onchange=function(){S.month=sel.value;render()};A.appendChild(sel);
+ if(S.month!="all")its=its.filter(function(i){return i.date.slice(0,7)==S.month});
+ if(!its.length)A.appendChild(el("p","mute",t.none));
+ its.forEach(function(i){var d=(i[S.tab][S.lang]||i[S.tab].en||{});var c=el("div","card");
+  c.appendChild(el("span","tag",i.source));c.appendChild(el("span","mute"," "+fmt(i.date,{day:"numeric",month:"short",year:"numeric"})));
+  var ti=S.tab=="kids"&&d.title?d.title:i.title;c.appendChild(el("h3",0,ti));var sp=[ti];
+  parts(i,S.tab).forEach(function(p){if(!p[1])return;if(p[0])c.appendChild(el("div","lb",p[0]));c.appendChild(el("div",0,p[1]));sp.push((p[0]?p[0]+". ":"")+p[1])});
+  c.appendChild(el("div","mute",S.tab=="news"?t.ai:t.ai+" "+t.pre));
+  var a=el("div","act"),r=el("button",0,t.read);r.onclick=function(){speak(sp.join(". "))};
+  var st=el("button",0,t.stop);st.onclick=function(){window.speechSynthesis&&speechSynthesis.cancel()};
+  var l=el("a",0,t.orig);l.href=i.url;l.target="_blank";l.rel="noopener";a.appendChild(r);a.appendChild(st);a.appendChild(l);c.appendChild(a);A.appendChild(c)})}
+fetch("data.json",{cache:"no-store"}).then(function(r){return r.json()}).then(function(j){D=j.items||[];render()}).catch(function(){render()});
+</script></body></html>
