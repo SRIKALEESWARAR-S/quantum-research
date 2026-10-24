@@ -1,4 +1,18 @@
 {
-  "news": ["https://phys.org/rss-feed/physics-news/"],
-  "quantum": ["https://rss.arxiv.org/rss/quant-ph"]
+  "news": {
+    "feeds": [
+      {"url": "https://www.nasa.gov/feed/", "name": "NASA", "note": "NASA content is generally not copyrighted; credit NASA"}
+    ],
+    "journals": [
+      {"name": "Quantum", "issn": "2521-327X"},
+      {"name": "PRX Quantum", "issn": "2691-3399"},
+      {"name": "SciPost Physics", "issn": "2542-4653"},
+      {"name": "npj Quantum Information", "issn": "2056-6387"}
+    ]
+  },
+  "quantum": {
+    "feeds": [
+      {"url": "https://export.arxiv.org/api/query?search_query=cat:quant-ph&sortby=submittedDate&sortorder=descending&max_results=20", "name": "arXiv quant-ph", "note": "Preprint, not peer reviewed. Abstract metadata is CC0"}
+    ]
+  }
 }
