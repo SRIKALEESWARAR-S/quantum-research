@@ -19,16 +19,44 @@ select{background:var(--card);color:var(--text);border:1px solid var(--line);bor
 .act{display:flex;gap:14px;align-items:center;margin-top:10px;flex-wrap:wrap}
 .act button,.act a{color:var(--accent);background:none;border:0;font:inherit;font-weight:600;cursor:pointer;text-decoration:none;padding:0}
 footer{border-top:1px solid var(--line);margin-top:24px;padding-top:12px}
+
+/* Refined, responsive visual system */
+:root{color-scheme:light dark;--accent:#5b4bdb;--bg:#f5f7fc;--card:#fff;--text:#172033;--mute:#657087;--line:#e1e6f0}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1220;--card:#151d2e;--text:#edf2ff;--mute:#a6b2ca;--line:#29364e}}
+body{line-height:1.65;letter-spacing:.005em}
+.w{max-width:900px;padding:clamp(14px,3vw,28px)}
+.top{padding:8px 0 18px;align-items:flex-start}
+h1{font-size:clamp(1.65rem,4vw,2.15rem);letter-spacing:-.04em;line-height:1.2}
+#since{margin-top:7px;max-width:42rem}
+.sw{flex-wrap:wrap}
+.lg,select,input{min-height:42px}
+.tabs{position:sticky;top:0;z-index:3;box-shadow:0 4px 18px #00000008;backdrop-filter:blur(12px)}
+.tab{padding:10px 8px;font-weight:650}
+.card{padding:clamp(16px,3vw,24px);margin:16px 0;border-radius:18px;box-shadow:0 5px 24px #18294a08;transition:transform .15s,border-color .15s}
+.card:hover{border-color:color-mix(in srgb,var(--accent) 42%,var(--line))}
+.card h3{font-size:1.2rem;line-height:1.35;letter-spacing:-.02em;margin:12px 0 8px}
+.tag{display:inline-block;font-weight:700;letter-spacing:.02em}
+.lb{margin-top:15px;margin-bottom:3px;font-size:.8rem;text-transform:uppercase;letter-spacing:.07em}
+.act{gap:18px;padding-top:13px;border-top:1px solid var(--line)}
+.act button,.act a{padding:5px 0}
+button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid color-mix(in srgb,var(--accent) 60%,transparent);outline-offset:3px}
+.searchrow{display:flex;gap:10px;margin:14px 0 4px;flex-wrap:wrap}
+.searchrow input{flex:1;min-width:180px;background:var(--card);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:8px 12px;font:inherit}
+#status{padding:12px 14px;background:var(--card);border:1px solid var(--line);border-radius:12px}
+footer{margin-top:34px;padding:18px 2px 10px;line-height:1.7}
+#credit{font-weight:650;margin-bottom:6px}
+@media(max-width:480px){.tabs{margin:10px 0;gap:2px}.tab{font-size:.82rem}.act{gap:12px}.sw{justify-content:flex-end}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;scroll-behavior:auto!important}}
 </style></head><body><div class="w">
 <div class="top"><div><h1>⚛️ Quantum Learn</h1><div class="mute" id="since"></div></div>
 <div class="sw" id="sw"></div></div>
 <div id="app"></div>
 <footer><div id="credit"></div><div class="mute" id="fair"></div></footer></div>
 <script>
-var T={en:{news:"Science News",quantum:"Quantum",kids:"For Kids",read:"🔊 Read aloud",stop:"⏹ Stop",orig:"Read original →",all:"Archive: all months",ai:"AI-generated summary. May contain errors; check the original.",pre:"arXiv preprint, not peer reviewed.",col:"Colour",prob:"Problem",meth:"Method",res:"Result",glo:"Glossary",why:"Why it matters",fact:"Did you know?",tryit:"Try it",none:"No items yet. Updates appear here every few hours.",since:"Launched 21 October 2026. Older items stay in the archive.",credit:"Developed by Sri Kaleeswarar S, supported by Open Science Labs.",fair:"Summaries are AI-generated from open-access (CC BY, CC0) and public sources, always with authors, source and a link to the original.",nov:"No voice for this language on this device. Install one in your text-to-speech settings."},
-ta:{news:"அறிவியல் செய்திகள்",quantum:"குவாண்டம்",kids:"குழந்தைகளுக்கு",read:"🔊 சத்தமாகப் படி",stop:"⏹ நிறுத்து",orig:"மூலத்தைப் படிக்க →",all:"காப்பகம்: அனைத்து மாதங்கள்",ai:"செயற்கை நுண்ணறிவு சுருக்கம். பிழைகள் இருக்கலாம்; மூலத்தைச் சரிபார்க்கவும்.",pre:"arXiv முன்வெளியீடு; மதிப்பாய்வு செய்யப்படவில்லை.",col:"நிறம்",prob:"சிக்கல்",meth:"முறை",res:"முடிவு",glo:"சொற்களஞ்சியம்",why:"ஏன் முக்கியம்",fact:"உங்களுக்குத் தெரியுமா?",tryit:"செய்து பாருங்கள்",none:"இன்னும் பதிவுகள் இல்லை. சில மணி நேரத்திற்கு ஒருமுறை புதுப்பிக்கப்படும்.",since:"21 அக்டோபர் 2026 அன்று தொடங்கப்பட்டது. பழைய பதிவுகள் காப்பகத்தில் இருக்கும்.",credit:"Sri Kaleeswarar S உருவாக்கியது; Open Science Labs ஆதரவுடன்.",fair:"சுருக்கங்கள் திறந்த அணுகல் (CC BY, CC0) மற்றும் பொது மூலங்களிலிருந்து செயற்கை நுண்ணறிவால் உருவாக்கப்பட்டவை; ஆசிரியர், மூலம், இணைப்பு எப்போதும் உண்டு.",nov:"இந்தச் சாதனத்தில் இந்த மொழிக்கான குரல் இல்லை. உரை-ஒலி அமைப்புகளில் நிறுவவும்."}};
+var T={en:{news:"Science News",quantum:"Quantum",kids:"For Kids",read:"🔊 Read aloud",stop:"⏹ Stop",orig:"Read original →",all:"Archive: all months",ai:"AI-generated summary. May contain errors; check the original.",pre:"arXiv preprint, not peer reviewed.",col:"Colour",prob:"Problem",meth:"Method",res:"Result",glo:"Glossary",why:"Why it matters",fact:"Did you know?",tryit:"Try it",none:"No items yet. Updates appear here every few hours.",since:"Launched 21 October 2026. Older items stay in the archive.",credit:"Developed by Sri Kaleeswarar S, supported by Open Science Labs.",fair:"Summaries are AI-generated from open-access (CC BY, CC0) and public sources, always with authors, source and a link to the original.",nov:"No voice for this language on this device. Install one in your text-to-speech settings.",search:"Search articles…",count:"articles shown"},
+ta:{news:"அறிவியல் செய்திகள்",quantum:"குவாண்டம்",kids:"குழந்தைகளுக்கு",read:"🔊 சத்தமாகப் படி",stop:"⏹ நிறுத்து",orig:"மூலத்தைப் படிக்க →",all:"காப்பகம்: அனைத்து மாதங்கள்",ai:"செயற்கை நுண்ணறிவு சுருக்கம். பிழைகள் இருக்கலாம்; மூலத்தைச் சரிபார்க்கவும்.",pre:"arXiv முன்வெளியீடு; மதிப்பாய்வு செய்யப்படவில்லை.",col:"நிறம்",prob:"சிக்கல்",meth:"முறை",res:"முடிவு",glo:"சொற்களஞ்சியம்",why:"ஏன் முக்கியம்",fact:"உங்களுக்குத் தெரியுமா?",tryit:"செய்து பாருங்கள்",none:"இன்னும் பதிவுகள் இல்லை. சில மணி நேரத்திற்கு ஒருமுறை புதுப்பிக்கப்படும்.",since:"21 அக்டோபர் 2026 அன்று தொடங்கப்பட்டது. பழைய பதிவுகள் காப்பகத்தில் இருக்கும்.",credit:"Sri Kaleeswarar S உருவாக்கியது; Open Science Labs ஆதரவுடன்.",fair:"சுருக்கங்கள் திறந்த அணுகல் (CC BY, CC0) மற்றும் பொது மூலங்களிலிருந்து செயற்கை நுண்ணறிவால் உருவாக்கப்பட்டவை; ஆசிரியர், மூலம், இணைப்பு எப்போதும் உண்டு.",nov:"இந்தச் சாதனத்தில் இந்த மொழிக்கான குரல் இல்லை. உரை-ஒலி அமைப்புகளில் நிறுவவும்.",search:"கட்டுரைகளைத் தேடுங்கள்…",count:"கட்டுரைகள் காட்டப்படுகின்றன"}};
 var COL=["#5b4bdb","#0f766e","#c2410c","#be185d","#1d4ed8","#4d7c0f"];
-var S={lang:"en",tab:"news",month:"all",acc:COL[0]},D=[];
+var S={lang:"en",tab:"news",month:"all",query:"",acc:COL[0]},D=[];
 try{var s=JSON.parse(localStorage.getItem("ql")||"{}");if(s.lang)S.lang=s.lang;if(s.acc)S.acc=s.acc}catch(e){}
 function save(){try{localStorage.setItem("ql",JSON.stringify({lang:S.lang,acc:S.acc}))}catch(e){}}
 function L(){return T[S.lang]}
@@ -47,21 +75,37 @@ function render(){var t=L(),A=document.getElementById("app");A.textContent="";
  var sw=document.getElementById("sw");sw.textContent="";sw.appendChild(el("span","mute",t.col));
  COL.forEach(function(c){var b=el("button");b.style.background=c;b.setAttribute("aria-label",c);b.setAttribute("aria-pressed",c==S.acc);b.onclick=function(){S.acc=c;save();render()};sw.appendChild(b)});
  var lg=el("button","lg",S.lang=="en"?"தமிழ்":"EN");lg.onclick=function(){S.lang=S.lang=="en"?"ta":"en";save();render()};sw.appendChild(lg);
- var tb=el("div","tabs");["news","quantum","kids"].forEach(function(k){var b=el("button","tab",t[k]);b.setAttribute("aria-selected",k==S.tab);b.onclick=function(){S.tab=k;S.month="all";render()};tb.appendChild(b)});A.appendChild(tb);
+ var tb=el("div","tabs");["news","quantum","kids"].forEach(function(k){var b=el("button","tab",t[k]);b.setAttribute("aria-selected",k==S.tab);b.onclick=function(){S.tab=k;S.month="all";S.query="";render()};tb.appendChild(b)});A.appendChild(tb);
  var its=D.filter(function(i){return i[S.tab]}).sort(function(a,b){return b.date.localeCompare(a.date)});
  var ms=[];its.forEach(function(i){var m=i.date.slice(0,7);if(ms.indexOf(m)<0)ms.push(m)});
  var sel=el("select");var o=el("option",0,t.all);o.value="all";sel.appendChild(o);
  ms.forEach(function(m){var p=el("option",0,fmt(m+"-01",{month:"long",year:"numeric"}));p.value=m;sel.appendChild(p)});
- sel.value=S.month;sel.onchange=function(){S.month=sel.value;render()};A.appendChild(sel);
+ sel.value=S.month;sel.setAttribute("aria-label",t.all);sel.onchange=function(){S.month=sel.value;render()};A.appendChild(sel);
+ var sr=el("div","searchrow"),si=el("input");si.type="search";si.placeholder=t.search;si.setAttribute("aria-label",t.search);si.value=S.query||"";si.oninput=function(){S.query=si.value;var pos=si.selectionStart;render();var n=document.querySelector(".searchrow input");if(n){n.focus();n.setSelectionRange(pos,pos)}};sr.appendChild(si);A.appendChild(sr);
  if(S.month!="all")its=its.filter(function(i){return i.date.slice(0,7)==S.month});
+ if(S.query){var q=S.query.toLocaleLowerCase();its=its.filter(function(i){return [i.title,i.source,i.credit,JSON.stringify(i[S.tab]||{})].join(" ").toLocaleLowerCase().includes(q)})}
  if(!its.length)A.appendChild(el("p","mute",t.none));
  its.forEach(function(i){var d=(i[S.tab][S.lang]||i[S.tab].en||{});var c=el("div","card");
   c.appendChild(el("span","tag",i.source));c.appendChild(el("span","mute"," "+fmt(i.date,{day:"numeric",month:"short",year:"numeric"})));
   var ti=S.tab=="kids"&&d.title?d.title:i.title;c.appendChild(el("h3",0,ti));if(i.credit)c.appendChild(el("div","mute",i.credit));var sp=[ti];
   parts(i,S.tab).forEach(function(p){if(!p[1])return;if(p[0])c.appendChild(el("div","lb",p[0]));c.appendChild(el("div",0,p[1]));sp.push((p[0]?p[0]+". ":"")+p[1])});
-  c.appendChild(el("div","mute",S.tab=="news"?t.ai:t.ai+" "+t.pre));
+  c.appendChild(el("div","mute",S.tab=="quantum"?t.ai+" "+t.pre:t.ai));
   var a=el("div","act"),r=el("button",0,t.read);r.onclick=function(){speak(sp.join(". "))};
   var st=el("button",0,t.stop);st.onclick=function(){window.speechSynthesis&&speechSynthesis.cancel()};
   var l=el("a",0,t.orig);l.href=i.url;l.target="_blank";l.rel="noopener";a.appendChild(r);a.appendChild(st);a.appendChild(l);c.appendChild(a);A.appendChild(c)})}
-fetch("data.json",{cache:"no-store"}).then(function(r){return r.json()}).then(function(j){D=j.items||[];render()}).catch(function(){render()});
+fetch("data.json",{cache:"no-store"}).then(function(r){
+ if(!r.ok)throw new Error("data.json HTTP "+r.status);
+ return r.json();
+}).then(function(j){
+ if(!j||!Array.isArray(j.items))throw new Error("data.json must contain an items array");
+ D=j.items;render();
+ if(!D.length){
+   var note=el("p","mute","Data file loaded, but it contains zero items. Check the GitHub Actions refresh workflow and its logs.");
+   document.getElementById("app").appendChild(note);
+ }
+}).catch(function(err){
+ render();
+ var note=el("p","mute","Could not load data.json: "+err.message+". Check the deployed file path and browser network console.");
+ document.getElementById("app").appendChild(note);
+});
 </script></body></html>
