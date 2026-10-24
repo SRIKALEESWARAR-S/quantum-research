@@ -1,21 +1,90 @@
-name: refresh
+name: Refresh Quantum Learn
+
 on:
-  schedule: [{cron: "0 */6 * * *"}]
   workflow_dispatch:
-permissions: {contents: write}
+  push:
+    paths:
+      - "quantum-learn/**"
+      - ".github/workflows/refresh.yml"
+      - "fetch.py"
+      - "data.json"
+      - "sources.json"
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quantum-learn-refresh
+  cancel-in-progress: false
+
 jobs:
-  run:
+  refresh:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with: {python-version: "3.12"}
-      - run: pip install feedparser requests
-      - run: python fetch.py
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Select project directory
+        id: project
+        shell: bash
+        run: |
+          if [ -f "fetch.py" ] && [ -f "data.json" ]; then
+            echo "dir=." >> "$GITHUB_OUTPUT"
+          elif [ -f "quantum-learn/fetch.py" ] && [ -f "quantum-learn/data.json" ]; then
+            echo "dir=quantum-learn" >> "$GITHUB_OUTPUT"
+          else
+            echo "Could not find fetch.py and data.json in repository root or quantum-learn/."
+            find . -maxdepth 3 -type f | sort | head -200
+            exit 1
+          fi
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: python -m pip install --upgrade pip feedparser requests
+
+      - name: Fetch sources and generate summaries
+        working-directory: ${{ steps.project.outputs.dir }}
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-2.5-flash
-          MAX_NEW: "4"
-      - run: |
-          git config user.name "bot"; git config user.email "bot@users.noreply.github.com"
-          git add data.json; git commit -m "update data" || exit 0; git push
+          MAX_NEW: "2"
+          PYTHONUNBUFFERED: "1"
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "::error::Repository secret GEMINI_API_KEY is missing or empty."
+            exit 1
+          fi
+          python -u fetch.py
+          python - <<'PY'
+          import json
+          with open("data.json", encoding="utf-8") as f:
+              db = json.load(f)
+          items = db.get("items", [])
+          print(f"Validation: data.json contains {len(items)} item(s).")
+          if items:
+              print("Latest item:", items[-1].get("title", "(no title)"))
+          PY
+
+      - name: Commit updated data
+        shell: bash
+        env:
+          PROJECT_DIR: ${{ steps.project.outputs.dir }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add "$PROJECT_DIR/data.json"
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+          git commit -m "Refresh Quantum Learn data"
+          git push
