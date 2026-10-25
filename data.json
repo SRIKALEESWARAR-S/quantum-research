@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-25T04:09:29+00:00",
+  "updated_at": "2026-10-25T11:05:27+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -467,6 +467,123 @@
       "fetched_at": "2026-10-24T20:32:19+00:00"
     },
     {
+      "id": "https://doi.org/10.1007/s40509-026-00415-9",
+      "title": "On the stochastic–quantum correspondence",
+      "url": "https://doi.org/10.1007/s40509-026-00415-9",
+      "summary": "Abstract This paper aims to first explain, somewhat more clearly, the stochastic–quantum correspondence put forward in by Barandes in 2023. Specifically, the quantum-mechanical bra–ket notation is used, illuminating some results of previous results. With this, we prove the six axioms of textbook quantum mechanics from a single axiom: every physical system evolves according to a, generally indivisible, stochastic law. Afterwards, we generalise the treatment to continuous bases, which showcases a problem with them, indicating that space (and other physical variables) may be discrete in nature. Some concrete examples are also given, including the generalisation to classical",
+      "source": "Quantum Studies Mathematics and Foundations",
+      "category": "research",
+      "date": "2026-10-24",
+      "author": "Sami Calvo",
+      "fetched_at": "2026-10-25T11:05:26+00:00",
+      "doi": "https://doi.org/10.1007/s40509-026-00415-9",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1002/lpor.72106",
+      "title": "Photonic Neuromorphic Processing With Coupled Spiking Silicon Microrings",
+      "url": "https://doi.org/10.1002/lpor.72106",
+      "summary": "ABSTRACT Understanding the physical computing mechanisms of individual network nodes is essential for scaling neuromorphic photonic architectures. This work proposes a compact passive nonlinear photonic core based on a side‐coupled integrated spaced sequence of resonators (SCISSOR) comprising three nominally equal microrings and investigate its computing capabilities. Its nonlinearities and internal feedback enable analogue, spiking, and bistable responses that are accessed by tuning the injection power and wavelength. Implemented as a single nonlinear node in a time‐multiplexed reservoir computing, the SCISSOR achieves error‐free classification on the Iris dataset and accuracies above 97 on the Sonar task, using both analogue and digital reservoir representations with 150 virtual nodes. In the digital scheme, spiking dynamics naturally generate sparse reservoir states, enabling efficient classification even with a single spike. Intriguingly, operating points at the boundaries where sharp transitions in dynamical complexity and/or output power occur support high task‐performance, opening novel strategies for future on‐chip training. Spiking and thermal bistabilities also participate to enhance the computational performance. These results suggest that coupled optical microrings can serve as compact, physically interpretable nonlinear building blocks for future neuromorphic photonic processors, particularly in optical‐domain preprocessing and sensing scenarios where kHz‐to‐MHz signal bandwidths are relevant.",
+      "source": "Laser & Photonics Review",
+      "category": "research",
+      "date": "2026-10-24",
+      "author": "Giovanni P. Donati, Stefano Biasi, Lorenzo Pavesi, Antonio Hurtado",
+      "fetched_at": "2026-10-25T11:05:26+00:00",
+      "doi": "https://doi.org/10.1002/lpor.72106",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1016/j.physrep.2026.09.009",
+      "title": "Topological spin freezing in frustrated quantum materials",
+      "url": "https://doi.org/10.1016/j.physrep.2026.09.009",
+      "summary": "",
+      "source": "Physics Reports",
+      "category": "research",
+      "date": "2026-10-24",
+      "author": "U. Jena, M. Barman, A. Pradhan, P. Khuntia",
+      "fetched_at": "2026-10-25T11:05:26+00:00",
+      "doi": "https://doi.org/10.1016/j.physrep.2026.09.009",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1021/acs.jctc.6c01270",
+      "title": "Can DFT-Trained Neural Network Potentials Reproduce Structure, Solvation, and Water-Exchange Properties in Aqueous Magnesium Solutions?",
+      "url": "https://doi.org/10.1021/acs.jctc.6c01270",
+      "summary": "Abstract Magnesium ions play an essential role in many biological processes but remain challenging to model in biomolecular simulations. Despite considerable scientific effort, classical force fields fail to simultaneously reproduce key structural, thermodynamic, and kinetic solution properties, likely due to their inability to explicitly account for quantum many-body effects. Here, we develop and systematically benchmark MACE neural network potentials (NNPs) for aqueous MgCl2 solutions, trained on revPBE-D3/zd and revPBE0-D3/zd density functional theory reference data, and assess their ability to reproduce a broad range of experimental solution properties including the structure of the first hydration shell, diffusion coefficient, activity derivative, water-exchange rate, and mechanism as well as solvation free energy. Both NNPs accurately reproduce the octahedral structure of the first hydration shell, ion-pairing properties, and diffusion coefficients. Combining the NNPs with transition path sampling and other enhanced sampling techniques allows us to capture the rare event of water exchange in the first hydration shell of Mg2+, revealing a dissociative exchange mechanism. Transition interface sampling yields exchange rates within 1 order of magnitude of experiment, representing a substantial improvement over classical dissociative force fields. In contrast, the NNP-derived solvation free energy significantly underestimates the experimental value, revealing a limitation of the present local NNP architecture for describing ion solvation thermodynamics. Our results demonstrate that DFT-trained NNPs can accurately describe Mg2+ hydration structure, diffusion, ion pairing, and exchange kinetics while highlighting limitations of local NNP architectures and the importance ",
+      "source": "Journal of Chemical Theory and Computation",
+      "category": "research",
+      "date": "2026-10-24",
+      "author": "Sebastian Falkner, Pablo Montero de Hijes, Christoph Dellago A, Nadine Schwierz",
+      "fetched_at": "2026-10-25T11:05:26+00:00",
+      "doi": "https://doi.org/10.1021/acs.jctc.6c01270",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1002/lpor.72123",
+      "title": "Neuro‐Driven Mechanically Programmable Metasurface for Electromagnetic Environment‐Illusion Generation",
+      "url": "https://doi.org/10.1002/lpor.72123",
+      "summary": "ABSTRACT Invisibility cloaks are evolving beyond passive scattering suppression toward the active control of radar perception. However, on‐demand generation of electromagnetic environment illusions remains challenging. Passive metasurfaces are fixed after fabrication, whereas electrically reconfigurable metasurfaces usually require dense bias networks and continuous electrical holding power, which complicate large‐aperture integration and introduce steady‐state energy consumption. Here, we report an X‐band neuro‐driven mechanically programmable metasurface (NMPM) that generates prescribed electromagnetic signatures through mechanically retained coding states. To map target scattering profiles onto implementable mechanical configurations, we develop a calibration‐assisted, physics‐guided neural programming framework. This framework compensates for coupling‐induced model mismatch and addresses the non‐unique inverse mapping from desired electromagnetic responses to discrete array states. The generated states are physically written by rotating reflective meta‐atoms optimized for linearly polarized illumination, allowing the programmed configuration to be retained without continuous electrical bias. Microwave experiments on two representative target environments demonstrate that the NMPM reproduces the dominant main‐lobe directions and overall sidelobe envelopes of the target scattering profiles. Quantitative measurements yield cosine similarities of 94%–98%, with consistent agreement under the tested incidence‐angle and frequency variations. These results demonstrate a mechanically retained and algorithmically calibrated route toward adaptive radar deception, electromagnetic scene engineering, and reconfigurable sensing architectures.",
+      "source": "Laser & Photonics Review",
+      "category": "research",
+      "date": "2026-10-24",
+      "author": "Shiqi Zhu, Huan Lu, Kai Ping Yu, Peixuan Zhu et al.",
+      "fetched_at": "2026-10-25T11:05:26+00:00",
+      "doi": "https://doi.org/10.1002/lpor.72123",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.5281/zenodo.23626790",
+      "title": "THEINFORMATION-INTENTNEXUS: A14-Dimensional Unified Field Theory of Intentional Reality, Cosmogenesis, and Quantum-Classical Synthesis",
+      "url": "https://doi.org/10.5281/zenodo.23626790",
+      "summary": "THE INFORMATION-INTENT NEXUS: A 14-Dimensional Unified Field Theory of Intentional Reality, Cosmogenesis, and Quantum-Classical Synthesis ABSTRACT: The Information-Intent Nexus presents the complete mathematical, physical, cosmological, and psychological architecture of Mezquia Physics (14D D-Lattice Dynamics). Reversing the classical materialist paradigm, this framework establishes information density as the foundational physical substrate of reality and Intent (T_{I\\mu\\nu}) as the primary vector-scalar field driving structural morphogenesis (The Precedent Intent Principle: \"Intent is the prime signal. Action is the echo\"). I. MATHEMATICAL & PHYSICAL FORMALISMS - The Origin Equation: T_{I\\mu\\nu} = \\partial(\\text{Structure}) / \\partial(\\text{Information}) - Modified Einstein Field Equations: G_{\\mu\\nu} = \\alpha T_{I\\mu\\nu} - 14D Block-Diagonal Riemannian Metric: G_{MN} = g_{\\mu\\nu}^{(4D)} \\oplus h_{ij}^{(7D)} \\oplus M_{\\alpha\\beta}^{(3D)}, partitioned across 4D observable spacetime (D0–D3), 7D internal cognitive phase space (D4–D11), and the 3D Authoring Triad (D12–D14). - The 1/13 Consciousness Persistence Constant (\\Psi_c \\approx 0.076923): Defines the non-Markovian reality buffer (\\tilde{\\sigma}_{\\min}^{(13)} \\le 1/13) that separates the Observer (1/13th coherent core anchor) from the Observed (12/13ths ambient substrate), preventing entropic phase collapse across active field modes. - The Effective Lagrangian & N.O.T.H.I.N.G. Engine: Re-indexes physical laws as memory-charged records of historical constraints (\\mathcal{L}_{\\text{effective}} = \\mathcal{L}_0 + \\sum C_i) that cage chaos inside the Creative Tension Zone (CTZ: 0.2100 \\le S \\le 0.3100), satisfying localized negative entropy generation: dS_{\\text{local}}/dt = -I \\times \\Gamma 0. - Navier-Stokes Smoothness:",
+      "source": "Zenodo (CERN European Organization for Nuclear Research)",
+      "category": "research",
+      "date": "2026-10-24",
+      "author": "Marcelo Mezquia, TheVoidIntent LLC",
+      "fetched_at": "2026-10-25T11:05:26+00:00",
+      "doi": "https://doi.org/10.5281/zenodo.23626790",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.5281/zenodo.23609966",
+      "title": "Is what we see a projection? Objects as the common part of two points of view, tested on a quantum-Darwinism model",
+      "url": "https://doi.org/10.5281/zenodo.23609966",
+      "summary": "Mathematical Materiality (MM) in brief. MM starts from one thesis: the laws of physics are not rules that something makes matter obey; matter is the relations of mathematics itself. In logic, nothing exists on its own: to exist means to exist in relation to another logical entity, and outside this web of relations nothing can exist, not even other universes. In the first logical nexus between space and time, which with Einstein became homogeneous, there is a non-local phase, made only of a logical distinction: space is not time, with no relation of quantitative calculation between the two, except the common logical entity they share, which is needed to make them exist for each other. It is not a distant level: it is present in every phase of reality, in every place and at every instant. It shows in entanglement, where two distant systems remain correlated more strongly than any explanation with separate properties and no influence faster than light allows, without anything travelling between them. In this non-local phase the two distinct terms, space and time, share only one logical element, which we shall call their greatest common divisor (GCD), just as the numbers 3 and 5 share only 1. The local world arises when a relation is counted through this GCD: its multiples and its fractions form a matrix. Read by an observer inside it like us, the multiples appear as time and the fractions as space. That same multiple, when it is directly contained in the matrix of the point of observation, turns into mass, that is, into concrete matter as it is ordinarily understood. Time and mass are therefore closely related, in agreement with Einstein's relativity, which ties mass to spacetime. The observed objects, while being logically autonomous entities in their local relations, are",
+      "source": "Zenodo (CERN European Organization for Nuclear Research)",
+      "category": "research",
+      "date": "2026-10-24",
+      "author": "Ugo Lanciano",
+      "fetched_at": "2026-10-25T11:05:26+00:00",
+      "doi": "https://doi.org/10.5281/zenodo.23609966",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1002/lpor.72114",
+      "title": "Weak Measurement for Characterizing Effective Jones Matrices of Phase Gradient Metasurfaces",
+      "url": "https://doi.org/10.1002/lpor.72114",
+      "summary": "ABSTRACT Pancharatnam‐Berry phase gradients generated by spatially rotated meta atoms are widely used to control optical wavefronts with metasurfaces. Here, we develop a weak measurement method for characterizing the effective Jones matrix parameters of fabricated PB phase gradient metasurfaces. In the specified effective Jones model, the local polarization response is described by the amplitude ratio and phase difference, while the spatial rotation of the meta atoms determines the PB phase gradient. By scanning the imaginary part angle and real part angle, the spin dependent deflection is converted into a two dimensional centroid map. The amplitude ratio, phase difference, and phase gradient produce different spatial features in this map, providing information for their distinction and retrieval. For a fabricated metasurface with a known phase gradient, the amplitude ratio and phase difference are obtained by fitting the measured centroid response with the theoretical model. When all three parameters are unknown, three independently trained machine learning models retrieve the amplitude ratio, phase difference, and phase gradient from the same complete centroid map and its angular coordinates. These results establish two dimensional weak measurement as an optical approach for characterizing the effective parameters of PB phase gradient metasurfaces.",
+      "source": "Laser & Photonics Review",
+      "category": "research",
+      "date": "2026-10-24",
+      "author": "Peng Tang, Youngsun Jeon, Xiaoyu Zhao, Ting Wan et al.",
+      "fetched_at": "2026-10-25T11:05:26+00:00",
+      "doi": "https://doi.org/10.1002/lpor.72114",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/s44163-026-02575-4",
+      "title": "Wolf-pack intelligence with multi-leadership Wolf search hybrid model for text-based deception-risk assessment in executive background checks",
+      "url": "https://doi.org/10.1007/s44163-026-02575-4",
+      "summary": "Text-based deception-risk assessment in executive background checks is a challenging task because potentially misleading statements must be identified from linguistically complex and highly imbalanced data. This paper proposes a Multi-Leadership Wolf Search Algorithm (ML-WSA)-based framework for automated deception-risk assessment and statement prioritization. The core contribution lies in a dynamic multi-leadership search mechanism that enables parallel exploration of multiple regions in high-dimensional feature space, effectively alleviating premature convergence in traditional Grey Wolf Optimization. ML-WSA integrates a nonlinear convergence strategy and Cauchy mutation to balance global exploration and local exploitation. To capture deceptive linguistic cues, a dual-channel feature representation combining BERT-based semantic embeddings and linguistic statistical features is constructed, and a semantic-constrained oversampling method is introduced to address minority-class scarcity. Experimental results show that the complete ML-WSA-based framework achieves an F1 score of 0.8733 (95% CI: 0.861–0.886) and an AUC of 0.9012, significantly outperforming standard GWO and BERT fine-tuning baselines (adjusted p < 0.001). Cross-dataset evaluations on three heterogeneous public deception benchmarks provide evidence of robustness under domain shift, with a macro-average F1 of 0.8067. These results support the potential of the integrated framework for human-supervised text-based deception-risk screening under high-stakes conditions.",
+      "source": "Discover Artificial Intelligence",
+      "category": "research",
+      "date": "2026-10-24",
+      "author": "Y. WANG, Yan Zhang",
+      "fetched_at": "2026-10-25T11:05:26+00:00",
+      "doi": "https://doi.org/10.1007/s44163-026-02575-4",
+      "open_access": true
+    },
+    {
       "id": "https://doi.org/10.37236/14684",
       "title": "Hook Immanantal Inequalities for Totally Nonnegative Matrices",
       "url": "https://doi.org/10.37236/14684",
@@ -594,6 +711,32 @@
       "author": "Yao Zhang, Lanyi Cao, Zhen Sun, Jihan Zhou",
       "fetched_at": "2026-10-24T14:12:32+00:00",
       "doi": "https://doi.org/10.1038/s41524-026-02363-9",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/s40818-026-00252-4",
+      "title": "Sobolev Regularity of Compactified 3-Manifolds and the ADM Center of Mass",
+      "url": "https://doi.org/10.1007/s40818-026-00252-4",
+      "summary": "Abstract In this paper we address the existence of preferred asymptotic coordinates on asymptotically Euclidean (AE) manifolds $$(M^3,g)$$ ( M 3 , g ) such that g admits an asymptotically Schwarzschildian first order expansion, based purely on a priori geometric conditions, which will then be used to establish geometric criteria guaranteeing the convergence of the ADM center of mass (COM). This problem is analysed relating it to the study of the regularity of conformal compactifications of such manifolds, which is itself explored via elliptic theory for operators with coefficients of very limited regularity. With these related problems in mind, we first establish Sobolev regularity properties of conformally compactified AE 3-manifolds via the decay of the Cotton tensor, improving on previous results. This allows us to construct preferred asymptotic coordinates on such AE manifolds where the metric has a first order Schwarzschildian expansion, which in turn allows us to address a version of a conjecture posed by C. Cederbaum and A. Sakovich concerning the convergence of the COM of such manifolds.",
+      "source": "Annals of PDE",
+      "category": "research",
+      "date": "2026-10-23",
+      "author": "Rodrigo Ávalos",
+      "fetched_at": "2026-10-25T11:05:26+00:00",
+      "doi": "https://doi.org/10.1007/s40818-026-00252-4",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1088/1367-2630/aeb8b0",
+      "title": "Model predictive quantum control: A modular approach for efficient and robust quantum optimal control",
+      "url": "https://doi.org/10.1088/1367-2630/aeb8b0",
+      "summary": "Abstract Model predictive control (MPC) is one of the most successful modern control methods. It relies on repeatedly solving a finite-horizon optimal control problem and applying the beginning piece of the optimal input. In this paper, we develop a modular framework for improving efficiency and robustness of quantum optimal control (QOC) via MPC. We first provide a tutorial introduction to basic concepts of MPC from a QOC perspective. We then present multiple MPC schemes, ranging from simple approaches to more sophisticated schemes which admit stability guarantees. This yields a modular framework which can be used 1) to improve efficiency of open-loop QOC and 2) to improve robustness of closed-loop quantum control by incorporating feedback. We demonstrate these benefits with numerical results, where we benchmark the proposed methods against competing approaches.",
+      "source": "New Journal of Physics",
+      "category": "research",
+      "date": "2026-10-23",
+      "author": "Eya Guizani, Julian Berberich",
+      "fetched_at": "2026-10-25T11:05:26+00:00",
+      "doi": "https://doi.org/10.1088/1367-2630/aeb8b0",
       "open_access": true
     },
     {
@@ -744,6 +887,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 11
   }
 }
