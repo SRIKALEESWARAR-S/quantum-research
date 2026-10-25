@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-25T11:05:27+00:00",
+  "updated_at": "2026-10-25T15:54:02+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -158,6 +158,138 @@
       "fetched_at": "2026-10-24T14:12:32+00:00",
       "doi": "https://doi.org/10.15120/gsi-2026-00822",
       "open_access": true
+    },
+    {
+      "id": "https://www.infosalus.com/asistencia/noticia-pupilas-parpadeos-ia-via-personalizar-tratamiento-dolor-cronico-realidad-virtual-20261025082952.html",
+      "title": "Pupilas , parpadeos e IA : una vía para personalizar el tratamiento del dolor crónico mediante realidad virtual",
+      "url": "https://www.infosalus.com/asistencia/noticia-pupilas-parpadeos-ia-via-personalizar-tratamiento-dolor-cronico-realidad-virtual-20261025082952.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "infosalus.com",
+      "category": "news",
+      "date": "2026-10-25",
+      "author": "",
+      "fetched_at": "2026-10-25T15:54:00+00:00"
+    },
+    {
+      "id": "https://www.ixbt.com/live/history/peski-nad-ubarom-poiski-goroda-kotoryy-nazyvali-atlantidoy-pustyni.html",
+      "title": "Пески над Убаром : поиски города , который называли Атлантидой пустыни",
+      "url": "https://www.ixbt.com/live/history/peski-nad-ubarom-poiski-goroda-kotoryy-nazyvali-atlantidoy-pustyni.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "ixbt.com",
+      "category": "news",
+      "date": "2026-10-25",
+      "author": "",
+      "fetched_at": "2026-10-25T15:54:00+00:00"
+    },
+    {
+      "id": "https://voh.com.vn/kinh-te/aef-2026-dong-luc-khoa-hoc-cong-nghe-moi-cho-tphcm-675477.html",
+      "title": "AEF 2026 : Động lực khoa học , công nghệ mới cho TPHCM",
+      "url": "https://voh.com.vn/kinh-te/aef-2026-dong-luc-khoa-hoc-cong-nghe-moi-cho-tphcm-675477.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "voh.com.vn",
+      "category": "news",
+      "date": "2026-10-25",
+      "author": "",
+      "fetched_at": "2026-10-25T15:54:00+00:00"
+    },
+    {
+      "id": "https://www.southcn.com/node_07e973c1a3/9be7bfcfbf.shtml",
+      "title": "时政微观察丨三个维度读懂全面从严治党 _ 南方网",
+      "url": "https://www.southcn.com/node_07e973c1a3/9be7bfcfbf.shtml",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "southcn.com",
+      "category": "news",
+      "date": "2026-10-25",
+      "author": "",
+      "fetched_at": "2026-10-25T15:54:00+00:00"
+    },
+    {
+      "id": "https://aif.ru/health/uchyonye-priblizilis-k-sozdaniyu-novogo-metoda-lecheniya-tuberkulyoza",
+      "title": "Учёные приблизились к созданию нового метода лечения туберкулёза",
+      "url": "https://aif.ru/health/uchyonye-priblizilis-k-sozdaniyu-novogo-metoda-lecheniya-tuberkulyoza",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "aif.ru",
+      "category": "news",
+      "date": "2026-10-25",
+      "author": "",
+      "fetched_at": "2026-10-25T15:54:00+00:00"
+    },
+    {
+      "id": "http://www.cfi.net.cn/p20261025000943.html",
+      "title": "物理AI加速落地 机器人产业链迎来价值重估 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261025000943.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "cfi.net.cn",
+      "category": "news",
+      "date": "2026-10-25",
+      "author": "",
+      "fetched_at": "2026-10-25T15:54:00+00:00"
+    },
+    {
+      "id": "https://www.vava8.com/index.php?app=index&act=view&id=174973",
+      "title": "高盛 ： 人民币将迎来5 . 5时代 ！ 这三类中国资产将迎来超级红利",
+      "url": "https://www.vava8.com/index.php?app=index&act=view&id=174973",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "vava8.com",
+      "category": "news",
+      "date": "2026-10-25",
+      "author": "",
+      "fetched_at": "2026-10-25T15:54:00+00:00"
+    },
+    {
+      "id": "https://www.slobodna-bosna.ba/vijest/511862/struchnjaci_upozoravaju_ukoliko_imate_bolesnu_ili_masnu_jetru_ovo_trebate_znati.html",
+      "title": "STRUČNJACI UPOZORAVAJU : Ukoliko imate bolesnu ili masnu jetru – ovo trebate znati ...",
+      "url": "https://www.slobodna-bosna.ba/vijest/511862/struchnjaci_upozoravaju_ukoliko_imate_bolesnu_ili_masnu_jetru_ovo_trebate_znati.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "slobodna-bosna.ba",
+      "category": "news",
+      "date": "2026-10-25",
+      "author": "",
+      "fetched_at": "2026-10-25T15:54:00+00:00"
+    },
+    {
+      "id": "https://www.dailygazette.com/hv360/ap/business/to-make-ai-morally-good-tech-companies-are-turning-to-religion-but-some-say-it/article_a70d5f23-b740-5dbb-89c1-577fb85ca97c.html",
+      "title": "To make AI morally good , tech companies are turning to religion . But some say it isnt that simple",
+      "url": "https://www.dailygazette.com/hv360/ap/business/to-make-ai-morally-good-tech-companies-are-turning-to-religion-but-some-say-it/article_a70d5f23-b740-5dbb-89c1-577fb85ca97c.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "dailygazette.com",
+      "category": "news",
+      "date": "2026-10-25",
+      "author": "",
+      "fetched_at": "2026-10-25T15:54:00+00:00"
+    },
+    {
+      "id": "https://www.messenger-inquirer.com/ap/ap_national_news/to-make-ai-morally-good-tech-companies-are-turning-to-religion-but-some-say-it/article_234118a4-240e-5746-ae5c-5aebe337da67.html",
+      "title": "To make AI morally good , tech companies are turning to religion . But some say it isnt that simple",
+      "url": "https://www.messenger-inquirer.com/ap/ap_national_news/to-make-ai-morally-good-tech-companies-are-turning-to-religion-but-some-say-it/article_234118a4-240e-5746-ae5c-5aebe337da67.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "messenger-inquirer.com",
+      "category": "news",
+      "date": "2026-10-25",
+      "author": "",
+      "fetched_at": "2026-10-25T15:54:00+00:00"
+    },
+    {
+      "id": "https://www.adndigital.com.py/lula-da-silva-y-flavio-bolsonaro-se-disputan-la-presidencia-de-brasil-en-el-balotaje",
+      "title": "Lula da Silva y Flávio Bolsonaro se disputan la presidencia de Brasil en el balotaje",
+      "url": "https://www.adndigital.com.py/lula-da-silva-y-flavio-bolsonaro-se-disputan-la-presidencia-de-brasil-en-el-balotaje/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "adndigital.com.py",
+      "category": "news",
+      "date": "2026-10-25",
+      "author": "",
+      "fetched_at": "2026-10-25T15:54:00+00:00"
+    },
+    {
+      "id": "https://www.aol.com/articles/prediction-heres-500-invested-archer-120300000.html",
+      "title": "Prediction : Here What $500 Invested in Archer Aviation Will Be Worth in 5 Years",
+      "url": "https://www.aol.com/articles/prediction-heres-500-invested-archer-120300000.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "aol.com",
+      "category": "news",
+      "date": "2026-10-25",
+      "author": "",
+      "fetched_at": "2026-10-25T15:54:00+00:00"
     },
     {
       "id": "https://learning.quantum.ibm.com/",
@@ -885,8 +1017,8 @@
     }
   ],
   "refresh": {
-    "sources_succeeded": 3,
+    "sources_succeeded": 4,
     "sources_total": 4,
-    "new_items": 11
+    "new_items": 12
   }
 }
