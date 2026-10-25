@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-24T20:32:20+00:00",
+  "updated_at": "2026-10-25T04:09:29+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -742,8 +742,8 @@
     }
   ],
   "refresh": {
-    "sources_succeeded": 4,
+    "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 20
+    "new_items": 0
   }
 }
