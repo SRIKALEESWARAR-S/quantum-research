@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-25T20:40:20+00:00",
+  "updated_at": "2026-10-26T04:13:28+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -872,6 +872,150 @@
       "open_access": true
     },
     {
+      "id": "https://arxiv.org/abs/2610.32974v1",
+      "title": "Maximal Orbital Entanglement from Non-Interacting Fermions",
+      "url": "https://arxiv.org/abs/2610.32974v1",
+      "summary": "Orbital rotations are used in quantum many-body physics and chemistry to reduce the complexity of quantum states by compressing their correlation into a small set of relevant orbitals. In striking contrast, quantum information processing strives for the opposite: orbitals that maximize entanglement as a resource. Motivated by this, we prove that Slater determinants of $N$ fermions on a lattice of $d_A + d_B = d$ sites, although free of particle correlation, can carry up to $\\min\\{d_A, d_B, N, d-N\\}$ ebits of orbital entanglement. Given enough particles and holes, this equals the maximum over all fermionic states. For arbitrary free states, we derive the maximal orbital total correlation in closed form for all bipartitions, the finest partition, and all partitions of up to five sites, using new majorization relations for Hermitian matrices. Taken together, these results turn mean-field states, the starting point of most many-body methods in physics and chemistry, into a viable resource for quantum information processing.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-23",
+      "author": "Damiano Aliverti-Piuri, Julia Liebert, Christian Schilling",
+      "fetched_at": "2026-10-26T04:13:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.32973v1",
+      "title": "Ideal interaction dynamics of defects and background fields in condensed matter",
+      "url": "https://arxiv.org/abs/2610.32973v1",
+      "summary": "While defect dynamics in condensed matter systems is widely studied and several methods are available to track the defect position over time, the formulation of dynamical models for the coupled evolution of both defect and background field quantities seems to be more challenging. Yet, the overall behavior of a system containing moving defects is strongly influenced by this defect-field interaction. Here, we propose a modeling framework for the conservative coupled evolution of the defect density and the background fields upon focusing on two relevant cases of study: the Gross-Pitaevskii theory of quantum fluids and the Ericksen-Leslie model of nematic liquid crystals. To achieve the coupled evolution, we combine the Euler-Poincaré variational setting of continuum dynamics with the gauge theory of topological defects. While the latter allows us to overcome certain ambiguities in definition of the defect density, the Euler-Poincaré method provides a unified modeling approach in the absence of defect reconnection.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-23",
+      "author": "François Gay-Balmaz, Tudor S. Ratiu, Cesare Tronci",
+      "fetched_at": "2026-10-26T04:13:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.32968v1",
+      "title": "Distributed Quantum-Centric Supercomputing with Multi-Layered Generative Learning for Intermolecular Interactions",
+      "url": "https://arxiv.org/abs/2610.32968v1",
+      "summary": "Quantum-centric supercomputing (QCSC) approaches, such as sample-based quantum diagonalization (SQD), combine quantum processors with high-performance computers (HPC), offering a promising route toward solving challenging electronic structure problems. However, implementation of QCSC approaches to large active space calculations is constrained by the associated number of qubits, deep quantum circuits, sampling cost, and large-scale Hamiltonian diagonalization. To overcome these limitations, we introduce a distributed QCSC framework that decomposes complex molecular problems into parallel sub-problems requiring fewer qubits, shallower circuits, and reduced shot budgets. A physically motivated, two-step aggregation scheme then reconstructs the global solution: first, a computational bit assignment strategy optimizes a cost function to appropriately map local bit indices to global ones, yielding a mapped tensor product state (MTPS); second, an inter-fragment correlation recovery module restores missing cross-fragment interactions. Herein, we employ a multi-layered generative machine learning architecture, starting with utilizing the recently proposed physics-informed generative SQD (PIGen-SQD) as a distributed QCSC solver, followed by a secondary generative module to model configuration distributions and identify dominant sectors of the global Hilbert space. For water and formamide dimers, our method achieves up to $95\\%$ reduction in the diagonalization dimension while enhancing energy accuracy by an order of magnitude over conventional SQD. Furthermore, application to the water hexamer ($\\mathrm{(H_2O)_6}$) cage successfully decomposes a 120-qubit problem into six 20-qubit monomeric subsystems, and stitches the monomers under a dimeric approximation, demonstrating excell",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-23",
+      "author": "Chayan Patra, Prayas Ghosh, Adwait Patkhedkar, Rahul Maitra",
+      "fetched_at": "2026-10-26T04:13:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.32946v1",
+      "title": "Low-frustration block encodings by patch routing",
+      "url": "https://arxiv.org/abs/2610.32946v1",
+      "summary": "Block-encoding has emerged as a core primitive in many quantum algorithms, including quantum simulation. In this work, we design efficient and extensible methods for generating low-frustration block encodings of frustrated lattice Hamiltonians built from repeated local interaction patches through a technique we call \"patch routing\". We construct block encodings for a full Hamiltonian by first block-encoding a small local patch and then using a SWAP-style routing network to coherently apply the local patch encoding across the lattice. The expensive, local block-encoding cost is paid only once per query and is independent of lattice size, whereas the comparatively inexpensive routing network grows linearly with the lattice size, dominating at large sizes. Our method allows for a hierarchical structure in which larger patches can be block-encoded with small normalization factors, albeit at a higher (local, non-extensive) block-encoding cost, thereby reducing overall query complexity in an algorithm. We exploit symmetries and algebraic structures in local interactions to construct efficient block encodings, and we apply these techniques to the Heisenberg, Fermi-Hubbard, and honeycomb spin-liquid models. For a $120\\times 120$ square-lattice $J_1$-$J_2$ Heisenberg model near maximal frustration ($J_2/J_1=0.4-0.6$), our methods result in a $15-17\\times$ reduction in the leading $T$ cost per qubitized-QPE run (ignoring initial state preparation and overlap) relative to prior state-of-the-art Pauli LCU constructions. Corresponding reductions are approximately $3\\times$ for the $120\\times120$ Fermi-Hubbard model at half-filling. For time evolution of the honeycomb spin-liquid model on $120\\times120$ unit cells, the leading cost is reduced by $5\\times$. Our framework provides a sy",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-23",
+      "author": "Minzhao Liu, Abeynaya Gnanasekaran, Ananth Kaushik, Siddharth Hariprakash et al.",
+      "fetched_at": "2026-10-26T04:13:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.32937v1",
+      "title": "Certain Quantum States Already Require Quantum Time Evolution",
+      "url": "https://arxiv.org/abs/2610.32937v1",
+      "summary": "Model-independent tests of quantum theory, such as Bell inequality violations, focus on static properties of the theory and do not rely on its dynamical aspects. Hence, this core part of quantum theory remains largely untested in a model-independent way. We show that the structure of quantum time evolution can be examined by testing the consistency between the state space and the dynamical laws. Considering a class of generalized phase-space theories, we find that certain quantum states can only be part of a theory if the time evolution is quantum: their evolution in anharmonic potentials would otherwise result in unphysical, negative marginal distributions. Furthermore, we demonstrate that the existence of the first excited state of a quantum harmonic oscillator is already sufficient to single out the Moyal bracket (quantum dynamics) to leading order in $\\hbar^2$. We outline how theory-independent Wigner tomography of this state can be used to empirically exclude nonquantum dynamical theories.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-23",
+      "author": "Joel D. Huber, Matthias Kleinmann",
+      "fetched_at": "2026-10-26T04:13:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.32936v1",
+      "title": "Generating entanglement in quantum matter with pathway-entangled photons via resonant inelastic X-ray scattering",
+      "url": "https://arxiv.org/abs/2610.32936v1",
+      "summary": "Resonant inelastic X-ray scattering (RIXS) is conventionally used to probe elementary excitations and correlations in quantum materials. Here, we propose an interferometric RIXS protocol that instead creates entanglement between spatially separated regions of a solid-state material. An incident X-ray photon is coherently split by a beam splitter into two arms illuminating opposite ends of a sample. Recombining the scattered photons at a second beam splitter and detecting an energy-selected photon then projects the material into a coherent superposition of excitations at the two ends. This protocol is the X-ray, solid-state analogue of the Duan-Lukin-Cirac-Zoller (DLCZ) heralding scheme. Using a Kramers-Heisenberg formalism with quantized photon modes, we show that orthogonal and degenerate end excitations yield maximally entangled states. We illustrate this mechanism in three models: (1) two decoupled sites yield a heralded Bell state. (2) An open tight-binding chain exhibits reflection-parity-dependent interference, providing a benchmark for the interferometer's coherence. (3) A spin-1 Haldane (AKLT) chain yields an entangled pair of fractionalized edge spins. We also discuss practical considerations and challenges for realizing the protocol in X-ray experiments.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-23",
+      "author": "Chunjing Jia, Valentin Walther, Laimei Nie",
+      "fetched_at": "2026-10-26T04:13:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.32923v1",
+      "title": "One-sided-DIQKD using any pure bipartite entangled state secure against all attacks",
+      "url": "https://arxiv.org/abs/2610.32923v1",
+      "summary": "Quantum Key Distribution (QKD) allows spatially separated parties to establish a secret key among themselves based on quantum principles. While QKD systems are being deployed worldwide, their reliance on trusted measurements makes them vulnerable. Moreover, existing protocols have largely focussed on the qubit cases, and rely on the maximally entangled state, a costly resource to generate. Here, we consider the one-sided-device-independent (1SDI) QKD protocols, where one of the measurement devices is trusted while the other is untrusted. The resource in this scenario is quantum steering, an asymmetric form of quantum nonlocality. This is inspired by a real-world scenario, where the trusted party can be considered to be a bank, or any large organisation that has sufficient resources to protect its systems and validate them, while the users are vulnerable to attacks. We then demonstrate that a secure key can be obtained using any pure bipartite entangled state in this setup. Considering realistic detectors and sources based on current technology, we demonstrate that even states that are almost separable can be used to extract a secure key. Moreover, for every pure entangled bipartite state, we find the critical detection efficiencies and visibility to obtain a secure key.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-23",
+      "author": "Bohnishikha Ghosh, Chithra Raj, Shubhayan Sarkar",
+      "fetched_at": "2026-10-26T04:13:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.32908v1",
+      "title": "Nonclassicality from Incomplete Fock-State Statistics",
+      "url": "https://arxiv.org/abs/2610.32908v1",
+      "summary": "Nonclassicality in bosonic systems can be certified directly from occupation probabilities without full state reconstruction. To complete a library of such criteria we introduce a numerical framework that constructs optimal linear nonclassicality witnesses from arbitrary subsets of measured occupation probabilities by solving a semi-infinite linear program. The method contains known analytical criteria as special cases while generally detecting substantially larger nonclassical regions. We provide an open-source implementation of the numerical optimization together with the analytical criteria discussed here, enabling direct application of the framework to measured occupation statistics across bosonic platforms. As a case study, we apply it to the resonant Jaynes--Cummings model with thermal states and reveal nonclassicality at short interaction times and close to thermal balance, where detection of nonclassicality is otherwise challenging.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-23",
+      "author": "Martin Žonda, Pavel Baláž, Lukáš Lachman, Darren W. Moore et al.",
+      "fetched_at": "2026-10-26T04:13:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.32882v1",
+      "title": "Fermion Scattering on Quantum Computers",
+      "url": "https://arxiv.org/abs/2610.32882v1",
+      "summary": "Resonant scattering links particle interactions to the formation and decay of unstable excitations. We develop a hybrid quantum-computing framework to study these dynamics through fermion--antifermion collisions. Our formulation of $(1+1)$-dimensional Yukawa theory encodes fermions in qubits and the scalar field in qumodes. We identify the operations needed for a photonic implementation and benchmark the dynamics with tensor-network simulations. Near resonance, we resolve the build-up of a localised scalar excitation and the subsequent partial return of energy to the fermions. Enhanced entanglement accompanies this exchange. Time-dependent correlator measurements reproduce the analytically predicted decay rate to a few percent precision, with energy scans exhibiting a resonance peak consistent with packet-averaged Breit--Wigner behaviour. These results establish a concrete scattering benchmark for hybrid quantum computers and demonstrate how local real-time observables can probe particle-resonance dynamics.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-23",
+      "author": "Steven Abel, Michael Spannowsky, Simon Williams",
+      "fetched_at": "2026-10-26T04:13:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.32841v1",
+      "title": "Hardware-Friendly Estimation of LCU-Based Expectation Values via Quantum-to-Classical Workload Shifting",
+      "url": "https://arxiv.org/abs/2610.32841v1",
+      "summary": "Estimating the expectation value of an observable $O$ for a quantum state evolved under a general, possibly non-unitary, operator $A$ is a fundamental task in quantum simulation, chemistry, and variational algorithms. Existing linear-combination-of-unitaries (LCU) approaches implement $A$ on hardware, requiring ancilla qubits, controlled unitaries and, in randomized variants, fresh circuit executions for every Monte Carlo sample. These costs are prohibitive on NISQ and early fault-tolerant devices. We propose HERMES (Hardware-Efficient Reusable Measurements for Estimating LCU-based expectation valueS), which moves the processing of $A$ entirely to the classical domain. Expanding $A$ and $O$ in the Pauli basis and sampling pairs of Pauli terms classically, HERMES rewrites $μ= \\mathrm{Tr}(OAρA^{\\dagger})/\\mathrm{Tr}(AρA^{\\dagger})$ as a ratio of weighted sums of Pauli expectation values on the unmodified state $ρ$, with no ancillas, controlled unitaries, or quantum implementation of $A$. A two-level measurement reduction scheme (Pauli deduplication and commuting-group partitioning) bounds the number of distinct measurement settings independently of the sample count, unlike randomized LCU methods whose circuit executions grow linearly with it. On ground-state energy estimation of $\\mathrm{H}_2$ and $\\mathrm{LiH}$ via imaginary-time evolution, HERMES matches or beats Pauli single-ancilla LCU baseline using shallow circuits with no two-qubit gates beyond state preparation under qubit-wise commuting grouping. It is also more robust to noise and completes a noisy $\\mathrm{LiH}$ simulation infeasible for the baseline, at the cost of classical overhead growing with the number of Pauli terms in $A$.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-23",
+      "author": "Hari Hara Suthan Chittoor, Thirumalai Manimaran",
+      "fetched_at": "2026-10-26T04:13:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.32838v1",
+      "title": "Modular optical fault-tolerant quantum computation via an interface between verified resources and online logical operations",
+      "url": "https://arxiv.org/abs/2610.32838v1",
+      "summary": "We introduce a factory--processor interface architecture for modular optical fault-tolerant quantum computation that separates code-dependent encoded-resource preparation from reusable online logical processing on a common Gaussian optical processor. Beyond encoded resources, the interface specifies logical outputs, code-to-mode mapping, measurement roles, frame updates, verification records, and resource-injection boundaries. As a concrete realization, we combine an offline verified Bell-resource factory based on a recursively concatenated $C_4$ code with physical Gottesman--Kitaev--Preskill (GKP) qubits with an online time-domain measurement-based quantum computation (MBQC) processor. Under the specified additive-displacement-noise model and fixed postselection policy, simulations support the finite-level logical Bell-error ordering $P_5<P_4<P_3<P_2$ at 12.25 dB of effective GKP displacement-noise quality, both with and without the prescribed additional post-injection displacement noise. At 15.6 dB and $L=2$, a separate fixed-sample evaluation gives one-sided 95$\\%$ Clopper--Pearson upper bounds below $10^{-5}$ for both conditions under the binomial model. The interface supports address-tracked injection, transversal CNOT and logical Bell-measurement constructions, and logical SWAP and Hadamard constructions with tracked code permutations. Given advance resource preparation and sufficient routing parallelism, increasing the concatenation level expands parallel encoded-resource width without increasing the protected online sequence length of these constructions. These results identify a modular route to lower logical error rates while retaining a common Gaussian MBQC operation set with shallow online processing.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-23",
+      "author": "Kosuke Fukui, Takaya Matsuura, Yohji Chin, Shohei Kiryu et al.",
+      "fetched_at": "2026-10-26T04:13:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.32828v1",
+      "title": "Quantum Index Report 2026",
+      "url": "https://arxiv.org/abs/2610.32828v1",
+      "summary": "The MIT Quantum Index Report 2026 provides a comprehensive, data-driven assessment of the evolving quantum-technology landscape. As quantum technologies progress from scientific promise toward practical deployment, decision-makers need clear, accessible measures of technical capability, investment, workforce development, policy and public engagement. This second edition expands and updates the Quantum Index Report's analysis of quantum computing and networking. It tracks developments across research, industry, education, government and society. Drawing on academic, commercial, and policy sources, the report synthesizes trends and visualizes change over time to support informed comparison and discussion. The Quantum Index Report is intended as a nonpartisan public resource for business leaders, educators, policymakers, researchers and the broader public. Its aim is to reduce the complexity of a rapidly changing field while clarifying both its opportunities and remaining challenges.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-23",
+      "author": "Jonathan Ruane, Elif Kiesow, Carl Dukatz, Laura Converso",
+      "fetched_at": "2026-10-26T04:13:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
       "id": "https://arxiv.org/abs/2610.31632v1",
       "title": "What does quantum parameter estimation estimate? A no-go result for true quantity values",
       "url": "https://arxiv.org/abs/2610.31632v1",
@@ -1019,6 +1163,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 12
   }
 }
