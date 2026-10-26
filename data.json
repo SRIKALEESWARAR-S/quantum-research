@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-26T04:13:28+00:00",
+  "updated_at": "2026-10-26T12:38:40+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -290,6 +290,45 @@
       "date": "2026-10-25",
       "author": "",
       "fetched_at": "2026-10-25T15:54:00+00:00"
+    },
+    {
+      "id": "https://doi.org/10.67347/pith.preprint.2026.000010",
+      "title": "The Structure of Reality: Recognition, Necessity, and Physical Prediction",
+      "url": "https://doi.org/10.67347/pith.preprint.2026.000010",
+      "summary": "A comparison is a physical occurrence. It needs something to compare, an operation that uses both terms, and a state in which its result can matter to what happens next. If the result is measured, the measurement needs a reference. If it is retained, the record needs a carrier. If the operation transfers energy, that energy must appear in the same account. This book asks how much of physical structure is fixed by those demands. Recognition Science begins with the distinctions already exhibited by actual operations and follows their consequences. Its central arguments remove alternatives: a conserved comparison selects a quadratic reading; its residual and reference fix a normalized cost; preservation of additive comparisons, together with a first costly join, fixes golden scaling. A retained linking observation selects three spatial dimensions under its stated realization conditions. Further constructions ask how the resulting source evolves, transfers energy and leaves records. The argument is technical because the alternatives matter. A theorem that selects one cost from a specified class says exactly which other costs fail and why. Changing the class can change the conclusion. A Hamiltonian that acts on a full field carrier establishes more than a finite matrix calculation, while an exact matrix compression remains useful at its own scope. The reader should be able to identify the physical objects, inspect the hypotheses and follow the reason for each conclusion.",
+      "source": "OpenAlex",
+      "category": "research",
+      "date": "2026-10-25",
+      "author": "Jonathan Washburn",
+      "fetched_at": "2026-10-26T12:38:38+00:00",
+      "doi": "https://doi.org/10.67347/pith.preprint.2026.000010",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.5281/zenodo.23632167",
+      "title": "Superconducting Nanowire Single-Photon Detectors (SNSPDs) and Scalable Quantum Photonic Integrated Circuits: Cryogenic Quantum Light Sources, Multiplexed Readout Architectures, and Quantum Key Distribution",
+      "url": "https://doi.org/10.5281/zenodo.23632167",
+      "summary": "Optical quantum information processing, quantum key distribution (QKD), and linear optical quantum computing (LOQC) rely fundamentally on single-photon detectors capable of ultra-high system detection efficiency, low dark count rates, sub-nanosecond timing jitter, and high maximum count rates. Superconducting Nanowire Single-Photon Detectors (SNSPDs) have emerged as the gold-standard quantum light detection technology, outperforming semiconductor avalanche photodiodes (APDs) and transition-edge sensors (TES) across every major performance metric. By biasing ultrathin superconducting nanometric strips (e.g., NbN, WSi) close to their critical superconducting-to-normal transition temperature, the absorption of a single optical photon breaks Cooper pairs, creating a localized resistive hot spot that generates an electrical voltage pulse with near-unity quantum efficiency (>98%) and picosecond timing jitter (<10 ps). Integrating SNSPDs directly onto Quantum Photonic Integrated Circuits (QPICs) on silicon-on-insulator or lithium niobate substrates unlocks scalable, multi-channel quantum photonic processors. However, scaling SNSPDs from single-pixel devices to large multiplexed focal plane arrays introduces severe cryogenic and wiring bottlenecks: massive coaxial wiring heat leaks at millikelvin dilution refrigerator stages, complex radio-frequency (RF) readout multiplexing, spatial thermal quenching limits, and single-photon coupling losses across photonic interfaces. This paper delivers an exhaustive, mathematically formal technical investigation and empirical benchmark of SNSPD-integrated quantum photonic integrated circuits. We formalize hot-spot electrothermal hotspot formation equations, derive system detection efficiency (SDE) and timing jitter bounds, and model cryogen",
+      "source": "Zenodo (CERN European Organization for Nuclear Research)",
+      "category": "research",
+      "date": "2026-10-25",
+      "author": "Wahengbam Thouba Singh, Vishal Kumar, Dr. Vishal Shrivastava, Dr. Akhil Pandey",
+      "fetched_at": "2026-10-26T12:38:38+00:00",
+      "doi": "https://doi.org/10.5281/zenodo.23632167",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s42005-026-02924-w",
+      "title": "Flat Chern bands and correlated states in spiral magnet",
+      "url": "https://doi.org/10.1038/s42005-026-02924-w",
+      "summary": "Flat topological bands provide a promising platform for realizing exotic correlated quantum phases such as fractional Chern insulators. Here, we predict the van der Waals monolayer ReAg 2 Cl 6 hosts isolated flat Chern bands at the Fermi level in its 120 ∘ antiferromagnetic ground state. Their flatness and nontrivial topology arise from the interplay between coplanar spin order and strong spin-orbit coupling within Re 5 d orbitals, providing a mechanism distinct from moiré systems. The spiral spin texture naturally enlarges the unit cell, reducing carrier densities while preserving sizable interaction scales. Many-body calculations show that fractional fillings of the flat bands can stabilize correlated phases, including fractional Chern insulators and charge-density-wave states. Moreover, the mechanism is generic to a broad family of Re-based compounds, with both spin configuration and flat band topology electrically tunable. These findings establish Re-based coplanar antiferromagnets as a robust, tunable, and experimentally accessible platform for flat Chern bands and correlated topological phases potentially at elevated temperatures.",
+      "source": "Communications Physics",
+      "category": "research",
+      "date": "2026-10-25",
+      "author": "Kejie Bao, Rui Shi, Huan Wang, Jiaxuan Guo et al.",
+      "fetched_at": "2026-10-26T12:38:38+00:00",
+      "doi": "https://doi.org/10.1038/s42005-026-02924-w",
+      "open_access": true
     },
     {
       "id": "https://learning.quantum.ibm.com/",
@@ -713,6 +752,58 @@
       "author": "Y. WANG, Yan Zhang",
       "fetched_at": "2026-10-25T11:05:26+00:00",
       "doi": "https://doi.org/10.1007/s44163-026-02575-4",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.21105/joss.11033",
+      "title": "MatchCake: A Python Simulator for Non-Interacting Fermionic Quantum Circuits with Machine Learning Applications",
+      "url": "https://doi.org/10.21105/joss.11033",
+      "summary": "We introduce MatchCake, a Python package that simulates matchgate quantum circuits (matchcircuits).Matchgates are a parity-preserving class of nearest-neighbour unitaries whose dynamics are equivalent to those of non-interacting Majorana fermions, making matchcircuits classically simulable in polynomial time while retaining rich quantum structure.Built on PennyLane (Bergholm et al., 2022) and PyTorch (Ansel et al., 2024), MatchCake brings automatic differentiation to this class of circuits, enabling research on classically simulable quantum machine learning models.We demonstrate it on quantum kernel methods for classification (Gince et al., 2024) and on the simulation of physical systems. Gince. (2026).",
+      "source": "The Journal of Open Source Software",
+      "category": "research",
+      "date": "2026-10-24",
+      "author": "Jérémie Gince",
+      "fetched_at": "2026-10-26T12:38:38+00:00",
+      "doi": "https://doi.org/10.21105/joss.11033",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.17051/acae/01.01.05",
+      "title": "Boundary Element Method for Underwater Acoustic Propagation in Complex Marine Environments",
+      "url": "https://doi.org/10.17051/acae/01.01.05",
+      "summary": "Sound propagation in seas can be effectively predicted so that procedures like communication between submarines, sonar identification, and preservation of marine ecosystems can be established. Conventional ray based acoustic models do not adequately model the wave phenomena which include wave diffraction, reflection and scattering in non-homogeneous underwater conditions. The current paper will build upon a state of the art framework in boundary element method (BEM) towards the modeling of low/mid-frequency acoustic wave propagation in complex aquatic structures with variable bathymetry, stratified sediment and variable thermoclines. It employs the underwater acoustics modeling of infinite domain by using Greenfunction formulations and non-reflecting conditions used to deal with the modeling boundaries. A hybrid parallelization member of MPI and open MP is used to enable the scalability of its computing capabilities to HPC clusters. When compared to experimental measures of hydrophones arrays in shallow water test sites it is found that the model captures multipath interference and swings in intensity better than current semi-empirical models. Novelty It is an extension of BEM to include coupled fluid-seabed interfaces in environmental acoustics, providing the simulation of more realistic scenarios. The study gives the height to the naval engineers, oceanographers, and environmental agencies to build effective underwater communication systems in addition to evaluating the effects of human activity on the marine organisms on acoustics.",
+      "source": "Advanced Computational Acoustics Engineering",
+      "category": "research",
+      "date": "2026-10-24",
+      "author": "L.J. Mpamije, Edward Chikuni",
+      "fetched_at": "2026-10-26T12:38:38+00:00",
+      "doi": "https://doi.org/10.17051/acae/01.01.05",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1002/adfm.79213",
+      "title": "In Situ Electric Tuning―An Emerging STM Tactic for Probing Exotic Quantum Materials",
+      "url": "https://doi.org/10.1002/adfm.79213",
+      "summary": "ABSTRACT In situ electric tuning (ISET) integrated with scanning tunneling microscopy and spectroscopy (STM/STS) has established itself as a highly effective methodology for controlling quantum electronic states in low‐dimensional materials. This approach combines the sub‐atomic spatial resolution and meV‐resolved spectroscopic capability of STM with the reversible and continuously tunable carrier modulation of field‐effect device architectures. To date, this approach has been applied to numerous systems, including graphene‐based van der Waals heterostructures, correlated electron systems, and moiré superlattice systems hosting emergent quantum phases. Herein, we systematically summarize the state‐of‐the‐art experimental implementations, including global electrostatic gating, tip‐induced local gating, tip‐induced voltage pulse, and in‐plane electric tuning, accompanied with distinct physics under each configuration. We then highlight key representative advances in resolving gate‐dependent band renormalization, correlated insulating states, charge ordering, symmetry breaking, and electrically driven metastable phases at the nanoscale. We discuss practical limitations, such as restricted carrier‐density ranges, tip‐induced perturbations, dielectric reliability, and challenges in decoupling electric effects from current injection and Joule heating. Looking forward, we outline future directions in device engineering, including programmable local electrostatics, scalable architectures, and integrated platforms for operando studies, highlighting their potential to enable deterministic control of emergent quantum phases in functional materials.",
+      "source": "Advanced Functional Materials",
+      "category": "research",
+      "date": "2026-10-24",
+      "author": "Pin Lyu, Yizhou Zhao, Yixuan Han, Yang Wang et al.",
+      "fetched_at": "2026-10-26T12:38:38+00:00",
+      "doi": "https://doi.org/10.1002/adfm.79213",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/s11661-026-08408-4",
+      "title": "The Phase Evolution, Microstructure, and Magnetocaloric Behavior of Gd100−xSnx Alloys (x = 5, 10, 15 and 20 At Pct) Alloys",
+      "url": "https://doi.org/10.1007/s11661-026-08408-4",
+      "summary": "This work examines the structure, microstructure, and magnetocaloric effect of binary Gd 100− x Sn x alloys ( x = 5, 10, 15, and 20). The X-ray diffraction (XRD), Mössbauer spectroscopy, and scanning electron microscopy (SEM/EDX) analyses confirmed a biphasic structure built by Gd(Sn) and Gd 5 Sn 4 phases. Magnetization (M) vs temperature (T) curves revealed changes in the Curie point of the identified phases. The temperature dependence of magnetic entropy change revealed one minimum for the Gd 95 Sn 5 , Gd 85 Sn 15 , and Gd 80 Sn 20 alloys; two maxima were detected for the Gd 90 Sn 10 alloy. The analysis of the exponent n from the phenomenological relation of the maximum value of magnetic entropy change ΔS Mmax vs magnetic field μ 0Hmax (ΔS Mmax = C( μ 0 H max ) n , C is a temperature-dependent constant) confirmed the biphasic structure of the Gd 90 Sn 10 alloy sample.",
+      "source": "Metallurgical and Materials Transactions A",
+      "category": "research",
+      "date": "2026-10-24",
+      "author": "P. Gębara, M. Hasiak, Amadeusz Łaszcz, Karolina Kutynia et al.",
+      "fetched_at": "2026-10-26T12:38:38+00:00",
+      "doi": "https://doi.org/10.1007/s11661-026-08408-4",
       "open_access": true
     },
     {
@@ -1163,6 +1254,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 12
+    "new_items": 7
   }
 }
