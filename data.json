@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-27T04:33:00+00:00",
+  "updated_at": "2026-10-27T11:54:54+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -158,6 +158,150 @@
       "fetched_at": "2026-10-24T14:12:32+00:00",
       "doi": "https://doi.org/10.15120/gsi-2026-00822",
       "open_access": true
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35863v1",
+      "title": "Complete entropy contraction from conditional hyperboundedness",
+      "url": "https://arxiv.org/abs/2610.35863v1",
+      "summary": "For finite-dimensional quantum channels compatible with a faithful conditional expectation, we show that conditional hyperboundedness and strict GNS contraction together yield a relative entropy contraction. For KMS-symmetric quantum Markov semigroups, a conditional $2\\to q$ hyperboundedness at time $t_0>0$ combined with a GNS gap $λ>0$ implies a modified logarithmic Sobolev constant \\[ α=\\frac{λ(1-2/q)} {12(λt_0+\\log M+1-2/q)},\\] where $M$ is the hyperboundedness constant. As a consequence, completely bounded hyperboundedness over auxiliary systems gives complete versions of entropy contraction with the same rates.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-26",
+      "author": "Li Gao, Lijun Wang",
+      "fetched_at": "2026-10-27T11:54:54+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35838v1",
+      "title": "Network nonlocality with tripartite entangled sources",
+      "url": "https://arxiv.org/abs/2610.35838v1",
+      "summary": "Quantum networks are built from independent sources, and their nonlocality has mostly been studied with sources that emit bipartite entangled states. A source of three entangled qubits is richer, since its nonlocality can be tested by the Mermin or the more demanding Svetlichny inequality. We ask how network nonlocality relates to these two single-source notions and find that the answer depends on the wiring. When two central nodes without inputs share every source, Bell-state measurements turn every Svetlichny violation into a network violation, and even all entangled generalised Greenberger-Horne-Zeilinger states violate the network inequality. When a single central node is shared, the relation reverses, and a network violation requires a Mermin violation of the source. With more sources, the maximal violation depends on whether their number is even or odd, and we give tight bounds for both cases. These results show that the way multipartite sources are wired decides which kind of nonlocality a network inherits.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-26",
+      "author": "Sudip Chakrabarty, Amit Kundu",
+      "fetched_at": "2026-10-27T11:54:54+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35828v1",
+      "title": "Interference-induced dynamical crossovers in quantum walks on disordered square lattices",
+      "url": "https://arxiv.org/abs/2610.35828v1",
+      "summary": "We study discrete-time quantum walks with Fourier, Grover, and Hadamard coin operators on disordered square lattices, alongside classical random walks. Edges in the lattice are absent with a probability, $p$. In this case, both classical and quantum walks exhibit an essentially identical degradation of transport. We then study a general version of this model, in which the existing edges are retained. However, the absent edges are no longer absent, but now become partially transmitting, with a transmission coefficient $f$. We find that the response is now quite sensitive to the walk protocol and coin symmetry. The classical walk exhibits asymptotic stability of the anomalous diffusion exponent, $β(t)$. In comparison, quantum walks exhibit a monotonically decaying $β(t)$ beyond the initial transient regime, leading to the absence of quantum diffusion in two dimensions. We map the transport regimes in the $(f,p)$ plane and identify the contour for $β=1$, which separates the subdiffusive and superdiffusive regimes. We also examine the effective diffusion coefficient, the inverse participation ratio, and the first two moments of edge transmission. We restrict ourselves to analyzing bulk propagation prior to finite-size boundary reflections. The results indicate that quantum transport depends significantly on coin-specific interference and cannot be fully described by transmission statistics alone.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-26",
+      "author": "Ramnarayan Bera, Arijit Roy, Soumyadip Ghosh, Soumen Roy",
+      "fetched_at": "2026-10-27T11:54:54+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35824v1",
+      "title": "Sparse Carleman Embeddings for Nonlinear Discrete Dynamical Systems",
+      "url": "https://arxiv.org/abs/2610.35824v1",
+      "summary": "Discrete nonlinear dynamical systems arise in population models, iterative optimization, and numerical simulations, where computing many iterations can be costly in high dimensions. We study Carleman embedding for forced quadratic discrete systems and its application to quantum state preparation. Under explicit stability and initial-state assumptions, we prove that the truncation error decreases geometrically with the embedding degree, uniformly over all iterations. A central obstacle in discrete time is that the lifted update can become dense even when the original coefficient maps are sparse. We overcome this obstacle by constructing an exact auxiliary linear-system representation that applies the coefficient maps one tensor factor at a time, with row and column sparsities bounded independently of the truncation degree. After rescaling, the associated history system has a condition number that grows linearly with the iteration count, uniformly in the truncation degree. These results yield a quantum algorithm for preparing an approximation to the normalized $n$th iterate with constant success probability. Under coherent input-access assumptions, and for fixed sparsity, stability parameters, and a known positive lower bound on the final-state norm, the oracle query complexity is linear in $n$ and polylogarithmic in the inverse accuracy. Numerical experiments in one and three dimensions illustrate the convergence of the truncated embedding.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-26",
+      "author": "Hsuan-Cheng Wu, Xiantao Li",
+      "fetched_at": "2026-10-27T11:54:54+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35797v1",
+      "title": "The $\\varepsilon$-smoothed Entanglement of Formation and its relation to the Moreau-Yosida approximation",
+      "url": "https://arxiv.org/abs/2610.35797v1",
+      "summary": "We describe a family of convex continuous functions $E_{F,\\varepsilon}$, $\\varepsilon\\in(0,1]$, on the set of states of a bipartite quantum system (consisting of finite-dimensional or infinite-dimensional subsystems) obtained by applying the Mora-Piani-Briegel construction of $\\varepsilon$-measure (proposed in [Phys. Rev. A 109, 052413]) to the Entanglement of Formation (EoF) with the use of the trace norm distance in the role of basic metric. These functions are non-increasing in $\\varepsilon$ and converge pointwise to the EoF as $\\varepsilon\\to0^+$. We conducted a detailed analysis of properties of the functions $E_{F,\\varepsilon}$, using (among others) the relationship between the family $\\{E_{F,\\varepsilon}\\}_{\\varepsilon\\in[0,1]}$ and the family $\\{E^λ_F(ρ)\\}_{λ>0}$ of Moreau-Yosida approximations of the EoF explored in [arXiv:2609.30246]. We obtain a variational expression for the functions $E_{F,\\varepsilon}$ (which for $\\varepsilon=0$ turns into the standard variational expression for the EoF). We also describe the weak subadditivity property of the functions $E_{F,\\varepsilon}$ and analyse their continuity properties. The semicontinuity bounds for the EoF (presented in [Lob.J.Math., 46, 2632-2658],[arXiv:2404.07978]) allow us to obtain easily computable upper bounds on the rate of uniform convergence of the function $E_{F,\\varepsilon}$ to the EoF as $\\varepsilon\\to0^+$ on the sets of states with bounded rank/energy of one of the marginal states. Applicability of the obtained results to other entanglement measures, in particular, to the relative entropy of entanglement, is discussed. As an auxiliary result, it is shown that for any state of an infinite-dimensional bipartite quantum system, there exists a nearest separable state w.r.t. the trace norm distance. Th",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-26",
+      "author": "M. E. Shirokov",
+      "fetched_at": "2026-10-27T11:54:54+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35784v1",
+      "title": "Twist-controlled imaginary-time Mpemba effect in quantum spin systems",
+      "url": "https://arxiv.org/abs/2610.35784v1",
+      "summary": "We construct a controllable imaginary-time Mpemba effect in quantum spin systems using spatially modulated local rotations without changing initial bipartite entanglement spectra and correlation magnitudes. This feature unambiguously isolates the redistribution of spectral weights as the sole driver of the anomalous relaxation. Using the compact-boson description, we reveal that these twists act as precise mode selectors: higher-harmonic twists exclusively populate high-energy standing waves, structurally bypassing slow-decaying infrared modes to accelerate convergence. We derive exact analytical crossing times for these reversals and demonstrate that intentionally reintroducing the slow-mode population systematically delays the ITME. This exact mechanism is validated beyond the fixed-point theory via calculations on interacting XXZ chains and ladders. Furthermore, a twelve-qubit simulation of variational quantum imaginary-time evolution reproduces the reversals and their controlled delay, providing a concrete route to realize this protocol in realistic quantum circuits. Ultimately, these results provide a strictly controllable and exact starting point for realizing and investigating the imaginary-time Mpemba effect, establishing a foundational paradigm to harness anomalous non-equilibrium relaxation in quantum ground-state preparations.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-26",
+      "author": "Zhi-Yao Ning, Zi-Xiang Li, Naoki Kawashima",
+      "fetched_at": "2026-10-27T11:54:54+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35768v1",
+      "title": "Growth Phase Map of α and \\b{eta} Tantalum as a Function of Growth Temperature and Oxygen Partial Pressure",
+      "url": "https://arxiv.org/abs/2610.35768v1",
+      "summary": "Tantalum thin films are used in low-loss superconducting quantum circuits, yet the growth conditions governing selection of $α$-Ta(110), $α$-Ta(111), and metastable $β$-Ta on c-plane sapphire remain uncertain. We deposited 100 nm Ta films by dc magnetron sputtering on Al$_2$O$_3$(0001) at 300-900 $^\\circ$C while varying the O$_2$ partial pressure from a $5.5\\times10^{-11}$ Torr ultrahigh-vacuum baseline to $2.23\\times10^{-4}$ Torr. Absorption-corrected X-ray diffraction texture coefficients were used to construct a ternary phase-orientation growth map in terms of temperature and the oxygen-to-Ta impingement flux ratio ($2Φ_{O_2}/Φ_{Ta}\\leq4.8\\times10^{-6}$ to 19). Without added oxygen, $α$-Ta(110) dominated at every temperature. At an O$_2$ pressure of only $2.5\\times10^{-9}$ Torr ($2Φ_{O_2}/Φ_{Ta}=2.2\\times10^{-4}$), $α$-Ta(111) accounted for 98-99% of the normalized texture weight from 300 to 700 $^\\circ$C, decreasing to 65% at 900 $^\\circ$C. Substantial $β$-Ta formed only at the highest oxygen dose, dominating at 300 $^\\circ$C and disappearing at 900 $^\\circ$C. The apparent $β$(001)/$α$(110) selection energy of $1.07\\pm0.16$ eV is comparable to the activation energy for oxygen diffusion in Ta, consistent with oxygen transport influencing phase selection. Oxygen also produced orientation-dependent changes in crystallite size and microstrain. These findings establish oxygen-controlled processing windows for phase- and orientation-selective growth of Ta films for superconducting devices.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-26",
+      "author": "Marius O. Eji, Tyler J. Kirkpatrick, Ty J. Cawein, Joseph P. Corbett",
+      "fetched_at": "2026-10-27T11:54:54+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35764v1",
+      "title": "Compositional Operational Rank, Smooth Realizability, and Dimensional Reduction",
+      "url": "https://arxiv.org/abs/2610.35764v1",
+      "summary": "Higher-dimensional theories distinguish the dimensionality of a microscopic description from the number of directions accessible to a physical observer. Relating these notions requires not only dimensional reduction, but also a consistent preservation of operational independence across different levels of description. We establish sufficient conditions under which a compositional operational rank is preserved first as the dimension of a smooth integral leaf and then as an observable Fisher-information rank. The key requirement is closure-faithfulness: the smooth realization must preserve the dependency relations of the operational closure, rather than merely its total rank. Together with real representability, constant rank, involutivity, and observer/scale compatibility, this yields a local integral leaf whose dimension equals the operational rank. A further primary-identification condition is required at the measurement level. If an independently specified observer image coincides locally with the primary integral distribution and the admissible protocols provide local resolution, finite labeled-mixture closure, and locally constant outcome support, then the same rank can be realized by a finite composite Fisher-information protocol. The construction holds for arbitrary finite rank. At r = 4 it provides a conditional operational criterion for dimensional reduction in higher-dimensional theories: a viable reduction must preserve the relevant operational dependency structure, not merely produce four effective coordinates. Quantum-hardware negative controls further show that the same restricted Fisher rank can conceal different larger ranks under a broader pre-specified measurement protocol. The framework therefore constrains the operational outcome of dimensional reduct",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-26",
+      "author": "Nikolay D. Tulupov, Alexander M. Tishin",
+      "fetched_at": "2026-10-27T11:54:54+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35758v1",
+      "title": "Competing coherence geometries in positive maps: positivity hierarchies, atomicity, and optimal entanglement witnesses",
+      "url": "https://arxiv.org/abs/2610.35758v1",
+      "summary": "We introduce a family of positive maps on qudits whose Choi operators combine two competing coherence patterns: independent exchange couplings and a collective set of diagonal couplings. For every mixed member of the family, we derive exact conditions for positivity, complete positivity, and all intermediate levels of k-positivity, and we determine the complete phase structure of decomposability and atomicity. The higher-positivity thresholds depend on the channel multiplicities, whereas the exact decomposability boundary is universal in scale-free coordinates. Its proof combines an explicit positive-plus-copositive decomposition with a matching family of positive-partial-transpose (PPT) states. The latter form PPT edge states whose detection region is an ellipse, or a disk after collective rescaling. An embedded-qutrit certificate shows that indecomposability and atomicity coincide throughout the mixed family. In contrast, the purely collective endpoint is decomposable over its entire positive interval. Finally, at maximal coherence, an explicit positive subtraction produces an atomic optimal entanglement witness with the spanning property and a strictly larger PPT- detection set. The study thus provides an exactly solvable setting in which k-positivity, decomposability, atomicity, PPT-edge-state geometry, and witness optimality can be compared in arbitrary local dimension.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-26",
+      "author": "Massimiliano F. Sacchi",
+      "fetched_at": "2026-10-27T11:54:54+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35735v1",
+      "title": "Decoding with alternating weighted graph sparsification for quantum low-density parity-check codes",
+      "url": "https://arxiv.org/abs/2610.35735v1",
+      "summary": "Real-time decoding is a fundamental necessity for building fault-tolerant quantum computers. In this work, we introduce decoding with alternating weighted graph sparsification (DAWG), an ensemble based approach that combines Tanner graph sparsification with ensembling belief-propagation (BP) decoders. The DAWG decoder runs BP decoders over the full detector error model Tanner graph for certain iterations to then transfer the posteriors to a sparsified graph in which additional rounds of BP are run. Each of the decoders in the ensemble uses a different transfer matrix to map the posterior information to the sparsified graph. We use the serial schedule for the minimum-sum BP decoders and, thus, employ Vibe decoding ideas by randomizing the schedules of each of them. The performance of the DAWG decoder is then numerically studied for bivariate bicycle codes and superdense color code circuits to be compared with other state-of-the-art decoding approaches. Importantly, the DAWG decoder shows a similar performance to Relay belief-propagation and Vibe decoding when combined with an order-$0$ Localized Statistics Decoding (LSD-$0$) post-processor. Crucially, the post-processor is called an order of magnitude less times than for Vibe with the same ensemble size, indicating that the introduced latency tail will be minimal. Furthermore, LSD-$0$ operates on a sparsified decoding graph of a fraction of the size of the full detector error model, which simplifies the resources required by specialized hardware to support it. Overall, the DAWG+LSD-$0$ decoder represents a viable low-cost BP-based decoding algorithm for quantum error correction codes.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-26",
+      "author": "Josu Etxezarreta Martinez, Francisco Garcia-Herrero, Ruben M. Otxoa, Reza Dastbasteh",
+      "fetched_at": "2026-10-27T11:54:54+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35734v1",
+      "title": "Parametrically Enhanced Ergotropy and Charging Power in a Three-Mode Bosonic Quantum Battery",
+      "url": "https://arxiv.org/abs/2610.35734v1",
+      "summary": "Quantum batteries are quantum systems that potentially serve as fuel for other quantum devices by receiving and supplying energy. In this work, we propose a theoretical scheme to enhance ergotropy and charging power of quantum Battery in the system under consideration through squeezed light. Moreover, The system comprises a coherently driven charger cavity, a strongly dissipative auxiliary cavity acting as a mediator, and an energy--storage battery cavity. Quantum nonreciprocity and directional energy flow are established via destructive quantum interference between the direct coupling path and the loss--engineered indirect path. A degenerate optical parametric amplifier integrated into the charger cavity acts as an active, phase--sensitive energy source that injects two--photon quantum excitations and anomalous correlations. Using a strictly open--quantum--system framework derived directly from the Lindblad master equation, we obtain the full expectation--value dynamics and stationary states. We show that active parametric driving drastically increases the stored energy and peak charging power while maintaining nonreciprocal energy trapping in the battery. We achieve a multi-order-of-magnitude boost in the battery's stored energy, charging power, and ergotropy. We also analyze the effects of pure dephasing on the charging power, ergotropy, and extractable work quality.. Although two--photon pumping introduces photon--number fluctuations that slightly lower the fractional ergotropy ratio ${\\cal W}_{\\rm B}/{\\cal E}_{\\rm B}$, the absolute extractable work remains substantially elevated compared to unassisted configurations.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-26",
+      "author": "Mustapha Tarboun, Mohamed Amazioug",
+      "fetched_at": "2026-10-27T11:54:54+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.35722v1",
+      "title": "Distillable entanglement is continuous",
+      "url": "https://arxiv.org/abs/2610.35722v1",
+      "summary": "We prove continuity of distillable entanglement, the optimal asymptotic rate at which copies of a bipartite state can be converted into maximally entangled pairs by local operations and classical communication (LOCC) with vanishing error. We establish an explicit asymptotic continuity bound that holds for arbitrary bipartite states and depends logarithmically on the system dimension. This bound has the same structure as known continuity bounds for conditional entropy, entanglement cost, and relative entropy of entanglement. Our proof constructs an explicit LOCC protocol that converts either of two arbitrary bipartite states into the other at an ebit cost that vanishes as their trace distance tends to zero.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-26",
+      "author": "Lukas Schmitt, David Sutter",
+      "fetched_at": "2026-10-27T11:54:54+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
     },
     {
       "id": "https://www.infosalus.com/asistencia/noticia-pupilas-parpadeos-ia-via-personalizar-tratamiento-dolor-cronico-realidad-virtual-20261025082952.html",
@@ -1252,8 +1396,8 @@
     }
   ],
   "refresh": {
-    "sources_succeeded": 2,
+    "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 12
   }
 }
