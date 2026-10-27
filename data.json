@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-27T17:49:29+00:00",
+  "updated_at": "2026-10-27T22:00:54+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -157,6 +157,19 @@
       "author": "Chrysovalantis S. Kannis, Ralf Engels, Nicolas Faatz, Simon Pütz et al.",
       "fetched_at": "2026-10-24T14:12:32+00:00",
       "doi": "https://doi.org/10.15120/gsi-2026-00822",
+      "open_access": true
+    },
+    {
+      "id": "https://eprints.lancs.ac.uk/id/eprint/239296/1/Yesilkanat_et_al_-_Manuscript_ML_Kb-Ka_final.pdf",
+      "title": "High-accuracy prediction of Kβ/Kα intensity ratios via explainable stacked-ensemble learning : A web-based computational tool",
+      "url": "https://eprints.lancs.ac.uk/id/eprint/239296/1/Yesilkanat_et_al_-_Manuscript_ML_Kb-Ka_final.pdf",
+      "summary": "The Kβ/Kα intensity ratios are critical parameters that quantitatively characterize atomic shell transition dynamics and radiative branching probabilities. In this study, we systematically evaluated the capability of machine learning (ML) algorithms to predict these ratios, as well as their advantages over traditional theoretical models (such as Scofield and semi-empirical calculations). A large dataset comprising 2124 experimental measurements compiled from the literature, covering elements with atomic numbers (Z) from 11 to 96, was structured to include more than ten variables, such as atomic number, sample form, excitation source, detector type, and energy resolution. Missing observations were imputed using the multivariate imputation by chained equations (MICE) method in the R programming language. Categorical variables were one-hot encoded, and the data were split into an 80% training set and a 20% test set. Seven heterogeneous individual models (RF, XGBoost, Cubist, SVR, GPR, BRNN, and GLMNET) were constructed, along with seven different stacking combinations derived from them. Following 10×10-fold cross-validation, the highest accuracy was achieved by the stacked model using a BRNN meta-learner (RMSE = 0.009; R2 = 0.973). This model reduced the test error of the Scofield theory by nearly 48% and performed significantly better according to the Diebold–Mariano test (p < 0.001). SHAP analysis revealed that atomic number is the primary determinant, while sample purity and excitation source have secondary yet physically consistent effects. Furthermore, an online R/Shiny-based calculator enhances the practical applicability of the method by enabling users to input their experimental parameters and receive instantaneous Kβ/Kα predictions. These results demonstrate that ",
+      "source": "Lancaster EPrints (Lancaster University)",
+      "category": "research",
+      "date": "2026-10-31",
+      "author": "C.M. Yeşilkanat, E. Cengi̇z, Abdelhalim KAHOUL, A. Zidi et al.",
+      "fetched_at": "2026-10-27T22:00:51+00:00",
+      "doi": "",
       "open_access": true
     },
     {
@@ -444,6 +457,58 @@
       "author": "Ismael Robles-Martínez, Jorge Cruz-Trani, Daniela Aguirre-Guerrero, Ricardo Marcelín‐Jiménez",
       "fetched_at": "2026-10-27T17:49:27+00:00",
       "doi": "https://doi.org/10.21203/rs.3.rs-11254722/v1",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/xbfz-lp5l",
+      "title": "Real-time detection of correlated quasiparticle tunneling events in a multi-qubit superconducting device",
+      "url": "https://doi.org/10.1103/xbfz-lp5l",
+      "summary": "Quasiparticle tunneling events are a source of decoherence and correlated errors in superconducting circuits. Understanding and ultimately mitigating these errors calls for real-time detection of quasiparticle tunneling events on individual devices. In this work, we simultaneously detect quasiparticle tunneling events in two co-housed, charge-sensitive transmons coupled to a common waveguide. We measure background quasiparticle tunneling rates at the single-hertz level, with temporal resolution of tens of microseconds. Using time-tagged coincidence analysis, we show that individual events are uncorrelated across devices, whereas burst episodes occur about once per minute and are largely correlated. These bursts have a characteristic lifetime of 7 ms and induce a thousand-fold increase in the quasiparticle tunneling rate across both devices. In addition, we identify a rarer subset of bursts which are accompanied by a shift in the offset charge, at approximately one event per hour. Our results establish a practical and extensible method to identify quasiparticle bursts in superconducting circuits, as well as their correlations and spatial structure, advancing routes to suppress correlated errors in superconducting quantum processors.",
+      "source": "Physical Review Applied",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "Simon Sundelin, Linus Andersson, Hampus Brunander, Simone Gasparinetti",
+      "fetched_at": "2026-10-27T22:00:51+00:00",
+      "doi": "https://doi.org/10.1103/xbfz-lp5l",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1021/acsnano.6c07558",
+      "title": "Strain-Engineered Deterministic Quantum Dots for Telecom O-Band Emission Using Buried Stressors",
+      "url": "https://doi.org/10.1021/acsnano.6c07558",
+      "summary": "Abstract The deterministic realization of quantum light sources operating at telecom wavelengths is essential for long-distance fiber-based quantum communication and distributed quantum computing. In this work, we demonstrate that telecom O-band emission can be achieved from site-controlled InGaAs/GaAs quantum dots (QDs). Our concept utilizes a buried AlAs/AlOx stressor layer with the unique feature of inducing a well-defined and controllable tensile strain field at the growth surface, enabling both site-selective nucleation at the mesa’s centers and a redshift of QD emission to the ∼1.3 μm wavelength range. This concept not only eliminates the need for strain-reducing layers (SRLs), which are known to degrade optical coherence, but also provides spatial control and spectral tunability. The grown telecom QDs show single-photon emission with g(2)(0) = (5.0 ± 1.0) × 10–2 at 4 K and (2.8 ± 0.3) × 10–1 at 77 K, demonstrating the quantum nature and thermal stability of the emitters. The emission characteristics of complex excitonic states are analyzed using 8-band k·p and configuration-interaction modeling, which quantitatively reproduces the experimental observations. Finally, we present a theory-supported strategy to further redshift the emission toward the center of the O-band and beyond by employing a multiburied stressor approach. This combined framework of experiment and theory establishes the buried stressor concept as a scalable route toward highly coherent, position-controlled O-band quantum emitters compatible with scalable photonic integration.",
+      "source": "ACS Nano",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "Imad Limame, Ching‐Wen Shih, Kartik Gaur, Martin Podhorský et al.",
+      "fetched_at": "2026-10-27T22:00:51+00:00",
+      "doi": "https://doi.org/10.1021/acsnano.6c07558",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/1l7s-s4x2",
+      "title": "Bootstrapping symmetries in quantum many-body systems from the cross spectral form factor",
+      "url": "https://doi.org/10.1103/1l7s-s4x2",
+      "summary": "Symmetries play a central role in quantum many-body physics, yet uncovering them systematically remains challenging. We introduce a bootstrap framework to reconstruct the representation theory of hidden finite group symmetries of quantum many-body lattice Hamiltonians, using only a known symmetry subgroup $N$ and spectral correlations between its sectors. We introduce the cross spectral form factor (xSFF) as a subgroup-resolved diagnostic of hidden symmetry, computed via exact diagonalization to seed the bootstrap. Applying constraints from these data alongside the algebraic conditions of the fusion rules, our bootstrap sharply restricts candidate groups $G$. Without prior assumptions about $G$, our method can systematically recover its representation-theoretic data, including the number and dimensions of irreducible representations, their branching rules with respect to $N$, the fusion algebra, and the full character table. This framework applies to chaotic and integrable systems and accommodates unitary and anti-unitary symmetries. Through examples, we demonstrate that $G$ can be uniquely identified. Our bootstrap recovers the $\\mathbb{Z}_4$ symmetry at the self-dual point of the three-state quantum torus chain, detects signatures of projective representations in the effective Hamiltonian of the driven Bose-Hubbard model, and rediscovers the $η$-pairing $\\mathrm{SO}(4)$ symmetry of the one-dimensional Fermi-Hubbard model. Leveraging the universal random-matrix ramp in chaotic systems, we demonstrate the possibility of ramp-only bootstrap alongside an example with hidden commuting symmetries. We establish the xSFF as a diagnostic for conserved order parameters in a symmetry-breaking spin-$1$ chain and introduce an ancilla-assisted measurement circuit for experimental r",
+      "source": "Physical Review X",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "Chen Bai, Zihan Zhou, Bastien Lapierre, Shinsei Ryu",
+      "fetched_at": "2026-10-27T22:00:51+00:00",
+      "doi": "https://doi.org/10.1103/1l7s-s4x2",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1142/s0129055x26300050",
+      "title": "From BV-BFV Quantization to Reshetikhin-Turaev Invariants",
+      "url": "https://doi.org/10.1142/s0129055x26300050",
+      "summary": "We propose a program for bridging the gap between the perturbative BV-BFV quantization of Chern–Simons theory and the non-perturbative Reshetikhin–Turaev (RT) invariants of 3-manifolds, passing through factorization homology of [Formula: see text]-algebras and the derived algebraic geometry of character stacks. We conjecture that the modular tensor category underlying the RT construction arises as the [Formula: see text]-category from BV-BFV quantization of Chern–Simons theory on the disk, with the derived character stack [Formula: see text] of the complexified group and its shifted symplectic structure mediating the proposed identification. A recurring theme is the mismatch between the compact gauge group of Chern–Simons theory and the reductive algebraic group of derived algebraic geometry: we work throughout with [Formula: see text] and indicate where a Riemann–Hilbert type comparison is needed to return to the compact theory. We formulate a main conjecture asserting natural equivalence of the BV-BFV and RT constructions as [Formula: see text]-extended topological quantum field theories, together with several auxiliary conjectures and two questions, develop a proof strategy via deformation quantization of shifted symplectic stacks, and clarify the role of [Formula: see text]-Koszul duality, which relates the perturbative expansion around a flat connection to the local geometry of the character stack. We relate the perturbative expansions to the sheaf of vanishing cycles on the character stack of a [Formula: see text]-manifold, propose that a stratification of the character stack by stabilizer type organizes the trans-series decomposition, and propose that the Stokes data of the perturbative expansion should be read as a stability datum in the sense of Kontsevich–Soib",
+      "source": "Reviews in Mathematical Physics",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "Nima Moshayedi",
+      "fetched_at": "2026-10-27T22:00:51+00:00",
+      "doi": "https://doi.org/10.1142/s0129055x26300050",
       "open_access": true
     },
     {
@@ -1541,6 +1606,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 11
+    "new_items": 5
   }
 }
