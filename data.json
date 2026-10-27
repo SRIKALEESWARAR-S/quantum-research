@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-27T11:54:54+00:00",
+  "updated_at": "2026-10-27T17:49:29+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -302,6 +302,149 @@
       "author": "Lukas Schmitt, David Sutter",
       "fetched_at": "2026-10-27T11:54:54+00:00",
       "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://doi.org/10.1103/9bcn-q5kg",
+      "title": "Nonlinear coupling between motional modes in trapped-ion quantum processors",
+      "url": "https://doi.org/10.1103/9bcn-q5kg",
+      "summary": "Trapped-ion crystals are a leading platform for quantum information science, but achieving the high-fidelity entangling gates required for fault-tolerant quantum computing becomes harder as system size increases. As systems scale, spectral crowding makes low-order nonlinear resonances between collective motional modes increasingly common and can limit gate performance, especially in monolithic or global-mode architectures. We develop a general model to identify and simulate nonlinear motional-mode coupling (NoMoCou) arising from third-order Coulomb terms and quantify its impact on the Molmer-Sorensen gate across linear chains and 2D crystals in rf and Penning traps. We delineate the regimes where NoMoCou dominates the error budget and provide design rules: detune operating points from low-order resonances, tune trap anisotropy to reshape spectra, and shape gate waveforms.",
+      "source": "Physical Review A",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "Wes Johnson, Brandon Ruzic",
+      "fetched_at": "2026-10-27T17:49:27+00:00",
+      "doi": "https://doi.org/10.1103/9bcn-q5kg",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/3hn6-crj6",
+      "title": "Early-time dynamics of heavy-ion collisions through energy correlators: Celestial blocks and the spacetime structure of out-of-equilibrium QCD matter",
+      "url": "https://doi.org/10.1103/3hn6-crj6",
+      "summary": "Ultrarelativistic heavy-ion collisions provide a unique window into far-from-equilibrium states of QCD matter. The initial stages of these events are characterized by highly anisotropic, nonthermal dynamics that precede hydrodynamization, yet they remain largely inaccessible through conventional soft observables. In this work, we show that the substructure of mid-rapidity jets provides direct sensitivity to the spacetime structure of this early, anisotropic phase. Using classical Yang-Mills simulations and effective kinetic theory to model the early-time evolution of the jet quenching parameter, we compute the azimuthally differential energy-energy correlator within the BDMPS-Z framework. By decomposing the result into celestial blocks, we isolate the coefficients that encode the anisotropic geometry and dynamics of the underlying medium. We identify an observable that couples directly to spatial anisotropies in the out-of-equilibrium QCD matter and also discuss the impact of medium response on its behavior. We further extend our study to mid-rapidity jets generated with the JEWEL Monte-Carlo, adjusted to incorporate an anisotropic medium background, and find qualitative agreement with the analytical expectations. Finally, we discuss how higher-point energy correlators and generalized energy-flow operators can enhance the sensitivity to the microscopic structure of far-from-equilibrium QCD matter.",
+      "source": "Physical review. D/Physical review. D.",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "João Barata, José Guilherme Milhano, Andrey V. Sadofyev, João M. Silva",
+      "fetched_at": "2026-10-27T17:49:27+00:00",
+      "doi": "https://doi.org/10.1103/3hn6-crj6",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1088/2058-9565/aeb975",
+      "title": "Bell and EPR experiments with signalling data",
+      "url": "https://doi.org/10.1088/2058-9565/aeb975",
+      "summary": "Abstract The no-signalling principle is a fundamental assumption in Bell-inequality and quantum-steering experiments. Nonetheless, experimental imperfections can lead to apparent violations beyond those expected from finite-sample statistics. Here, we propose extensions of local hidden variable and local hidden state theories that allow for bounded, operationally quantifiable, amounts of signalling. We show how non-classicality tests can be developed for these models, both through exact methods based on the full set of observed statistics and through corrections to the standard Bell and steering inequalities. We demonstrate the applicability of these methods via two scenarios that feature apparent signalling: an IBM quantum processor and post-selected data from inefficient detectors.",
+      "source": "Quantum Science and Technology",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "Lucas Maquedano, Sophie Egelhaaf, Amro Abou-Hachem, Jef Pauwels et al.",
+      "fetched_at": "2026-10-27T17:49:27+00:00",
+      "doi": "https://doi.org/10.1088/2058-9565/aeb975",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/12vs-155k",
+      "title": "Classical simulability from operator entanglement scaling",
+      "url": "https://doi.org/10.1103/12vs-155k",
+      "summary": "Local-operator entanglement (LOE) quantifies the nonlocal structure of Heisenberg operators and serves as a diagnostic of many-body chaos. We provide rigorous bounds showing when an operator can be well-approximated by a matrix-product operator (MPO), given asymptotic scaling of its LOE $α$-Rényi entropies. Specifically, we prove that a volume law scaling for $α\\geq 1$ implies that the operator cannot be approximated efficiently as an MPO while faithfully reproducing all expectation values. On the other hand, if we restrict to correlations over a relevant sub-class of (ensembles of) states, then logarithmic scaling of the $α< 1$ entropies implies MPO simulability. This result covers a range of relevant quantities, including infinite temperature autocorrelation functions, out-of-time-ordered correlators, and average-case expectation values over ensembles of computational basis states. Beyond this regime, we provide numerical evidence together with a random matrix model to argue that this simulability result also typically holds for arbitrary states. Our results put on firm footing the heuristic expectation that a low operator entanglement implies efficient tensor network representability, extending celebrated foundational results from the theory of matrix-product states and providing a formal link between quantum chaos and classical simulability.",
+      "source": "Physical Review A",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "Neil Dowling",
+      "fetched_at": "2026-10-27T17:49:27+00:00",
+      "doi": "https://doi.org/10.1103/12vs-155k",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1140/epjqt/s40507-026-00576-x",
+      "title": "Quantum protocols for time synchronisation and distribution: a critical assessment",
+      "url": "https://doi.org/10.1140/epjqt/s40507-026-00576-x",
+      "summary": "Precise time synchronisation underpins critical infrastructure from telecommunications and financial markets to power grids and scientific metrology. Several families of quantum protocols have been proposed and demonstrated for clock synchronisation and time distribution, exploiting entangled photon pairs, quantum key distribution (QKD) correlations, Hong-Ou-Mandel interference, and entangled clock networks. We critically assess these approaches, reviewing the main quantum time synchronisation (QTS) protocol families, quantifying the gap between theory and experiment, and identifying practical bottlenecks in sources, detectors, and channels. We survey the classical timing landscape from Network Time Protocol (NTP) and GPS to laboratory-grade optical frequency transfer, and compare quantum and classical methods at equivalent maturity. We examine use cases including financial trading, power grids, telecommunications, scientific metrology, and military applications, evaluating whether quantum timing offers a realistic advantage. We show that time transfer, not clock performance, is now the bottleneck for distributed optical timekeeping: the best demonstrated quantum synchronisation uncertainty (2.46 ps, over 20 km of fibre) falls two to three orders of magnitude short of what optical clocks with fractional frequency uncertainties of 10 −18 –10 −19 require. The best deployed link, ELSTAB, calibrates to a few tens of picoseconds in the laboratory and to about 0.2 ns on its 421 km field installation, a further factor of twenty to a hundred behind, while research-grade classical links using optical frequency combs already reach the regime the clocks require, though none is in operational service. Our assessment is that quantum time synchronisation will not replace classical me",
+      "source": "EPJ Quantum Technology",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "M. Krelina, Utku Tefek, Zeki Can Seskir, Kadir Durak",
+      "fetched_at": "2026-10-27T17:49:27+00:00",
+      "doi": "https://doi.org/10.1140/epjqt/s40507-026-00576-x",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1109/tit.2026.3725989",
+      "title": "Zak-OTFS: A Predictable Physical Layer for Communications and Sensing",
+      "url": "https://doi.org/10.1109/tit.2026.3725989",
+      "summary": "This tutorial derives the mathematical foundations of what it means for a carrier waveform to be predictable and non-selective. We focus on Zak-OTFS, where each carrier waveform is a pulse in the delay-Doppler (DD) domain, formally a quasi-periodic localized function with specific periods along delay and Doppler. Viewed in the time domain, the Zak-OTFS carrier is realized as a pulse train modulated by a tone (termed a pulsone). We start by providing physical intuition, describing what it means for the Zak-OTFS carrier waveforms to be geometric modes of the Heisenberg-Weyl (HW) group of discrete delay and Doppler shifts that define the discrete-time communication model. In fact, we show that these geometric modes are common eigenvectors of a maximal commutative subgroup of our discrete HW group. When the channel delay spread is less than the delay period, and the channel Doppler spread is less than the Doppler period, we show that the Zak-OTFS input-output (I/O) relation is predictable and non-selective. Given the I/O response at one DD point in a frame, it is possible to predict the I/O response at all other points, without recourse to some mathematical model of the channel. While it may be intuitive that geometric modes of the HW group are predictable and non-selective wireless carriers, this is not a requirement. We provide a necessary and sufficient condition that depends on the ambiguity properties of the basis of carrier waveforms. In fact, we show that the structure of a pulse train modulated by a Hadamard matrix is common to several families of waveforms proposed for 6G, including Zak-OTFS, AFDM, OTSM and ODDM.",
+      "source": "IEEE Transactions on Information Theory",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "Sandesh Rao Mattu, Nishant Mehrotra, Venkatesh Khammammetti, Robert Calderbank",
+      "fetched_at": "2026-10-27T17:49:27+00:00",
+      "doi": "https://doi.org/10.1109/tit.2026.3725989",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/n78v-py2j",
+      "title": "Noise spectroscopy of insulating and itinerant altermagnets",
+      "url": "https://doi.org/10.1103/n78v-py2j",
+      "summary": "One of the central goals in the emergent field of altermagnetism is the unambiguous experimental identification and characterization of altermagnetic order across a variety of compounds. This motivates exploring tools that can clearly distinguish altermagnets from antiferromagnets, based on symmetry signatures, and offer access to the dominant orbital character (e.g., $d$-wave vs. $g$-wave) of the magnetic order parameter. In this work, we theoretically explore the potential of noise magnetometry for this task, studying contributions from both magnons and itinerant electrons in different regimes and scenarios. While altermagnetism and antiferromagnetism also lead to different noise spectra for magnons, we find the most striking and symmetry-sensitive signatures in the charge fluctuations of itinerant altermagnets. Both for the homogeneous bulk case and in the presence of strain and/or around domain walls, we identify noise contributions that are only permitted by symmetry in the altermagnet and, thus, provide a unique signature of altermagnetism. Furthermore, the angular dependence of noise around domain walls also offers access to the orbital character of the altermagnet. On a more technical note, we discuss the role and relevance of lattice effects related to the dipole tensor. We hope that our work will help pave the way towards the clear experimental identification of altermagnetism across a wide range of candidate materials.",
+      "source": "Physical review. B./Physical review. B",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "Lucas V. Pupim, Mathias S. Scheurer",
+      "fetched_at": "2026-10-27T17:49:27+00:00",
+      "doi": "https://doi.org/10.1103/n78v-py2j",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.3847/1538-4357/aeaa5a",
+      "title": "Cosmo-SPINN: Fuzzy Dark Matter Simulations with Physics-informed Generative Networks",
+      "url": "https://doi.org/10.3847/1538-4357/aeaa5a",
+      "summary": "Abstract Generative machine learning models have recently emerged as powerful tools for producing cosmological simulations. However, many existing emulators do not explicitly enforce the underlying physical dynamics governing cosmological evolution, often leading to artifacts and poor adherence to the evolution equations. In this work, we present a physics-informed generative U-Net framework for fuzzy dark matter (FDM) that addresses two complementary tasks: (i) the evolution of cosmological fields from initial conditions across a specified range of cosmological scale factors, and (ii) the super-resolution of FDM simulations at a specified cosmological scale factor. Our model incorporates a physics-informed loss function that explicitly enforces consistency with the underlying Schrödinger–Poisson (SP) dynamics during training. For the evolution task, we find that the inclusion of this physics-based loss significantly improves the quality of the predicted simulations, even when only a small amount of training data is available. Using 20% of the snapshots randomly sampled across the evolution interval, the model accurately interpolates the evolution between the sampled training snapshots in a 1 h −1 Mpc box. Furthermore, the framework generalizes effectively across previously unseen realizations of the initial conditions. For the super-resolution task, we present, for the first time, a generative super-resolution model trained on FDM simulations obtained by solving the full SP equations, considering both single and multiple realizations of the initial conditions and analyzing the role of the physics-informed loss in each case. Our approach enables modern generative modeling of cosmological simulations while maintaining physical consistency and substantially reducing gener",
+      "source": "The Astrophysical Journal",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "Ashutosh Kumar Mishra, Emma Elizabeth Tolley, Nicolas Cerardi",
+      "fetched_at": "2026-10-27T17:49:27+00:00",
+      "doi": "https://doi.org/10.3847/1538-4357/aeaa5a",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1088/1751-8121/aeb992",
+      "title": "The imaginary component of the weak momentum: Spectral vanishing and gauge invariance",
+      "url": "https://doi.org/10.1088/1751-8121/aeb992",
+      "summary": "Abstract We establish a rigorous functional-analytic framework for the imaginary component p I of the complex weak momentum p Q = p R + ip I , defined as the imaginary part of the local momentum field ℏ i ∇ ln ψ. For all wavefunctions in the Sobolev space H 1 (Ω), including those with nodal sets, we prove that the expectation value of p I vanishes identically -a structural consequence of the regularity of the probability density ρ = |ψ| 2 rather than a dynamical coincidence -so that the imaginary component carries no contribution to the physical momentum expectation value. The derivation makes no appeal to the polar form ψ = Re iS/ℏ and holds for any ψ ∈ H 1 (Ω). We further prove four structural results: (i) the quantum potential of Bohm arises entirely from p I , and its expectation value satisfies the exact identity ⟨V qu ⟩ = ⟨p 2 I ⟩/2m, proved via Sobolev integration by parts without invoking the polar form -from which the known Fisher information relation ⟨V qu ⟩ = ℏ 2 I[ρ]/8m [1, 2] follows as a corollary; (ii) the group velocity of a Bloch band is the density-weighted average of the local transport velocity p R /m with no contribution from p I ; (iii) the decomposition is gauge-invariant under magnetic minimal coupling, with the vector potential acting exclusively on the real component p R ; and (iv) the result extends to curved Riemannian manifolds, establishing the decomposition as an intrinsic property of the wavefunction independent of any particular representation. Together, these results provide a rigorous operator-theoretic framework for the imaginary weak momentum, while preserving the spectral integrity of linear quantum theory.",
+      "source": "Journal of Physics A Mathematical and Theoretical",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "A. N. Khondker",
+      "fetched_at": "2026-10-27T17:49:27+00:00",
+      "doi": "https://doi.org/10.1088/1751-8121/aeb992",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.21203/rs.3.rs-11352498/v1",
+      "title": "Teaching quantum mechanics in secondary schools: A qubit-first learning path to Bell's inequalities",
+      "url": "https://doi.org/10.21203/rs.3.rs-11352498/v1",
+      "summary": "",
+      "source": "Research Square",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "A. Carlini, Andrea Lanza, Dalida Monti, Anna Soso et al.",
+      "fetched_at": "2026-10-27T17:49:27+00:00",
+      "doi": "https://doi.org/10.21203/rs.3.rs-11352498/v1",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.21203/rs.3.rs-11254722/v1",
+      "title": "Epidemiological Models of Topic Propagation in Co-authorship Networks: Degree-Block Models Versus Homogeneous Mixing",
+      "url": "https://doi.org/10.21203/rs.3.rs-11254722/v1",
+      "summary": "",
+      "source": "Research Square",
+      "category": "research",
+      "date": "2026-10-26",
+      "author": "Ismael Robles-Martínez, Jorge Cruz-Trani, Daniela Aguirre-Guerrero, Ricardo Marcelín‐Jiménez",
+      "fetched_at": "2026-10-27T17:49:27+00:00",
+      "doi": "https://doi.org/10.21203/rs.3.rs-11254722/v1",
+      "open_access": true
     },
     {
       "id": "https://www.infosalus.com/asistencia/noticia-pupilas-parpadeos-ia-via-personalizar-tratamiento-dolor-cronico-realidad-virtual-20261025082952.html",
@@ -1398,6 +1541,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 12
+    "new_items": 11
   }
 }
