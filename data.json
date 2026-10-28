@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-28T05:04:37+00:00",
+  "updated_at": "2026-10-28T12:31:45+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -315,6 +315,136 @@
       "author": "Abhishek Mishra, Michele Masini, Maria Balanzó-Juandó, Armin Tavakoli et al.",
       "fetched_at": "2026-10-28T05:04:37+00:00",
       "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://doi.org/10.22331/q-2026-10-27-2250",
+      "title": "Noncontextuality inequalities for prepare-transform-measure scenarios",
+      "url": "https://doi.org/10.22331/q-2026-10-27-2250",
+      "summary": "We provide the first systematic technique for deriving witnesses of contextuality in prepare-transform-measure scenarios. More specifically, we show how linear quantifier elimination can be used to compute a polytope of correlations consistent with generalized noncontextuality in such scenarios. This polytope is specified as a set of noncontextuality inequalities that are necessary and sufficient conditions for observed data in the scenario to admit of a classical explanation relative to any linear operational identities, if one ignores some constraints from diagram preservation. While including these latter constraints generally leads to tighter inequalities, it seems that nonlinear quantifier elimination would be required to systematically include them. We also provide a linear program which can certify the nonclassicality of a set of numerical data arising in a prepare-transform-measure experiment. We apply our results to get a robust noncontextuality inequality for transformations that can be violated within the stabilizer subtheory. Finally, we give a simple algorithm for computing all the linear operational identities holding among a given set of states, of transformations, or of measurements.",
+      "source": "Quantum",
+      "category": "research",
+      "date": "2026-10-27",
+      "author": "David Schmid, Roberto D. Baldijão, John H. Selby, Ana Belén Sainz et al.",
+      "fetched_at": "2026-10-28T12:31:43+00:00",
+      "doi": "https://doi.org/10.22331/q-2026-10-27-2250",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.22331/q-2026-10-27-2249",
+      "title": "A General Framework for Gradient-Based Optimization of Superconducting Quantum Circuits using Qubit Discovery as a Case Study",
+      "url": "https://doi.org/10.22331/q-2026-10-27-2249",
+      "summary": "Engineering the Hamiltonian of a quantum system is fundamental to the design of quantum systems. Automating Hamiltonian design through gradient-based optimization can dramatically accelerate this process. However, computing the gradients of eigenvalues and eigenvectors of a Hamiltonian–a large, sparse matrix–relative to system properties poses a significant challenge, especially for arbitrary systems. Superconducting quantum circuits offer substantial flexibility in Hamiltonian design, making them an ideal platform for this task. In this work, we present a comprehensive framework for the gradient-based optimization of superconducting quantum circuits, leveraging the SQcircuit software package. By addressing the challenge of calculating the gradient of the eigensystem for large, sparse Hamiltonians and integrating automatic differentiation within SQcircuit, our framework enables efficient and precise computation of gradients for various circuit properties or custom-defined metrics, streamlining the optimization process. We apply this framework to the qubit discovery problem, demonstrating its effectiveness in identifying qubit designs with superior performance metrics. The optimized circuits show improvements in a heuristic measure of gate count, upper bounds on gate speed, decoherence time, and resilience to noise and fabrication errors compared to existing qubits. While this methodology is showcased through qubit optimization and discovery, it is versatile and can be extended to tackle other optimization challenges in superconducting quantum hardware design.",
+      "source": "Quantum",
+      "category": "research",
+      "date": "2026-10-27",
+      "author": "Taha Rajabzadeh, Alex Boulton-McKeehan, Sam Bonkowsky, David I. Schuster et al.",
+      "fetched_at": "2026-10-28T12:31:43+00:00",
+      "doi": "https://doi.org/10.22331/q-2026-10-27-2249",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/wkjv-zx9x",
+      "title": "Valley Hall viscosity in gapped graphene with and without a magnetic field",
+      "url": "https://doi.org/10.1103/wkjv-zx9x",
+      "summary": "Hall viscosity is conventionally defined through the stress response to time-dependent strain, a perturbation that is difficult to implement in solid-state experiments. We formulate a related viscoelastic response to static, spatially inhomogeneous electric fields and compare it with the strain-based response. For gapped graphene in a perpendicular magnetic field, the two formulations give the same Landau-level response, whose Hall viscosity is asymmetric between the two valleys. At zero magnetic field, a valley-even quantum-metric coefficient combines with the valley-odd Hall conductivity to produce equal and opposite valley-resolved responses; global time-reversal symmetry therefore forces the net Hall viscosity to vanish. In an insulating state, exact particle--hole symmetry eliminates this zero-field response, whereas particle--hole-symmetry breaking generates a cutoff-dependent geometric contribution from the occupied Fermi sea. These results connect valley-dependent viscoelasticity with electromagnetic response in gapped Dirac materials and clarify the conditions under which a valley Hall viscosity can arise.",
+      "source": "Physical review. B./Physical review. B",
+      "category": "research",
+      "date": "2026-10-27",
+      "author": "Danyu Shu, Hiroshi Funaki, Ai Yamakage, Ryotaro Sano et al.",
+      "fetched_at": "2026-10-28T12:31:43+00:00",
+      "doi": "https://doi.org/10.1103/wkjv-zx9x",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1137/25m1813317",
+      "title": "Numerical Computation of the Density of States of Aperiodic Multiscale Schrödinger Operators",
+      "url": "https://doi.org/10.1137/25m1813317",
+      "summary": "Abstract. Computing the electronic structure of incommensurate materials is a central challenge in condensed matter physics, requiring efficient ways to approximate spectral quantities such as the density of states (DoS). In this paper, we numerically investigate two distinct approaches for approximating the DoS of incommensurate Hamiltonians for small values of the incommensurability parameters [Formula: see text] (e.g., small twist angle, or small lattice mismatch): the first employs a momentum-space decomposition, and the second exploits a semiclassical expansion with respect to [Formula: see text]. In particular, we compare these two methods using a one-dimensional toy model. We check their consistency by comparing the asymptotic expansion terms of the DoS, and it is shown that, for full DoS, the two methods exhibit good agreement in the small [Formula: see text] limit, while discrepancies arise for less small [Formula: see text], which indicates the importance of higher-order corrections in the semiclassical method for such regimes. We find these discrepancies to be caused by oscillations in the DoS at the semiclassical analogues of Van Hove singularities, which can be explained qualitatively, and quantitatively for [Formula: see text] small enough, by a semiclassical approach. Reproducibility of computational results. This paper has been awarded the “SIAM Reproducibility Badge: Code and data available” as a recognition that the authors have followed reproducibility principles valued by SISC and the scientific computing community. Code and data that allow readers to reproduce the results in this paper are available at https://zenodo.org/records/20214148 and in the supplementary materials ( DOS_multiscale_supplementary_material.pdf [270KB], DOS_multiscale_supporting",
+      "source": "SIAM Journal on Scientific Computing",
+      "category": "research",
+      "date": "2026-10-27",
+      "author": "Eric Cancès B, Daniel Massatt, Long Meng, Étienne Polack et al.",
+      "fetched_at": "2026-10-28T12:31:43+00:00",
+      "doi": "https://doi.org/10.1137/25m1813317",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/nz94-2p7q",
+      "title": "Analysis of LIGO glitches using t-SNE during the first part of the fourth LIGO-Virgo-KAGRA observing run",
+      "url": "https://doi.org/10.1103/nz94-2p7q",
+      "summary": "This paper presents an analysis of noise transients observed in LIGO data during the first part of the fourth observing run, using the unsupervised machine learning technique t-distributed Stochastic Neighbor Embedding (t-SNE) to examine the behavior of glitch groups. Based on the t-SNE output, we apply Agglomerative Clustering in combination with the Silhouette Score to determine the optimal number of groups. We then track these groups over time and investigate correlations between their occurrence and environmental or instrumental conditions. At the Livingston observatory, the most common glitches during O4a were seasonal and associated with ground motion, whereas at Hanford, the most prevalent glitches were related to instrumental conditions.",
+      "source": "APS Open Science",
+      "category": "research",
+      "date": "2026-10-27",
+      "author": "T. A. Ferreira, Gabriela González, Osvaldo Salas",
+      "fetched_at": "2026-10-28T12:31:43+00:00",
+      "doi": "https://doi.org/10.1103/nz94-2p7q",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/m82l-n8gt",
+      "title": "Fabry-Pérot interferometry with stochastic anyonic sources",
+      "url": "https://doi.org/10.1103/m82l-n8gt",
+      "summary": "We investigate the interference of Laughlin quasiparticles (QPs) in the fractional quantum Hall regime that are stochastically injected into a Fabry--Pérot interferometer. We find that the effective Aharonov--Bohm (AB) phase accumulated along the interferometer loop acquires an additional contribution of $\\sin(2πλ)/2$ per QP present on it, where $πλ$ is the QP exchange phase. This contribution originates from time-domain braiding processes associated with injected QPs passing the interferometer quantum point contacts. In the limit of symmetric QP injection, the tunneling current noise exhibits AB oscillations as a function of the total injected current, providing access to the exchange phase $πλ$. In the regime of large total injection, we identify a universal Fano factor that displays power-law scaling and a characteristic phase shift reflecting time-domain QP braiding at the interferometer QPCs. These results are relevant for accessing anyonic exchange statistics in mesoscopic interferometers.",
+      "source": "Physical review. B./Physical review. B",
+      "category": "research",
+      "date": "2026-10-27",
+      "author": "Sarthak Girdhar, Edvin G. Idrisov, Thomas L. Schmidt",
+      "fetched_at": "2026-10-28T12:31:43+00:00",
+      "doi": "https://doi.org/10.1103/m82l-n8gt",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/9qvf-vjr1",
+      "title": "Fault-tolerant simulation of the electronic structure using projector augmented-waves and Bloch orbitals",
+      "url": "https://doi.org/10.1103/9qvf-vjr1",
+      "summary": "Strongly correlated materials are a natural target for fault-tolerant quantum computers, but they require tools beyond those developed for molecules. Electronic wavefunctions vary rapidly near nuclei yet remain delocalized across many unit cells, and bulk properties must be converged systematically with respect to finite-size errors. To resolve such issues, we present the Bloch--UPAW framework that combines Bloch-orbital $k$-space structure with unitary projector-augmented-wave (UPAW) augmentation. The UPAW Hamiltonian, expressed directly in the Bloch basis, retains explicit control of Brillouin-zone sampling, and incorporates near-nuclear physics through strictly local on-site corrections. The construction is independent of the underlying one-particle representation, so it applies to both plane-wave and localized bases, and it handles supercells for symmetry-breaking phenomena more efficiently. We derive a linear-combination-of-unitaries decomposition and a block-encoding circuit suitable for qubitization; UPAW augmentation adds one ancilla qubit and no Toffoli gates at leading order relative to a Bloch-only block encoding. Asymptotically, the Toffoli cost scales as $\\mathcal{O}(N_k^3)$ when refining the $k$-mesh and as $\\mathcal{O}(N_a^{3.5})$ when enlarging the supercell, enabling convergence to be steered by the most favorable route for a given material. Resource estimates for bulk diamond show approximately an order-of-magnitude reduction in Toffoli count relative to prior work on periodic solids.",
+      "source": "Physical Review Research",
+      "category": "research",
+      "date": "2026-10-27",
+      "author": "Rishabh Bhardwaj, Alexander Reed Muñoz, Travis E. Jones, John Golden",
+      "fetched_at": "2026-10-28T12:31:43+00:00",
+      "doi": "https://doi.org/10.1103/9qvf-vjr1",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/nrx9-9p92",
+      "title": "Low-rank geometry of two-qubit gates",
+      "url": "https://doi.org/10.1103/nrx9-9p92",
+      "summary": "We present a framework based on the determinantal geometry of two-qubit gates. Combining the Weyl chamber representation with operator Schmidt theory, we interpret gate synthesis as a distance problem to determinantal varieties. This gives an operational geometry to the Weyl chamber, quantifying nonlocal complexity. We show that the square root iSWAP gate is the closest perfect entangler to the variety of local operations, and that no perfect entangler can be approximated by a local gate with average gate fidelity above 79.8%. The three different determinantal costs form a synthesis-adapted coordinate system that encodes nonlocal complexity and generally reconstructs the Weyl chamber.",
+      "source": "APS Open Science",
+      "category": "research",
+      "date": "2026-10-27",
+      "author": "Llorenç Balada Gaggioli",
+      "fetched_at": "2026-10-28T12:31:43+00:00",
+      "doi": "https://doi.org/10.1103/nrx9-9p92",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1088/1367-2630/aeba0b",
+      "title": "Non-Hermitian Rayleigh-Schrödinger-like perturbation theory at exceptional point",
+      "url": "https://doi.org/10.1088/1367-2630/aeba0b",
+      "summary": "Abstract We develop a Rayleigh-Schrödinger-like perturbation theory for non-Hermitian quantum systems at an exceptional point of order N. Working in the Jordan basis of the unperturbed Hamiltonian and employing a Puiseux expansion of the perturbed eigenvalues and eigenstates, we derive explicit recursion relations for the expansion coefficients. The corrections to the unperturbed eigenvalue in the Puiseux expansion govern the splitting near the exceptional point; the first two are obtained iteratively in two equivalent forms. One is given in terms of the perturbation Hamiltonian in the Jordan basis, and the other in terms of the generator that drives the eigenvalue evolution with respect to the perturbation. The latter constitutes the exceptional-point counterpart of a geometric perturbation method recently developed for the non-exceptional-point regime. Both representations are verified explicitly for the N = 2 and N = 3 cases. We then apply the theory to an order-3 exceptional point realized in a dissipative three-level trapped-ion system.",
+      "source": "New Journal of Physics",
+      "category": "research",
+      "date": "2026-10-27",
+      "author": "Wei-Ming Chen, Chia-Yi Ju",
+      "fetched_at": "2026-10-28T12:31:43+00:00",
+      "doi": "https://doi.org/10.1088/1367-2630/aeba0b",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s41598-026-76127-2",
+      "title": "TinyRoute: secure adaptive routing for intelligent transportation system using TinyML and few shot learning",
+      "url": "https://doi.org/10.1038/s41598-026-76127-2",
+      "summary": "Intelligent Transportation Systems (ITS) needs secure and adaptive communication mechanisms for addressing the dynamic vehicular mobility, routing instability, and increasingly sophisticated cyber-attacks in Vehicle-to-Vehicle (V2V), Vehicle-to-Infrastructure (V2I), and Vehicle-to-Everything (V2X) environments in which the recent VANET routing and intrusion detection approaches have improved routing efficiency or attack detection individually. However, it generally lack an integrated framework capable of simultaneously supporting adaptive routing, lightweight edge intelligence, and reliable zero-day attack detection under highly dynamic traffic conditions. To address these issues, this paper proposes TinyRoute, a secure adaptive routing framework that integrates Geometric Deep Reinforcement Learning (Geo-DRL), Honey Badger Optimization (HBO), TinyML, and a CNN LSTM-based Few-Shot Learning Intrusion Detection System (FSL-IDS) in which the Geo-DRL performs mobility-aware route selection but HBO refines routing paths by avoiding malicious and congested regions. The lightweight on-device anomaly inference within autonomous vehicles is enabled by TinyML. With only the limited samples, the cloud based FSL-IDS detects both known and zero-day attacks respectively. Experimental evaluation demonstrates that TinyRoute achieves a routing latency of 28.4 ms, a Packet Delivery Ratio (PDR) of 96.7%, an intrusion detection accuracy of 95.2%, and a communication overhead of only 12.4 KB/s, outperforming recent state-of-the-art VANET routing and IDS approaches. These results demonstrate the effectiveness of the proposed framework for secure, adaptive, and low-latency ITS communication.",
+      "source": "Scientific Reports",
+      "category": "research",
+      "date": "2026-10-27",
+      "author": "S. Jagadeesan, A. Suresh, T. Vetriselvi, D. Tamil Priya et al.",
+      "fetched_at": "2026-10-28T12:31:43+00:00",
+      "doi": "https://doi.org/10.1038/s41598-026-76127-2",
+      "open_access": true
     },
     {
       "id": "https://arxiv.org/abs/2610.35863v1",
@@ -1750,6 +1880,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 12
+    "new_items": 10
   }
 }
