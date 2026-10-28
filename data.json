@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-28T12:31:45+00:00",
+  "updated_at": "2026-10-28T22:26:00+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -170,6 +170,19 @@
       "author": "C.M. Yeşilkanat, E. Cengi̇z, Abdelhalim KAHOUL, A. Zidi et al.",
       "fetched_at": "2026-10-27T22:00:51+00:00",
       "doi": "",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.5281/zenodo.23715794",
+      "title": "Chinthaka-Gemini Theory (CGT) of Mass-Data Transduction: Quantifying Physical Mass as Compressed Digital Information and Voltage Potential Transduction",
+      "url": "https://doi.org/10.5281/zenodo.23715794",
+      "summary": "Chinthaka-Gemini Theory (CGT) of Mass-Data Transduction: Quantifying Physical Mass as Compressed Digital Information and Voltage Potential Transduction Authors: Chinthaka Maddumarachchi & Gemini Maddumarachchi (Sudu Manika)Target Repository: Zenodo Academic Platform 1. Abstract & Introduction Modern theoretical physics stands at a pivotal junction where the classical continuous paradigms of quantum field theory and general relativity encounter fundamental limits at Planckian and cosmological scales. Digital physics offers an alternative pathway, postulating that physical reality is fundamentally discrete and computational. Resolving long-standing paradoxes in quantum electrodynamics, dark energy density, and black hole information loss requires unifying discrete information capacity with macroscopic, observable physical quantities. By treating physical mass not as a primitive continuous fluid or localized geometric distortion, but as a macroscopic manifestation of compressed digital information, a unified mathematical framework can bridge subatomic quantum state dynamics with macro-cosmic systems. The strategic importance of this paradigm shift lies in its capacity to translate abstract information metrics into deterministic, testable electrodynamic observables, offering exact quantitative coupling equations across disparate spatial and computational scales. The Chinthaka-Gemini Theory (CGT) establishes a rigorous mathematical framework asserting that physical mass (M) is an emergent manifestation of compressed digital information capacity (D), governed by the fundamental mass-data postulate M = K_{cg3} \\cdot D. In this formulation, K_{cg3} = 2.0 \\times 10^{-106} \\text{ kg/bit} acts as the universal quantum coupling constant converting fundamental bit capacity into iner",
+      "source": "Zenodo (CERN European Organization for Nuclear Research)",
+      "category": "research",
+      "date": "2026-10-28",
+      "author": "Chinthaka Maddumarachchi, Gemini Maddumarachchi",
+      "fetched_at": "2026-10-28T22:25:59+00:00",
+      "doi": "https://doi.org/10.5281/zenodo.23715794",
       "open_access": true
     },
     {
@@ -444,6 +457,45 @@
       "author": "S. Jagadeesan, A. Suresh, T. Vetriselvi, D. Tamil Priya et al.",
       "fetched_at": "2026-10-28T12:31:43+00:00",
       "doi": "https://doi.org/10.1038/s41598-026-76127-2",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.22331/q-2026-10-27-2248",
+      "title": "Proof of hiding conjecture in Gaussian boson sampling",
+      "url": "https://doi.org/10.22331/q-2026-10-27-2248",
+      "summary": "Gaussian boson sampling (GBS) is a promising protocol for demonstrating quantum computational advantage. One of the key steps in the argument for classical hardness of GBS is the so-called “hiding conjecture'', which asserts that one can “hide'' a complex Gaussian matrix as a submatrix of the symmetric product of Haar unitary submatrices in total variation distance. In this paper, we prove the hiding conjecture for input states with all input modes squeezed, which is a setup that has recently been realized experimentally \\cite{madsen2022}. In this setting, the hiding conjecture states that a o ( M ) × o ( M ) submatrix of an M × M circular orthogonal ensemble (COE) random matrix can be well-approximated by a complex symmetric Gaussian matrix in total variation distance as M → ∞ . This is the first rigorous proof of the hiding property for GBS in the experimentally relevant regime, and puts the argument for hardness of classically simulating GBS with the maximum number of squeezed input modes on a comparable level to that of the conventional boson sampling of [Aaronson and Arkhipov, Theory Comput. 9, 143 (2013)] \\cite{aa}.",
+      "source": "Quantum",
+      "category": "research",
+      "date": "2026-10-27",
+      "author": "Laura Shou, Sarah H. Miller, Victor M. Galitski",
+      "fetched_at": "2026-10-28T22:25:59+00:00",
+      "doi": "https://doi.org/10.22331/q-2026-10-27-2248",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1088/1361-6668/aeba29",
+      "title": "Inductorless fast phase logic: Enabling two-order-of-magnitude density scaling for superconductor VLSI",
+      "url": "https://doi.org/10.1088/1361-6668/aeba29",
+      "summary": "Abstract Fast phase logic (FPL) is a novel digital superconductor electronic (SCE) logic family that employs multiple junction types, including switching 0-Josephson junctions (0-JJs), non-switching 0-JJ stacks, and π-JJs. FPL enables flexible, automatable cell layouts, faster pulse propagation, reduced bias current via phaseshifting π-JJs, and minimized inductive loops, thereby reducing susceptibility to trapped flux and crosstalk.A fabrication process to support FPL is proposed. NbTiN superconductors offer small grain sizes, smooth surfaces, and thermal stability up to 400 ○ C, while high-Jc, self-shunted JJs enable compact devices. AlN dielectrics provide good crystal matching to NbTiN, improving superconducting properties. Projections indicate that FPL, combined with the proposed process, can achieve a two-order-of-magnitude increase in integration density over conventional RSFQ logic and a five-fold reduction in supply current. The increased density reduces latency and improves computational throughput, while NbTiN-based devices provide higher output voltage and impedance, improving compatibility with CMOS circuits. Further fabrication advancements, such as higher-Jc NbTiN-based JJs, higher processing temperatures, and stacked JJ structures, could enhance FPL implementation and scalability toward very large-scale integration (VLSI). FPL has the potential to significantly advance SCE technology, with near-term applications in accelerator cores for signal processing and artificial intelligence, and long-term potential in supercomputing. Its advantages are evaluated through an architectural study of a fast Fourier transform (FFT) circuit, with comparisons to CMOS and SFQ technologies for digital electronics.",
+      "source": "Superconductor Science and Technology",
+      "category": "research",
+      "date": "2026-10-27",
+      "author": "Sasan Razmkhah, Massoud Pedram, Douglas Holmes",
+      "fetched_at": "2026-10-28T22:25:59+00:00",
+      "doi": "https://doi.org/10.1088/1361-6668/aeba29",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/2wth-x2m7",
+      "title": "Instability as a quantum resource",
+      "url": "https://doi.org/10.1103/2wth-x2m7",
+      "summary": "We consolidate coherence, athermality, and nonuniformity as sub-resources within an underlying quantum resource theory: instability. We formulate instability axiomatically as the transient information within a decaying physical system. Specifying a decay mechanism (e.g., dephasing, thermalization) recovers these familiar resources as specific manifestations of instability. We compute the one-shot distillation yield and dilution cost in various operational paradigms, and use them to pin down the extremal additive monotones. In the asymptotic regime, we show that all conversion rates are governed by a single additive monotone, and thereby establish a universal second law for instability.",
+      "source": "Physical Review Letters",
+      "category": "research",
+      "date": "2026-10-27",
+      "author": "G. Yoeli, Gilad Gour",
+      "fetched_at": "2026-10-28T22:25:59+00:00",
+      "doi": "https://doi.org/10.1103/2wth-x2m7",
       "open_access": true
     },
     {
@@ -1880,6 +1932,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 10
+    "new_items": 4
   }
 }
