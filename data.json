@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-29T12:42:23+00:00",
+  "updated_at": "2026-10-29T22:38:52+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -627,6 +627,138 @@
       "fetched_at": "2026-10-28T22:25:59+00:00",
       "doi": "https://doi.org/10.1103/2wth-x2m7",
       "open_access": true
+    },
+    {
+      "id": "https://vnexpress.net/chuyen-gia-mua-sam-cong-nen-uu-tien-vat-lieu-tai-che-5137231.html",
+      "title": "Chuyên gia : Mua sắm công nên ưu tiên vật liệu tái chế - Báo VnExpress",
+      "url": "https://vnexpress.net/chuyen-gia-mua-sam-cong-nen-uu-tien-vat-lieu-tai-che-5137231.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "vnexpress.net",
+      "category": "news",
+      "date": "2026-10-27",
+      "author": "",
+      "fetched_at": "2026-10-29T22:38:47+00:00"
+    },
+    {
+      "id": "https://www.newspim.com/news/view/20261027000921",
+      "title": "동해 송정동 주민들 , LS전선 규탄 … 사원아파트 송정동에 건립하라",
+      "url": "https://www.newspim.com/news/view/20261027000921",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "newspim.com",
+      "category": "news",
+      "date": "2026-10-27",
+      "author": "",
+      "fetched_at": "2026-10-29T22:38:47+00:00"
+    },
+    {
+      "id": "https://www.vb.kg/doc/462610_v_kyrgyzstane_zapystili_vyezdnoe_obslyjivanie_inostrannyh_stydentov.html",
+      "title": "В Кыргызстане запустили выездное обслуживание иностранных студентов",
+      "url": "https://www.vb.kg/doc/462610_v_kyrgyzstane_zapystili_vyezdnoe_obslyjivanie_inostrannyh_stydentov.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "vb.kg",
+      "category": "news",
+      "date": "2026-10-27",
+      "author": "",
+      "fetched_at": "2026-10-29T22:38:47+00:00"
+    },
+    {
+      "id": "https://www.elconfidencial.com/bienestar/2026-10-27/ensayos-clinicos-espana-esmo-chema-pons_4452899",
+      "title": "Chema Pons ( BeOne ): España tiene todo para ser referente en ensayos clínicos , pero no podemos darlo por sentado",
+      "url": "https://www.elconfidencial.com/bienestar/2026-10-27/ensayos-clinicos-espana-esmo-chema-pons_4452899/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "elconfidencial.com",
+      "category": "news",
+      "date": "2026-10-27",
+      "author": "",
+      "fetched_at": "2026-10-29T22:38:47+00:00"
+    },
+    {
+      "id": "https://www.chaozhoudaily.com/content/202610/27/c26089411.html",
+      "title": "2026年全省群众安全感满意度调查启动 潮州市民请积极参与 - 潮州新闻网 - 潮州日报官方网站",
+      "url": "https://www.chaozhoudaily.com/content/202610/27/c26089411.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "chaozhoudaily.com",
+      "category": "news",
+      "date": "2026-10-27",
+      "author": "",
+      "fetched_at": "2026-10-29T22:38:47+00:00"
+    },
+    {
+      "id": "https://www.finanznachrichten.de/nachrichten-2026-10/69941626-eqs-newswire-china-cosmetics-review-osm-wins-inpd-leading-grand-prize-showcasing-china-s-pearl-research-strength-to-the-world-023.htm",
+      "title": "EQS Newswire : China Cosmetics Review : OSM Wins INPD Leading Grand Prize , Showcasing China Pearl Research Strength to the World",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69941626-eqs-newswire-china-cosmetics-review-osm-wins-inpd-leading-grand-prize-showcasing-china-s-pearl-research-strength-to-the-world-023.htm",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "finanznachrichten.de",
+      "category": "news",
+      "date": "2026-10-27",
+      "author": "",
+      "fetched_at": "2026-10-29T22:38:47+00:00"
+    },
+    {
+      "id": "https://www.163.com/dy/article/LA8F8D0G0514R9P4.html",
+      "title": "OpenAI公布数学 、 计算机和物理学三项新发现 ， 含挂谷猜想 、 杨 – 米尔斯理论",
+      "url": "https://www.163.com/dy/article/LA8F8D0G0514R9P4.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "163.com",
+      "category": "news",
+      "date": "2026-10-27",
+      "author": "",
+      "fetched_at": "2026-10-29T22:38:47+00:00"
+    },
+    {
+      "id": "https://www.dailyecho.co.uk/news/26669277.freemason-raises-93-000-charity-challenges",
+      "title": "Freemason raises £93 , 000 through charity challenges",
+      "url": "https://www.dailyecho.co.uk/news/26669277.freemason-raises-93-000-charity-challenges/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "dailyecho.co.uk",
+      "category": "news",
+      "date": "2026-10-27",
+      "author": "",
+      "fetched_at": "2026-10-29T22:38:47+00:00"
+    },
+    {
+      "id": "https://news.pedaily.cn/202610/570898.shtml",
+      "title": "马斯克在天上赚疯了 ， 中国独角兽杀入核心赛道 ， 卡位万亿命门",
+      "url": "https://news.pedaily.cn/202610/570898.shtml",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "news.pedaily.cn",
+      "category": "news",
+      "date": "2026-10-27",
+      "author": "",
+      "fetched_at": "2026-10-29T22:38:47+00:00"
+    },
+    {
+      "id": "https://www.dailypolitical.com/2026/10/26/bodycote-otcmktsbyplf-shares-down-0-8-time-to-sell.html",
+      "title": "Bodycote ( OTCMKTS : BYPLF ) Shares Down 0 . 8 % – Time to Sell ?",
+      "url": "https://www.dailypolitical.com/2026/10/26/bodycote-otcmktsbyplf-shares-down-0-8-time-to-sell.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "dailypolitical.com",
+      "category": "news",
+      "date": "2026-10-27",
+      "author": "",
+      "fetched_at": "2026-10-29T22:38:47+00:00"
+    },
+    {
+      "id": "https://www.163.com/dy/article/LA8FI81F053469RG.html",
+      "title": "海外AI估值重构 ， 中国产业如何穿越周期 ？",
+      "url": "https://www.163.com/dy/article/LA8FI81F053469RG.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "163.com",
+      "category": "news",
+      "date": "2026-10-27",
+      "author": "",
+      "fetched_at": "2026-10-29T22:38:47+00:00"
+    },
+    {
+      "id": "https://finance.sina.com.cn/tech/digi/2026-10-27/doc-iniwruyx1440783.shtml",
+      "title": "救援尝试失败 ， NASA 正式终止雨燕空间望远镜任务",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-10-27/doc-iniwruyx1440783.shtml",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "finance.sina.com.cn",
+      "category": "news",
+      "date": "2026-10-27",
+      "author": "",
+      "fetched_at": "2026-10-29T22:38:47+00:00"
     },
     {
       "id": "https://arxiv.org/abs/2610.35863v1",
@@ -2060,8 +2192,8 @@
     }
   ],
   "refresh": {
-    "sources_succeeded": 3,
+    "sources_succeeded": 4,
     "sources_total": 4,
-    "new_items": 10
+    "new_items": 12
   }
 }
