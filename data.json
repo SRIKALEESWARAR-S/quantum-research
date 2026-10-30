@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-30T12:33:49+00:00",
+  "updated_at": "2026-10-30T22:08:20+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -315,6 +315,136 @@
       "author": "Mingxin He, Yifei Wang, Hao Song, Yingfei Gu",
       "fetched_at": "2026-10-30T05:16:57+00:00",
       "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://doi.org/10.1137/24m1690291",
+      "title": "Rank and Symmetries of Signature Tensors",
+      "url": "https://doi.org/10.1137/24m1690291",
+      "summary": "Abstract. The signature of a path is a sequence of tensors which allows for the unique reconstruction of a path. In this paper, we propose a systematic study of basic properties of signature tensors starting from their rank, symmetries, and conciseness. We prove a sharp upper bound on the rank of signature tensors of piecewise linear paths. We show that there are no skew-symmetric signature tensors of order three or more and prove that specific instances of partial symmetry can only happen for tensors of order three. Finally, we give a simple geometric characterization of paths whose signature tensors are not concise.",
+      "source": "SIAM Journal on Applied Algebra and Geometry",
+      "category": "research",
+      "date": "2026-10-29",
+      "author": "Francesco Galuppi, Pierpaola Santarsiero",
+      "fetched_at": "2026-10-30T22:08:19+00:00",
+      "doi": "https://doi.org/10.1137/24m1690291",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.21468/scipostphyscore.9.4.072",
+      "title": "Confinement in the three-state Potts quantum spin chain in extreme ferromagnetic limit",
+      "url": "https://doi.org/10.21468/scipostphyscore.9.4.072",
+      "summary": "We investigate the dynamics of the three-state Potts quantum spin chain in the extreme ferromagnetic limit using a perturbative expansion in the transverse magnetic field. We demonstrate that a perturbative approach provides access to important features beyond the reach of previous studies, most notably the description of resonant excitations and the analytic prediction of post-quench time evolution. A central focus is the oblique quench regime — a feature unique to the Potts model with no Ising counterpart — in which unconfined kink excitations hybridise with the two-kink bound states. We provide a detailed examination of the analytic structure of the two-kink scattering amplitude, tracing the transformation of stable excitations into resonances near stability thresholds. Our analytical results for the excitation spectra and magnetisation dynamics show excellent agreement with numerical simulations of non-equilibrium dynamics.",
+      "source": "SciPost Physics Core",
+      "category": "research",
+      "date": "2026-10-29",
+      "author": "Anna Krasznai, S. B. Rutkevich, G. Takács",
+      "fetched_at": "2026-10-30T22:08:19+00:00",
+      "doi": "https://doi.org/10.21468/scipostphyscore.9.4.072",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1088/1674-1137/aebb15",
+      "title": "Temperature dependence of the nucleon–nucleon inelastic cross section in an isospin-asymmetric nuclear medium",
+      "url": "https://doi.org/10.1088/1674-1137/aebb15",
+      "summary": "Abstract The nucleon-nucleon ($NN$) inelastic cross section plays an important role in constraining the nuclear equation of state at high baryon densities and in transport descriptions of heavy-ion collisions. In this work, the temperature dependence of $\\Delta^{++}$ and $\\Delta^{-}$ production cross sections in isospin-symmetric and asymmetric nuclear matter is investigated within the relativistic Boltzmann-Uehling-Uhlenbeck (RBUU) framework. Two relativistic mean-field parameterizations are employed: the density-dependent parameterization (called DD-ME$\\delta$) and the nonlinear-dependent parameterization (called OMEG). The cross sections generally decrease with increasing density, whereas their thermal enhancement becomes more pronounced. The two parameterizations predict comparable temperature effects at densities up to approximately $1.5\\rho_0$, while OMEG exhibits a stronger temperature dependence at higher densities. In isospin-asymmetric nuclear matter, the cross section splitting results from the interplay between the effective mass splitting and vector self-energies and therefore depends on the mean-field parameterization. The temperature dependence of the splitting is relatively weak for $nn\\rightarrow p\\Delta^{-}$ but more pronounced for $pp\\rightarrow n\\Delta^{++}$. These findings provide quantitative information on the temperature dependence of the in-medium $NN\\rightarrow N\\Delta$ process and may be useful for future transport-model implementations.",
+      "source": "Chinese Physics C",
+      "category": "research",
+      "date": "2026-10-29",
+      "author": "Manzi Nan, Pengcheng Li, Ying Wang, Guojun Wei et al.",
+      "fetched_at": "2026-10-30T22:08:19+00:00",
+      "doi": "https://doi.org/10.1088/1674-1137/aebb15",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/dyvk-lwc6",
+      "title": "Qubit noise spectroscopy of superconducting dynamics in a magnetic field",
+      "url": "https://doi.org/10.1103/dyvk-lwc6",
+      "summary": "An applied magnetic field affects a superconductor in two ways -- by promoting pairing fluctuations, and by inducing topological defects called vortices that carry quantized magnetic flux. A quantitative characterization of the resultant field-induced superconducting dynamics with spatio-temporal resolution remains challenging, particularly in two-dimensional materials. In this work, we analyze magnetic noise measured by the depolarization rate of a proximate single spin qubit as a non-invasive probe of such dynamical fluctuations. We demonstrate that the temperature dependence of the magnetic noise spectrum near $T_c$ deviates from predictions based on quasiparticle excitations due to critical superconducting fluctuations, which in turn are enhanced by a weak applied field. By analyzing the magnetic noise due to vortex dynamics, we further show that noise spectroscopy is not only able to distinguish between different vortex phases, but also extract key physical quantities of interest, such as oscillation frequencies of pinned vortices, phonon dispersion of vortex lattices and vortex diffusivity in a vortex liquid. Complementing recent work on noise magnetometry of quasiparticle excitations and Berezinskii-Kosterlitz-Thouless transitions in two-dimensional superconductors without an applied field, our work highlights the ability of noise spectroscopy to reveal a wealth of superconducting dynamical phenomena in an applied field.",
+      "source": "Physical review. B./Physical review. B",
+      "category": "research",
+      "date": "2026-10-29",
+      "author": "Jiajie Cheng, Jaewon Kim, Oriana K. Diessel, Chong Zu et al.",
+      "fetched_at": "2026-10-30T22:08:19+00:00",
+      "doi": "https://doi.org/10.1103/dyvk-lwc6",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1145/3861016",
+      "title": "Layered Monoidal Theories I: Diagrammatic Algebra and Applications",
+      "url": "https://doi.org/10.1145/3861016",
+      "summary": "We develop layered monoidal theories – a generalisation of monoidal theories combining formal descriptions of a system at different levels of abstraction. Via their representation as string diagrams , monoidal theories provide a graphical formalism to reason algebraically about information flow in models across different fields of science. Layered monoidal theories allow mixing several monoidal theories (together with translations between them) within the same string diagram, while retaining mathematical precision and semantic interpretability. We develop the mathematical foundations of layered monoidal theories, as well as providing several instances of our approach, including digital and electrical circuits, quantum processes, chemical reactions, concurrent processes, and probability theory.",
+      "source": "ACM Transactions on Computational Logic",
+      "category": "research",
+      "date": "2026-10-29",
+      "author": "Leo Lobski, Fabio Zanasi",
+      "fetched_at": "2026-10-30T22:08:19+00:00",
+      "doi": "https://doi.org/10.1145/3861016",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/jj3s-brfk",
+      "title": "Learning Hamiltonians for solid-state quantum simulators",
+      "url": "https://doi.org/10.1103/jj3s-brfk",
+      "summary": "We introduce a generalizable framework for identifying effective Hamiltonians directly from experimental data in solid-state quantum systems. Our unsupervised autoencoder-based approach incorporates the governing physics (here, the S-matrix formalism) directly into the decoder, enabling physically meaningful Hamiltonian inference without labeled Hamiltonian parameters. Through numerical experiments on a triple quantum dot chain, we demonstrate automated characterization of programmable solid-state simulators from transport measurements. The model accurately infers Hamiltonian parameters and generalizes beyond the training domain, while exhibiting finite capacity as the parameter space becomes increasingly broad or diverse. We further demonstrate robustness to noisy measurements and show that the model can be successfully trained on transport data generated outside the Hamiltonian family assumed by the physics decoder, while still identifying meaningful effective parameters.",
+      "source": "Physical review. B./Physical review. B",
+      "category": "research",
+      "date": "2026-10-29",
+      "author": "Jarosław Pawłowski, Mateusz Krawczyk",
+      "fetched_at": "2026-10-30T22:08:19+00:00",
+      "doi": "https://doi.org/10.1103/jj3s-brfk",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/szts-rbjy",
+      "title": "High fidelity photon-photon gates by scattering off a two-level quantum emitter",
+      "url": "https://doi.org/10.1103/szts-rbjy",
+      "summary": "We present a scheme for implementing a high-fidelity non-linear phase shift on a photonic state. The scheme is based on repeated scattering off a two-level quantum emitter embedded in a chiral or one-sided waveguide. The waveguide is equipped with elements inducing second-order dispersion and temporal phase shifts, which effectively form a harmonic trap and confine the photon pulses to a Gaussian shape. The same quantum emitter can be used for each scattering, and thus, only one quantum emitter is needed in this scheme. To illustrate the application of our scheme for photonic quantum computing and quantum communication, we analyze the implementation of a control-Z gate and a deterministic Bell-state analyzer for photonic qubits. Through numerical optimization, we show that we can reach a control-Z gate fidelity of $\\mathcal{F} \\sim 99.2\\%$ ($\\mathcal{F} \\sim 96\\%$) and a success probability of $P_s \\sim 99.6 \\%$ ($P_s\\sim 98 \\%$) for a Bell-state measurement with $N=17$ ($N=5$) scatterings.",
+      "source": "Physical Review Letters",
+      "category": "research",
+      "date": "2026-10-29",
+      "author": "Love A. Pettersson, Victor Rueskov Christiansen, Klaus Mølmer, Anders S. Sørensen",
+      "fetched_at": "2026-10-30T22:08:19+00:00",
+      "doi": "https://doi.org/10.1103/szts-rbjy",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/cbk2-178c",
+      "title": "Assessing the robustness of amortized simulation-based inference to transient noise in gravitational-wave ringdowns",
+      "url": "https://doi.org/10.1103/cbk2-178c",
+      "summary": "Gravitational waves (GW) emitted by binary systems allow us to perform precision tests of general relativity in the strong field regime. Ringdown signals allow for probing black hole mass and spin with high precision in GW astronomy. With improvements in current and next-generation GW detectors, developing likelihood-free parameter inference methods is crucial. This is especially important when facing challenges such as non-standard noise, partial data, or incomplete signal models that prevent the use of analytical likelihood functions. In this work, we propose an amortized simulation-based inference strategy to estimate ringdown parameters directly. Specifically, our method is based on amortized neural posterior estimation, which trains a neural density estimator of the posterior for all data segments within the prior range. The results show that our trained amortized network achieves statistically consistent parameter estimates with valid confidence coverage compared to established Markov-chain methods, while offering inference speeds that are orders of magnitude faster. Furthermore, we evaluate the robustness of the method against transient noise contamination. Our analysis reveals that the timing of glitch injection has a decisive impact on estimation bias, particularly during the tail of a signal with sparse information. Glitch strength is positively correlated with estimation error, but has limited effect at low signal-to-noise ratios. Mass and spin parameters are most sensitive to noise. This study not only provides an efficient and accurate inference framework for ringdown analysis but also lays a foundation for developing robust data-processing pipelines for future GW astronomy in realistic noise environments.",
+      "source": "Physical review. D/Physical review. D.",
+      "category": "research",
+      "date": "2026-10-29",
+      "author": "Song-Tao Liu, Tian-Yang Sun, Yu-Xin Wang, Yongxin Zhang et al.",
+      "fetched_at": "2026-10-30T22:08:19+00:00",
+      "doi": "https://doi.org/10.1103/cbk2-178c",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/p98l-7b5m",
+      "title": "Probing spinon interactions in the spin-1 bilinear-biquadratic chain",
+      "url": "https://doi.org/10.1103/p98l-7b5m",
+      "summary": "We study the dynamical spin and nematic correlations in the bilinear-biquadratic spin-1 chain in the critical phase hosting deconfined spinons. We demonstrate how spinon interactions can be directly probed in the presence of a magnetic field or a single-ion anisotropy. Our analytical predictions are supported by numerical matrix-product-state (MPS) simulations of the underlying microscopic model.",
+      "source": "Physical review. B./Physical review. B",
+      "category": "research",
+      "date": "2026-10-29",
+      "author": "Yonatan Lin, Oleg A. Starykh, Anna Keselman",
+      "fetched_at": "2026-10-30T22:08:19+00:00",
+      "doi": "https://doi.org/10.1103/p98l-7b5m",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/fd6s-x6k3",
+      "title": "Probing bilayer topological order with layer-resolved transport",
+      "url": "https://doi.org/10.1103/fd6s-x6k3",
+      "summary": "Shot noise has been used to measure fractional charges of anyons. The value of the charge imposes constraints on fractional statistics but does not determine it. This issue is particularly important in multi-component systems. For example, the zero charge of neutral anyons in bilayer graphene gives no information about their statistics at all. We propose a protocol to probe the statistics of charged and neutral anyons in multi-component systems with layer-resolved or spin-resolved noise. The protocol applies to the fractional quantum spin Hall effect in MoTe$_2$, topological states in multi-layer graphene and bilayer GaAs, and to recently discovered fractional excitons in bilayer graphene. The approach relies on the relation between statistics and the distribution of the anyon charge over the components. Information about statistics can also be extracted from a simpler measurement of the layer-resolved electric current through a narrow constriction in a Hall bar even in the presence of long-range interactions and other non-universal effects.",
+      "source": "Physical Review Letters",
+      "category": "research",
+      "date": "2026-10-29",
+      "author": "Hongquan Liu, J. I. A. Li, D. E. Feldman",
+      "fetched_at": "2026-10-30T22:08:19+00:00",
+      "doi": "https://doi.org/10.1103/fd6s-x6k3",
+      "open_access": true
     },
     {
       "id": "https://doi.org/10.5281/zenodo.23715794",
@@ -2338,6 +2468,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 10
   }
 }
