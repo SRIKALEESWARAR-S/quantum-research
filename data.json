@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-29T22:38:52+00:00",
+  "updated_at": "2026-10-30T05:16:57+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -171,6 +171,150 @@
       "fetched_at": "2026-10-27T22:00:51+00:00",
       "doi": "",
       "open_access": true
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.40652v1",
+      "title": "Reconstructing hidden observables via quantum snapshot thermometry",
+      "url": "https://arxiv.org/abs/2610.40652v1",
+      "summary": "Projective snapshots are a standard readout tool for quantum simulators, but they directly probe only observables that are diagonal in the measurement basis. We show how local equilibration and an independently calibrated equilibrium equation of state can reveal otherwise hidden conserved-density profiles. We demonstrate numerically that such ``quantum snapshot thermometry'' can recover energy fronts and a diffusion constant, distinguish spin transport from energy spreading, and reveal conserved-charge profiles invisible in the initial measurements. We also identify symmetry-imposed ambiguities in the readout and show how prior knowledge of the spatial structure can resolve them. Fixed-basis snapshot thermometry thus provides quantitative hydrodynamic information beyond transport exponents, bypassing additional measurement bases and quantum state tomography.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-29",
+      "author": "Jie Ren, Andrew Hallam, Luheng Zhao, Huanqian Loh et al.",
+      "fetched_at": "2026-10-30T05:16:57+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.40651v1",
+      "title": "Renormalization for Robust Memory without Synchronization",
+      "url": "https://arxiv.org/abs/2610.40651v1",
+      "summary": "Local error correction can preserve classical information against noise, but protection under synchronized updates need not survive when sites evolve at independent random times. Establishing stability is particularly challenging when protection relies on the collective action of competing local rules. Here we develop a spacetime renormalization framework that reveals how independently acting local updates can collectively stabilize memory. We identify sufficient conditions under which the geometry of stable interfaces and suppression of defect propagation produce reliable erosion at large scales. Applying this framework, we prove stability of the asynchronous \\textsf{R} squeezing code and introduce robust processes in two and three dimensions. In these systems, both encoded phases persist under sufficiently weak noise, even when the noise favors one phase. Our results provide a criterion for designing autonomous memories sustained by competing local stochastic dynamics.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-29",
+      "author": "Shashwat Chakraborty, Jong Yeon Lee",
+      "fetched_at": "2026-10-30T05:16:57+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.40642v1",
+      "title": "Comparison of entangling strategies for unitary synthesis",
+      "url": "https://arxiv.org/abs/2610.40642v1",
+      "summary": "Trapped-ion quantum computers are promising as a platform for realizing quantum computational advantage. They promise long coherence times, near all-to-all connectivity, and potential multiqubit gates as distinguishing advantages compared to competing platforms. Regarding these advantages, it is crucial to understand the trade-offs between increasing engineering complexity and actual improvements in running quantum algorithms with a more flexible gate set. In this work, we investigate this question and develop a versatile toolset to evaluate the performance of gate sets composed of native Mølmer--Sørensen multiqubit gates. To this end, we employ unitary synthesis as an application-agnostic benchmark target and identify specific hardware requirements for multiqubit gates to be advantageous.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-29",
+      "author": "Jonas Wunder, Hendrik Weimer, Ricardo Costa de Almeida",
+      "fetched_at": "2026-10-30T05:16:57+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.40638v1",
+      "title": "Entanglement diagnostics of stochastic-resetting steady states: theory and measurement on superconducting qubits",
+      "url": "https://arxiv.org/abs/2610.40638v1",
+      "summary": "Stochastic resetting drives quantum systems into nonequilibrium stationary states unreachable under uninterrupted unitary evolution, and their entanglement depends on whether the reset history is resolved or averaged over. We study this interplay in the transverse-field Ising chain, deriving closed-form results for two qubits and evaluating chains of up to 12 qubits exactly. In the two-qubit system, these closed-form results show that phase matching between energy eigenstates produces resonances, and their visibility in the stationary state is determined by the symmetry of the reset state. Measurements on an IBM superconducting processor show the entropies evaluated before and after the reset average closely following noiseless predictions with no fitted parameter, while concurrence lies below prediction across most of the hardware measurements. The two diagnostics respond differently because they read different components of the same reconstructed state, and a depolarizing model captures the concurrence suppression with one fitted parameter. The difference between the two entropies, i. e., the Jensen gap of entanglement entropy, equals the Holevo information that a subsystem retains about the time since the last reset. With a Bell-state reset, this information grows with chain length across a half-chain cut over the sizes studied, without visible saturation at the smaller reset probabilities. Since reset times are sampled and recorded classically, the trajectory-averaged entropy, and with it the Jensen gap, is obtained without postselection, in contrast to monitored circuits, where trajectory-resolved entanglement requires sampling exponentially rare measurement records.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-29",
+      "author": "Jakob Murauer, Sabine Tornow, Manas Kulkarni, Eli Barkai et al.",
+      "fetched_at": "2026-10-30T05:16:57+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.40628v1",
+      "title": "Locality in Dissipative Ground-State Preparation",
+      "url": "https://arxiv.org/abs/2610.40628v1",
+      "summary": "Can the ground state of a local Hamiltonian be prepared by local dissipation? We address this question for free-fermion Hamiltonians, using a quadratic Lindbladian with linear jump operators for the dissipative ground-state preparation. For translation-invariant targets, Fourier correspondence relates spatial locality to momentum-space analyticity, allowing us to derive a complete spectral criterion for the existence of exponentially local linear jump operators that prepare the ground state. This criterion leads to a no-go theorem that, sign-changing Fermi-level crossings exclude exponentially local linear jump operators for preparing the ground state. While these crossings are the complete obstruction in one dimension, additional obstructions generally arise in higher dimensions. We illustrate these additional obstructions using two quadratic-band-touching models with algebraically decaying ground-state correlations. We further show that short-range ground-state correlations, although not necessary, are sufficient for local dissipative preparation even without translation invariance. Our results establish how the spectral structure of the target Hamiltonian governs the locality of dissipative ground-state preparation.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-29",
+      "author": "Qicheng Tang, Ruhanshi Barad, Xueda Wen",
+      "fetched_at": "2026-10-30T05:16:57+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.40624v1",
+      "title": "Left-Handed Transmission Lines for the Dynamical Casimir Effect",
+      "url": "https://arxiv.org/abs/2610.40624v1",
+      "summary": "Left-handed (LH) superconducting transmission lines, built with series capacitors and shunt inductors instead of the series inductors and shunt capacitors of a conventional right-handed (RH) line, have a spectrum with a nonzero lower band edge and modes that become sparse at high frequencies. We study the dynamical Casimir effect in a LH line terminated by a flux-modulated SQUID and compare it with an RH line built from the same elements and with a long coplanar waveguide terminated by the same SQUID. We derive the quantum Hamiltonian and show that the coupling between two modes factorizes into their amplitudes at the SQUID. Together, the LH spectrum and the mode dependence of this coupling determine which modes are populated and how fast. With equal elements, the LH coupling grows with frequency and exceeds the RH one above a crossover pump frequency set by the cell inductance and capacitance, and only the LH line has resonances above the RH band edge. Pumping two modes at once lets a weakly coupled mode borrow coupling from a strongly coupled one, while crossings of resonance lines populate three or four modes without increasing the growth rate. Compared with the coplanar waveguide, the LH line has a similar coupling but keeps the created particles in the target mode, whereas the nearly equidistant waveguide spreads them over many pairs and needs more pump energy.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-29",
+      "author": "Valentin E. Salari, Fernando C. Lombardo, Paula I. Villar",
+      "fetched_at": "2026-10-30T05:16:57+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.40623v1",
+      "title": "Optimal Diamond Distance Estimation for Unitary Channels",
+      "url": "https://arxiv.org/abs/2610.40623v1",
+      "summary": "The diamond distance between two quantum channels determines the optimal probability of distinguishing them from a single use. We give a quantum algorithm that estimates the diamond distance between two unknown $d$-dimensional unitary channels to within additive error $\\varepsilon$, using $O(\\sqrt{d}/\\varepsilon)$ queries to the unitary channels and their inverses. The query complexity is optimal, as it matches the lower bound due to Jeon and Oh (npj Quantum Inf. 2026).",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-29",
+      "author": "Jinge Bao, Qisheng Wang",
+      "fetched_at": "2026-10-30T05:16:57+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.40612v1",
+      "title": "Exceptional Points as Witnesses of Non-Gaussian Noise",
+      "url": "https://arxiv.org/abs/2610.40612v1",
+      "summary": "Efficient control of quantum devices requires the knowledge of their environmental noise, yet the commonly measured power spectrum does not fully characterize non-Gaussian fluctuations of realistic environments. Here we show that exceptional points (EPs) in the noise-averaged dephasing response can expose observable signatures of non-Gaussian statistics, distinguishing environments with identical lower-order statistics. We also introduce a theoretical model that describes dephasing environments in terms of identical independent noise sources while preserving the power spectrum. Given a calibrated single-source model, the largest EP order extracted from the measured dephasing response determines the number of sources and predicts the higher-order statistics of the combined noise. We illustrate an atomtronic readout that maps distinct EP signatures onto an evolving ensemble-averaged atomic interference pattern. Our results connect non-Hermitian dynamics to environmental noise statistics, providing a route to characterize noise in quantum devices used in computing, metrology, and precision measurement.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-29",
+      "author": "Aritra Ghosh, Subhashish Banerjee, M. Bhattacharya",
+      "fetched_at": "2026-10-30T05:16:57+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.40596v1",
+      "title": "Algebraic theory of abelian fractons and beyond",
+      "url": "https://arxiv.org/abs/2610.40596v1",
+      "summary": "We develop an algebraic theory of fusion, mobility, and statistics in abelian gapped fracton orders and topological phases. The framework generalizes the algebraic description of abelian anyons to systems with restricted-mobility and spatially extended excitations. We consider translation-invariant bosonic systems whose pointlike and extended excitations have finite fusion order. The basic objects are braided fusion complexes (BFCs): chain complexes encoding fusion and mobility, equipped with a braiding chain map encoding statistics. Their equivalence classes define braided fusion theories (BFTs). Our framework encompasses arbitrary translation-invariant Pauli codes, as well as all abelian anyon theories in two spatial dimensions, including chiral theories. We give evidence for the conjecture that every nondegenerate BFT can be realized as the excitation theory of a gapped phase and that the BFT describing such a phase is a phase invariant. We derive constraints on pointlike fusion and mobility, showing, for example, that neither the Pauli X nor Z sectors of the X-cube and anisotropic models can occur alone in a nondegenerate BFT. For nondegenerate theories with only pointlike excitations, we extract a simpler theory of mutual statistics, consisting of a fusion module and a map to its statistical dual. This theory of mutual statistics is an invariant of the BFT and, at odd fusion order, gives an equivalent description of the full braided fusion theory. We interpret remote detection as the generalization of mutual statistics to fracton orders. In the BFC setting, we give a precise formulation of the excitation-detector principle: every nontrivial excitation can be detected by an operator supported at spatial infinity, and every nontrivial detector detects some excitation",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-29",
+      "author": "Wilbur Shirley, Evan Wickenden, Bowen Yang, Agnès Beaudry et al.",
+      "fetched_at": "2026-10-30T05:16:57+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.40595v1",
+      "title": "Optimal detuning and gate time for strongly driven single-qubit gates beyond the rotating-wave approximation",
+      "url": "https://arxiv.org/abs/2610.40595v1",
+      "summary": "Single-qubit quantum gates are implemented as the time-controlled unitary evolution of a two-level system under harmonic driving. The rotating-wave approximation (RWA) provides closed-form gate parameters for weak coupling. Larger amplitudes, desirable to speed up the dynamics, make the RWA-designed gates inaccurate because of the neglected counter-rotating term, which also shifts the resonance (Bloch-Siegert shift). Here we study theoretically the infidelity of gates beyond the RWA, using the effective Magnus-Taylor Hamiltonian through second order in the inverse of the driving frequency. By detuning the driving frequency by an amplitude-dependent shift of Bloch-Siegert type and rescaling the operation time, the RWA gate conditions are recovered with corrected parameters. Numerical solutions of the Schrodinger equation show that these corrections lower the gate infidelity by several orders of magnitude, extending the range of usable amplitudes",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-29",
+      "author": "Alejandro D. Bendersky, Sergio S. Gomez, Rodolfo H. Romero",
+      "fetched_at": "2026-10-30T05:16:57+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.40593v1",
+      "title": "Probing fluctuations in photon emission statistics of spin injected quantum dots with time dependent electronic excitation",
+      "url": "https://arxiv.org/abs/2610.40593v1",
+      "summary": "Electrically spin-injected ensembles of InGaAs/GaAs quantum dots emit circularly polarized single photons, with the emission helicity determined by the spin polarization of the injected electrons. A ferromagnetic CoFeB spin-injection layer with perpendicular magnetic anisotropy, combined with an MgO tunnel barrier, enables spin-polarized electron injection into the quantum-dot active region, resulting in circularly polarized photon emission at zero applied magnetic field. These devices realize direct spin-charge-photon conversion in an electrically driven, microelectronics-compatible quantum light source that operates without an external pump laser. Using an extended Hanbury Brown-Twiss interferometer with four detectors and time-tagged readout, we measure time-resolved photon-number statistics that resolve up to $|2\\rangle$ Fock states within a single excitation cycle. While single-photon ($n=|1\\rangle$) emission tracks the electrical excitation pulse as expected, the two-photon ($n=|2\\rangle$) statistics exhibit pronounced fluctuations at multiple temporal positions within the pulse. These fluctuations vanish upon demagnetization of the spin-injection layer, establishing a direct link between the multi-photon emission dynamics and the spin polarization of the injected carriers. The observations indicate that spin injection controls not only the helicity of the emitted photons but also higher-order temporal correlations of the emission. The behavior is phenomenologically captured by inserting both a variable excitation mechanism and a set of multi-emitter collapse operators within a stochastic wave function evolution. The platform thus opens a route to electrically driven, spin-controlled single and multi-photon Fock-state sources and provides a testbed for spin-condit",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-29",
+      "author": "Chiran Wijesundara, Vincent Iglesias-Cardinale, Yuan Lu, Herbert Fotso et al.",
+      "fetched_at": "2026-10-30T05:16:57+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.40592v1",
+      "title": "Toric codes all the way down: decoupling translation-invariant topological CSS codes in higher dimensions",
+      "url": "https://arxiv.org/abs/2610.40592v1",
+      "summary": "Topological Calderbank-Shor-Steane (CSS) codes in more than two spatial dimensions offer features useful for fault-tolerant quantum computation, such as transversal non-Clifford gates and single-shot decoding, but a systematic understanding of them is still lacking. One approach is to decouple a code: map it to a stack of higher-form toric codes by a finite-depth local CSS-preserving Clifford circuit, possibly after adding ancillas. For translation-invariant $p$-ary CSS codes, where $p$ is prime ($p=2$ for qubits), we require the circuit to commute with the translations of a superlattice. In two dimensions, such a decoupling exists once these translations act trivially on every anyon type. In higher dimensions, excitations are sorted by their dimension into superselection layers, which can remain glued together even when translations act trivially on each layer. We show that this gluing is the only remaining obstruction: a code can be decoupled on a superlattice exactly when, after coarse-graining to it, translations act trivially on every layer and the gluing vanishes. Moreover, for a code with finitely many excitation types in each layer and $m$ nonzero layers, once translations act trivially on every layer, further coarse-graining by a factor of $p^{m-1}$ in every direction removes the aforementioned gluing. Physically, the same criterion determines when the code encodes the maximal number of logical qudits on a finite torus. Finally, we give an explicit algorithm that constructs the decoupling as a circuit of SUM (qudit CNOT) and SWAP gates.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-29",
+      "author": "Mingxin He, Yifei Wang, Hao Song, Yingfei Gu",
+      "fetched_at": "2026-10-30T05:16:57+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
     },
     {
       "id": "https://doi.org/10.5281/zenodo.23715794",
@@ -2192,7 +2336,7 @@
     }
   ],
   "refresh": {
-    "sources_succeeded": 4,
+    "sources_succeeded": 3,
     "sources_total": 4,
     "new_items": 12
   }
