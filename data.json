@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-10-31T11:59:44+00:00",
+  "updated_at": "2026-10-31T17:13:28+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -170,6 +170,149 @@
       "author": "C.M. Yeşilkanat, E. Cengi̇z, Abdelhalim KAHOUL, A. Zidi et al.",
       "fetched_at": "2026-10-27T22:00:51+00:00",
       "doi": "",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/s10773-026-06518-8",
+      "title": "Quantizing Gravitational Fields with an Entropy-Corrected Action Principle",
+      "url": "https://doi.org/10.1007/s10773-026-06518-8",
+      "summary": "A variational framework for the quantization of gravitational fields is developed based on an extension of the stationary action principle. Within this framework, the Wheeler-DeWitt equation for the gravitational wave functional is recovered without assuming operator promotion of the canonical momentum, thus avoiding the ambiguity of operator ordering in canonical quantization. The derivation is based on three main ingredients. First, motivated by information-theoretic considerations, the classical stationary action principle is generalized by incorporating a correction term constructed from the relative entropy associated with field fluctuations. Second, an ensemble formulation on superspace is enhanced to incorporate this entropy correction. Third, the formalism is further refined to provide a unified treatment of quantization and constraints, thereby addressing the long-standing ambiguity concerning the ordering of quantization and constraint reduction. The framework is then applied to gravitational fields coupled to a massless scalar field. Using an emergent time parameter defined via the rate equation of the gravitational fields, a Schrodinger equation for the scalar-field wave functional is recovered, supplemented by an additional quantum correction term suppressed at order $G\\hbar^2$. Finally, we comment on possible connections between the notion of relative entropy employed here and holographic dualities in quantum gravity.",
+      "source": "International Journal of Theoretical Physics",
+      "category": "research",
+      "date": "2026-10-31",
+      "author": "Jianhao M. Yang",
+      "fetched_at": "2026-10-31T17:13:26+00:00",
+      "doi": "https://doi.org/10.1007/s10773-026-06518-8",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1088/1674-1056/aebba8",
+      "title": "Topological State Transfer through Effective Boundary-Mode Channels",
+      "url": "https://doi.org/10.1088/1674-1056/aebba8",
+      "summary": "Abstract Localized edge modes provide a compact channel for transferring an excitation through an extended lattice, but the relation between the microscopic chain and the few levels that actually govern the transfer is often left implicit. We develop this boundary-subspace description for a superconducting-qubit realization of the Rice–Mele model in the single-excitation sector. For one finite chain, projection onto the two edge modes yields a Landau–Zener Hamiltonian whose detuning and hybridization identify the adiabatic transfer path and the spectral constraint relevant to protocol optimization. We then join two Rice–Mele segments at a single physical boundary qubit. The resulting three localized modes form an effective three-state channel with microscopically determined, independently tunable energies and couplings. This channel supports both a zero-energy dark-state passage and an open Rice–Mele-type passage driven by time-dependent bonds and onsite potentials. Direct simulations of the complete qubit chains reproduce the effective-channel dynamics. Under matched control bounds, dividing the transport distance at a shared boundary also preserves larger finite-size edge-mode couplings and reaches a stable high-fidelity regime faster than transfer through one uninterrupted chain. The boundary-mode projection thus relates the microscopic controls directly to the effective energies, finite-size couplings, and adiabatic gaps that govern the transfer.",
+      "source": "Chinese Physics B",
+      "category": "research",
+      "date": "2026-10-30",
+      "author": "Chong Wang, Gu Xiu, Shu Chen, Yu-xi Liu",
+      "fetched_at": "2026-10-31T17:13:26+00:00",
+      "doi": "https://doi.org/10.1088/1674-1056/aebba8",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.22331/q-2026-10-30-2257",
+      "title": "Macroscopic quantum coherence and entanglement in mechanical systems",
+      "url": "https://doi.org/10.22331/q-2026-10-30-2257",
+      "summary": "The notion of a macroscopic quantum state must be pinned down in order to assess how well experiments probe the large-scale limits of quantum mechanics. However, the issue of quantifying so-called quantum macroscopicity is fraught with multiple approaches having varying interpretations and levels of computability and measurability. Here, we introduce two measures that capture independent macroscopic properties: i) extensive size, measuring the degree of coherence in position or momentum observables relative to atomic-scale units, and ii) entangled size, quantifying the number of entangled subsystems. These measures unify many desirable features of past proposals while having rigorously justified interpretations from quantum information theory in terms of coherence and multipartite entanglement. We demonstrate how to estimate them and obtain lower-bounds using experimental data from micro-mechanical oscillators and diffracting molecules. Notably, we find evidence for genuine multipartite entanglement of 10 5 to 10 7 atoms in recent mechanical superposition states.",
+      "source": "Quantum",
+      "category": "research",
+      "date": "2026-10-30",
+      "author": "Benjamin Yadin, Matteo Fadel",
+      "fetched_at": "2026-10-31T17:13:26+00:00",
+      "doi": "https://doi.org/10.22331/q-2026-10-30-2257",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1371/journal.pcbi.1014928",
+      "title": "ATP-independent entropy-driven dsRNA unwinding by DDX3X revealed by coarse-grained simulations and deep learning",
+      "url": "https://doi.org/10.1371/journal.pcbi.1014928",
+      "summary": "DEAD-box RNA helicases (DDXs) are traditionally known as ATP-dependent motors that unwind double-stranded RNA (dsRNA). Recent experiments, however, show that some DDXs promote dsRNA unwinding even in the absence of ATP, raising a fundamental question about the physical mechanism underlying ATP-independent strand separation. Here, we develop a minimal, physics-based coarse-grained RNA model and incorporate weak, specific interactions between DDX3X and dsRNA, revealing the inherently stochastic nature of unwinding events. The unwinding process must overcome an energy barrier, but thermal fluctuations and entropy gain provide a driving force for RNA remodeling. We identify that dsRNA separation proceeds through rare yet obligatory strand-displacing intermediates facilitated by DDX3X. By combining deep learning-assisted analysis, we further rank the contributions of different entropic components, revealing hydrogen bonding as the dominant factor, followed by base stacking and then the backbone conformation. These findings reveal a previously unrecognized physical mechanism for RNA duplex unwinding and offer an effective framework for studying RNA remodeling kinetics.",
+      "source": "PLoS Computational Biology",
+      "category": "research",
+      "date": "2026-10-30",
+      "author": "Kang Wang, Chun-Lai Ren, Yu-Qiang Ma",
+      "fetched_at": "2026-10-31T17:13:26+00:00",
+      "doi": "https://doi.org/10.1371/journal.pcbi.1014928",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1021/acsphotonics.6c00418",
+      "title": "Segmentation-Engineered Ge4Sb6Te7 Switch on SOI Platform for Multilevel Nonvolatile Photonic Neural Inference",
+      "url": "https://doi.org/10.1021/acsphotonics.6c00418",
+      "summary": "Abstract Phase-change materials (PCMs) have emerged as key enablers of nonvolatile, ultracompact photonic switches for energy-efficient deep neural network (DNN) applications. In this work, we computationally investigate the recently discovered Ge4Sb6Te7 (GST-467) as a high-contrast optical PCM and demonstrate its suitability for multilevel photonic computing. We experimentally measure the complex refractive indices of amorphous and crystalline GST-467 and use them to numerically propose a segmented silicon-on-insulator photonic switch optimized at 1550 nm. Three-dimensional (3D) finite-difference time-domain simulations show that segmentation significantly enhances the extinction ratio while maintaining low insertion loss, yielding a design figure of merit more than 7-fold higher than that of an unsegmented design. Multiphysics thermo-optical simulations further demonstrate efficient, reversible laser-induced switching with sub-nJ energy requirements for crystallization and amorphization. Compared with established GST, GSST, and GSS compositions, GST-467 provides the largest transmittance contrast and supports up to 48 resolvable optical states. When deployed as multilevel weights in photonic DNN architectures, the GST-467 switch achieves superior classification accuracy on EMNIST and Fashion-MNIST benchmarks. These results position GST-467 as a highly promising PCM for scalable, low-energy photonic computing and neuromorphic hardware.",
+      "source": "ACS Photonics",
+      "category": "research",
+      "date": "2026-10-30",
+      "author": "Arpan Sur, Sudipta Saha, Chih‐Yu Lee, Ichiro Takeuchi",
+      "fetched_at": "2026-10-31T17:13:26+00:00",
+      "doi": "https://doi.org/10.1021/acsphotonics.6c00418",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1140/epjp/s13360-026-08473-z",
+      "title": "Josephson oscillation and nonlinear self-trapping in quasi-one-dimensional quantum liquid",
+      "url": "https://doi.org/10.1140/epjp/s13360-026-08473-z",
+      "summary": "",
+      "source": "The European Physical Journal Plus",
+      "category": "research",
+      "date": "2026-10-30",
+      "author": "Shivam Singh, Ibrar, Suhail Rashid, Ayan Khan",
+      "fetched_at": "2026-10-31T17:13:26+00:00",
+      "doi": "https://doi.org/10.1140/epjp/s13360-026-08473-z",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/lf7t-81xq",
+      "title": "Copy-cup gates in tensor products of group algebra codes",
+      "url": "https://doi.org/10.1103/lf7t-81xq",
+      "summary": "We determine conditions on classical group algebra codes so that they have pre-orientation for cup products and copy-cup gates. This defines quantum codes that have constant-depth $\\operatorname{CZ}$ and $\\operatorname{CCZ}$ gates constructed via tensor products of classical group algebra codes, including hypergraph and balanced products. We show that determining the conditions relies on solving the perfect matching problem in graph theory. Conditions are fully determined for the 2- and 3-copy-cup gates, for group algebra codes up to weight 4, including for codes with odd check weight. These include the bivariate bicycle codes, which we show do not have the pre-orientation for either type of copy-cup gate. We show that abelian weight 4 group algebra codes satisfying the non-associative 3-copy-cup gate necessarily have a code distance of 2, whereas codes that satisfy conditions for the symmetric 3-copy-cup gate can have higher distances, and in fact also satisfy conditions for the 2-copy-cup gate. Finally we find examples of quantum codes from the product of abelian group algebra codes that have inter-code constant-depth $\\operatorname{CZ}$ and $\\operatorname{CCZ}$ gates.",
+      "source": "Physical Review A",
+      "category": "research",
+      "date": "2026-10-30",
+      "author": "Ryan Tiew, Nikolas P. Breuckmann",
+      "fetched_at": "2026-10-31T17:13:26+00:00",
+      "doi": "https://doi.org/10.1103/lf7t-81xq",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/vcbb-k8zw",
+      "title": "Robust high-order quantum simulation using finite-width pulses",
+      "url": "https://doi.org/10.1103/vcbb-k8zw",
+      "summary": "We present a general framework for promoting first-order pulse sequences in quantum simulation to higher-order sequences that maintain robustness in the presence of finite pulse-width effects. Our approach maps a given first-order pulse sequence to a first-order Trotter formula, applies higher-order Trotter-formula constructions, and then compiles the resulting evolution back into physically implementable finite-width pulses via dynamically corrected gates. The resulting sequences achieve arbitrarily high-order error scaling with respect to the control cycle time of the underlying first-order sequence while maintaining robustness to finite pulse-width effects. The framework also enables the use of multi-product formulas for more efficient constructions. We apply the framework to several physically motivated quantum-simulation tasks and numerically verify the predicted error scalings.",
+      "source": "Physical Review Research",
+      "category": "research",
+      "date": "2026-10-30",
+      "author": "Leeseok Kim, Milad Marvian",
+      "fetched_at": "2026-10-31T17:13:26+00:00",
+      "doi": "https://doi.org/10.1103/vcbb-k8zw",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/dbjp-4b3g",
+      "title": "Quantum matter is weakly entangled at low energies",
+      "url": "https://doi.org/10.1103/dbjp-4b3g",
+      "summary": "We construct upper bounds on entanglement entropies of many-body quantum states that have fixed energy expectation values with respect to local Hamiltonians. Our focus is on entanglement entropies of subsystems that make up approximately half of the full system. The upper bound on the von Neumann entanglement entropy is half the sum of the thermal entropies of two fictitious systems at the same temperature as one another, with an additional area-law contribution in some systems. The effective temperature is chosen such that the sum of the thermal energies of the two fictitious systems matches the constraint on the energy of the state in the original problem; at subextensive energies, this temperature decreases with increasing system size. Our upper bounds on Rényi entanglement entropies take an analogous form. These inequalities show that, in systems that are frustration-free (FF) and whose zero-temperature subsystem thermal entropies scale with surface areas (rather than subsystem volumes), ground states are area-law entangled. For physical models of quantum matter, which have well-defined specific heat capacities (and are not necessarily FF), our bounds provide a way to convert this thermodynamic data into constraints on pure-state entanglement at both subextensive and extensive energies. We also show that our general upper bounds on half-system entanglement entropies are optimal, up to subleading corrections, in systems with reflection symmetry and above a subextensive energy threshold. A key application of our results is to constrain the entanglement of quantum states relevant to simulations of zero-temperature response functions, which have energies of order unity. We prove that, in wide varieties of FF systems in two dimensions and higher, the contributions of exc",
+      "source": "PRX Quantum",
+      "category": "research",
+      "date": "2026-10-30",
+      "author": "Samuel J. Garratt, Dmitry A. Abanin",
+      "fetched_at": "2026-10-31T17:13:26+00:00",
+      "doi": "https://doi.org/10.1103/dbjp-4b3g",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1002/adma.75513",
+      "title": "Near‐Infrared Imaging of H 2 O 2 in Plants With Nanosensors Under Environmentally Changing Conditions",
+      "url": "https://doi.org/10.1002/adma.75513",
+      "summary": "ABSTRACT Optical sensors are powerful tools to monitor biological systems. However, their practical deployment is often limited by environmental interferences such as autofluorescence, mechanical motion, and fluctuating illumination. These challenges are particularly pronounced in plants because they require and use light, which has impaired the use of (fluorescent) sensors for plant stress signals such as H 2 O 2 . Here, we present a ratiometric sensing platform that overcomes these limitations by integrating three spectrally distinct components: 1) an H 2 O 2 sensor based on aptamer modified near infrared (NIR) fluorescent single walled carbon nanotubes (SWCNTs, ∼1000 nm), 2) a stable NIR reference based on polyethyleneglycol modified Egyptian Blue nanosheets (EB–NS, 900–955 nm) and 3) a visible (VIS) signal (∼641 nm) to correct for the NIR autofluorescence tail of plants (>835 nm). This ratiometric approach enables robust signal correction under relevant perturbations, including leaf rotation and wind‐induced motion. Furthermore, it allows continuous H 2 O 2 monitoring under dynamically varying illumination conditions (>300%), resulting in a 75% enhancement in signal contrast compared to single‐channel detection. By spectrally resolving nanosensor signals and endogenous plant autofluorescence, this strategy enables in vivo monitoring of stress‐induced H 2 O 2 under realistic environmental conditions. It establishes interference‐resistant optical sensing and advances field‐deployable nanosensor technologies for precision agriculture.",
+      "source": "Advanced Materials",
+      "category": "research",
+      "date": "2026-10-30",
+      "author": "Jiaqi Li, Björn Hill, Chen Ma, Juliana Gretz et al.",
+      "fetched_at": "2026-10-31T17:13:26+00:00",
+      "doi": "https://doi.org/10.1002/adma.75513",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1063/5.0340790",
+      "title": "Operating a bistable qubit",
+      "url": "https://doi.org/10.1063/5.0340790",
+      "summary": "Parasitic two-level-system (TLS) defects limit the stability and performance of solid-state quantum processors. Their interaction with a qubit can cause discrete, stochastic shifts of the qubit frequency, making the qubit bistable. We experimentally demonstrate an adaptive protocol for operating a bistable qubit with high fidelity using a classical controller powered by a field-programmable gate array. Our “1-bit feedback” protocol estimates the qubit's bistable frequency and corrects the control frame using only one single-shot measurement, reaching the information limit set by the qubit's intrinsic entropy. We validate the protocol in a superconducting qubit by suppressing TLS-induced Ramsey beating, and deploy it to stabilize gate fidelities over time with approximately 136 kHz estimation bandwidth and a 77% error reduction. Our approach provides a simple, yet fundamentally efficient strategy for mitigating dephasing errors induced by strongly coupled TLS defects, and may enable the operation of large future qubit arrays suffering from few remaining, discrete instabilities.",
+      "source": "Applied Physics Reviews",
+      "category": "research",
+      "date": "2026-10-30",
+      "author": "Fabrizio Berritta, Jan A. Krzywda, Tom Dvir, Paul Buttles et al.",
+      "fetched_at": "2026-10-31T17:13:26+00:00",
+      "doi": "https://doi.org/10.1063/5.0340790",
       "open_access": true
     },
     {
@@ -2468,6 +2611,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 11
   }
 }
