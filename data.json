@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-01T05:29:45+00:00",
+  "updated_at": "2026-11-01T12:59:51+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -186,6 +186,97 @@
       "open_access": true
     },
     {
+      "id": "https://doi.org/10.1038/s41534-026-01325-9",
+      "title": "Efficient multi-basis quantum position verification secure against generalized adversaries",
+      "url": "https://doi.org/10.1038/s41534-026-01325-9",
+      "summary": "Abstract Quantum position verification (QPV) enables multiple verifiers to certify a prover’s location using quantum communication and physical assumptions. With experimental demonstrations of QPV becoming increasingly feasible, enhancing the practicality and security of QPV protocols is more important than ever. In this work, we make three key contributions toward this goal. First, we introduce a robust QPV protocol in which the verifier’s state preparation is independent of channel loss, improving reliability in real-world conditions. Second, we refine existing security analysis techniques to bolster protocol resilience against experimental imperfections. Third, we identify and address some implicit assumptions present in existing security analyses, providing a framework to eliminate such assumptions. Additionally, as an example of QPV application beyond location verification, we illustrate how QPV can be leveraged for authenticating classical communication in quantum key distribution.",
+      "source": "npj Quantum Information",
+      "category": "research",
+      "date": "2026-10-31",
+      "author": "Wen Yu Kon, Ignatius William Primaatmaja, Kaushik Chakraborty, Charles Ci Wen Lim",
+      "fetched_at": "2026-11-01T12:59:50+00:00",
+      "doi": "https://doi.org/10.1038/s41534-026-01325-9",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s41467-026-78680-w",
+      "title": "Quantum-logic spectroscopy of forbidden vibrational transitions in single nitrogen molecular ions",
+      "url": "https://doi.org/10.1038/s41467-026-78680-w",
+      "summary": "Abstract Electric-dipole forbidden spectroscopic transitions in atoms form the basis of many advanced implementations of quantum computers, atomic clocks and quantum sensors. Coherently addressing such transitions in molecules which are among the most ubiquitous and versatile quantum objects has remained a long-standing challenge owing to their complex energy-level structure. Here, we report the search, observation and coherent manipulation of electric-quadrupole rotational-vibrational transitions in single trapped molecules using a quantum-logic-spectroscopy protocol. We identify individual hyperfine-Zeeman-rotational components of the fundamental vibrational transition of the nitrogen molecular ion, $${{{{{\\rm{N}}}}}}_{2}^{+}$$ N 2 + , and perform coherent population transfer between energy levels. Our work opens up new perspectives for precision molecular spectroscopy, for high-fidelity qubits encoded in the rotational-vibrational motion of molecules, for precise infrared molecular clocks and for searches for new physics.",
+      "source": "Nature Communications",
+      "category": "research",
+      "date": "2026-10-31",
+      "author": "Aleksandr Shlykov, Meissa L. Diouf, Richard Karl, Mikolaj Roguski et al.",
+      "fetched_at": "2026-11-01T12:59:50+00:00",
+      "doi": "https://doi.org/10.1038/s41467-026-78680-w",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1021/acs.jctc.6c01410",
+      "title": "A Quantum-HPC Hybrid Workflow for Reaction-Center Electronic Dynamics: Application to a Cytochrome P450-Inspired Iron-Complex Model",
+      "url": "https://doi.org/10.1021/acs.jctc.6c01410",
+      "summary": "Abstract We introduce population-transfer dynamics as a practical validation observable for active-state-derived reduced Hamiltonians in multistate reaction-center chemistry. In transition-metal systems, missing couplings or configurations can compromise the reliability of reduced active space models along a reaction coordinate, even when the overall spectrum is reproduced reasonably well. Using a cytochrome P450-inspired Fe-complex model, we construct a reaction-coordinate-dependent effective Hamiltonian from state-averaged complete active-space self-consistent field (SA-CASSCF) calculations, map it to a quantum circuit representation suitable for current hardware, and propagate the dynamics from the reactant-side ground state. At the spectrum level, the reduced Hamiltonian reproduces the SA-CASSCF reference with an RMS deviation of 0.030 eV and a maximum absolute deviation of 0.143 eV. As a dynamics-based diagnostic, the product-manifold population pP(t) identifies a pronounced near-degeneracy window around x ≈ 0.3, where state mixing is strongest; specifically, computed from classical exact time evolution reaches 0.488 at x = 0.3 after 10 fs, compared with 7.26 × 10–2 at x = 0.2 and 5.90 × 10–3 at x = 0.0. To render the workflow executable on current trapped-ion hardware, we quantify the NISQ-relevant trade-off between dynamical fidelity and circuit resources through coupling pruning and first-order Trotterization. A coupling cutoff of ε = 0.02 eV reduces the nonzero coupling set from 32 to 7 while preserving the dominant transfer pathways, and a Trotter step number of M = 30 provides the best practical operating point among the tested values. Finally, we demonstrate the end-to-end workflow on Quantinuum’s trapped-ion quantum computer Reimei. The hardware reproduces ",
+      "source": "Journal of Chemical Theory and Computation",
+      "category": "research",
+      "date": "2026-10-31",
+      "author": "Shintaro Maekawa, Takao Otsuka, Riku Masui, Juan W. Pedersen et al.",
+      "fetched_at": "2026-11-01T12:59:50+00:00",
+      "doi": "https://doi.org/10.1021/acs.jctc.6c01410",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.67347/pith.preprint.2026.000024",
+      "title": "The Recognition Ledger of a Black Hole: Horizon Records, Entropy Counts and Lattice Hawking Radiation",
+      "url": "https://doi.org/10.67347/pith.preprint.2026.000024",
+      "summary": "A black hole of horizon area A carries the entropy A/(4 l_P²), radiates at the temperature ħκ_s/(2π) set by its surface gravity κ_s, and, if quantum mechanics holds, gives back the information that fell in. All three concern what a horizon records, and the recognition ledger's events are records. We state the four steps of a ledger account, a lattice horizon, its entropy, its radiation and the fate of its information, as precise targets; none of the four is complete. On the ledger's lattice G = 1/(8πs) is fixed by the action scale s and ħ = 1/a by the phase scale a, so at tree level the Bekenstein–Hawking quarter holds exactly when a horizon holds 2πas per unit area; the ledger's phase premise sets this to one bit per record area λ_rec², so a count that assumes it returns the quarter by construction. The lattice's order of postings holds no black hole, nor do the configurations the path sum integrates over, and in the order of a geometry's interval a trapped region needs a strong field. For the lattice action as it stands, the condition under which a weak vacuum field extends to second order fails one order past Einstein's equations, provably for a sampled field and numerically for a point mass, so a lattice black hole with a regular far field is not expected without an action exactly symmetric under vertex moves (an inference). A horizon hides the postings that cross it. One bit per crossing gives a coefficient that depends on the horizon's orientation, 0.108, 0.325 or 0.1875 at the identified spacing and tree level, none of them the quarter, so a quarter that is the same on every horizon needs a count that correlates the records; that count is open. The lattice scalar disperses like a superluminal medium at short wavelengths. On test backgrounds that are not lattice s",
+      "source": "OpenAlex",
+      "category": "research",
+      "date": "2026-10-31",
+      "author": "Jonathan Washburn",
+      "fetched_at": "2026-11-01T12:59:50+00:00",
+      "doi": "https://doi.org/10.67347/pith.preprint.2026.000024",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/s44371-026-01051-3",
+      "title": "A comprehensive review of computational strategies in the rational design of biosensors based on allosteric transcription factors for pollutant detection",
+      "url": "https://doi.org/10.1007/s44371-026-01051-3",
+      "summary": "Allosteric transcription factor (aTF)-based biosensors are powerful analytical tools for the detection of different analytes such as environmental pollutants and are widely used in medical diagnostics and environmental monitoring. These biosensors rely on ligand-induced conformational changes in transcription factors that regulate gene expression, thereby positioning them as low-cost, sensitive and selective components in biosensor design. In recent times, computational biology and chemistry techniques such as homology modelling, molecular docking, molecular dynamics (MD) simulations, free energy perturbation (FEP), enhanced sampling techniques and machine learning have been widely employed in the design and optimization of aTF-based biosensors. With these methods, the structures of proteins could be predicted, the ligand-binding pockets could be identified and characterized, the interactions therein could be analyzed and binding affinities could be predicted. Also, the conformational dynamics, allosteric and transition pathways, free energy landscapes, relative binding free energies of the ligand-aTF complexes can be predicted. Taken together, these can facilitate the engineering of aTFs with improved sensitivity and specificity. Therefore, this review highlights the individual and complementary roles of these computational techniques in the design and optimization of aTF-based biosensors and discusses the recent advances, current limitations and future directions in the design of next-generation aTF-based biosensors.",
+      "source": "Discover Chemistry.",
+      "category": "research",
+      "date": "2026-10-31",
+      "author": "Oluwatoba Emmanuel Oyeneyin",
+      "fetched_at": "2026-11-01T12:59:50+00:00",
+      "doi": "https://doi.org/10.1007/s44371-026-01051-3",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.5281/zenodo.23837597",
+      "title": "Quantum Wavefront Stabilization and Topological Optical Regularization: Resolving Phase Discontinuity via Trans-Planckian Horizon Lock Mechanics",
+      "url": "https://doi.org/10.5281/zenodo.23837597",
+      "summary": "This treatise delivers the definitive mathematical physics formulation to resolve the problem of optical wavefront layer discontinuities, phase factor anomalies, and singular photon information dissipation gradients within quantum-applied continuum architectures. Traditional optical propagation and wave-routing algorithms suffer from severe mathematical breakdown due to localized computational entropy spikes under extreme diffractive constraints. Operating within the functional infrastructure of Trans-Planckian Horizon Lock Mechanics (TPHLM), we resolve these material instabilities by executing a rigorous multi-loop tensor regularization under the global metric scale factor of the Khandey Causal Invariant Constant (K_J = 2.02 x 10^26 m). This architecture satisfies absolute diffeomorphism Ward-Khandey identities, cancels trace field anomalies, and ensures a deterministic 0.0000000000000000% floating-point error baseline, optimized for high-performance exascale computing arrays.",
+      "source": "Zenodo (CERN European Organization for Nuclear Research)",
+      "category": "research",
+      "date": "2026-10-31",
+      "author": "d Khandey",
+      "fetched_at": "2026-11-01T12:59:50+00:00",
+      "doi": "https://doi.org/10.5281/zenodo.23837597",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s44306-026-00163-x",
+      "title": "Electrically controlled heat assisted magnetic manipulation in intercalated 2D magnets",
+      "url": "https://doi.org/10.1038/s44306-026-00163-x",
+      "summary": "Abstract The ever-increasing demand for fast, reliable, and energy-efficient information storage continues to push magnetic memory technologies toward their fundamental limits. Conventional scaling strategies, which rely on reducing bit size, inevitably run into the “magnetic recording trilemma,” where signal-to-noise ratio, thermal stability, and writability cannot all be optimized simultaneously. Heat-assisted magnetic recording (HAMR) has emerged as the leading solution, enabling high-density storage by transiently heating the medium during the write cycle. However, the reliance on laser optics and plasmonic transducers restricts HAMR primarily to hard-disk drives, limiting its integration with on-chip or embedded architectures. Here, we demonstrate an electronic variant of HAMR in which Joule heating from low-current density current pulses facilitates data writing, while the anomalous Hall effect provides electronic readout. Employing intercalated 2D magnet Ni 1/4 TaSe 2 , we show direct evidence that current pulses heat the material above its Curie temperature, during which a small magnetic field of 2 mT(100 times smaller than the coercive field) enables efficient data writing. The all-electronic approach combined with the 2D magnetic medium creates timely opportunities to revisit the energy-assisted magnetization recording, enabling new schemes that combine fundamental novelty with technological impact.",
+      "source": "npj Spintronics",
+      "category": "research",
+      "date": "2026-10-31",
+      "author": "Josue Rodriguez, Ruishi Qi, C. Xu, Feng Wang et al.",
+      "fetched_at": "2026-11-01T12:59:50+00:00",
+      "doi": "https://doi.org/10.1038/s44306-026-00163-x",
+      "open_access": true
+    },
+    {
       "id": "https://doi.org/10.1088/1674-1056/aebba8",
       "title": "Topological State Transfer through Effective Boundary-Mode Channels",
       "url": "https://doi.org/10.1088/1674-1056/aebba8",
@@ -313,6 +404,19 @@
       "author": "Fabrizio Berritta, Jan A. Krzywda, Tom Dvir, Paul Buttles et al.",
       "fetched_at": "2026-10-31T17:13:26+00:00",
       "doi": "https://doi.org/10.1063/5.0340790",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1186/s43593-026-00145-w",
+      "title": "Spatiotemporal topological combs for robust high-dimensional information transmission",
+      "url": "https://doi.org/10.1186/s43593-026-00145-w",
+      "summary": "Abstract Time-varying orbital angular momentum (OAM) beams are fascinating due to their rich physics and essentially unbounded degrees of freedom. Yet, despite this promise, their practical use in high-capacity communication has not been demonstrated. We introduce a spatiotemporal topological comb (ST-Comb) as a programmable information carrier in which digital data are encoded into a generalized spatiotemporal-topological state space, rather than into a single vortex beam or an OAM mode. The accessible states are defined by temporal slots, spatiotemporal phase winding, radial topology, coherent topological superpositions, and ST-CEP-dependent spectral fingerprints. A Hyper-DoF ST-Comb modulator programs these variables in the $$k_x$$ k x - $$\\omega$$ ω plane, while a self-referenced Guide-Star pulse enables coherent reconstruction relative to an intrinsic optical reference. In the present proof-of-concept, we demonstrate 154 mapped digital bits per wavepacket, recovered with $$100\\%$$ 100 % recognition accuracy under tested laboratory, phase-screen-equivalent turbulence, and 100 m outdoor field-trial conditions. The results chart a path toward reconfigurable ultrafast photonics, where programmable spatiotemporal-topological states provide a robust physical alphabet for high-dimensional optical interconnects.",
+      "source": "eLight",
+      "category": "research",
+      "date": "2026-10-30",
+      "author": "Dawei Liu, Xingyuan Zhang, Daijun Luo, HUIMING WANG et al.",
+      "fetched_at": "2026-11-01T12:59:50+00:00",
+      "doi": "https://doi.org/10.1186/s43593-026-00145-w",
       "open_access": true
     },
     {
@@ -2611,6 +2715,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 8
   }
 }
