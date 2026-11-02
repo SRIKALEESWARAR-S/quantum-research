@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-02T05:28:17+00:00",
+  "updated_at": "2026-11-02T15:22:05+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -160,6 +160,71 @@
       "open_access": true
     },
     {
+      "id": "https://doi.org/10.1038/s41534-026-01379-9",
+      "title": "Unifying quantum smoothing theories with extended retrodiction",
+      "url": "https://doi.org/10.1038/s41534-026-01379-9",
+      "summary": "Estimating the state of an open quantum system monitored over time requires incorporating information from past measurements (filtering) and, for improved accuracy, also from future measurements (smoothing). While classical smoothing is well understood within a Bayesian framework, its quantum generalization has been challenging, leading to distinct and seemingly incompatible approaches. In this work, we demonstrate that quantum state smoothing hinges on a uniquely quantum feature: the fundamental dependence of retrodiction on prior correlations. We introduce auxiliary systems into the prior to represent specified correlations formed during preparation and evolution, and formulate quantum state smoothing as extended Bayesian retrodiction. This framework identifies previous approaches as different choices of the extended prior, and naturally extends it to other choices that have not been considered before. We also give an information-theoretic characterization of the choices of prior, in terms of the average entropy of the smoothed states. Our results establish quantum state smoothing as a fundamentally retrodictive process just like classical smoothing, with proper quantum features clearly identified.",
+      "source": "npj Quantum Information",
+      "category": "research",
+      "date": "2026-11-01",
+      "author": "Mingxuan Liu, Ge Bai, Valerio Scarani",
+      "fetched_at": "2026-11-02T15:22:03+00:00",
+      "doi": "https://doi.org/10.1038/s41534-026-01379-9",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/klq1-5rwp",
+      "title": "Accelerating noisy variational quantum algorithms with physics-informed denoising networks",
+      "url": "https://doi.org/10.1103/klq1-5rwp",
+      "summary": "Variational quantum algorithms are promising for near-term quantum computing, but are severely limited by hardware noise and the substantial circuit overhead required for error mitigation methods such as Zero-Noise Extrapolation (ZNE). We propose a Physics-Informed Denoising Network (PIDN) that reduces the cost of ZNE by learning a surrogate model of its optimization dynamics. By viewing the variational update as a trajectory in the parameter space, PIDN is trained to reproduce ZNE-mitigated expectation values and gradient directions while incorporating a physics-informed loss that preserves the gradient descent dynamics. Once trained, PIDN replaces repeated multi-noise evaluations with denoised expectation and gradient estimation directly from the current noisy observation and the historical trajectory, significantly reducing circuit executions. We benchmark the approach on the quantum approximate optimization algorithm for 3-regular graphs, Sherrington-Kirkpatrick, and transverse-field Ising models, as well as the variational quantum eigensolver for LiH, BeH$_2$ and H$_2$O. Across all tasks, PIDN attains performance comparable to ZNE, while reducing the number of circuit executions by a factor of approximately 4 to 6. Gradient cosine similarity with ZNE remains above 0.95 throughout training. Robustness analysis shows that PIDN fails only when ZNE itself becomes unreliable, and ablation studies confirm the necessity of the physics-informed loss for maintaining directional consistency. We further find that PIDN tracks optimization dynamics most accurately when the effective loss landscape retains strong low-frequency structure. These results establish PIDN as a scalable, resource-efficient strategy for noise-resilient variational optimization in the noisy intermediate-",
+      "source": "Physical Review Research",
+      "category": "research",
+      "date": "2026-11-01",
+      "author": "Jie Liu, Xin Wang",
+      "fetched_at": "2026-11-02T15:22:03+00:00",
+      "doi": "https://doi.org/10.1103/klq1-5rwp",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/9mjz-fddy",
+      "title": "Unconditional authentication in quantum key distribution via hybrid entangled physical unclonable functions",
+      "url": "https://doi.org/10.1103/9mjz-fddy",
+      "summary": "Quantum Key Distribution (QKD) enables Information-Theoretically Secure (ITS) key exchange, robust even against future quantum computing threats. However, a fundamental limitation of QKD is the requirement for an authenticated classical channel, which necessitates a pre-shared secret key. In this work, we address this challenge by adopting a Hybrid Entangled Physical Unclonable Function (PUF) protocol for authentication. We demonstrate that this PUF-based method generates an ITS initial key under minimal explicit hardware assumptions. This approach allows us to experimentally perform a fully ITS-authenticated entanglement-based QKD protocol that relies solely on such assumptions, effectively eliminating the need for pre-shared secrets. This represents a significant step towards the practical realization of quantum network protocols using lightweight, readily available hardware assumptions, without weakening security guarantees.",
+      "source": "Physical Review Research",
+      "category": "research",
+      "date": "2026-11-01",
+      "author": "Nicolas Laurent-Puig, Mina Doosti, Adriano Innocenzi, Eleni Diamanti",
+      "fetched_at": "2026-11-02T15:22:03+00:00",
+      "doi": "https://doi.org/10.1103/9mjz-fddy",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1016/j.dark.2026.102509",
+      "title": "Three-form dark energy: constraints and multi-probe comparison with ΛCDM",
+      "url": "https://doi.org/10.1016/j.dark.2026.102509",
+      "summary": "",
+      "source": "Physics of the Dark Universe",
+      "category": "research",
+      "date": "2026-11-01",
+      "author": "Mariam Bouhmadi-López, a Hsu-Wen Chiang, Carlos G. Boiza, Javier Ortega del Río et al.",
+      "fetched_at": "2026-11-02T15:22:03+00:00",
+      "doi": "https://doi.org/10.1016/j.dark.2026.102509",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1016/j.jcat.2026.117263",
+      "title": "Beyond the ground state: a spin-resolved reaction network for oxygen evolution reaction on NiOOH",
+      "url": "https://doi.org/10.1016/j.jcat.2026.117263",
+      "summary": "",
+      "source": "Journal of Catalysis",
+      "category": "research",
+      "date": "2026-11-01",
+      "author": "Ilia M. Odud, Vitaly G. Kiselev, Sergey V. Levchenko",
+      "fetched_at": "2026-11-02T15:22:03+00:00",
+      "doi": "https://doi.org/10.1016/j.jcat.2026.117263",
+      "open_access": true
+    },
+    {
       "id": "https://eprints.lancs.ac.uk/id/eprint/239296/1/Yesilkanat_et_al_-_Manuscript_ML_Kb-Ka_final.pdf",
       "title": "High-accuracy prediction of Kβ/Kα intensity ratios via explainable stacked-ensemble learning : A web-based computational tool",
       "url": "https://eprints.lancs.ac.uk/id/eprint/239296/1/Yesilkanat_et_al_-_Manuscript_ML_Kb-Ka_final.pdf",
@@ -274,6 +339,32 @@
       "author": "Josue Rodriguez, Ruishi Qi, C. Xu, Feng Wang et al.",
       "fetched_at": "2026-11-01T12:59:50+00:00",
       "doi": "https://doi.org/10.1038/s44306-026-00163-x",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/s42452-026-09818-0",
+      "title": "Strategic heteroatom doping enhances the sensitivity of covalent organic frameworks for ciprofloxacin detection",
+      "url": "https://doi.org/10.1007/s42452-026-09818-0",
+      "summary": "Abstract Ciprofloxacin water pollution from poor waste management poses serious ecological and public health risks. In this research, we investigated the adsorption capacity of covalent organic frameworks (COFs) doped with heteroatoms such as nitrogen, phosphorus, sulfur, and silicon to enhance their ability to adsorb ciprofloxacin. Using density functional theory (DFT) with the ꞷB97XD/6-311G(d) level of theory. This study included structural analysis, electronic properties, spectral analysis, topological studies, and adsorption energy investigations to provide a comprehensive understanding of the COF-ciprofloxacin interaction. The results revealed that the bare COF was strongly chemisorbed with ciprofloxacin, with an adsorption energy of -1.088 eV. Conversely, doping COFs with nitrogen alone or in combination with sulfur and silicon significantly improved chemisorption, with adsorption energies of -1.116 eV, (N-COF-CFN) -1.415 eV, (N-COF-S-CFN), and − 1.687 eV (N-COF-Si-CFN). These findings suggest that specific heteroatom doping can significantly enhance the adsorption capacity of COF for ciprofloxacin.",
+      "source": "Discover Applied Sciences",
+      "category": "research",
+      "date": "2026-10-31",
+      "author": "Okpanachi Nuhu Oyibo, Lubem Aondoakaa, Maryann A. Odume, Jovita K. Ngene",
+      "fetched_at": "2026-11-02T15:22:03+00:00",
+      "doi": "https://doi.org/10.1007/s42452-026-09818-0",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.67347/pith.preprint.2026.000029",
+      "title": "The Recognition Ledger of a Black Hole: Horizon Records, Entropy Counts and Lattice Hawking Radiation",
+      "url": "https://doi.org/10.67347/pith.preprint.2026.000029",
+      "summary": "A black hole of horizon area A carries the entropy A/(4 l_P²), radiates at the temperature ħg_H/(2π) set by its surface gravity g_H, and, if quantum mechanics holds, gives back the information that fell in. All three concern what a horizon records, and the recognition ledger's events are records. We state the four steps of a ledger account, a lattice horizon, its entropy, its radiation and the fate of its information, as precise targets; none is complete. On the ledger's lattice G = 1/(8πs) is fixed by the action scale s and ħ = 1/a by the phase scale a, so at tree level the Bekenstein–Hawking quarter holds exactly when a horizon holds 2πas per unit area; the ledger's phase premise sets this to one bit per record area λ_rec², so a count that assumes it returns the quarter by construction. The lattice's order of postings holds no black hole, nor do the configurations the path sum integrates over, and in a geometry's interval order trapping needs a strong field. For the lattice action as it stands, the condition under which a weak vacuum field extends to second order fails one order past Einstein's equations, provably for a sampled field and for a point mass's Taylor fields, so a lattice black hole with a regular far field is not expected without an action exactly symmetric under vertex moves (an inference). A horizon hides the postings that cross it. One bit per crossing gives a coefficient that depends on the horizon's orientation, 0.108, 0.325 or 0.1875 at the identified spacing and tree level, none of them the quarter, so a quarter that is the same on every horizon needs a count that correlates the records, which is open. The lattice scalar disperses like a superluminal medium at short wavelengths. On test backgrounds that are not lattice solutions its computed in-out",
+      "source": "OpenAlex",
+      "category": "research",
+      "date": "2026-10-31",
+      "author": "Jonathan Washburn",
+      "fetched_at": "2026-11-02T15:22:03+00:00",
+      "doi": "https://doi.org/10.67347/pith.preprint.2026.000029",
       "open_access": true
     },
     {
@@ -2859,6 +2950,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 12
+    "new_items": 7
   }
 }
