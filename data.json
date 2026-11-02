@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-01T21:54:37+00:00",
+  "updated_at": "2026-11-02T05:28:17+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -418,6 +418,150 @@
       "fetched_at": "2026-11-01T12:59:50+00:00",
       "doi": "https://doi.org/10.1186/s43593-026-00145-w",
       "open_access": true
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.42150v1",
+      "title": "Secret-shared teleportation of a two-qudit gate with a deferred recipient",
+      "url": "https://arxiv.org/abs/2610.42150v1",
+      "summary": "An unknown quantum operation, like an unknown quantum state, cannot be perfectly copied or stored for later use. A specific gate can be embedded in an entangled resource and teleported, but its destination is fixed when the resource is created. Here we show that the capability to apply a two-qudit entangling gate can instead be secret-shared among many parties: the shares are distributed in advance, and a later key release lets exactly one of them, chosen after distribution, exercise it. A provider encrypts half of a Bell pair held with a user into $n$ shares, one per candidate node. The selected node, given the key qudits, completes an exact non-local $\\mathtt{CSUM}^{k}$ gate with the user's data, in every measurement branch and for any qudit dimension, with the power $k$ chosen by the user alone. Any coalition of fewer than $n$ candidate nodes, or the key register alone, holds no information, unselected nodes cannot tell whether a selection occurred, and the key cannot decrypt twice. For two candidates the registers form a $((3,5))$ threshold scheme. Encoder and decoder are explicit $O(n)$ circuits. The construction supports jointly authorized and anonymous gate application, advancing distributed quantum computing and quantum network capabilities.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-30",
+      "author": "Tanay Roy",
+      "fetched_at": "2026-11-02T05:28:17+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.42131v1",
+      "title": "Time-optimal quantum dynamics under fixed-norm generators",
+      "url": "https://arxiv.org/abs/2610.42131v1",
+      "summary": "We investigate the dynamics of quantum systems whose evolution is governed by linear generators of fixed unitarily invariant norm. For this broad class of evolutions, we derive a universal time-optimal generator of the dynamics converting one given state into another. It provides a time-optimal non-Hermitian Hamiltonian for pure state conversion. We then use this general result to derive quantum speed limits for mixed-state evolutions governed by Lindbladians and non-Hermitian Hamiltonians. Our findings follow from the geometric properties of the group $GL(n,\\mathbb{C})$, in particular the geodesic distance. The derived bounds hold for an arbitrary system size $n$, depend only on the norms of the evolution generator and the initial and final states, and do not require performing any time-averaging.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-30",
+      "author": "Oskar A. Prośniak, Karol Życzkowski",
+      "fetched_at": "2026-11-02T05:28:17+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.42129v1",
+      "title": "Weighted hypergraph states as a resource for quantum metrology",
+      "url": "https://arxiv.org/abs/2610.42129v1",
+      "summary": "Quantum correlations can be used to improve sensing precision beyond classical limits, yet the correlated resource states needed can be challenging to prepare and preserve. Here, we study the family of weighted hypergraph states and identify subclasses characterized by their underlying graph topology that exhibit enhanced metrological performance. Using the quantum Fisher information and a novel Dicke state basis representation, we show that these subclasses outperform both separable and standard weighted graph state benchmarks over broad ranges of edge weights corresponding to weak controlled operations between qubits representing the vertices of the graph. We provide analytical formulas for an arbitrary number $N$ of qubits, supplemented by a general study, while focusing a detailed analysis on the example case of $N=4$. By identifying the critical probabilities for local dephasing, we show that adding higher-order weighted hyperedges for $N$ qubits can enhance metrological robustness, allowing the resulting states to retain a quantum advantage at higher noise levels. These probe states exhibit favorable scaling, enhanced precision, and noise tolerance. Our findings establish weighted hypergraph states as viable, structurally tunable and robust resources for quantum-enhanced metrology.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-30",
+      "author": "B. J. Alexander, M. S. Tame",
+      "fetched_at": "2026-11-02T05:28:17+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.42120v1",
+      "title": "Persistence of Unitary Almost Mathieu Operator Gaps Ten Dry Martinis, Five on the Rim",
+      "url": "https://arxiv.org/abs/2610.42120v1",
+      "summary": "We determine exactly which gap labels are realized by open spectral gaps for the unitary almost Mathieu operator at every irrational frequency and all coupling constants ($0<λ_1,λ_2\\leq1$). When both couplings are strictly less than one, every permitted gap label is realized by an open gap, including in the critical case ($λ_1=λ_2$). When at least one coupling equals one, both lifts of every odd winding label are realized by open gaps, whereas all even winding labels are collapsed. The proof combines quantitative almost reducibility and Aubry duality with a monotonicity principle for gap heights.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-30",
+      "author": "Dan S. Borgnia, Matthew Faust, Long Li",
+      "fetched_at": "2026-11-02T05:28:17+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.42119v1",
+      "title": "Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products",
+      "url": "https://arxiv.org/abs/2610.42119v1",
+      "summary": "Risk management of worst-of autocallables needs price sensitivities (Greeks) up to third order and the potential future exposure, a tail quantile of the note's future value. In Monte Carlo, each order of differentiation multiplies the sampling noise by a factor that grows with the observation frequency, and nested simulation turns the noise of its inner paths into a bias of the quantile. We instead solve the backward pricing recursion, storing the continuation value as an $hp$ functional tensor train (hp-FTT) whose piecewise-polynomial cores are split at the barriers, so that worst-of barrier events act exactly, with rank one. For Gaussian transitions we show that the polynomial degree sufficient for an error $\\varepsilon$ grows only as $\\sqrt{\\log(1/\\varepsilon)}$. One solve then gives every Greek at any spot without sampling noise, by integrating the likelihood-ratio weight against the stored value, and the values it stores at future dates replace inner simulation. Against the strongest Monte Carlo estimators we could build or find published, on worst-of autocallables observed monthly on three to five assets, the order of the Greek and the accuracy decide which method is cheaper. At $1\\%$ accuracy Monte Carlo is more than an order of magnitude cheaper for deltas, second-order Greeks go either way, and hp-FTT is cheaper for every third-order Greek, by up to two orders of magnitude. At $0.1\\%$ hp-FTT is cheaper for every Greek we could check, under geometric Brownian motion and local volatility alike. For the exposure alone Monte Carlo is cheaper at $1\\%$ and hp-FTT at $0.1\\%$, and a solve run for the Greeks yields it for little more than scenario sampling. Sampling pays in variance for each derivative and hp-FTT in rank for each asset, so Monte Carlo keeps low-order Gr",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-30",
+      "author": "Javier Lopez-Piqueres, Atithi Acharya, Yue Sun, Niraj Kumar",
+      "fetched_at": "2026-11-02T05:28:17+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.42114v1",
+      "title": "Topologically Protected Edge States in a Single Flux Qubit",
+      "url": "https://arxiv.org/abs/2610.42114v1",
+      "summary": "We show that topological edge states can be realized in a simple superconducting circuit composed of an inductively shunted flux qubit. The Josephson potential of that qubit forms a honeycomb lattice similar to the case of graphene. The additional shunting element produces a quartic potential along one flux direction, which effectively creates a boundary in flux space. We map analytically the low-energy dynamics of the circuit to an extended Su--Schrieffer--Heeger (SSH) chain, in which a quartic potential is added to the usual SSH Hamiltonian. This mapping is confirmed by numerical simulations of the full superconducting circuit. We argue that chiral symmetry still holds for the edge states of the extended model around a chiral point in parameter space. Close to this point, we numerically find that edge states in our superconducting circuit are topologically protected against perturbations that obey chiral symmetry, as is the case for charge noise. Our results show that topological effects previously thought to occur in multi-qubit systems, such as protection against decoherence, can also be found in much simpler single superconducting qubits.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-30",
+      "author": "Pablo Perez-Fernandez, Manuel Pino",
+      "fetched_at": "2026-11-02T05:28:17+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.42103v1",
+      "title": "Charge Pumping Leptogenesis from the Symmetric Mass Generation Phase on a Four-Leg Ladder Lattice",
+      "url": "https://arxiv.org/abs/2610.42103v1",
+      "summary": "Quantized charge pumping in quantum Hall systems is a bulk topological property, typically manifesting on gapless boundaries as spectral flow through chiral edge modes upon flux insertion. When the boundary is anomaly-free, it can be symmetrically gapped by symmetric mass generation (SMG) interactions. However, the effects on quantized charge pumping at an interacting gapped boundary are unclear. We address this using density-matrix renormalization group simulations of a four-leg ladder quasi-(2+1)d realization of the (1+1)d 3-4-5-0 lattice chiral fermion model with six-fermion interactions at one edge. We find gapless modes near the interacting edge for both weak and strong couplings, but the edge can be in a fully gapped SMG phase at intermediate coupling. We also identify spontaneous breaking of the model's $\\mathbb{Z}_2$ symmetry above a critical interaction strength. Across all three boundary phases, we find quantized charge pumping with the same pumped charge per flux quantum. The spatial distribution of the pumped charge varies between phases. Besides charge pumping, we study how a single injected fermion propagates under open boundary conditions. In the SMG phase, an interaction-induced flavor-mixing current develops at the endpoints of the gapped edge, which is absent in the weak- and strong-coupling limits. This current reveals a charge-redistribution mechanism unique to the SMG phase. Additionally, we propose an analogy between charge pumping in this model and a topological leptogenesis scenario in the (3+1)d Standard Model. The anomaly-free chiral U(1) symmetries of the 3-4-5-0 model play a role analogous to the baryon-minus-lepton symmetry of the Standard Model. In both settings, charge pumping can be associated with a continuous deformation along a classic",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-30",
+      "author": "Runze Chi, Meng Zeng, Tao Xiang, Yi-Zhuang You et al.",
+      "fetched_at": "2026-11-02T05:28:17+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.42069v1",
+      "title": "The Quartic Gap Between Quantum and Dequantized Algorithms for Linear Algebra Is Tight",
+      "url": "https://arxiv.org/abs/2610.42069v1",
+      "summary": "Quantum algorithms for linear algebra that access a matrix $A$ through quantum random access memory (QRAM) prepare quantum states proportional to the solutions of linear systems and related problems. Dequantized classical algorithms, when given sampling and query access to $A$, return sampling and query access to an approximate solution. Both kinds of algorithms use a number of queries that is polynomial in the normalized Frobenius norm $ρ=\\|A\\|_F/\\|A\\|$ and does not directly depend on the dimension. For linear systems at fixed condition number and accuracy, quantum algorithms use $\\widetilde O(ρ)$ queries, whereas the best dequantized algorithms use $\\widetilde O(ρ^4)$. We prove that this quartic gap is tight in the worst case, up to a logarithmic factor. For every constant $κ_0>1$, we construct dense linear systems with condition number at most $κ_0$ for which sampling from the solution within a sufficiently small constant total variation distance requires $Ω(ρ^4/\\logρ)$ classical queries but only $Θ(ρ)$ quantum queries. The same separation holds, for errors below smaller thresholds, for positive-definite systems, least squares, ridge regression, matrix powers and square roots, imaginary-time and real-time Hamiltonian evolution, and sampling from the top principal component. Our results therefore show that many quantum algorithms for linear algebra, achieve a near-quartic speedup in the worst case, over classical algorithms with sampling and query access. All of these classical lower bounds follow from the same framework, which is based on a lower bound for sampling from distributions that depend on a fixed set of Fourier coefficients of an unknown Boolean function.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-30",
+      "author": "Shouvanik Chakrabarti, Dylan Herman, Junhyung Lyle Kim, Guneykan Ozgul",
+      "fetched_at": "2026-11-02T05:28:17+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.42041v1",
+      "title": "Benchmarking Single-Photon Sources for Measurement-Device-Independent Quantum Key Distribution",
+      "url": "https://arxiv.org/abs/2610.42041v1",
+      "summary": "Measurement-Device-Independent Quantum Key Distribution (MDI-QKD) enables secure communication without trusting the measurement devices, but its performance critically depends on the quality of the employed photon sources. We compare MDI-QKD implementations based on Weak Coherent Pulses (WCPs) with those employing Quantum Dot (QD) single-photon sources. WCP-based schemes are fundamentally limited by Poissonian photon-number statistics, imposing a trade-off between single- and multi-photon emissions, whereas QD sources exhibit sub-Poissonian statistics with low antibunching parameter $g^{(2)}(0)$. Using a decoy-state analysis for both source types, we find that even at moderate mean photon numbers, QD-based implementations outperform the best-case WCP configuration - where the mean photon number is optimised at each transmission distance - across the full range of transmission distances. We further incorporate the effect of imperfect photon indistinguishability via Hong-Ou-Mandel interference visibilities into the security framework and demonstrate that both source types are highly sensitive to even small deviations from ideal indistinguishability, significantly affecting achievable key rates and maximum transmission distance.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-30",
+      "author": "Janka Memmen, Yvonne Lasars, Tobias Heindel, Nathan Walk et al.",
+      "fetched_at": "2026-11-02T05:28:17+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.42029v1",
+      "title": "Empirical Evaluation of Quantum Kernel Methods for Classification: A Comparative Study with Classical Kernels",
+      "url": "https://arxiv.org/abs/2610.42029v1",
+      "summary": "Quantum kernel methods are the most concrete near-term proposal for quantum machine learning on classical data, yet published benchmarks disagree on whether they outperform tuned classical kernels, and the disagreement cannot be resolved from the literature because the comparisons are not protocol-controlled. We argue that the obstacle is one of measurement, not theory: the usual setup fixes the quantum feature map's data scaling while grid-searching the classical kernel's hyperparameters, recomputes nothing per fold, and reports cost in simulator time. We therefore treat the comparison itself as the object of study and impose three controls. The bandwidth is tuned on the same grid budget as the classical $γ$, the kernel is recomputed inside every fold from fold-fitted preprocessing, and cost is counted in hardware circuit evaluations. On top of these we run a factorial design of 324 cells in which dimensionality, training size, class separability and data structure are explicit covariates, together with four standard datasets, a shots-versus-gate-noise ablation, and a cost sweep. The dominant effect we measure is not quantum: tuning the feature map's bandwidth is worth 0.120 accuracy on synthetic data and 0.339 on real data, exceeding every quantum-classical difference we observe. Tuned quantum kernels are then statistically indistinguishable from a tuned RBF on all four real datasets. The advantage on synthetic data is confined almost entirely to data generated by the feature map itself, and it shrinks with dimensionality (-0.0045 per qubit) while growing with sample size. Finite sampling costs an order of magnitude more accuracy than gate and readout noise, and a fidelity kernel needs $5\\times10^{7}$ circuits at n = 10,000. Protocol variance is thus sufficient to exp",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-30",
+      "author": "Ronak Bhalgami",
+      "fetched_at": "2026-11-02T05:28:17+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.42017v1",
+      "title": "Logical Bell Inequalities for Marginal Wigner Negativity",
+      "url": "https://arxiv.org/abs/2610.42017v1",
+      "summary": "We construct logical Bell inequalities whose violations are determined by the Wigner function of a reduced quantum state. For odd-prime qudits, each phase-space point of any nonempty proper subsystem defines an inequality, violated precisely when the corresponding Gross Wigner value is negative. This correspondence allows us to quantify the contextuality that a reduced state guarantees for the composite system. The normalized violation gives a lower bound on the contextual fraction in the complete Weyl measurement scenario, valid for every joint state with that marginal, irrespective of its correlations. We identify a family of product states that saturates this bound. For these states, one marginal Wigner value fixes the contextual fraction of the entire system.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-30",
+      "author": "Sanchit Srivastava, Selman Ipek, Cihan Okay, Shohini Ghose",
+      "fetched_at": "2026-11-02T05:28:17+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2610.41986v1",
+      "title": "Resource efficient Sample Based Quantum Simulation through Fragmentation and Virtual Partitioning of QPU",
+      "url": "https://arxiv.org/abs/2610.41986v1",
+      "summary": "Present-day sample-based quantum algorithms within quantum-centric supercomputing workflows require substantial classical post-processing, large circuit depths to produce chemically relevant samples, and long QPU times to execute the many circuits needed for molecules of chemically relevant size. We introduce FMO-QVM-HCI-HSQD, a resource-efficient sample-based framework that breaks a large problem into fragments, runs the fragments in parallel on virtual regions of the QPU, and reduces circuit depth through a half-qubit ansatz whose samples seed an HCI expansion. We demonstrate the algorithm on ibm_marrakesh and ibm_boston for the water trimer and the carmofur_Mpro complex with up to 52 qubits, benchmarking against FMO-CCSD(T), FMO-CASCI and FMO-HCI. For the water trimer (14 spin orbitals for monomers, 28 for dimers), our method reduces the two-qubit depth by 39% compared to FMO-QVM-SQD and the QPU time by 82% compared to sequential FMO-SQD, and accesses 3% of the determinant subspace versus 40% for FMO-SQD, while achieving more accurate energies. For the carmofur_Mpro complex (16 and 32 spin orbitals), it reduces the two-qubit depth by 47% and the QPU time by 20% compared to FMO-QVM-SQD, and accesses 0.007% of the determinant subspace versus 40%, while remaining within chemical accuracy. Extending the carmofur_Mpro active space in the 6-31G basis to 52 and 104 spin orbitals, sampled on 26 and 52 qubits, the total energy deviates from FMO-HCI by only 1.22 mHa. These results show that combining fragmentation, virtual QPU partitioning and half-qubit sampling makes sample-based quantum simulation of chemically relevant systems feasible on current hardware.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-10-30",
+      "author": "R. Pradeep, Anurag Chaudhary, Ashish Kumar Patra, Anurag K. S. V. et al.",
+      "fetched_at": "2026-11-02T05:28:17+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
     },
     {
       "id": "https://arxiv.org/abs/2610.40652v1",
@@ -2715,6 +2859,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 12
   }
 }
