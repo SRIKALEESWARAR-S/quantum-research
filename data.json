@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03T13:56:26+00:00",
+  "updated_at": "2026-11-03T23:05:52+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -184,6 +184,138 @@
       "fetched_at": "2026-11-03T13:56:25+00:00",
       "doi": "https://doi.org/10.1088/1674-1137/aebcf0",
       "open_access": true
+    },
+    {
+      "id": "https://www.northernpublicradio.org/2026-11-02/this-woman-defied-lethal-cancer-can-mrna-vaccines-make-that-possible-for-others",
+      "title": "This woman defied lethal cancer . Can mRNA vaccines make that possible for others ?",
+      "url": "https://www.northernpublicradio.org/2026-11-02/this-woman-defied-lethal-cancer-can-mrna-vaccines-make-that-possible-for-others",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "northernpublicradio.org",
+      "category": "news",
+      "date": "2026-11-03",
+      "author": "",
+      "fetched_at": "2026-11-03T23:05:48+00:00"
+    },
+    {
+      "id": "https://www.manilatimes.net/2026/11/03/tmt-newswire/pr-newswire/axa-betterme-weekend-concludes-successfully-attracting-over-11000-participants/2460412",
+      "title": "AXA BetterMe Weekend Concludes Successfully Attracting Over 11 , 000 Participants",
+      "url": "https://www.manilatimes.net/2026/11/03/tmt-newswire/pr-newswire/axa-betterme-weekend-concludes-successfully-attracting-over-11000-participants/2460412",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "manilatimes.net",
+      "category": "news",
+      "date": "2026-11-03",
+      "author": "",
+      "fetched_at": "2026-11-03T23:05:48+00:00"
+    },
+    {
+      "id": "https://www.salernonotizie.it/2026/11/03/vie-di-salerno-mappa-interattiva-per-scoprire-le-storie-dietro-i-nomi-di-strade-e-piazze",
+      "title": "Vie di Salerno , mappa interattiva per scoprire le storie dietro i nomi di strade e piazze",
+      "url": "https://www.salernonotizie.it/2026/11/03/vie-di-salerno-mappa-interattiva-per-scoprire-le-storie-dietro-i-nomi-di-strade-e-piazze/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "salernonotizie.it",
+      "category": "news",
+      "date": "2026-11-03",
+      "author": "",
+      "fetched_at": "2026-11-03T23:05:48+00:00"
+    },
+    {
+      "id": "https://www.bjnews.com.cn/detail/1793611125129524.html",
+      "title": "增量资金接力入场 ， A股积极因素持续累积 ， 何时反弹 ？ 新京报",
+      "url": "https://www.bjnews.com.cn/detail/1793611125129524.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "bjnews.com.cn",
+      "category": "news",
+      "date": "2026-11-03",
+      "author": "",
+      "fetched_at": "2026-11-03T23:05:48+00:00"
+    },
+    {
+      "id": "https://www.stcatharinesstandard.ca/news/canada/in-the-news-today-u-s-midterms-today-carney-in-antigua-is-ai-stealing-youth-jobs/article_67947e99-c468-5e65-bebd-541d4208cbcc.html",
+      "title": "In the news today : U . S . midterms today , Carney in Antigua , is AI stealing youth jobs ?",
+      "url": "https://www.stcatharinesstandard.ca/news/canada/in-the-news-today-u-s-midterms-today-carney-in-antigua-is-ai-stealing-youth-jobs/article_67947e99-c468-5e65-bebd-541d4208cbcc.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "stcatharinesstandard.ca",
+      "category": "news",
+      "date": "2026-11-03",
+      "author": "",
+      "fetched_at": "2026-11-03T23:05:48+00:00"
+    },
+    {
+      "id": "https://www.lavozdegalicia.es/noticia/television/2026/11/03/disney-estudia-miles-despidos-plantea-reducir-20-costes-anuales/00031793693956391850298.htm",
+      "title": "Disney estudia miles de despidos y plantea reducir en un 20 % sus costes anuales",
+      "url": "https://www.lavozdegalicia.es/noticia/television/2026/11/03/disney-estudia-miles-despidos-plantea-reducir-20-costes-anuales/00031793693956391850298.htm",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "lavozdegalicia.es",
+      "category": "news",
+      "date": "2026-11-03",
+      "author": "",
+      "fetched_at": "2026-11-03T23:05:48+00:00"
+    },
+    {
+      "id": "https://www.manilatimes.net/2026/11/03/tmt-newswire/globenewswire/ontex-expands-multi-liquid-protection-to-support-women-through-changing-life-stages/2460386",
+      "title": "Ontex expands multi - liquid protection to support women through changing life stages",
+      "url": "https://www.manilatimes.net/2026/11/03/tmt-newswire/globenewswire/ontex-expands-multi-liquid-protection-to-support-women-through-changing-life-stages/2460386",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "manilatimes.net",
+      "category": "news",
+      "date": "2026-11-03",
+      "author": "",
+      "fetched_at": "2026-11-03T23:05:48+00:00"
+    },
+    {
+      "id": "https://www.huffingtonpost.fr/sante/article/ce-qu-est-le-dpi-a-ce-test-illegal-en-france-auquel-marine-tondelier-a-eu-recours-clx1_278192.html",
+      "title": "Ce quest le DPI - A , ce test illégal en France auquel Marine Tondelier a eu recours",
+      "url": "https://www.huffingtonpost.fr/sante/article/ce-qu-est-le-dpi-a-ce-test-illegal-en-france-auquel-marine-tondelier-a-eu-recours-clx1_278192.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "huffingtonpost.fr",
+      "category": "news",
+      "date": "2026-11-03",
+      "author": "",
+      "fetched_at": "2026-11-03T23:05:48+00:00"
+    },
+    {
+      "id": "http://www.bangladeshsun.com/news/279409078/top-5-data-analytics-certifications-and-training-programs-to-advance-your-career-in-2027",
+      "title": "Top 5 Data Analytics Certifications and Training Programs to Advance Your Career in 2027",
+      "url": "http://www.bangladeshsun.com/news/279409078/top-5-data-analytics-certifications-and-training-programs-to-advance-your-career-in-2027",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "bangladeshsun.com",
+      "category": "news",
+      "date": "2026-11-03",
+      "author": "",
+      "fetched_at": "2026-11-03T23:05:48+00:00"
+    },
+    {
+      "id": "https://finance.eastmoney.com/a/202611033920380286.html",
+      "title": "中信证券策略会 ： 中国基本面韧性强劲 2027年行情宽度有望进一步拓展 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611033920380286.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "finance.eastmoney.com",
+      "category": "news",
+      "date": "2026-11-03",
+      "author": "",
+      "fetched_at": "2026-11-03T23:05:48+00:00"
+    },
+    {
+      "id": "https://www.ksut.org/2026-11-03/from-model-minority-to-target-anti-indian-hate-on-the-rise",
+      "title": "From model minority to target , anti - Indian hate on the rise",
+      "url": "https://www.ksut.org/2026-11-03/from-model-minority-to-target-anti-indian-hate-on-the-rise",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "ksut.org",
+      "category": "news",
+      "date": "2026-11-03",
+      "author": "",
+      "fetched_at": "2026-11-03T23:05:48+00:00"
+    },
+    {
+      "id": "https://www.theglobeandmail.com/investing/article-investors-ready-for-possible-shake-up-in-congress-as-election-day",
+      "title": "Investors ready for possible shake - up in Congress as Election Day arrives",
+      "url": "https://www.theglobeandmail.com/investing/article-investors-ready-for-possible-shake-up-in-congress-as-election-day/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "theglobeandmail.com",
+      "category": "news",
+      "date": "2026-11-03",
+      "author": "",
+      "fetched_at": "2026-11-03T23:05:48+00:00"
     },
     {
       "id": "https://doi.org/10.1088/1402-4896/aebcd3",
@@ -3248,8 +3380,8 @@
     }
   ],
   "refresh": {
-    "sources_succeeded": 3,
+    "sources_succeeded": 4,
     "sources_total": 4,
-    "new_items": 24
+    "new_items": 12
   }
 }
