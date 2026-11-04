@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-04T14:09:44+00:00",
+  "updated_at": "2026-11-04T23:28:17+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -615,6 +615,32 @@
       "author": "Ting Chen, Zheyuan Zhu, Boyi Liu, Qiong He et al.",
       "fetched_at": "2026-11-04T14:09:43+00:00",
       "doi": "https://doi.org/10.1002/adom.72016",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/3w79-jl7x",
+      "title": "Coupling light with matter for identifying dominant subnetworks",
+      "url": "https://doi.org/10.1103/3w79-jl7x",
+      "summary": "We introduce DOMINO, a light-matter computing platform that exploits the full complex amplitude of coupled condensate networks to solve maximum-weight clique problems and reveal hidden indirect correlations in large graphs. By embedding network structure directly into a gain-controlled polaritonic (or photonic) oscillator array, DOMINO performs analog optimization, directly solving the maximum-weight clique problem via the gain-controlled minimisation, through a physically enforced global-intensity constraint, allowing the system to converge rapidly to dominant subnetworks while simultaneously extracting phase, encoded co- and counter-regulation patterns. This gain-based mechanism unlocks capabilities inaccessible to conventional Ising-type simulators: all degrees of freedom (amplitude and phase) participate in the computation, dramatically expanding the class of problems that can be efficiently encoded. Our approach is inherently ultrafast, energy-efficient, and naturally robust to noise, requiring no digital post-processing. Applied to real gene-gene coexpression data, DOMINO reliably identifies biologically meaningful transcription-regulator modules and exposes latent regulatory relationships. Because the method applies generically to any weighted network, it establishes a scalable physical route to solving high-value graph-analytic tasks across biology, finance, social systems, and engineered networks.",
+      "source": "Physical Review Applied",
+      "category": "research",
+      "date": "2026-11-03",
+      "author": "Airat Kamaletdinov, Natalia G. Berloff",
+      "fetched_at": "2026-11-04T23:28:15+00:00",
+      "doi": "https://doi.org/10.1103/3w79-jl7x",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.21468/scipostphyscore.9.4.073",
+      "title": "Tensor-network approach to quantum optical state evolution beyond the Fock basis",
+      "url": "https://doi.org/10.21468/scipostphyscore.9.4.073",
+      "summary": "Understanding the quantum evolution of light in nonlinear media is central to the development of next-generation quantum technologies. Yet, modeling these processes remains computationally demanding, as the required resources grow rapidly with photon number and phase-space resolution. Here, we introduce a tensor-network approach that efficiently captures the dynamics of nonlinear optical systems in a continuous-variable representation. Using the matrix product state (MPS) formalism, both quantum states and operators are encoded in a highly compressed form, enabling direct numerical integration of the Schrödinger equation. We demonstrate the method by simulating degenerate spontaneous parametric down-conversion (SPDC) and show that it accurately reproduces established theoretical benchmarks—energy conservation, pump depletion, and quadrature squeezing—even in regimes where conventional Fock-basis simulations become infeasible. For high-intensity pump fields (\\alpha=100) ( α = 100 ) , the MPS representation achieves compression ratios below 3×10^{-4} 3 × 10 − 4 while preserving physical fidelity. This framework opens a scalable route to modeling multimode quantum light and nonlinear optical phenomena beyond the reach of traditional methods.",
+      "source": "SciPost Physics Core",
+      "category": "research",
+      "date": "2026-11-03",
+      "author": "Nikolay Kapridov, Egor Tiunov, Dmitry Chermoshentsev",
+      "fetched_at": "2026-11-04T23:28:15+00:00",
+      "doi": "https://doi.org/10.21468/scipostphyscore.9.4.073",
       "open_access": true
     },
     {
@@ -3682,6 +3708,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 12
+    "new_items": 2
   }
 }
