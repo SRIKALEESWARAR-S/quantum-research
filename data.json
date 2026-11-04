@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-03T23:05:52+00:00",
+  "updated_at": "2026-11-04T05:46:10+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -316,6 +316,150 @@
       "date": "2026-11-03",
       "author": "",
       "fetched_at": "2026-11-03T23:05:48+00:00"
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.05375v1",
+      "title": "Quantum Error Correction in Nearly Critical Toric Codes",
+      "url": "https://arxiv.org/abs/2611.05375v1",
+      "summary": "We investigate quantum error correction protocols for topological codes deformed away from their stabilizer limits, particularly as they are pushed towards quantum phase transitions into trivial phases. Our focus is primarily on quantum information stored within the ground-state manifold of the transverse-field toric code (TFTC), subjected to independent bit-flip and phase-flip decoherence. Although the transverse field induces strong quantum fluctuations of $m$ anyons in the ground states, we show that projective measurements of the \"bare\" toric code stabilizers can nevertheless be used to construct an efficient decoding algorithm which exhibits a finite threshold to both types of decoherence, even when the transverse field is tuned infinitesimally close to the quantum critical point. Our construction of the optimal postmeasurement decoders---that is, the optimal decoders assuming that the stabilizers are first measured---crucially relies on the stoquastic nature of the TFTC Hamiltonian, which affords a description of its ground states in terms of a classical lattice gauge theory. Using stoquasticity, we first prove that stabilizer measurements act unitarily on the undecohered TFTC ground states to excellent approximation, and that the optimal postmeasurement decoder can be efficiently implemented via Monte Carlo simulation of a constrained lattice gauge theory. We then construct the optimal postmeasurement decoder for the TFTC states under bit-flip and phase-flip decoherence, where we numerically demonstrate a finite threshold close to the quantum critical point. We provide theoretical evidence (without a rigorous proof) that stabilizer measurements constitute an optimal decoding strategy in this setting. For phase-flip decoherence, we further prove that the optimal p",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-03",
+      "author": "Zack Weinstein, Samuel J. Garratt",
+      "fetched_at": "2026-11-04T05:46:10+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.05369v1",
+      "title": "Quantum Pointwise Dimension (QUPID): An algorithm for identifying classical chaos in quantum dynamics",
+      "url": "https://arxiv.org/abs/2611.05369v1",
+      "summary": "The Pointwise Dimension is a diagnostic that reveals the effective dimensionality of classical trajectories in a $2N$-dimensional phase space. The essence of this diagnostic is to find a scaling according to which density changes with radius $r$ around a point of interest in phase space. Particularly, regular trajectories are confined to an $N$-dimensional invariant torus, while chaotic trajectories explore a $(2N-1)$-dimensional energy surface. In classical mechanics, this trajectory density can be found by counting recurrences to within the sphere of radius $r$. In quantum mechanics, probability density is intrinsic, making the Pointwise Dimension compelling, but surprisingly this has not been studied in the quantum regime. In this work, we implement the Pointwise Dimension in the quantum regime using the Husimi representation of the quantum wavepacket. This implementation entails a long-time average of the time-dependent Husimi representation to obtain a stationary phase space density, and a radial spatial integration of this density over a sphere of radius $r$. The classical-quantum correspondence is excellent for both autonomous and non-autonomous systems, adding a new diagnostic to the study of quantum chaos. Finally, we explore the possibility, both classically and quantum mechanically, of obtaining the Pointwise Dimension from a time correlation function.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-03",
+      "author": "Jonathan Berkheim, David J. Tannor",
+      "fetched_at": "2026-11-04T05:46:10+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.05356v1",
+      "title": "Breaking the quantum barriers for Graph Collision",
+      "url": "https://arxiv.org/abs/2611.05356v1",
+      "summary": "In the graph collision problem, the task is to decide whether a known graph on $n$ vertices contains an edge with both endpoints marked, given query access to the input bits specifying the marked vertices. We first refute the conjectured $Ω(n^{2/3})$ query lower bound with a bounded error quantum algorithm using $\\widetilde O(n^{92/139})$ queries. We then refine this approach to obtain a $\\widetilde O(n^{11/17})$ query algorithm. We also obtain a $\\widetilde O((nq)^{11/17})$ query bound for all (partial) Boolean output functions with positive certificate complexity at most 2 and alphabet size $q$, contrasting a known $Ω(n^{2/3})$ lower bound for such problems with large alphabet sizes. We complement these algorithms with an $Ω(\\sqrt{n\\log n})$ quantum query lower bound for graph collision, exceeding the $O(\\sqrt n)$ certificate complexity barrier for the positive adversary method.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-03",
+      "author": "Arjan Cornelissen, Amin Shiraz Gilani, Shiva Kintali, François Le Gall et al.",
+      "fetched_at": "2026-11-04T05:46:10+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.05355v1",
+      "title": "Reading Why: Born-Measured Attention with Exact Word Evidence on Light and Qubits",
+      "url": "https://arxiv.org/abs/2611.05355v1",
+      "summary": "When a language model answers, we can usually only estimate why. We build a transformer in which every step is a Born measurement - attention $|\\langle q|k\\rangle|^4$ normalised over each row, a measured product in place of the feed-forward nonlinearity, and a Born readout. With its denominators held at their values for the input, each class probability is a polynomial in the word amplitudes, so its integrated-gradient evidence is computed by a finite quadrature with no quadrature error: the words' contributions sum to the class probability above its no-information share, to $10^{-11}$ or better. On e-SNLI natural language inference, with about 98k parameters outside the embedding, the model reaches $76.98 \\pm 0.17$% test accuracy, level with a softmax transformer of the same size ($76.62 \\pm 0.36$%). Deleting the word its evidence ranks first changes the answer in 45% of test pairs, out of the 53% any single deletion can change, against 32% for the softmax model explained the same way and 40% by its attention x gradient. Attention can look more like the words annotators highlighted, yet accounts for the answer less well: deleting the word it ranks first changes the Born Transformer's answer in 32% of pairs. The same weights compile exactly to optoelectronic optics and to qubits, and a coherent attention layer becomes one circuit equal to the model (852 CNOTs on 23 qubits). On IBM's ibm_kingston, reading only the attention overlaps by Hadamard tests, the device gave the model's answers on two short test pairs and kept or changed them under deletion as the model does; the evidence itself did not yet survive the device, and we work out the shots and calibration that measuring it on hardware would need.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-03",
+      "author": "Teerawat Tongloy, Jiraporn Pongsopa, Rangsan Jomtarak",
+      "fetched_at": "2026-11-04T05:46:10+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.05354v1",
+      "title": "Interpretable Quantum Photonic Generative Models",
+      "url": "https://arxiv.org/abs/2611.05354v1",
+      "summary": "We propose a physical generative model for learning correlated multivariate data based on homodyne detection of photonic continuous-variable (CV) circuits. We use an $N$-mode photonic circuit in which two-mode squeezing provides correlations, local phase shifts tune the strength and sign of these correlations, and an adjustable interferometer redistributes them across modes. We train the circuit by matching its Pearson correlation matrix to the one obtained from data. We apply affine post-processing to adjust the marginals independently while keeping the relations intact. We test the model on the multivariate distribution of standardized log returns of financial assets, showing that the photonic model can represent rich correlation structures. We reproduce empirical correlations with residuals below $10^{-4}$ for five variables and recover the correct correlation signs for $94\\% \\pm 1\\%$ of 190 correlation pairs at twenty variables, with $86\\%$ of the residuals below $0.1$. As a separate technical contribution, we develop an approach for simulating Kerr gates with small nonlinearity via a Hubbard-Stratonovich expansion, making them suitable for CV-based simulators. Our results establish CV photonic circuits as a platform for interpretable generative learning, suitable for representing and fast sampling of distributions across different application domains.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-03",
+      "author": "Dat Chi Le, Oleksandr Kyriienko",
+      "fetched_at": "2026-11-04T05:46:10+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.05317v1",
+      "title": "Simple proof of conditions requiring maximal entanglement for local state verification and discrimination",
+      "url": "https://arxiv.org/abs/2611.05317v1",
+      "summary": "For deterministic state verification by separable measurements, the Schmidt rank of an entangled resource must be at least that of the state being verified [N. Yu, R. Duan, and M. Ying, IEEE Trans. Inf. Theory 60, 2069 (2014)], and if the two are equal, the resource must be maximally entangled [S. Akibue, J. Miyazaki, and H. Osaka, Lett. Math. Phys. 116, 110 (2026)]. The latter was derived from a general theorem proved using algebraic geometry. In this paper, we give a simple, self-contained proof of both statements using only linear algebra. We then use these results to show that among pure entangled resources of local dimension at most $d$, a maximally entangled state of $\\mathbb{C}^d\\otimes\\mathbb{C}^d$ is necessary and sufficient for perfect local discrimination of a generic orthogonal basis of $\\mathbb{C}^d\\otimes\\mathbb{C}^d$, however weakly entangled. The same holds for local implementation of a generic orthogonal measurement.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-03",
+      "author": "Somshubhro Bandyopadhyay",
+      "fetched_at": "2026-11-04T05:46:10+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.05303v1",
+      "title": "Quantum Advantage has Few Complexity Implications",
+      "url": "https://arxiv.org/abs/2611.05303v1",
+      "summary": "We consider the complexity implications of proofs of quantumness and (quantum verifier) oblivious state preparation. We show that both of these objects can coexist with the easiness of nondeterministic computation. That is, we give evidence that proofs of quantumness can exist when $\\mathsf{P} = \\mathsf{NP}$ and that (quantum verifier) oblivious state preparation can exist when $\\mathsf{BQP} = \\mathsf{QCMA}$. In particular, we give a classical oracle relative to which (1) $\\mathsf{P}^\\mathcal{O} = \\mathsf{NP}^\\mathcal{O}$ (2) $\\mathsf{BQP}^\\mathcal{O} = \\mathsf{PSPACE}^\\mathcal{O}$ (3) Proofs of quantumness exist. In particular, there exists a language in $\\mathsf{IP}^\\mathcal{O} \\subseteq \\mathsf{BQP}^\\mathcal{O}$ which is hard on average against $\\mathsf{P}^\\mathcal{O}/poly$. We give a unitary oracle such that (1) $\\mathsf{BQP}^\\mathcal{O} = \\mathsf{QCMA}^\\mathcal{O}$ (2) Quantum verifier oblivious state preparation exists. These oracle separations directly imply a number of related consequences. For example, our first result implies that proofs of quantumness cannot be used to construct classical or quantum cryptography with a relativizing proof. Our second result implies that quantum computation/classical communication oblivious transfer cannot be used to construct post-quantum one-way functions with a relativizing proof.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-03",
+      "author": "Eli Goldin, Alex Lombardi, Tomoyuki Morimae",
+      "fetched_at": "2026-11-04T05:46:10+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.05273v1",
+      "title": "Universal dynamics of quantum phase transitions with fractional long-range interactions",
+      "url": "https://arxiv.org/abs/2611.05273v1",
+      "summary": "The complete statistical characterization of defects generated in a quantum phase transition has mostly been studied in exactly solvable models, and remains little explored in nonintegrable systems such as long-range interacting spin chains. We characterize the full defect counting statistics in a nonintegrable long-range spin chain, the fractional Ising model, by time-dependent variational-principle simulations within the matrix-product-state and matrix-product-operator formalism. Fractional interactions capture emergent multiscale correlations and long-range effects in nature, governed by the order of the underlying fractional derivative. Such couplings can be approximated on existing quantum simulation platforms, where the full defect statistics can be measured. The defect number cumulants follow power laws in the driving time, with exponents that vary continuously with the fractional order. At low fractional order, deep in the long-range regime, the mean defect number decays more slowly than predicted by the Kibble-Zurek mechanism (KZM), while at intermediate order the KZM holds with the numerically extracted many-body critical exponents. At large fractional order, the exactly solvable free-fermion limit of the model becomes progressively more accurate towards the short-range limit. We derive exact bounds on the kink-number cumulants and on the kink-kink correlations, implying an exact Gaussian limiting distribution for large system sizes. In the many-body simulations, however, kinks are more correlated, consistent with the confinement of domain walls, and these bounds are violated in the long-range regime, also in the bulk of the chain. Nevertheless, the kink distribution still approaches a Gaussian for large defect numbers, with proportionality partially broken be",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-03",
+      "author": "Andraás Grabarits, Lincoln D. Carr, Adolfo del Campo",
+      "fetched_at": "2026-11-04T05:46:10+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.05268v1",
+      "title": "Effective Hamiltonians and non-Hermitian physics",
+      "url": "https://arxiv.org/abs/2611.05268v1",
+      "summary": "Every realistic quantum system is coupled to an environment. Including the environment restores a closed, Hermitian description, but at the cost of an intractably large Hilbert space. The Feshbach--Löwdin projection eliminates the unwanted degrees of freedom exactly, yielding an effective Hamiltonian $H_{\\rm eff}$ on the relevant subspace alone---which \\new{generically becomes non-Hermitian when the eliminated subspace contains an energetically accessible continuum and outgoing boundary conditions are imposed}. We illustrate this through a minimal model: a particle in a box with a delta barrier at its center. Direct elimination of one half-well reduces all information about the discarded sector to a single \\new{boundary parameter} $β$; the same result is then rederived via the Green's function and Dyson equation, offering a pedagogical illustration of how boundary data enter the Green's-function formalism and relating $β$ to a self-energy term. Whether $β$ is real or complex determines whether $H_{\\rm eff}$ is Hermitian or not, and the full range of behavior---from Hermitian dynamics through finite-width resonances to the counterintuitive quantum Zeno effect---follows from this single parameter.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-03",
+      "author": "Ugo Lair, David Guéry-Odelin",
+      "fetched_at": "2026-11-04T05:46:10+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.05233v1",
+      "title": "DynaMite: Dynamic Measurement Scheduling To Accelerate Fault-Tolerant Quantum Programs",
+      "url": "https://arxiv.org/abs/2611.05233v1",
+      "summary": "Fault-tolerant quantum computers run millions of logical cycles to perform quantum error correction (QEC). As logical operations span entire logical cycles, the logical cycle time (LCT) dictates program runtime. Qubit measurements, critical to extract parity information for QEC, are the slowest operations and account for 43-86% of LCT. Measurement latencies impact fidelity: fast measurements lower our ability to correctly classify quantum states, whereas slow measurements increase the likelihood of decoherence. Hardware providers thus calibrate measurement latencies that maximize readout fidelity per qubit and use them to schedule all measurements during program execution. However, calibrated latencies are sub-optimal for logical performance because logical cycles span multiple QEC rounds, during which data qubits are not measured. This increases LCT and logical error rates (LERs) due to decoherence at the logical level. We propose DynaMite, a lightweight real-time measurement latency selection policy built on two key insights. First, logical cycles must use a measurement latency that is fast enough to reduce both LCT and LER for the QEC code, instead of the calibrated latency that only maximizes readout fidelity. Second, not all logical cycles are equal; many do not fully utilize the error budget of the QEC code, i.e., the number of failed parity checks it can tolerate without compromising LER. These cycles could use even faster measurements but do not, because latencies are chosen statically, whereas error information is only available at runtime. DynaMite exploits the fact that a logical cycle comprises multiple QEC rounds and selects the fastest latency for an upcoming round based on the error budget left and rounds remaining. Our evaluations show that DynaMite redu",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-03",
+      "author": "Dongwhee Kim, Suhas Vittal, Poulami Das",
+      "fetched_at": "2026-11-04T05:46:10+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.05185v1",
+      "title": "Efficient simulations of spectra and transport for multiorbital quantum impurities",
+      "url": "https://arxiv.org/abs/2611.05185v1",
+      "summary": "Quantum impurity calculations become challenging when multiple correlated orbitals are treated explicitly, particularly in nonequilibrium steady states. We introduce Coupled-Cluster Coupled Lindblad (C$^3$L), a deterministic approach that combines the recently developed coupled-Lindblad compact bath representation with coupled-cluster theory to compute steady states and Green's functions directly in imaginary and real frequency. C$^3$L has favorable polynomial computational complexity and avoids the sign problem of quantum Monte Carlo (QMC). In a real-time multiorbital benchmark, it agrees closely with state-of-the-art QMC while reducing computational cost by four to five orders of magnitude, with a further 10--100-fold speedup on a GPU. Beyond the practical reach of established real-time QMC solvers, four-orbital nonequilibrium impurities with general interactions and biased reservoirs become accessible with C$^3$L. We obtain resonance-resolved transport signatures relevant to scanning tunneling microscopy experiments on molecular junctions.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-03",
+      "author": "Hao-En Li, Zhen Huang, Lin Lin",
+      "fetched_at": "2026-11-04T05:46:10+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.05117v1",
+      "title": "Quantum Query Lower Bounds from Classical Moment Matching",
+      "url": "https://arxiv.org/abs/2611.05117v1",
+      "summary": "We prove a quantum analogue of the classical moment matching method, a popular framework used to prove lower bounds in property testing. For two random variables $X_0$ and $X_1$ whose moments match up to the first $r-1$ moments, the classical moment matching method says that no classical algorithm can reliably distinguish between input instances of length $N$ constructed from $X_0$ and $X_1$, respectively, unless it performs at least $Ω(N^{1-1/r})$ queries. While this method has been widely explored since its inception in the seminal work of Raskhodnikova, Ron, Shpilka, and Smith (STOC 2007) to prove lower bounds for symmetric properties, it has remained an open question whether a quantum analogue of it could be proved. We prove two variants of this quantum moment matching method, which are incomparable. Our first quantum query lower bound scales as $Ω(N^{1/2-1/(2r)})$, while our second moment matching theorem yields a sharper lower bound of $Ω(N^{1/2-1/(2(2^r-1))})$, albeit for smaller parameter ranges. Our results combine a new continuous hybrid argument with the polynomial method. The continuous hybrid argument compares two hard input distributions generated from i.i.d. samples by continuously varying both distributions, keeping them identically distributed at every intermediate stage. It reduces the comparison to the effect of changing the distribution of a single sample. The polynomial method then cancels the terms determined by the matched moments. We apply these moment matching theorems to prove new optimal lower bounds on $k$-distinctness, $k$-star-freeness, planarity and outerplanarity testing, as well as to improve prior lower bounds on image size testing and $K$-junta testing by logarithmic factors. A key advantage of our framework is its simplicity: it reduc",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-03",
+      "author": "Chandrima Kayal, Frédéric Magniez, Sayantan Sen, Dániel Szabó",
+      "fetched_at": "2026-11-04T05:46:10+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
     },
     {
       "id": "https://doi.org/10.1088/1402-4896/aebcd3",
@@ -3380,7 +3524,7 @@
     }
   ],
   "refresh": {
-    "sources_succeeded": 4,
+    "sources_succeeded": 3,
     "sources_total": 4,
     "new_items": 12
   }
