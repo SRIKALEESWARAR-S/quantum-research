@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-05T06:04:39+00:00",
+  "updated_at": "2026-11-05T19:46:19+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -157,6 +157,32 @@
       "author": "Chrysovalantis S. Kannis, Ralf Engels, Nicolas Faatz, Simon Pütz et al.",
       "fetched_at": "2026-10-24T14:12:32+00:00",
       "doi": "https://doi.org/10.15120/gsi-2026-00822",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s41377-026-02491-3",
+      "title": "Long-range spectral entanglement and quantum correlations in highly nondegenerate multi-comb and ultrafast systems",
+      "url": "https://doi.org/10.1038/s41377-026-02491-3",
+      "summary": "Abstract Frequency combs are multimode photonic systems that underlie countless precision sensing and metrology applications. Since their invention over two decades ago, numerous efforts have pushed frequency combs to broader bandwidths and more stable operation. More recently, quantum squeezing and entanglement have been explored in single-comb systems for continuous-variable quantum computing and quantum-enhanced spectroscopy. However, the production of bright quantum light across multiple nondegenerate pulses or frequency combs, a key technology for multispectral applications, remains largely unexplored. In this work, we explore a mechanism that generates a series of nonlinearly coupled bright frequency combs through cascaded three-wave upconversion and downconversion processes mediated by a single idler comb. We consider both discrete combs and broadband ultrafast pulse systems, showing how these systems generate inter- and intracomb two-mode squeezing and entanglement directly in the frequency basis, spanning a large spectral range. Furthermore, we demonstrate how these systems can be engineered to produce target cluster states and concentrated two-mode squeezing through covariance matrix optimization. Our findings uncover a new multimode quantum regime enabled by hierarchical nonlinear interactions in two frequency dimensions, unlocking applications such as entanglement-assisted spectroscopy, squeezing-enhanced pump-probe measurements, quantum spectral multiplexing, and spectrally addressable cluster state generation for quantum information science.",
+      "source": "Light Science & Applications",
+      "category": "research",
+      "date": "2026-11-05",
+      "author": "Sahil Pontula, Debasmita Banerjee, Marin Soljacic A, Yannick Salamin",
+      "fetched_at": "2026-11-05T19:46:16+00:00",
+      "doi": "https://doi.org/10.1038/s41377-026-02491-3",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1021/acs.jpca.6c06253",
+      "title": "Extending AIMNet2 to Macrocyclic Peptides through Data-Efficient Continual Training",
+      "url": "https://doi.org/10.1021/acs.jpca.6c06253",
+      "summary": "Abstract Macrocyclic peptides are among the most promising therapeutic modalities, yet no general-purpose machine-learned interatomic potential (MLIP) has been systematically benchmarked for their conformational analysis. We show that on the MPCONF196 macrocyclic benchmark, the four-model AIMNet2 ensemble outperforms MACE-OFF23(S), despite macrocycles being entirely absent from its training data. A single AIMNet2 model is 3- to 5-fold faster and needs 5- to 63-fold less GPU memory than the MACE-OFF23 models at their default float64-precision. The four-model ensemble is about as fast as MACE-OFF23 but retains a 3- to 32-fold memory advantage even against MACE-OFF23 in float32. The larger MACE-OFF23(M) and MACE-OFF23(L) models remain more accurate. To narrow this gap, we introduce a continual training protocol that requires new quantum-chemical labels for fewer than 25,000 domain-specific conformers (<0.13% of the training corpus) while preserving conformational-energy accuracy on nonmacrocyclic molecules. On a sequence-disjoint holdout of unseen CREMP macrocyclic peptides, the resulting model, AIMNet2-macro, reduces conformational energy RMSE by 25 to 27% and DFT force RMSE by 20% (25% on backbone atoms) and improves lowest-energy conformer recovery relative to the original AIMNet2. It retains the conformational-energy accuracy of the original model on the nonmacrocyclic drug-like molecules of CONFORGE and also improves accuracy on the structurally distinct macrocycles of MPCONF196, although this smaller improvement is not statistically significant. Among the ten training strategies compared, only continual training on the combined corpus (AIMNet2-macro) achieves this improvement without degrading small-molecule accuracy. AIMNet2-macro is therefore the best balanced, tho",
+      "source": "The Journal of Physical Chemistry A",
+      "category": "research",
+      "date": "2026-11-05",
+      "author": "Runtian Gao, R.I. Zubatyuk, Olexandr Isayev",
+      "fetched_at": "2026-11-05T19:46:16+00:00",
+      "doi": "https://doi.org/10.1021/acs.jpca.6c06253",
       "open_access": true
     },
     {
@@ -486,6 +512,123 @@
       "author": "Bertrand Giraud, Robi Peschanski",
       "fetched_at": "2026-11-05T06:04:39+00:00",
       "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://doi.org/10.1103/t4qy-j4pk",
+      "title": "Dynamical characterization of quantum coherence",
+      "url": "https://doi.org/10.1103/t4qy-j4pk",
+      "summary": "Quantum coherence, rooted in the superposition principle of quantum mechanics, is a crucial quantum resource. Various measures, operational interpretations, and generalizations of quantum coherence have been proposed. In recent years, its role in quantum dynamics and technologies has attracted much attention. We introduce the concept of average quantum distance at a given time, and show that quantum coherence can be interpreted as the average evolution speed for arbitrary time-independent Hamiltonians. We extend the considerations to open quantum dynamics, where we find that quantum coherence can be used to bound the average evolution speed. Secondly, beyond this average setting, we show how quantum coherence and the eigenvalues of the Hamiltonian together determine the instantaneous evolution speed in the general case, with the trade-off being the energy uncertainty. Finally, we use the strategy to analyze the charging and discharging in quantum batteries, demonstrating the potential of our method in quantum technologies. We believe that the results clarify the role quantum coherence in quantum dynamics, paving an alternate avenue, complementary to the existing ones, to understand the capacity of quantum resources in dynamical processes.",
+      "source": "Physical Review A",
+      "category": "research",
+      "date": "2026-11-04",
+      "author": "Hai Wang, Ujjwal Sen",
+      "fetched_at": "2026-11-05T19:46:16+00:00",
+      "doi": "https://doi.org/10.1103/t4qy-j4pk",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1088/1674-1137/aebd7a",
+      "title": "Low-$Q^{2}$ nucleon structure from an infrared-saturated evolution scheme",
+      "url": "https://doi.org/10.1088/1674-1137/aebd7a",
+      "summary": "Abstract The low-$Q^2$ nucleon structure is given with a simple nonperturbative input of three valence quarks and an all-order infrared-saturated evolution scheme, showing some consistencies with the experimental data. The resonance peaks in the experimental data of $F_2$ structure function are found to be modulated by the valence quark distributions. With little sea quark distributions at low $Q^2$, the valence-quark bump is clearly shown in the structure function. The three valence quark distributions at the hadronic scale is found to be the dominant origin of the PDFs at the hard scales. The high-twist corrections are needed to explain the sizeable discrepancy between the theory and the experimental measurements at low $Q^2$. The infrared-saturated evolution scheme is a powerful tool for connecting the nucleon structures in the nonperturbative and perturbative regions.",
+      "source": "Chinese Physics C",
+      "category": "research",
+      "date": "2026-11-04",
+      "author": "Rong Wang",
+      "fetched_at": "2026-11-05T19:46:16+00:00",
+      "doi": "https://doi.org/10.1088/1674-1137/aebd7a",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.4171/aihpd/238",
+      "title": "Perturbative renormalisation of the $\\Phi^{4}_{4-\\varepsilon}$ model via generalised Wick maps",
+      "url": "https://doi.org/10.4171/aihpd/238",
+      "summary": "We consider the perturbative renormalisation of the \\Phi^{4}_{d} model from Euclidean quantum field theory for any possibly non-integer dimension d<4 . The so-called BPHZ renormalisation, named after Bogoliubov, Parasiuk, Hepp, and Zimmermann, is usually encoded into extraction-contraction operations on Feynman diagrams, which have a complicated combinatorics. We show that the same procedure can be encoded in the much simpler algebra of polynomials in two unknowns X and Y , which represent the fourth and second Wick power of the field. In this setting, renormalisation takes the form of a “Wick map” that maps monomials into Bell polynomials. The construction makes use of recent results by Bruned and Hou on multi-indices, which are algebraic objects of intermediate complexity between Feynman diagrams and polynomials.",
+      "source": "Annales de l’Institut Henri Poincaré D Combinatorics Physics and their Interactions",
+      "category": "research",
+      "date": "2026-11-04",
+      "author": "Nils Berglund, Tom Klose, Nikolas Tapia",
+      "fetched_at": "2026-11-05T19:46:16+00:00",
+      "doi": "https://doi.org/10.4171/aihpd/238",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1080/09500340.2026.2752992",
+      "title": "Stability of adiabatic states in a dissipative three-level system",
+      "url": "https://doi.org/10.1080/09500340.2026.2752992",
+      "summary": "The necessary and sufficient conditions for the stability of adiabatic states in three-level quantum systems are investigated analytically and numerically. Various possible configurations of three-level systems under exact two-photon resonance are considered. It is shown that in all these schemes, the lifetime of the studied states is determined by the dephasing time between levels that are not connected by a dipole transition. An efficient population transfer through the b-state at room temperature is demonstrated despite relatively long relaxation times. It is also demonstrated that, in case of large one-photon detuning, the so-called b-state has the same lifetime as that of the dark state. The evolution of adiabatic states for arbitrary values of single-photon detunings has been studied numerically.",
+      "source": "Journal of Modern Optics",
+      "category": "research",
+      "date": "2026-11-04",
+      "author": "E. A. Gazazyan, Gayane G. Grigoryan, Vanush Paturyan",
+      "fetched_at": "2026-11-05T19:46:16+00:00",
+      "doi": "https://doi.org/10.1080/09500340.2026.2752992",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s42004-026-02253-7",
+      "title": "Enhanced sampling enables binding site water reorganization in polarizable absolute binding free energy calculations",
+      "url": "https://doi.org/10.1038/s42004-026-02253-7",
+      "summary": "Abstract Water molecules play a critical role in mediating protein-ligand interactions by forming hydrogen-bonding networks and contributing to ligand solvation. However, their behavior—ranging from rapid solvent exchange to persistent occupancy of buried sites—makes accurate binding free-energy estimation with molecular dynamics challenging. Inadequate sampling of water reorganization can bias computed affinities and obscure key interactions by preventing representative hydration states during calculations. To address this, we employ the polarizable AMOEBA force field together with Lambda-ABF-OPES, an integrated enhanced-sampling framework combining lambda-dynamics, multiple-walker adaptive biasing force, and on-the-fly probability enhanced sampling. AMOEBA provides a polarizable description of protein–ligand, ligand–water, and protein–water interactions, while the dynamic alchemical coordinate and adaptive biasing facilitate exploration of coupled ligand-pocket-solvent configurations during ligand decoupling. This construction allows water exchange, binding-site rehydration and solvent reorganization to emerge along the alchemical pathway without explicitly biasing water-based collective variables. Applied to five protein-ligand complexes spanning buried and semi-buried environments, the approach yields binding affinities in good agreement with experiment and captures relevant water-mediated reorganization to provide reproducible absolute binding free energies.",
+      "source": "Communications Chemistry",
+      "category": "research",
+      "date": "2026-11-04",
+      "author": "Marharyta Blazhynska, Narjes Ansari, Louis Lagardère, Jean‐Philip Piquemal",
+      "fetched_at": "2026-11-05T19:46:16+00:00",
+      "doi": "https://doi.org/10.1038/s42004-026-02253-7",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1088/1751-8121/aebddc",
+      "title": "Quantum physics using weighted model counting",
+      "url": "https://doi.org/10.1088/1751-8121/aebddc",
+      "summary": "Abstract Weighted model counting (WMC) has proven effective at a range of tasks within computer science, physics, and beyond. However, existing approaches for using WMC in quantum physics only target specific problem instances, lacking a general framework for expressing problems using WMC. This limits the reusability of these approaches in other applications and risks a lack of mathematical rigor on a per-instance basis. We present an approach for expressing linear algebraic problems, specifically those present in physics and quantum computing, as WMC instances. We do this by introducing a framework that converts Dirac notation to WMC problems, which comprise of a formula with weighted variables. This approach preserves the structural and sparsity information of a problem, while giving access to efficient, general purpose model counting implementations. We build up this framework theoretically, using a type system and denotational semantics, and provide an implementation in Python. We demonstrate the effectiveness of our framework in calculating the partition functions of several physical models: The transverse-field Ising model (quantum) and the Potts model (classical). The results suggest that automated reasoning heuristics, including clause learning, algebraic decision diagrams, and tensor network decomposition, can be systematically applied through a single unified framework to a wide class of quantum physics problems, including those requiring non-commuting operators, without problem-specific solver engineering. The framework naturally supports complex-valued weights through a reduction to real-valued WMC instances, broadening its applicability to a wider class of quantum models.",
+      "source": "Journal of Physics A Mathematical and Theoretical",
+      "category": "research",
+      "date": "2026-11-04",
+      "author": "Dirck van den Ende, Joon‐Hyung Lee, Alfons Laarman, Henning Basold",
+      "fetched_at": "2026-11-05T19:46:16+00:00",
+      "doi": "https://doi.org/10.1088/1751-8121/aebddc",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1063/5.0349619",
+      "title": "EmbASI: An extensible Pythonic framework for DFT-in-DFT and WF-in-DFT embedding",
+      "url": "https://doi.org/10.1063/5.0349619",
+      "summary": "High-level quantum mechanical (QM) simulations provide accurate electronic information of chemical systems but scale unfavourably with system size, making calculations of applied systems challenging. Hierarchical quantum mechanics in quantum mechanics embedding (QM/QM) addresses this issue by localising the highly accurate electronic structure methods to a region of chemical interest, with the wider environment represented using a less expensive embedding environment. However, implementing embedding procedures into established QM software packages can be challenging due to their monolithic design and complex software structure implemented to optimise performance. Here, we present a modular and open-source approach that extends QM/QM embedding to electronic structure codes with reduced development overhead by using the Atomic Simulation Interface (ASI) application programming interface (API) to communicate data objects between QM code invocations. We demonstrate the new software, EmbASI, by implementing the projection-based embedding (PbE) scheme into the FHI-aims electronic structure software package. Example calculations performed for pentanol and organic dimers demonstrate the efficacy of the hierarchical density functional theory (DFT) embedding approach with the charge localisation and partitioning procedures implemented in the wrapper environment. When using a truncated local atomic orbital basis, WF-in-DFT (Wavefunction-in-DFT) embedding calculations demonstrate speed-ups of 32× for RPA@PBE-in-PBE relative to a full RPA@PBE calculation while introducing minimal errors to the total energies of the embedding simulations (<1 kJ/mol).",
+      "source": "The Journal of Chemical Physics",
+      "category": "research",
+      "date": "2026-11-04",
+      "author": "Gabriel A. Bramley, P. V. Stishenko, Oscar van Vuren, Volker Blüm et al.",
+      "fetched_at": "2026-11-05T19:46:16+00:00",
+      "doi": "https://doi.org/10.1063/5.0349619",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.21468/scipostphys.21.5.114",
+      "title": "Twisted (co)homology of non-orientable Weyl semimetals",
+      "url": "https://doi.org/10.21468/scipostphys.21.5.114",
+      "summary": "The quasi-particle excitations in Weyl semimetals, known as Weyl fermions, are usually forced to emerge in charge-conjugate pairs by the Nielsen–Ninomiya theorem. When the Brillouin zone is non-orientable, this constraint is replaced by a \\mathbb{Z}_2 ℤ 2 charge cancellation, as a result of the chirality becoming ill defined on such manifolds; this results in configurations with seemingly non-zero total chirality. Here, we set out to explain this behaviour from a purely topological perspective, and provide a classification of non-orientable Weyl semimetal topology in terms of exact sequences of twisted (co)homology groups. This leads to several discoveries of direct physical importance: in particular, we recover the \\mathbb{Z}_2 ℤ 2 charge cancellation in a coordinate-independent way, allowing meaningful limits to be set on its physical interpretation. A detailed discussion is provided on a specific Klein bottle-like topology induced by a momentum-space glide symmetry, including a full review of the insulating and semimetallic invariants of the system and a classification of the surface states on the non-orientable boundary. Beyond this, we survey all possible non-orientable Brillouin zones and their semimetallic invariants, and extend our formalism into the realm of non-Hermitian topological physics and inversion-symmetric Weyl semimetals. Our work exemplifies the potential of fundamental mathematical descriptions to aid the physical intuition, predict novel and hitherto overlooked phenomena, and find concrete applications in areas such as acoustics and photonics.",
+      "source": "SciPost Physics",
+      "category": "research",
+      "date": "2026-11-04",
+      "author": "Thijs Douwes, Marcus Stålhammar",
+      "fetched_at": "2026-11-05T19:46:16+00:00",
+      "doi": "https://doi.org/10.21468/scipostphys.21.5.114",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/ttkl-xcgk",
+      "title": "Multimode equilibrium approximations in light-matter systems from weak to strong coupling",
+      "url": "https://doi.org/10.1103/ttkl-xcgk",
+      "summary": "In this work, we detail different approaches to treat multi-mode photonic environments within non-relativistic quantum electrodynamics in the long-wavelength approximation efficiently. Specifically we show that for equilibrium properties of coupled light-matter systems, we can approximately capture the effects of multi-mode photonic environments on matter systems by either only keeping the polarization part of the electric field in the length-gauge formulation or by a few effective modes. We present a comprehensive set of approximation methods designed to accurately capture equilibrium phenomena in quantum light-matter systems across a range of complex photonic environments, from weak to strong coupling. These methods are applied to atomic and molecular models as well as to a two-dimensional quantum ring, demonstrating the versatility of our approach and laying the groundwork for first-principles simulations of real materials in cavity quantum electrodynamics.",
+      "source": "Physical Review Research",
+      "category": "research",
+      "date": "2026-11-04",
+      "author": "Davis M. Welakuh, Vasil Rokaj, Michael Ruggenthaler, Angel Rubio",
+      "fetched_at": "2026-11-05T19:46:16+00:00",
+      "doi": "https://doi.org/10.1103/ttkl-xcgk",
+      "open_access": true
     },
     {
       "id": "https://doi.org/10.1007/s12145-026-02276-7",
@@ -3984,6 +4127,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 24
+    "new_items": 11
   }
 }
