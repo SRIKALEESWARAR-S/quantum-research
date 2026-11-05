@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-04T23:28:17+00:00",
+  "updated_at": "2026-11-05T06:04:39+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -210,6 +210,282 @@
       "fetched_at": "2026-11-04T14:09:43+00:00",
       "doi": "https://doi.org/10.1021/acs.inorgchem.6c03325",
       "open_access": true
+    },
+    {
+      "id": "https://www.latimes.com/espanol/california/articulo/2026-11-03/google-bloqueara-el-acceso-su-buscador-estudiantes-que-desactiven-sus-herramientas-de-ia",
+      "title": "Google bloqueará el acceso a su buscador a estudiantes que desactiven sus herramientas de IA",
+      "url": "https://www.latimes.com/espanol/california/articulo/2026-11-03/google-bloqueara-el-acceso-su-buscador-estudiantes-que-desactiven-sus-herramientas-de-ia",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "latimes.com",
+      "category": "news",
+      "date": "2026-11-04",
+      "author": "",
+      "fetched_at": "2026-11-05T06:04:37+00:00"
+    },
+    {
+      "id": "https://www.c21media.net/news/disney-set-to-fire-several-thousand-staffers-as-hollywood-lay-off-crisis-deepens",
+      "title": "Disney set to fire several thousand staffers as Hollywood lay - off crisis deepens | News",
+      "url": "https://www.c21media.net/news/disney-set-to-fire-several-thousand-staffers-as-hollywood-lay-off-crisis-deepens/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "c21media.net",
+      "category": "news",
+      "date": "2026-11-04",
+      "author": "",
+      "fetched_at": "2026-11-05T06:04:37+00:00"
+    },
+    {
+      "id": "https://www.guimaraesdigital.pt/index.php/informacao/opiniao-quinzenal/102647-cumprir-e-transformar-1-ano-de-mandato-parte-2",
+      "title": "Cumprir e transformar : 1 ano de mandato ( parte 2 )",
+      "url": "https://www.guimaraesdigital.pt/index.php/informacao/opiniao-quinzenal/102647-cumprir-e-transformar-1-ano-de-mandato-parte-2",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "guimaraesdigital.pt",
+      "category": "news",
+      "date": "2026-11-04",
+      "author": "",
+      "fetched_at": "2026-11-05T06:04:37+00:00"
+    },
+    {
+      "id": "https://stock.jrj.com.cn/2026/11/04072959002337.shtml",
+      "title": "A股头条 ： 接盘资金来了 ， 数百亿级别券商资金已集结 ； 中际旭创 小作文 被澄清 ， 英伟达产业链利空发酵 ， 两融余额降至冰点 - A股头条 - 金融界",
+      "url": "https://stock.jrj.com.cn/2026/11/04072959002337.shtml",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "stock.jrj.com.cn",
+      "category": "news",
+      "date": "2026-11-04",
+      "author": "",
+      "fetched_at": "2026-11-05T06:04:37+00:00"
+    },
+    {
+      "id": "https://www.uaem.mx/difusion-y-medios/publicaciones/boletines/ceib-despierta-vocaciones-cientificas-con-festival-de-biotecnologia",
+      "title": "CEIB despierta vocaciones científicas con festival de biotecnología - Universidad Autónoma del Estado de Morelos",
+      "url": "https://www.uaem.mx/difusion-y-medios/publicaciones/boletines/ceib-despierta-vocaciones-cientificas-con-festival-de-biotecnologia",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "uaem.mx",
+      "category": "news",
+      "date": "2026-11-04",
+      "author": "",
+      "fetched_at": "2026-11-05T06:04:37+00:00"
+    },
+    {
+      "id": "https://finance.sina.com.cn/tech/roll/2026-11-04/doc-inixprpa6177219.shtml",
+      "title": "新华社评论员 ： 一体推进不敢腐不能腐不想腐 论学习贯彻党的二十届五中全会精神",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-11-04/doc-inixprpa6177219.shtml",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "finance.sina.com.cn",
+      "category": "news",
+      "date": "2026-11-04",
+      "author": "",
+      "fetched_at": "2026-11-05T06:04:37+00:00"
+    },
+    {
+      "id": "https://finance.sina.com.cn/tech/roll/2026-11-04/doc-inixpmfi8248655.shtml",
+      "title": "造福全球 ！ 美国正式批准艾滋病预防仿制药物 ： 每人每年不到300元",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-11-04/doc-inixpmfi8248655.shtml",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "finance.sina.com.cn",
+      "category": "news",
+      "date": "2026-11-04",
+      "author": "",
+      "fetched_at": "2026-11-05T06:04:37+00:00"
+    },
+    {
+      "id": "https://www.uaem.mx/difusion-y-medios/publicaciones/boletines/uaem-y-universidad-la-gran-colombia-realizan-congreso-sobre-ciudadania-y-territorio",
+      "title": "UAEM y Universidad La Gran Colombia realizan congreso sobre ciudadanía y territorio - Universidad Autónoma del Estado de Morelos",
+      "url": "https://www.uaem.mx/difusion-y-medios/publicaciones/boletines/uaem-y-universidad-la-gran-colombia-realizan-congreso-sobre-ciudadania-y-territorio",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "uaem.mx",
+      "category": "news",
+      "date": "2026-11-04",
+      "author": "",
+      "fetched_at": "2026-11-05T06:04:37+00:00"
+    },
+    {
+      "id": "https://ascii.jp/elem/000/004/448/4448067",
+      "title": "ASCII . jp ： バイナンス1兆円流出 、 侵入のきっかけは 「 偽の採用面接 」 AIツールも悪用",
+      "url": "https://ascii.jp/elem/000/004/448/4448067/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "ascii.jp",
+      "category": "news",
+      "date": "2026-11-04",
+      "author": "",
+      "fetched_at": "2026-11-05T06:04:37+00:00"
+    },
+    {
+      "id": "https://womannews.net/detail.php?number=458528&thread=22r10",
+      "title": "강남구청 , 중학생 대상 압축특강 운영으로 기말고사 대비 지원",
+      "url": "https://womannews.net/detail.php?number=458528&thread=22r10",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "womannews.net",
+      "category": "news",
+      "date": "2026-11-04",
+      "author": "",
+      "fetched_at": "2026-11-05T06:04:37+00:00"
+    },
+    {
+      "id": "https://www.emsnow.com/semicon-europa-2026-to-spotlight-advanced-packaging-fab-management-and-europes-semiconductor-strategy-for-the-ai-era",
+      "title": "SEMICON Europa 2026 to Spotlight Advanced Packaging , Fab Management , and Europe Semiconductor Strategy for the AI Era · EMSNow",
+      "url": "https://www.emsnow.com/semicon-europa-2026-to-spotlight-advanced-packaging-fab-management-and-europes-semiconductor-strategy-for-the-ai-era/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "emsnow.com",
+      "category": "news",
+      "date": "2026-11-04",
+      "author": "",
+      "fetched_at": "2026-11-05T06:04:37+00:00"
+    },
+    {
+      "id": "https://www.163.com/dy/article/LASLPTOI0514R9OJ.html",
+      "title": "中国开源AI大模型持续 圈粉 |人工智能|开源ai|高吞吐量内核 _ 网易订阅",
+      "url": "https://www.163.com/dy/article/LASLPTOI0514R9OJ.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "163.com",
+      "category": "news",
+      "date": "2026-11-04",
+      "author": "",
+      "fetched_at": "2026-11-05T06:04:37+00:00"
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.06917v1",
+      "title": "Using topology to reveal all mutually unbiased bases in dimension six",
+      "url": "https://arxiv.org/abs/2611.06917v1",
+      "summary": "Mutually unbiased bases (MUBs) describe complementary quantum measurements: certainty in one basis gives no information about the others. In dimension six, triples of MUBs are known, but whether a fourth basis could exist remained unresolved for over three decades. OpenAI recently reported a proof that none exists. Here we use the topology of the space of complex Hadamard matrices, which describe transitions between MUBs, to characterize all sets in dimension six. We prove that every mutually unbiased triple belongs to a two-parameter family or is a single isolated triple built from the Fourier matrix. Since none of them extend to a fourth basis, this also proves that no four MUBs exist. Our proof rests on a new topological result that all order-six complex Hadamard matrices except Tao's form a connected space. Connectedness reduces the classification of triples to finitely many overlapping four-dimensional phase balls. We certify with interval arithmetic that these balls cover the space and for every pair of MUBs represented in a ball, we then determine all third bases that extend it. Dimension six is now the first non-prime-power dimension in which all sets of MUBs are classified.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-04",
+      "author": "Mateo Cárdenes Wuttig, Joseph Tindall",
+      "fetched_at": "2026-11-05T06:04:39+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.06909v1",
+      "title": "Arithmetic Depth, Minimal Gate Alphabets, and Exact Program-State Resources for Single-Qubit Dyadic Programs",
+      "url": "https://arxiv.org/abs/2611.06909v1",
+      "summary": "Resource analyses for quantum programs commonly provide safe upper bounds on qubits, gates, or non-Clifford operations. We study a single-qubit dyadic fragment in which the deepest exact resource layer can instead be inferred exactly. Starting from the normalized-midpoint misty-state syntax, we define dyadic program states and the real cyclotomic tower $K_D=\\mathbb Q(2\\cos(π/2^D))$. For the projective single-qubit Clifford-cyclotomic tower $\\widehat G_D\\subseteq SO(3)$, we prove the relative intersection law $\\widehat G_D\\cap SO(3,K_d)=\\widehat G_d$ for $d\\le D$. Combining this descent theorem with an arithmetic-closure invariant for adaptive stabilizer processing yields $\\mathrm{Fdepth}(U)=\\mathrm{Adepth}(U)=\\mathrm{Rdepth}(U)$: the smallest real cyclotomic field containing the Bloch matrix of an exactly synthesizable channel, the shallowest dyadic gate alphabet realizing it up to global phase, and the shallowest dyadic program-state layer sufficient for exact stabilizer-assisted implementation coincide. At that common minimum, known fixed-alphabet synthesis gives minimum primitive-rotation count. We package the result as an exact static resource effect and outline a certificate-producing compiler.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-04",
+      "author": "Tony Newton, Dan-Adrian German",
+      "fetched_at": "2026-11-05T06:04:39+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.06898v1",
+      "title": "3D Printed Monolithic Optomechanical Chassis for an Unbalanced Field-Widened Interferometer",
+      "url": "https://arxiv.org/abs/2611.06898v1",
+      "summary": "Additive manufacturing is increasingly being explored as an approach for producing complex structures for optical hardware. In this work, we present a fully monolithic optomechanical chassis fabricated using laser powder bed fusion additive manufacturing. The structure was fabricated from thermally stable Invar36, a low-thermal-expansion alloy that enables high dimensional stability under varying environmental conditions. Our monolithic design incorporates embedded optical mounts, flexures, and alignment features directly into the chassis geometry that exceed the practical limits of conventional subtractive manufacturing. By integrating the optomechanical support structure into a single compact unit, the system achieves a reduced footprint compared to traditional optomechanical assemblies. The results demonstrate the potential of additive manufacturing to produce lightweight, and highly customized optical systems, opening the possibility of new pathways for next-generation quantum sensors and optical instrumentation.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-04",
+      "author": "Ramy Tannous, Dogan Sinar, Sagar Patel, Tabitha D. Arulpragasam et al.",
+      "fetched_at": "2026-11-05T06:04:39+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.06893v1",
+      "title": "Probing gravity at megahertz frequencies with levitated rotors",
+      "url": "https://arxiv.org/abs/2611.06893v1",
+      "summary": "The near-field gravitational interaction between masses is always thought of as instantaneous, an assumption experimentally tested only up to 1.7 kHz, where measurements yield a bounds at the $10^{-5}$ s level. We propose a near-field experiment reaching up to megahertz frequencies, in which a levitated microrotor modulates a mass quadrupole and a second rotor measures the resulting gravitational tidal field as a torque. Because the detector rotor acts as a mechanical local oscillator, the megahertz signal is downconverted to a convenient band of a few hertz, and since at fixed geometry neither the torque nor the integration time depends on the rotation rate, higher frequencies are reached at no cost in sensitivity. With parameters within reach of magnetically levitated NdFeB rotors, a signal at 2 MHz yields a torque of $2\\cdot 10^{-25}$ Nm, detectable in under an hour at 10 mK. Treating a possible departure from instantaneous gravitational coupling through a field relaxation time, the measured torque could constrain it at the $10^{-8}$ s level, improving on the existing bounds by more than three orders of magnitude. As a byproduct of our analysis, we derive the sensitivity of a rotor operated as a tunable high-frequency gravitational-wave detector, finding that a noise-equivalent strain around $10^{-22}$ Hz$^{-1/2}$ could be achievable in the megahertz band.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-04",
+      "author": "Matteo Fadel, Andrea Vinante",
+      "fetched_at": "2026-11-05T06:04:39+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.06880v1",
+      "title": "Simulating a chiral gauge theory",
+      "url": "https://arxiv.org/abs/2611.06880v1",
+      "summary": "Chiral gauge theories underlie the Standard Model, yet none has been simulated nonperturbatively. Lattice constructions that evade the Nielsen-Ninomiya obstruction entail complex fermion measures or infinite-dimensional local Hilbert spaces. Here we provide a gauge-invariant Hamiltonian lattice regularization of 1+1-dimensional abelian chiral gauge theories built from clock-and-shift qudits with $\\mathbb{Z}_N$ gauge fields, in which the global chiral symmetry and its 't Hooft anomaly survive exactly mod $N$. Anomaly cancellation on the lattice lets the Gauss laws be imposed and solved exactly, reducing the theory to an unconstrained qudit chain. Using infinite matrix product states, we simulate the canonical 1+1-dimensional chiral gauge theory, the 34-50 model, and find excellent agreement with analytic predictions, showing that a finite-dimensional local Hilbert space at $N=6$ reproduces the expected infrared physics of the continuum 34-50 model. This provides an efficient and practical solution to the problem of simulating general abelian chiral gauge theories in 1+1 dimensions, both on classical and quantum computers.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-04",
+      "author": "Laurens Lootens, Hersh Singh",
+      "fetched_at": "2026-11-05T06:04:39+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.06823v1",
+      "title": "Optimal Holding Times for Entanglement Swapping",
+      "url": "https://arxiv.org/abs/2611.06823v1",
+      "summary": "We revisit the optimization of entanglement holding times in memory-based quantum repeaters for maximizing entanglement swapping throughput under different fidelity constraints - strict, probabilistic, and mean. We consider two heterogeneous quantum links that are equipped with single or multiple memories and differ in decoherence rates, memory capacities, entanglement attempt rates and success probabilities, as well as classical communication latencies. Efficient models are developed to estimate the expected entanglement throughput and the probability density functions of the conditional wait time to swap. The models are then used to satisfy different fidelity requirements by optimizing the maximum holding times for the two links. Finally, our proposed model and approach are validated with a discrete-event quantum network simulator.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-04",
+      "author": "Van Sy Mai, Richard J. La, Abdella Battou",
+      "fetched_at": "2026-11-05T06:04:39+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.06821v1",
+      "title": "Quantum Algorithms for Molecular Response Functions: Resolvent Kernels, Time-Domain Sampling, Query Lower Bounds with Matched Single-Point Calibers, and a Six-Route Comparison",
+      "url": "https://arxiv.org/abs/2611.06821v1",
+      "summary": "Quantum algorithms for molecular response functions have mostly been studied one route at a time, most prominently the indicator-binning algorithm of Kharazi et al. We compare six routes within one accounting framework and state the conversions between their resource calibers. On the resolvent route the Lorentz-broadened spectrum is exactly a resolvent expectation; at finite gamma two boundary terms, a reversal term and a permanent-dipole pseudo-line, enter a disjoint error budget. Because the kernel subnormalization is exactly 1, the published binning accounting carries a removable Theta(alpha+1+omega) factor (49.69x and 7.75x at the definitional caliber), a correction that applies to both routes. Estimating the square root of the kernel amplitude lowers the readout cost from beta^2/mu_tilde_2 to beta/sqrt(mu_tilde_2). On the time-domain route we prove a single-point amplitude-estimation theorem and convert the generalized QPE of Loaiza et al. to the same accounting. The lower bounds are Theta_tilde(1/gamma) for parameter location, Theta(1/(gamma epsilon)) for windowed values, Omega(n/gamma) inside a restricted correlation-sampling class, and Omega(1/(epsilon gamma^2)) on the Lorentzian object; in the single-circuit-resolution caliber, gamma^(-n) is a grid-coverage artifact. Six routes, their calibers, an n=2 assembly with a component-grade coherence, and a phase diagram over the tested ensembles form one accounting map.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-04",
+      "author": "Yunlong Liu, Yujin Tang, Miao Xu, Qing-Xing Xie",
+      "fetched_at": "2026-11-05T06:04:39+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.06819v1",
+      "title": "GFlowQEC: Generative Flow Networks that Learn to Sample Quantum LDPC Codes",
+      "url": "https://arxiv.org/abs/2611.06819v1",
+      "summary": "Choosing a quantum error-correcting code for a real device means scoring candidates with circuit-level simulations so slow that only a few hundred can be run. So every evaluation counts, and a search is judged by how many good codes it finds per paid evaluation. Quantum LDPC codes built from a few group elements protect many logical qubits, but good ones are rare in a huge space. We introduce GFlowQEC, to our knowledge the first generative flow network (GFlowNet) for quantum code design. It builds a code one group element at a time and learns to propose codes in proportion to a power of their score. We train it once on scores from earlier searches, freeze it, and let it propose lifted-product codes with 180 physical qubits, scored by their distances. Ranking ten of its draws per paid call, it finds more than twice as many new top-scoring codes (inequivalent to any it was trained on) as tuned parallel tempering, even when tempering starts from GFlowQEC's training codes. It finds more than three and a half times as many as a supervised screen ranking ten random candidates per call. When both rank a hundred, the screen beats GFlowQEC, and does best ranking GFlowQEC's draws. Soft Q-learning, which shares the GFlowNet's optimal policy, does as well at one noise bias and better at the other, so the gain does not depend on the GFlowNet's training loss. Trained proposers can make a budget of expensive evaluations go further when good codes are rare.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-04",
+      "author": "Nuno Batista, Gabriel Falcao, Penousal Machado",
+      "fetched_at": "2026-11-05T06:04:39+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.06818v1",
+      "title": "Linear-time erasure recovery for quantum expander codes",
+      "url": "https://arxiv.org/abs/2611.06818v1",
+      "summary": "Erasures are used to model faults at a subset of known locations in various platforms used to construct fault-tolerant quantum computers. Beyond the utility in erasure recovery, efficient decoders for erasures are useful to both understand error decoders and as a subroutine for error decoding. Classical expander codes, which belong to the family of low-density parity-check (LDPC) codes, can be equipped with the Peeling decoder which works in linear time. Our main result is the algorithm Small-Set-Peeling, a quantum generalization of the classical Peeling decoder for erasures, that applies to quantum expander codes (Tillich, Zémor, IEEE T-IT 2013; Leverrier, Tillich, Zémor, FOCS 2015). This decoder can correct up to $D-1$ erasures, where $D$ is the (design) distance of the code and, importantly, is the first decoder that is guaranteed to do so in linear time. Combining with the erasure-conversion algorithm Small-Set-Find (Krishna, Livni-Navon, Wootters, SODA 2024), our result also implies the existence of a novel graph-local linear-time decoder for Pauli errors.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-04",
+      "author": "Anirudh Krishna, Christopher A. Pattison",
+      "fetched_at": "2026-11-05T06:04:39+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.06809v1",
+      "title": "Finite-temperature transition-window weights on a fault-tolerant quantum computer: duplex filtering on a thermal purification",
+      "url": "https://arxiv.org/abs/2611.06809v1",
+      "summary": "The excite-filter-readout framework of Kharazi et al. computes zero-temperature response windows on a fault-tolerant quantum computer from a pure ground state. We extend it to Gibbs states, where the two objects decouple: filters act on absolute energies, a thermal response on transition frequencies. The extension rests on a Liouville-space/TFD identity, explicit in the block-encoding/QSP setting: the thermally weighted transition-window weight is a spectral projection of H_0 (x) I - I (x) H_0^T onto the Schmidt (thermofield-double) purification, instance of Rall's framework. Around it we assemble a routed-SELECT block encoding (one Hamiltonian query per filter query), a conjugate-pair readout, and a four-route (duplex, bin, Fourier-LCU, METTS) compatibility analysis. The cost is multiplicative and conditional: a per-window query bound M_\"AE\" * (2*sqrt(d/Z_\"lb\")*d_\"vt\" + 4*d_W), with a tight signal-adaptive count, the optimal sqrt(alpha beta) degree, and a window-edge term. The preparation factor sqrt(d/Z) grows exponentially with system size at fixed temperature in positive-entropy-density systems (2.08 -> 25.7, N = 8 to 14 at beta = 2), relieved only as beta -> 0. Zero temperature is recovered for beta G >= ln(2(d-1)||D||^2/epsilon). Identities are cross-checked between independent formula paths to 10^(-16)-10^(-12) and the readout assembly is validated at matrix level under a block-encoding promise.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-04",
+      "author": "Yujin Tang, Yunlong Liu, Miao Xu, Qing-Xing Xie",
+      "fetched_at": "2026-11-05T06:04:39+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.06797v1",
+      "title": "Resource-efficient formulations of the Knapsack problem for quantum computing",
+      "url": "https://arxiv.org/abs/2611.06797v1",
+      "summary": "Quantum computing has emerged as a new tool for solving combinatorial optimization problems. Quantum optimization approaches usually operate on the subclass of Quadratic Unconstrained Binary Optimization (QUBO) problems. Many optimization problems can be reformulated in this form, though there are often multiple ways to do so. The choice of formulation can considerably affect the performance of QUBO solvers in practice. In this work, we study QUBO formulations of the Knapsack problem, a canonical example of a problem with inequality constraints. In the standard formulation these constraints are converted into penalty terms, which requires additional slack variables. Here, we investigate three more resource-efficient approaches for formulating the Knapsack as a QUBO. The first two modify the standard formulation, either by deriving a smaller penalty constant or by reducing the number of slack variables. The third approach is a wholly different method, which avoids the use of slack variables entirely. All three approaches increase the probability of finding the optimal solution, both in simulations of the linear ramp Quantum Approximate Optimization Algorithm (LR-QAOA) and on a D-Wave quantum annealer. The slackless method performs best, increasing success probabilities by several orders of magnitude even for relatively small problem sizes.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-04",
+      "author": "Pim van den Heuvel, Vrinda Mehta, Dennis Willsch, J. A. Montanez-Barrera et al.",
+      "fetched_at": "2026-11-05T06:04:39+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.06774v1",
+      "title": "Entanglement Entropy in Non Relativistic Collisions",
+      "url": "https://arxiv.org/abs/2611.06774v1",
+      "summary": "We study numerically the build-up of entanglement entropy between two colliding, non relativistic particles, that are driven by the plain Schrödinger equation containing local, finite range potentials, and whose initial state is the product of two independent wave packets. Different situations are considered, ranging from a tunnel and mirror effect at low energy in front of a barrier, to higher energies, and also attraction rather than repulsion. While the calculated wave functions and density matrices significantly depend on the physical situations described by our models, the build-up trends and values in time of entanglement entropy look surprisingly alike one another.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-04",
+      "author": "Bertrand Giraud, Robi Peschanski",
+      "fetched_at": "2026-11-05T06:04:39+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
     },
     {
       "id": "https://doi.org/10.1007/s12145-026-02276-7",
@@ -3708,6 +3984,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 2
+    "new_items": 24
   }
 }
