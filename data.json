@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-06T14:09:29+00:00",
+  "updated_at": "2026-11-06T22:55:46+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -157,6 +157,19 @@
       "author": "Chrysovalantis S. Kannis, Ralf Engels, Nicolas Faatz, Simon Pütz et al.",
       "fetched_at": "2026-10-24T14:12:32+00:00",
       "doi": "https://doi.org/10.15120/gsi-2026-00822",
+      "open_access": true
+    },
+    {
+      "id": "https://dc.etsu.edu/etd/4759",
+      "title": "Computational Studies of Triplet State Formation in Zinc Dipyrrin Complexes",
+      "url": "https://dc.etsu.edu/etd/4759",
+      "summary": "Zinc dipyrromethene complexes are promising earth-abundant photosensitizers due to their strong visible-light absorption and tunable excited states. To rationally design them for photocatalysis and photodynamic therapy, a molecular-level understanding of triplet-state formation is needed, but details of intersystem crossing remain unclear. To study the effect of π-extension, we synthesized an indole-substituted zinc dipyrrin complex: the dipyrromethane ligand was prepared from indole and mesitaldehyde, oxidized to the dipyrromethene, then coordinated with zinc. DFT and TD-DFT calculations determined ground and excited-state geometries and energies in different solvents, modeled absorption spectra, and visualized charge distributions. The results show how solvent polarity shifts energies of the ground, lowest triplet, and excited singlet states, and influences charge separation in the excited state. These computational findings, coupled with photophysical measurements, will establish a framework for designing zinc dipyrrin complexes with improved triplet state yield.",
+      "source": "Digital Commons - East Tennessee State University (East Tennessee State University)",
+      "category": "research",
+      "date": "2026-12-01",
+      "author": "Reuben Kwabla Adigbli",
+      "fetched_at": "2026-11-06T22:55:45+00:00",
+      "doi": "",
       "open_access": true
     },
     {
@@ -328,6 +341,136 @@
       "author": "Germain Tobar, Markus Aspelmeyer, Magdalena Zych",
       "fetched_at": "2026-11-06T14:09:29+00:00",
       "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://doi.org/10.1103/ydpy-by46",
+      "title": "Quantum alternating operator ansatz beyond low depth with gradually changing unitaries",
+      "url": "https://doi.org/10.1103/ydpy-by46",
+      "summary": "The Quantum Approximate Optimization Algorithm and its generalization to Quantum Alternating Operator Ansatz (QAOA) is a promising approach for applying quantum computers to challenging problems such as combinatorial optimization and computational chemistry. In this paper, we study the underlying mechanisms governing the behavior of QAOA circuits beyond shallow depth in the practically relevant setting of gradually varying unitaries. We use the discrete adiabatic theorem, which complements and generalizes the insights obtained from the continuous-time adiabatic theorem primarily considered in prior work. Our analysis explains some general properties that are conspicuously depicted in the recently introduced QAOA performance diagrams. For parameter sequences derived from continuous schedules (e.g. linear ramps), these diagrams capture the algorithm's performance over different parameter sizes and circuit depths. Surprisingly, they have been observed to be qualitatively similar across different performance metrics and application domains. Our analysis explains this behavior as well as entails some unexpected results, such as connections between the eigenstates of the cost and mixer QAOA Hamiltonians changing based on parameter size and the possibility of reducing circuit depth without sacrificing performance.",
+      "source": "Physical Review A",
+      "category": "research",
+      "date": "2026-11-05",
+      "author": "Vladimir Kremenetski, Anuj Apte, Tad Hogg, Stuart Hadfield et al.",
+      "fetched_at": "2026-11-06T22:55:45+00:00",
+      "doi": "https://doi.org/10.1103/ydpy-by46",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.3390/computation14110276",
+      "title": "Fast, Long-Range Synchronization Utilizing Emergents: Proof of Concept and Prospective Applications of Emergent Computing",
+      "url": "https://doi.org/10.3390/computation14110276",
+      "summary": "So far, synchronization tasks designed in complex systems are working at the level of their constituting elements. The proposed pilot study explores synchronization at the level of emergents. The main objective of this research is threefold: (i) to demonstrate that synchronizing emergent structures rise from a continuous interaction of micro-processes that are operating above a constituting matrix (medium) using a simple microevolution rule and a special type of extended neighborhood; (ii) to provide a specific example of a long-range emergent coordination that is generated within a short-range communicating medium; and (iii) to demonstrate a possibility of synchronization at the level of emergents. Those goals are achieved by the utilization of emergent information processing that uses uniform changes of all updated elements of the matrix, a fixed microevolution rule, and a fixed neighborhood. A fast solution to a computational problem of solving long-range synchronization within massively parallel and short-range communicating environments is presented. It is named the semi-two-dimensional synchronization problem (S2D-SP). The proposed emergent solution of S2D-SP differs from all previous manually designed solutions to other synchronization tasks. The number of steps t, which is necessary to synchronize an emergent array, is substantially lower than the width w of the synchronized emergent array. In addition to the pure theoretical importance, the solution demonstrates the usefulness of the concept of extended neighborhoods in search of not only biologically relevant computational models of self-organization and emergence. The presented solution of the S2D-SP problem uncovers a novel approach to the design of artificial, self-organizing emergent systems and possibly p",
+      "source": "Computation",
+      "category": "research",
+      "date": "2026-11-05",
+      "author": "Jiří Kroc",
+      "fetched_at": "2026-11-06T22:55:45+00:00",
+      "doi": "https://doi.org/10.3390/computation14110276",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s42256-026-01336-3",
+      "title": "Fractal basin geometry and the limits to predictability and reproducibility in deep learning",
+      "url": "https://doi.org/10.1038/s42256-026-01336-3",
+      "summary": "Abstract Fundamental limits to predictability are central to our understanding of many physical and computational systems. In deep learning, training outcomes are often difficult to predict and reproduce even when extrinsic sources of randomness are controlled, yet the underlying mechanism remains unclear. Here we propose riddled basin geometry as a unifying dynamical systems mechanism: every initialization leading to one solution lies arbitrarily close to initializations leading to different solutions, forming a fat fractal with structure at arbitrarily fine scales. Using a minimal neural network model, we analytically establish the classical route to riddling and derive a near-zero uncertainty exponent: even sharp increases in initialization precision yield only marginal gains in outcome predictability. In deep networks, intertwined training destinations and near-zero parameter-space exponents provide robust signatures consistent with riddling across the tested architectures, optimizers and training protocols, offering a common dynamical account of otherwise disparate empirical observations. We further introduce functional uncertainty exponents, extending these diagnostics of scale-insensitive irreproducibility from parameter space to the learned functions themselves. Together, our results support riddled basin geometry as a candidate organizing principle for irreproducibility in deep learning, with practical implications for optimization and the reliable deployment of artificial intelligence.",
+      "source": "Nature Machine Intelligence",
+      "category": "research",
+      "date": "2026-11-05",
+      "author": "Andrew Ly, Pulin Gong",
+      "fetched_at": "2026-11-06T22:55:45+00:00",
+      "doi": "https://doi.org/10.1038/s42256-026-01336-3",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1073/pnas.2608514123",
+      "title": "Majorana edge reconstruction and the ν = 5/2 non-Abelian thermal Hall puzzle",
+      "url": "https://doi.org/10.1073/pnas.2608514123",
+      "summary": "Pioneering thermal transport measurements on two-dimensional electron gases in high magnetic fields have demonstrated that the quantized Hall state at filling factor ν = 5/2 has a thermal Hall conductance κ quantized in half-integer multiples of κ 0 = π 2 k B 2 T / 3 h . Half-integer κ / κ 0 is a signature of neutral Majorana edge modes, in turn linked to the presence of non-Abelian anyon excitations in the bulk. However, the experimentally observed value of κ corresponds to the “PH-Pfaffian” state, in tension with numerical studies which instead favor either the Pfaffian or the AntiPfaffian. A variety of mechanisms have been invoked to explain this discrepancy, but have been either ruled out by further experiments or else involve fine-tuning. Building on density-matrix-renormalization group studies of physically realistic edges and analytic calculations of edge structure, we propose an alternative resolution of this puzzle involving an “edge reconstruction” solely involving the neutral Majorana sector of the theory. Such a Majorana edge reconstruction can “screen” a Pfaffian or AntiPfaffian bulk, so that transport signatures become indistinguishable from those of the PH-Pfaffian. We argue that this physically natural scenario is consistent with experiment.",
+      "source": "Proceedings of the National Academy of Sciences",
+      "category": "research",
+      "date": "2026-11-05",
+      "author": "Tevž Lotrič, Taige Wang, Michael P. Zaletel, Steven H. Simon et al.",
+      "fetched_at": "2026-11-06T22:55:45+00:00",
+      "doi": "https://doi.org/10.1073/pnas.2608514123",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/4plf-yz7x",
+      "title": "Scalable quantum state preparation via large-language-model-driven discovery",
+      "url": "https://doi.org/10.1103/4plf-yz7x",
+      "summary": "Efficient quantum state preparation remains a central challenge in first-principles quantum simulations of dynamics in quantum field theories, where the Hilbert space is intrinsically infinite-dimensional. Here, we introduce a large language model (LLM)-assisted framework for quantum-circuit design that systematically scales state-preparation circuits to large lattice volumes. Applied to a 1+1d XY spin chain, the LLM autonomously discovers a compact 4-parameter circuit that captures boundary-induced symmetry breaking with sub-percent energy deviation, enabling successful validation on the \\texttt{Zuchongzhi} quantum processor. Guided by this insight, we extend the framework to 2+1d quantum field theories, where scalable variational ansätze have remained elusive. For a scalar field theory, the search yields a symmetry-preserving, 3-parameter shallow-depth ansatz whose optimized parameters converge to size-independent constants for lattices $n \\ge 4$, providing, to our knowledge, the first scalable ansatz for this class of 2+1d models. Our results establish a practical route toward AI-assisted, human-guided discovery in quantum simulation.",
+      "source": "Physical review. D/Physical review. D.",
+      "category": "research",
+      "date": "2026-11-05",
+      "author": "Qing-Hong Cao, Zong-Yue Hou, Yingying Li, Xiaohui Liu et al.",
+      "fetched_at": "2026-11-06T22:55:45+00:00",
+      "doi": "https://doi.org/10.1103/4plf-yz7x",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/jp17-mvpr",
+      "title": "Measurement-informed dynamical decoupling for fidelity preservation on large-scale quantum processors",
+      "url": "https://doi.org/10.1103/jp17-mvpr",
+      "summary": "Dynamical decoupling (DD) is a key technique for suppressing decoherence and preserving the performance of quantum algorithms. We introduce a measurement-based DD (MDD) protocol that determines control unitary gates from partial measurements of noisy subsystems, with measurement overhead scaling linearly with the number of subsystems. We prove that, under local energy relaxation and dephasing noise, MDD achieves the maximum entanglement fidelity attainable by any DD scheme based on bang-bang operations to first order in evolution time. On the IBM Eagle processor, MDD achieved up to a $450$-fold improvement in the success probability of a $14$-qubit quantum Fourier transform, and improved the accuracy of ground-state energy estimation for $N_2$ in the $56$-qubit sample-based quantum diagonalization compared with the standard XX-pulse DD. These results establish MDD as a scalable and effective approach for suppressing decoherence in large-scale quantum algorithms.",
+      "source": "Physical Review Applied",
+      "category": "research",
+      "date": "2026-11-05",
+      "author": "Jeongwoo Jae, Chang Won Lee, Juzar Thingna, Yeong-Dae Kwon et al.",
+      "fetched_at": "2026-11-06T22:55:45+00:00",
+      "doi": "https://doi.org/10.1103/jp17-mvpr",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/7mh8-fyqv",
+      "title": "Metalearning of Gibbs states for many-body Hamiltonians with applications to quantum Boltzmann machines",
+      "url": "https://doi.org/10.1103/7mh8-fyqv",
+      "summary": "The preparation of quantum Gibbs states is a fundamental challenge in quantum computing, essential for applications ranging from modeling open quantum systems to quantum machine learning. Building on the Meta-Variational Quantum Eigensolver framework proposed by Cervera-Lierta et al. and a problem-driven ansatz design, we introduce two meta-learning algorithms: Meta-Variational Quantum Thermalizer (Meta-VQT) and Neural Network Meta-VQT (NN-Meta VQT) for efficient thermal state preparation of parametrized Hamiltonians on Noisy Intermediate-Scale Quantum (NISQ) devices. Meta-VQT utilizes a fully quantum ansatz, while NN Meta-VQT integrates a quantum--classical hybrid architecture. Both use collective optimization over a finite set of training parameter values to prepare approximate Gibbs states at held-out parameter values within the sampled parameter domain. We validate our methods on Transverse Field Ising Models (TFIM) with up to eight qubits and on a two-qubit Heisenberg model with all field terms. Within these finite-size benchmarks, the trained models accurately prepare thermal states at test points inside the training interval. For the six and eight qubit cases of TFIM, meta-learned parameters when combined with appropriately designed ansatz serve as warm-start initializations, significantly outperforming random initializations in the optimization tasks. Furthermore, a 3 qubit Kitaev ring example showcases our algorithm's effectiveness across finite-temperature crossover regimes. Finally, we apply our algorithms to train a Quantum Boltzmann Machine (QBM) on a 2-qubit Heisenberg model with all field terms, achieving enhanced training efficiency, improved Gibbs state accuracy, and a 30-fold runtime speedup over existing techniques such as variational quantum imaginar",
+      "source": "Physical Review Applied",
+      "category": "research",
+      "date": "2026-11-05",
+      "author": "Ruchira V Bhat, Rahul Bhowmick, Avinash Kumar Singh, Krishna Kumar Sabapathy",
+      "fetched_at": "2026-11-06T22:55:45+00:00",
+      "doi": "https://doi.org/10.1103/7mh8-fyqv",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/rv6r-hm7k",
+      "title": "Fully quantum algorithmic framework for partial differential equation-constrained optimization",
+      "url": "https://doi.org/10.1103/rv6r-hm7k",
+      "summary": "Partial differential equation (PDE)-constrained optimization, where an optimization problem is subject to PDE constraints, arises in various applications such as design, control, and inference. Solving such problems is computationally demanding because it requires repeatedly solving a PDE and using its solution within an optimization process. In this paper, we first propose a fully coherent quantum algorithm for solving PDE-constrained optimization problems. The proposed method combines a quantum PDE solver that prepares the solution vector as a quantum state, and a quantum optimizer that assumes oracle access to a quantized objective function. The central idea is the explicit construction of the oracle in a form of block-encoding for the objective function, which coherently uses the output of a quantum PDE solver. This enables us to avoid classical access to the full solution that requires quantum state tomography canceling out the potential quantum speedups. We also derive the overall computational complexity of the proposed method with respect to parameters for optimization and PDE simulation, where quantum speedup is inherited from the underlying quantum PDE solver. We numerically demonstrate the validity of the proposed method by applications, including a parameter calibration problem in the Black-Scholes equation and a material parameter design problem in the wave equation. This work presents the concept of composing quantum subroutines so that the weakness of one (i.e., prohibitive readout overhead) is neutralized by the strength of another (i.e., coherent oracle access), toward a bottleneck-free quantum algorithm.",
+      "source": "Physical Review Applied",
+      "category": "research",
+      "date": "2026-11-05",
+      "author": "Yuki Sato, Jumpei Kato, Hiroshi Yano, Kosuke Ito et al.",
+      "fetched_at": "2026-11-06T22:55:45+00:00",
+      "doi": "https://doi.org/10.1103/rv6r-hm7k",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s41598-026-78321-8",
+      "title": "Detector-optimized wavelength-hybrid entangled photon source for scalable fiber quantum key distribution",
+      "url": "https://doi.org/10.1038/s41598-026-78321-8",
+      "summary": "Abstract Practical deployment of entanglement-based quantum key distribution (QKD) networks requires photon sources that simultaneously address fiber transmission loss, detector performance, and system cost–constraints that are individually well-understood but collectively unresolved in current source designs. Here we present a detector-optimized, wavelength-hybrid entangled photon source (EPS) that resolves this trilemma by design and show its performance in a QKD system. The source uses type-0 spontaneous parametric down-conversion in a crossed-crystal periodically poled KTiOPO $$_4$$ (ppKTP) configuration pumped at 473 nm, generating polarization-entangled photon pairs at 680 nm and 1550 nm. This highly nondegenerate wavelength combination is engineered to route the 680 nm photon to a high-efficiency, low-cost Si-SPAD detector while transmitting the 1550 nm photon through standard telecom fiber with minimum attenuation. The source achieves a spectral brightness of (1.9 × 10 3 )s −1 mW −1 GHz −1 pairs over a 300 GHz phase-matching bandwidth, with polarization entanglement visibilities of (97.3 ± 1.0)% and (94.9 ± 1.6)% in the H/V and D/A bases, corresponding to a state fidelity of $$\\ge $$ (96.1 ± 1.3)%. These results establish the wavelength-hybrid approach as a scalable and cost-effective building block for deployed entanglement-based QKD nodes and future quantum network infrastructure.",
+      "source": "Scientific Reports",
+      "category": "research",
+      "date": "2026-11-05",
+      "author": "Vasile-Laurenţiu Dosan, Alek Lagarrigue, Alessandro Zannotti, Tushar Parab et al.",
+      "fetched_at": "2026-11-06T22:55:45+00:00",
+      "doi": "https://doi.org/10.1038/s41598-026-78321-8",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/4k5q-mymc",
+      "title": "Altermagnetic materials library in intercalated transition-metal dichalcogenides",
+      "url": "https://doi.org/10.1103/4k5q-mymc",
+      "summary": "Altermagnets represent a promising class of magnetic materials owing to their distinctive spin-split band structures in the absence of net magnetization. Here, we present a first-principles investigation of altermagnetism in magnetically intercalated transition metal dichalcogenides (TMDs) with the general formula T$_y$MX$_2$ (T= 3$d$-transition metal, M= transition-metal, X=chalcogen, $y$= 1/3 or 1/4). For a TMD host with 2H structure, compounds exhibiting A-type antiferromagnetism are $g$-wave altermagnets by symmetry. We identify several intercalated TMDs fulfilling the conditions for altermagnetic order to be realized. Several of these candidate materials display spin-splittings at the Fermi level as large as 100 meV.",
+      "source": "Physical review. B./Physical review. B",
+      "category": "research",
+      "date": "2026-11-05",
+      "author": "Ezra Day-Roberts, Huan Wu, Onur Erten, A. S Botana",
+      "fetched_at": "2026-11-06T22:55:45+00:00",
+      "doi": "https://doi.org/10.1103/4k5q-mymc",
+      "open_access": true
     },
     {
       "id": "https://doi.org/10.1016/j.commatsci.2026.115233",
@@ -4269,8 +4412,8 @@
     }
   ],
   "refresh": {
-    "sources_succeeded": 2,
+    "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 12
+    "new_items": 11
   }
 }
