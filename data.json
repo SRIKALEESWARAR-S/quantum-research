@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-07T05:31:30+00:00",
+  "updated_at": "2026-11-07T12:46:06+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -170,6 +170,149 @@
       "author": "Reuben Kwabla Adigbli",
       "fetched_at": "2026-11-06T22:55:45+00:00",
       "doi": "",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/jhep11(2026)056",
+      "title": "Gravitational dressing: from the crossed product to more general algebraic and mathematical structure",
+      "url": "https://doi.org/10.1007/jhep11(2026)056",
+      "summary": "A bstract The crossed product, and consequent transition from von Neumann algebras of type III to II, is recovered from a truncation of more general gravitational dressing constructions, about certain spacetimes. This is done by extending “standard dressing” constructions previously used to give a perturbative definition of “gravitational splittings”, defining approximate localization of information. This result appears to illustrate that this algebraic transition is a small piece of a more general algebraic, or other mathematical, structure associated with quantum gravity. The leading-order structure involves noncommutativity from separated regions, and at the nonperturbative level connects with a possible explanation of holographic behavior for gravity.",
+      "source": "Journal of High Energy Physics",
+      "category": "research",
+      "date": "2026-11-06",
+      "author": "Steven B. Giddings",
+      "fetched_at": "2026-11-07T12:46:05+00:00",
+      "doi": "https://doi.org/10.1007/jhep11(2026)056",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.20935/acadquant8601",
+      "title": "Polariton XY-simulators revisited",
+      "url": "https://doi.org/10.20935/acadquant8601",
+      "summary": "Introduction: Arrays of bosonic condensates of exciton–polaritons have emerged as a promising platform for simulating classical XY-models, capable of rapidly reaching phase-locked states that may be mapped to arrays of two-dimensional classical spins. The relation between the collective spatial modes and minimization of the corresponding XY-Hamiltonian requires clarification. Materials and methods: Here, we develop an analytical model based on the overlap matrix of individual condensate wavefunctions, its nearest-neighbor approximation, and reservoir-fed rate equations. Results: The model gives collective spatial configurations for chains, triangular lattices, and perturbed graphs. The triangular-lattice minimum changes between ferromagnetic (FM) and frustrated antiferromagnetic (AFM) order with the outflow wavevector. Near threshold, the normalized growth rates depend on pump overlap and mode losses. The small-array simulations illustrate the development of intensity patterns over 100 ps. Conclusions: The model relates spatial interference in polariton lattices to XY-type phase configurations and identifies how the pump geometry enters the condensation threshold. It provides a basis for studying the dynamics of mode selection.",
+      "source": "Academia quantum.",
+      "category": "research",
+      "date": "2026-11-06",
+      "author": "Junhui Cao, D. Novokreschenov, Alexey Vitalievich Kavokin",
+      "fetched_at": "2026-11-07T12:46:05+00:00",
+      "doi": "https://doi.org/10.20935/acadquant8601",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/xrfl-drcm",
+      "title": "Conserved quantities enable the quantum Mpemba effect in weakly open systems",
+      "url": "https://doi.org/10.1103/xrfl-drcm",
+      "summary": "Observation of the quantum Mpemba effect has spurred much interest in its enabling conditions and its relation to the classical counterpart. Here, we consider weakly open many-body quantum systems initialized in different thermal states and examine when the initially farther state relaxes to the (non-equilibrium) steady state faster. We claim that the number of conserved quantities in the unitary part plays a crucial role: the Mpemba effect is possible only when the Hamiltonian commutes with other extensive operators or is integrable. The reason lies in the dynamical evolution happening in spaces of different dimensions. When energy is the only approximately conserved quantity, dissipation pushes the dynamics within a single-parameter manifold of different thermal states. In contrast, for Hamiltonians with several conserved quantities, the dynamics drift in the multi-dimensional space of generalized Gibbs ensembles, whose distance to the steady state is less trivial. We provide numerical results for large system sizes using tensor networks and free-fermion techniques, thereby supporting our claim.",
+      "source": "Physical Review Letters",
+      "category": "research",
+      "date": "2026-11-06",
+      "author": "Iris Ulčakar, Rustem Sharipov, Gianluca Lagnese, Zala Lenarčič",
+      "fetched_at": "2026-11-07T12:46:05+00:00",
+      "doi": "https://doi.org/10.1103/xrfl-drcm",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/2mtv-8hwm",
+      "title": "Interplay of orbital degeneracy and vacancies in stabilizing collinear magnetic order in Cr 1 + δ Te 2",
+      "url": "https://doi.org/10.1103/2mtv-8hwm",
+      "summary": "Cr$_{1+δ}$Te$_2$, a two-dimensional van der Waals ferromagnet, displays a contested magnetic structure, poised between collinear and non-collinear spin configurations. In this work, we investigate the magnetic structure of Cr$_{1.33}$Te$_2$ at the microscopic level by combining single-crystal neutron diffraction, X-ray absorption spectroscopy, and first-principles calculations. Neutron diffraction measurements reveal a distinct collinear spin alignment, whereas spectroscopic analyses reveal inherent structural vacancies at both Cr and Te sites. These vacancies lead to local symmetry breaking that elevates the orbital degeneracy of the Cr 3$d$ states, as demonstrated by our first-principles analysis. The resulting modification of magnetocrystalline anisotropy emerges as the key mechanism stabilising the collinear magnetic ground state over the non-collinear one in the presence of vacancies. Our findings uncover a vacancy-driven route to control spin anisotropy and magnetic ordering in layered ferromagnets, offering new insights into the design of tunable 2D magnetic materials.",
+      "source": "Physical review. B./Physical review. B",
+      "category": "research",
+      "date": "2026-11-06",
+      "author": "Prasanta Chowdhury, Jyotirmoy Sau, Sourav Chowdhury, Dr Matthias Gutmann et al.",
+      "fetched_at": "2026-11-07T12:46:05+00:00",
+      "doi": "https://doi.org/10.1103/2mtv-8hwm",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/f66n-c6sm",
+      "title": "Robust valley splitting against interface atomic disorder towards scalable silicon quantum computing: Computational design",
+      "url": "https://doi.org/10.1103/f66n-c6sm",
+      "summary": "Regardless of various material design strategies, experimentally achieving substantial and controllable valley splitting in Si/SiGe quantum wells remains a central challenge for ensuring high gate uniformity. This difficulty arises from unavoidable atomic-scale disorder at the interface, caused by alloy randomness, which suppresses valley splitting and, more critically, induces large variations. Here, we demonstrate that CMOS-compatible uniaxial strain can substantially enhance valley splitting, rendering it immune to interface disorder. Atomistic pseudopotential calculations show that uniaxial strain linearly restores the valley splitting suppressed by interfacial disorder, with a large enhancement rate, while keeping disorder-induced variations within a narrow distribution. We reveal that uniaxial strain introduces a new coupling channel between bulk valleys in adjacent Brillouin zones through a small momentum transfer, which markedly reduces the susceptibility of valley splitting to interfacial disorder. These findings establish a viable route to improve gate uniformity in silicon-based spin qubits, paving the way for scalable quantum processors.",
+      "source": "Physical review. B./Physical review. B",
+      "category": "research",
+      "date": "2026-11-06",
+      "author": "Yang Liu, Gang Wang, Shan Guan, Jun-Wei Luo et al.",
+      "fetched_at": "2026-11-07T12:46:05+00:00",
+      "doi": "https://doi.org/10.1103/f66n-c6sm",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/3p8v-fcb1",
+      "title": "Stabilizer-based quantum simulation of fermion dynamics with local qubit encodings",
+      "url": "https://doi.org/10.1103/3p8v-fcb1",
+      "summary": "Simulating the dynamical properties of large-scale many-fermion systems is a longstanding goal of quantum chemistry, material science and condensed matter. Local fermion-to-qubit encodings have opened a new path for practical fermionic simulations on digital quantum hardware where fermionic statistics are not enforced at the hardware level. In this paper, we explore these local encodings from the perspective of the corresponding time-evolution unitaries. Specifically, we propose a new framework for digital implementations of these qubit-encoded fermionic time-evolution unitaries based on \\emph{flow sets}, which are one-dimensional subsets of the directed fermionic interaction graph. We find that any local fermionic encoding, when restricted to a given flow set, adopts a simple structure that we can classify systematically. For each categorized flow-set form, we propose a low-depth qubit quantum circuit that implements the time evolution unitary using the stabilizer formalism. As an application of our construction, we introduce novel flow-based decompositions for known two-dimensional encodings, leading to efficient circuit decompositions of time-evolution unitaries. We generally observe a space-time trade-off, where mappings with larger qubit-to-fermion ratios yield shallower time-evolution quantum circuits.",
+      "source": "Physical Review Research",
+      "category": "research",
+      "date": "2026-11-06",
+      "author": "Anthony Gandon, Samuele Piccinelli, Max Rossmannek, Francesco Tacchino et al.",
+      "fetched_at": "2026-11-07T12:46:05+00:00",
+      "doi": "https://doi.org/10.1103/3p8v-fcb1",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/ggy5-dr4w",
+      "title": "Quantgraph: A receding-horizon quantum graph solver",
+      "url": "https://doi.org/10.1103/ggy5-dr4w",
+      "summary": "Dynamic programming is a cornerstone of graph-based optimization. While effective, it scales unfavorably with problem size. In this work, we present QuantGraph, a two-stage quantum-enhanced framework that casts local and global graph-optimization problems as quantum searches over discrete trajectory spaces. The solver is designed to operate efficiently by first finding a sequence of locally optimal transitions in the graph (local stage), without considering full trajectories. The accumulated cost of these transitions acts as a threshold that prunes the search space (up to 60% reduction for certain examples). The subsequent global stage, based on this threshold, refines the solution. Both stages utilize variants of the Grover-adaptive-search algorithm. To achieve scalability and robustness, we draw on principles from control theory and embed QuantGraph's global stage within a receding-horizon model-predictive-control scheme. This classical layer stabilizes and guides the quantum search, improving precision and reducing computational burden. In practice, the resulting closed-loop system exhibits robust behavior and lower overall complexity. Notably, for a fixed query budget, QuantGraph attains a 2x increase in control-discretization precision while still benefiting from Grover-search's inherent quadratic speedup compared to classical methods.",
+      "source": "Physical Review Applied",
+      "category": "research",
+      "date": "2026-11-06",
+      "author": "Pranav Vaidhyanathan, Aristotelis Papatheodorou, David R. M. Arvidsson-Shukur, Mark T. Mitchison et al.",
+      "fetched_at": "2026-11-07T12:46:05+00:00",
+      "doi": "https://doi.org/10.1103/ggy5-dr4w",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/fbgm-33d1",
+      "title": "Optimizing quantum state transformation under locality constraint",
+      "url": "https://doi.org/10.1103/fbgm-33d1",
+      "summary": "In this paper, we present a general numerical framework for both deterministic and probabilistic quantum state transformations, under locality constraints. For a given arbitrary bipartite initial state and a desired bipartite target state, we construct an optimized local quantum channel that transforms the initial state into the target state with high fidelity. To achieve this goal, local quantum channels are parametrized on a complex Stiefel manifold and optimized using gradient-based methods. We demonstrate that this approach significantly enhances entanglement distillation for weakly entangled states via two complementary strategies: optimized local state transformation and probabilistic local transformation. These results establish our method as a powerful and versatile tool for a broad class of quantum information processing tasks.",
+      "source": "Physical Review A",
+      "category": "research",
+      "date": "2026-11-06",
+      "author": "Sasan Sarbishegi, Maryam Sadat Mirkamali",
+      "fetched_at": "2026-11-07T12:46:05+00:00",
+      "doi": "https://doi.org/10.1103/fbgm-33d1",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1145/3858421",
+      "title": "FTCircuitBench: A Benchmark Suite for Fault-Tolerant Quantum Compilation and Architecture",
+      "url": "https://doi.org/10.1145/3858421",
+      "summary": "Realizing large-scale quantum advantage is expected to require quantum error correction (QEC), making the compilation and optimization of logical operations a critical area of research. Logical computation imposes distinct constraints and operational paradigms that differ from those of the Noisy Intermediate-Scale Quantum (NISQ) regime, motivating the continued evolution of compilation tools. Given the complexity of this emerging stack, where factors such as gate decomposition precision and computational models must be co-designed, standardized benchmarks and toolkits are valuable for evaluating progress. To support this need, we introduce FTCircuitBench, which serves as: (1) a benchmark suite of impactful quantum algorithms, featuring pre-compiled instances in both Clifford+T and Pauli Based Computation models; (2) a modular end-to-end pipeline allowing users to compile and decompose algorithms for various fault-tolerant architectures, supporting both prebuilt and custom optimization passes; and (3) a toolkit for evaluating the impact of algorithms and optimization across the full compilation stack, providing detailed numerical analysis at each stage. FTCircuitBench is fully open-sourced and maintained on GitHub.",
+      "source": "ACM Transactions on Quantum Computing",
+      "category": "research",
+      "date": "2026-11-06",
+      "author": "Adrian Harkness, Shuwen Kan, Chenxu Liu, Meng Wang et al.",
+      "fetched_at": "2026-11-07T12:46:05+00:00",
+      "doi": "https://doi.org/10.1145/3858421",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/jhep11(2026)061",
+      "title": "Gravitational form factors of the proton in the improved holographic QCD model",
+      "url": "https://doi.org/10.1007/jhep11(2026)061",
+      "summary": "A bstract We compute the gluonic contribution to the gravitational form factors of the proton using the improved holographic QCD model, in which the proton is described in terms of bulk Dirac fermions. Model parameters are constrained using lattice and phenomenological input, allowing us to obtain estimates for the gravitational form factors and to compare them with results from other approaches. Using the extracted form factors, we analyze mechanical properties of the proton, including pressure and shear distributions. We obtain estimates for the mechanical and mass radii of the proton, ρ mech ≈ 0 . 63 fm, ρ mass ≈ 0 . 65 fm, and compare these values with radius estimates from other nonperturbative studies.",
+      "source": "Journal of High Energy Physics",
+      "category": "research",
+      "date": "2026-11-06",
+      "author": "Antti Hippeläinen, Niko Jokela, Matti Järvinen",
+      "fetched_at": "2026-11-07T12:46:05+00:00",
+      "doi": "https://doi.org/10.1007/jhep11(2026)061",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/s00023-026-01772-2",
+      "title": "New Solutions to the $$G_2$$ Hull-Strominger System Via Torus Fibrations Over K3 Orbifolds",
+      "url": "https://doi.org/10.1007/s00023-026-01772-2",
+      "summary": "Abstract Using torus fibrations over K3 orbisurfaces, we construct new smooth solutions to the $$G_2$$ G 2 Hull–Strominger system. These manifolds arise as total spaces of principal $$T^3$$ T 3 (orbi)bundles over singular K3 surfaces. Our construction is based on the choice of three divisors on a singular K3 surface that are primitive with respect to a particular Kähler metric. The stable bundle is obtained via an adaptation of the Serre construction to the singular setting.",
+      "source": "Annales Henri Poincaré",
+      "category": "research",
+      "date": "2026-11-06",
+      "author": "Anna Fino, Gueo Grantcharov, Jose Medel",
+      "fetched_at": "2026-11-07T12:46:05+00:00",
+      "doi": "https://doi.org/10.1007/s00023-026-01772-2",
       "open_access": true
     },
     {
@@ -4414,6 +4557,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 11
   }
 }
