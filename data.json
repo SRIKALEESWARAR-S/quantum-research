@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-07T12:46:06+00:00",
+  "updated_at": "2026-11-07T21:40:31+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -173,6 +173,19 @@
       "open_access": true
     },
     {
+      "id": "https://doi.org/10.1021/acs.jpcc.6c06086",
+      "title": "Electron-Induced Formation of C 2 on Si(100) from Acetylene and Ethylene",
+      "url": "https://doi.org/10.1021/acs.jpcc.6c06086",
+      "summary": "Abstract Hydrogen Desorption Lithography on Si(100) demonstrates the ability of the Scanning Tunneling Microscope (STM) to create functional atomic-scale structures and devices. The dehydrogenation of adsorbed molecules represents a potential complementary technique that has received little attention. For example, formation of C2 could introduce local strain or act as a center for subsequent reactions and would inform positionally controlled mechanosynthesis, an approach with vast potential in surface patterning and functionalization. Here, we studied the electron-induced dehydrogenation of acetylene and ethylene on Si(100) at 4 K using STM. Excitation of acetylene at ≥+3.2 V induces configurational switching, including to a new sublayer-bonded geometry previously predicted to be an adsorption precursor, as well as migration and desorption. Excitation also induces dehydrogenation to C2. Switching between three observed C2 configurations can be induced by excitation at ≥+4.2 V. Simulations using density functional theory reproduced the experimental images based on the choice of functional, dimer-buckling averaging, and the inclusion of diffuse basis functions. In addition, dehydrogenation could be induced using field-emitted electrons on a scale ranging from a single molecule to a radius of >10 nm. These observations highlight the potential of carbon dehydrogenation as an additional tool in Atomically Precise Fabrication (APF).",
+      "source": "The Journal of Physical Chemistry C",
+      "category": "research",
+      "date": "2026-11-07",
+      "author": "Oliver MacLean, Marc Savoie, Damian G. Allis, Rafik Addou et al.",
+      "fetched_at": "2026-11-07T21:40:30+00:00",
+      "doi": "https://doi.org/10.1021/acs.jpcc.6c06086",
+      "open_access": true
+    },
+    {
       "id": "https://doi.org/10.1007/jhep11(2026)056",
       "title": "Gravitational dressing: from the crossed product to more general algebraic and mathematical structure",
       "url": "https://doi.org/10.1007/jhep11(2026)056",
@@ -313,6 +326,32 @@
       "author": "Anna Fino, Gueo Grantcharov, Jose Medel",
       "fetched_at": "2026-11-07T12:46:05+00:00",
       "doi": "https://doi.org/10.1007/s00023-026-01772-2",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/nh5n-7srt",
+      "title": "Semi-device-independent self-testing of bipartite pure quantum states without nonlocality",
+      "url": "https://doi.org/10.1103/nh5n-7srt",
+      "summary": "It has been known that all bipartite pure quantum states can be certified by quantum self-testing, i.e., any such states can be pinned down completely based on the statistics produced by local quantum measurements. A notable feature of quantum self-testing is that the conclusions remain reliable even when the quantum measurements involved are untrusted, where quantum nonlocality is crucial. This necessitates that each party conducts at least two different quantum measurements to produce the desired correlation. Here, we prove that when the underlying Hilbert space dimension is known beforehand, which is very common in quantum experiments, an arbitrary $d\\times d$ bipartite pure state can be certified completely (up to local unitaries) by a certain correlation generated with a single measurement setting on each party, where each measurement yields only $2d$ or even $d+1$ outcomes. We also prove the robustness of our protocols to quantum noises and experimental imperfections. Compared with quantum self-testing, our protocols do not hinge on quantum nonlocality and are much more efficient, yet they maintain the essential feature of not requiring additional assumptions about the quantum devices involved. This advancement could offer significant convenience when certifying bipartite quantum states using untrusted quantum devices in future quantum industries.",
+      "source": "Physical Review A",
+      "category": "research",
+      "date": "2026-11-06",
+      "author": "Lijinzhi Lin, Zhenyu Chen, Xiaodie Lin, Zhaohui Wei",
+      "fetched_at": "2026-11-07T21:40:30+00:00",
+      "doi": "https://doi.org/10.1103/nh5n-7srt",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.22331/q-2026-11-06-2261",
+      "title": "All you need is Trotter",
+      "url": "https://doi.org/10.22331/q-2026-11-06-2261",
+      "summary": "The work here enables a cost scaling of O ~ ( T 1 + o ( 1 ) l o g 2 ( 1 / ϵ ) ε ) and maximum depth O ~ ( T 1 + o ( 1 ) l o g ( 1 / ϵ ) ε ) for estimating observables after some Hamiltonian evolution e i H T using no extra block-encoding qubits, where ϵ is the algorithmic error of the target Hamiltonian evolution and ε is the statistical error from the observable estimation. Throughout, O ~ suppresses factors that are doubly logarithmic in 1 / ϵ (i.e. p o l y l o g l o g ( 1 / ϵ ) ), which are subdominant to the displayed p o l y l o g ( 1 / ϵ ) factors. This is achieved through product formulas, stable interpolation (Chebyshev), and to calculate the needed fractional queries, cardinal sine interpolation is used. This is an improvement over similar work using interpolation methods which have a superlinear scaling of the form 5 p T 1 + 1 / p , where p is the order of the product formula used and an improvement on required qubits over Quantum Signal Processing methods while maintaining scaling with",
+      "source": "Quantum",
+      "category": "research",
+      "date": "2026-11-06",
+      "author": "Gumaro Rendon",
+      "fetched_at": "2026-11-07T21:40:30+00:00",
+      "doi": "https://doi.org/10.22331/q-2026-11-06-2261",
       "open_access": true
     },
     {
@@ -4557,6 +4596,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 11
+    "new_items": 3
   }
 }
