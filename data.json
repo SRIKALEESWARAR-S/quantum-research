@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-08T05:32:06+00:00",
+  "updated_at": "2026-11-08T13:04:51+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -183,6 +183,19 @@
       "author": "Oliver MacLean, Marc Savoie, Damian G. Allis, Rafik Addou et al.",
       "fetched_at": "2026-11-07T21:40:30+00:00",
       "doi": "https://doi.org/10.1021/acs.jpcc.6c06086",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1140/epjp/s13360-026-08466-y",
+      "title": "Roles of polarization and detuning in the noise-induced relaxation dynamics of atomic-molecular bose condensates",
+      "url": "https://doi.org/10.1140/epjp/s13360-026-08466-y",
+      "summary": "",
+      "source": "The European Physical Journal Plus",
+      "category": "research",
+      "date": "2026-11-07",
+      "author": "Avinaba Mukherjee, Raka Dasgupta",
+      "fetched_at": "2026-11-08T13:04:46+00:00",
+      "doi": "https://doi.org/10.1140/epjp/s13360-026-08466-y",
       "open_access": true
     },
     {
@@ -4596,6 +4609,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 1
   }
 }
