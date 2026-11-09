@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-09T05:42:28+00:00",
+  "updated_at": "2026-11-09T15:48:12+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -173,6 +173,71 @@
       "open_access": true
     },
     {
+      "id": "https://doi.org/10.1007/s11128-026-05387-8",
+      "title": "Quantum neural networks for wind power prediction: a benchmark against classical machine learning models",
+      "url": "https://doi.org/10.1007/s11128-026-05387-8",
+      "summary": "Abstract Quantum Machine Learning (QML) is an emerging field at the intersection of quantum computing and machine learning that aims to enhance classical learning methods by leveraging principles such as superposition and entanglement. However, skepticism remains regarding its practical advantages, particularly due to the limitations of noisy intermediate-scale quantum (NISQ) devices. This study addresses these concerns through a systematic evaluation of Quantum Neural Networks (QNNs), quantum-inspired counterparts of Artificial Neural Networks (ANNs). We construct and analyze 12 distinct QNN configurations by combining two quantum feature maps with six entanglement strategies for ansatz design. Experiments conducted on a wind energy dataset show that QNNs can achieve competitive or superior performance compared to classical baseline models, with the best-performing configuration (QNN-3) reaching an R 2 score of up to 0.94 when forecasting wind power output using four input features. In addition, we provide a detailed analysis of simulation time across different configurations, highlighting trade-offs between model complexity and computational cost. These findings demonstrate the potential of QNNs as viable models for predictive tasks and contribute to the ongoing evaluation of QML in real-world applications.",
+      "source": "Quantum Information Processing",
+      "category": "research",
+      "date": "2026-11-09",
+      "author": "Batuhan Hangun, Onder Eyecioglu, Mehar Ali, Oguz Altun et al.",
+      "fetched_at": "2026-11-09T15:48:11+00:00",
+      "doi": "https://doi.org/10.1007/s11128-026-05387-8",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/zg1p-nwf8",
+      "title": "Phase dynamics of self-accelerating Bose-Einstein condensates",
+      "url": "https://doi.org/10.1103/zg1p-nwf8",
+      "summary": "Self-accelerating Airy matter waves offer a clean setting to access the intrinsic cubic-in-time phase. Here we reconstruct the relative phase of simulated Airy-shaped Bose-Einstein condensates from interference fringes in free space, a regime approached in microgravity. The cubic phase dynamics are quantified via approximately debiased, windowed polynomial fits with systematics-aware uncertainty estimates that account for window-induced correlations. We compare two physically feasible phase-extraction methods, heterodyne-based and density-based, and show that an Airy-Gaussian geometry yields substantially improved robustness to fit-window selection relative to an Airy-Airy collision. In the weakly interacting regime, the extracted cubic coefficient responds linearly to leading order to the effective interaction strength, its shift from the noninteracting value providing a calibrated probe of weak mean-field nonlinearities in self-accelerating condensates.",
+      "source": "Physical Review Research",
+      "category": "research",
+      "date": "2026-11-08",
+      "author": "Maximilian L. D. D. Pellner, Georgi Gary Rozenman",
+      "fetched_at": "2026-11-09T15:48:11+00:00",
+      "doi": "https://doi.org/10.1103/zg1p-nwf8",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1140/epjp/s13360-026-08515-6",
+      "title": "Constraints on redshift-evolving Hubble constant models with early- and late-time diagnostics",
+      "url": "https://doi.org/10.1140/epjp/s13360-026-08515-6",
+      "summary": "",
+      "source": "The European Physical Journal Plus",
+      "category": "research",
+      "date": "2026-11-08",
+      "author": "Yupeng Yang",
+      "fetched_at": "2026-11-09T15:48:11+00:00",
+      "doi": "https://doi.org/10.1140/epjp/s13360-026-08515-6",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.5281/zenodo.24053253",
+      "title": "Registration Epistemics Finite Embedded Observers, Quotient Measurement, and the Limits of Self-Certification",
+      "url": "https://doi.org/10.5281/zenodo.24053253",
+      "summary": "A finite observer can be genuinely adequate to a declared task; what it cannot obtain from the same current interface is a final certificate that its registration exhausts every task-relevant finer distinction. This paper develops the framework behind that claim by separating three levels that earlier versions partially conflated. P0 states the constitutive structure of realised distinction: a distinction requires first-term uptake, maintenance across a comparison span, and the independent resolution of a second term; these are not three interchangeable resources but three irreducible aspects of one distinction-making act. P1 states that their physical realisation in any current observer is finite and non-zero; P2 states that every resource actually used in that realisation belongs to the embedded observer. The number two therefore enters before Shannon: one anchor can register presence, whereas two are the minimum arity of a non-trivial relation and first permit same/different and, for live succession, before/after. Measurement is consequently quotient formation rather than cost-free read-out. We distinguish six quotienting mechanisms and isolate a physical self-referential limit based on generative-grain / resolving-grain asymmetry: full-grain current self-resolution cannot be implemented at the same current registration grain. The same minimal relational structure constitutes registered temporal order without purporting to derive substrate time. Epistemically, the framework separates theoretical awareness, instance adjudication, and final certification; it is non-sceptical because refinement can correct earlier blindness even though no current finite interface thereby acquires a final certificate of exhaustive grain. Two domain-general corollaries follow: every regis",
+      "source": "PhilPapers (PhilPapers Foundation)",
+      "category": "research",
+      "date": "2026-11-08",
+      "author": "Ruipeng Shi",
+      "fetched_at": "2026-11-09T15:48:11+00:00",
+      "doi": "https://doi.org/10.5281/zenodo.24053253",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.5281/zenodo.24054414",
+      "title": "Deterministic Language Model Phenotype Identification via Non-Lexical Multi-Manifold Topology, Semantic Information Geometry, and Inverse Gumbel Watermark Forensics",
+      "url": "https://doi.org/10.5281/zenodo.24054414",
+      "summary": "Scientific monograph and technical architecture specification presenting a dictionary-free, non-lexical mathematical framework for generative language model (LLM) phenotype identification and statistical inversion of Aaronson Gumbel-Max cryptographic watermarks. The framework replaces vulnerable surface-level lexical heuristics (such as perplexity, burstiness, and n-gram overlap) with phase-space invariants derived from differential geometry, dynamical systems, and information physics:- Phase-space attractor reconstruction via Takens delay embedding theorem and correlation dimension D2 estimation.- Discrete Ollivier-Ricci curvature computed across semantic neighborhood graphs using optimal transport (Wasserstein W1 distance).- Quantum information geometry formalisms, including density operators rho, quantum state purity gamma, von Neumann entropy, and the Peres-Horodecki positive partial transpose (PPT) entanglement test.- Regularized 7-dimensional Mahalanobis distance with Ledoit-Wolf shrinkage covariance calibration evaluated against an empirical null-hypothesis (H0) baseline.- Blind forensic inversion of pseudo-random Gumbel-Max selections through inverse CDF transformations and Galois Field GF(p) residue coincidence testing. The system demonstrates robust resilience against false-positive errors on formal legal, patent, and mathematical prose. Its computational complexity permits real-time document analysis in under 15 milliseconds in-memory (CPU-only), requiring zero GPU acceleration. Empirically validated across an automated test suite of 633 implementation tests across 78 packages and 239 mathematical verification tests.",
+      "source": "Zenodo (CERN European Organization for Nuclear Research)",
+      "category": "research",
+      "date": "2026-11-08",
+      "author": "Tobiasz Włoch",
+      "fetched_at": "2026-11-09T15:48:11+00:00",
+      "doi": "https://doi.org/10.5281/zenodo.24054414",
+      "open_access": true
+    },
+    {
       "id": "https://doi.org/10.1021/acs.jpcc.6c06086",
       "title": "Electron-Induced Formation of C 2 on Si(100) from Acetylene and Ethylene",
       "url": "https://doi.org/10.1021/acs.jpcc.6c06086",
@@ -313,6 +378,19 @@
       "author": "Jonathan Washburn",
       "fetched_at": "2026-11-08T21:53:46+00:00",
       "doi": "https://doi.org/10.67347/pith.preprint.2026.000041",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.33774/coe-2026-xkth6",
+      "title": "Discrete Gravitational Field in the ZEBTS Framework: Canonical Construction, Convergence, and Reproducible Examples",
+      "url": "https://doi.org/10.33774/coe-2026-xkth6",
+      "summary": "This paper develops a discrete gravitational framework within the ZEBTS axiomatic system and rigorously connects it to the modular ZEBTS‑SUPER program. We construct gravity as an emergent phenomenon of a discrete topological background, spectral objects (flytrons), and controlled topological invariants. Key results include: (i) a discrete Poisson equation on graph Laplacians with explicit control over gauge choices and solution uniqueness; (ii) a quantitative stability and error analysis grounded in the condition number of the Laplacian on the subspace orthogonal to constants, linking numerical robustness directly to graph connectivity and topological properties; (iii) computational checks on a four‑vertex chain graph that verify convergence rates, perturbation bounds, and force computations; (iv) a systematic closure of gap F3 of the ZEBTS‑SUPER program by demonstrating geometric consistency, including the reproduction of continuum limits and the structural role of flytron modes; (v) the embedding of spectral constructions (F1) and topological diagnostics (F5) as foundational elements of the discrete model. We further outline the immediate next step: the derivation of a discrete Weitzenböck identity and the establishment of equivalence with a Yang‑Mills formulation via the adjoint‑valued field χ, which will solidify the unification of gravity and gauge interactions in the ZEBTS framework. The approach yields not only a numerically stable discrete theory but also a self‑diagnosing model where topological invariants serve as explicit control parameters for convergence and stability. The results are supported by linear‑format formulas suitable for direct implementation and by a minimal Python‑style verification script, ensuring reproducibility and integration into the ZEB",
+      "source": "OpenAlex",
+      "category": "research",
+      "date": "2026-11-07",
+      "author": "Anatolii Mukha",
+      "fetched_at": "2026-11-09T15:48:11+00:00",
+      "doi": "https://doi.org/10.33774/coe-2026-xkth6",
       "open_access": true
     },
     {
@@ -4870,6 +4948,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 12
+    "new_items": 6
   }
 }
