@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-08T21:53:47+00:00",
+  "updated_at": "2026-11-09T05:42:28+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -483,6 +483,150 @@
       "fetched_at": "2026-11-07T21:40:30+00:00",
       "doi": "https://doi.org/10.22331/q-2026-11-06-2261",
       "open_access": true
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.09876v1",
+      "title": "Novikov-Magnus Master Equation for Driven Quantum Systems under Classical Correlated Noise",
+      "url": "https://arxiv.org/abs/2611.09876v1",
+      "summary": "We introduce a modular framework for deriving time-local quantum master equations for driven systems subject to temporally correlated classical noise. The construction combines the Donsker-Furutsu-Novikov relation with the Magnus expansion: Functional response closes the noise average, while nested commutators retain the noncommuting chronological action of noise-induced perturbations along the controlled quantum trajectory. For zero-mean Gaussian noise, we derive the resulting Novikov-Magnus quantum master equation through fourth order in the noise strength. The same response hierarchy suggests a natural extension beyond Gaussian noise, with connected higher-order noise correlations weighting higher functional derivatives of the stochastic map. For a driven qubit under Ornstein-Uhlenbeck and band-limited $1/f$ noise, the second- and fourth-order maps remain CPTP throughout the perturbative regime and accurately reproduce stochastic simulations. Their diamond-norm errors are comparable to those of the cumulant-based pseudo-Lindblad master equation, with a modest fourth-order improvement for Ornstein-Uhlenbeck noise.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-06",
+      "author": "Nada Khogeer, Jerison Parra, Caroline Desgranges, Hugo Ribeiro",
+      "fetched_at": "2026-11-09T05:42:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.09873v1",
+      "title": "Trajectory-Dependent Decoherence and Leakage During Shuttling of Multi-Spin Qubits",
+      "url": "https://arxiv.org/abs/2611.09873v1",
+      "summary": "Logical qubits encoded in collective states of multiple spins are promising building blocks for large-scale semiconductor quantum processors. As novel fault-tolerant architectures increasingly rely on qubit shuttling, understanding decoherence of the shuttled multi-spin qubits becomes crucial. We analyze fidelity and leakage of the logical qubits dephased by the spatio-temporally correlated $1/f$ noise, considering two-, three-, and four-spin encodings. We study different shuttling protocols and establish that for all encodings generally, parallel shuttling provides the best protection against decoherence at short distances, whereas sequential shuttling outperforms others for long-range transport (although the exact boundaries depend on the specific device parameters). We explain this common behavior in terms of the dephasing factors of pairs of the shuttled spins; we provide explicit expressions for fidelities and leakage, thus enabling experimentalists to predict performance of the multi-spin qubits from only several independently measured pairwise dephasing factors. Our results establish a connection between shuttling trajectories, noise correlations, and qubit decoherence, and provide guidance for achieving noise-resilient shuttling in scalable semiconductor quantum processors.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-06",
+      "author": "Yu-Ning Zhang, Aleksandr S. Mokeev, Maximilian Rimbach-Russ, David P. DiVincenzo et al.",
+      "fetched_at": "2026-11-09T05:42:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.09861v1",
+      "title": "A Quantum Mechanical Description of Active Matter",
+      "url": "https://arxiv.org/abs/2611.09861v1",
+      "summary": "The natural environments habitable to life are inseparable from dissipative and entropic forces, which mandate active matter to operate on constant fluxes of energy and momentum to survive and propagate through spacetime. In contrast to fundamental particles which are characterized by energy and momentum, we postulate that energy expenditure rate and momentum generation rate are the fundamental dynamical quantities driving this evolution of swimming active matter and accordingly construct the corresponding Lagrangian and Hamiltonian of motion of the active matter. Furthermore, living systems broadly employ periodic, non-repeating motion for both locomotion and various biological functions, with meaningful information stored in the periods of these functions. Consequently, analyzing these dynamics in the Fourier space lands us at the familiar tools of the operator based, quantum mechanics. This is accomplished by introducing a complex field to describe the evolving probability distribution of a single unit, as well as the population density of mutually non-interacting active particles under the constraint of scarce resources. The resulting single-unit wavefunction evolves analogously to the Dirac equation with minimal coupling, wherein gauge symmetry reflects the generality of the governing equations across arbitrary resource landscapes. Additionally, we present a Schrödinger-like equation where the effective potential term represents the environmentally mandated, non-motile base metabolic rate. Finally, we formalize the bidirectional coupling between active swimmers and the surrounding fluid via a multipole expansion of the active force with an emphasis on force monopoles and dipoles, where each pole corresponds to a distinct mode of active motility.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-06",
+      "author": "Ghansham Chandel, Siddhartha Das",
+      "fetched_at": "2026-11-09T05:42:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.09855v1",
+      "title": "Raman anyon-Hubbard model in a 1D Bose lattice gas",
+      "url": "https://arxiv.org/abs/2611.09855v1",
+      "summary": "The anyon-Hubbard model is the paradigmatic lattice model of one-dimensional (1D) anyons, in which chiral interactions make bosons equivalent to particles with fractional statistics. Its continuum limit, the chiral BF theory, emerges as the low-energy description of a Raman-coupled Bose gas with imbalanced interactions. Here, we show that loading such a gas into a 1D optical lattice realizes the lattice counterpart of this theory, which we name the Raman anyon-Hubbard model. The Raman-dressed bosons acquire density-dependent Peierls phases when tunneling through occupied sites. For a small statistical phase, the model reduces to the anyon-Hubbard model, while beyond this limit it defines a distinct lattice anyon model with unbounded rather than periodic statistical interactions. Numerically, we show that the dressed gas displays the defining properties of 1D anyons, namely a density-dependent asymmetry of the ground-state momentum distribution, interaction-induced asymmetric transport and chiral bound states. Remarkably, these features are readily accessible with Raman-coupled $^{39}$K atoms, opening up the experimental exploration of 1D anyons beyond the few-particle regime.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-06",
+      "author": "Josep Cabedo, Claudio Iacovelli, Leticia Tarruell, Alessio Celi",
+      "fetched_at": "2026-11-09T05:42:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.09850v1",
+      "title": "Classical control of quantum-state relaxation in confined molecular hydrogen",
+      "url": "https://arxiv.org/abs/2611.09850v1",
+      "summary": "Quantum-state conversion between the ortho and para nuclear-spin states of H$_2$ is forbidden in the isolated molecule but these states can become connected through interactions with a surrounding environment. How that same environment governs the dynamics of the newly connected states remains poorly understood. Here, we investigate this problem using H$_2$ confined in crystalline molecular solids, where the host environment selectively enables conversion between a pair of otherwise disconnected ortho-H$_2$ and para-H$_2$ states. Rotationally resolved infrared spectroscopy directly determines the state-specific conversion dynamics in crystalline CO$_2$ and N$_2$O at 10 K, revealing that increasing H$_2$ concentration suppresses nuclear-spin conversion by nearly an order of magnitude, reaching complete suppression by 20% H$_2$ loading. Molecular dynamics and Monte Carlo simulations identify two complementary origins of this concentration dependence: changes in the thermally populated phonon modes available to mediate relaxation, and strain-driven H$_2$ clustering that progressively removes molecules from the host crystal field responsible for enabling conversion. The resulting picture connects a classical collective response of the host to microscopic quantum-state dynamics: H$_2$ loading generates strain that reorganizes the local molecular environment, thereby modifying both the phonon bath and the molecular coupling to that bath. These results establish a multiscale mechanism by which condensed-phase environments can govern the connectivity and dynamics of an effective two-level system.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-06",
+      "author": "Nathan McLane, Richard C. Remsing, Leah G. Dodson",
+      "fetched_at": "2026-11-09T05:42:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.09839v1",
+      "title": "Gibbsian Entropy for General Wigner Distributions",
+      "url": "https://arxiv.org/abs/2611.09839v1",
+      "summary": "We propose a definition of non-equilibrium Gibbsian entropy applicable to general quantum systems, computable from Wigner functions, for both Gaussian and non-Gaussian states. We show that while the Wigner function is a quasi-probability distribution, fundamental results linking observables in repeated observations to the function, such as the law of large numbers, the central limit theorem and, crucially, the relation between the entropy and the cumulant generating function continue to apply. This ideas are the core of the large deviation theory, which allow to formulate a positive-definite definition of entropy based on our ignorance of the underlying state structure after repeated measurements of cumulants. This new definition is a parallel to the Gibbs entropy formulation, but it can also be used in out-of-equilibrium regimes. Some important properties of this entropy are discussed. In addition we derive some information theory quantities such as relative entropy, conditional entropy, mutual information and Rényi entropy. We then compare the results with Wehrl entropy for the 1D harmonic oscillator, for pure and mixed states. We conclude the the work discussing potential applications of this new formalism, ranging from quantum correlations beyond entanglement to thermalization in closed quantum systems.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-06",
+      "author": "Gabriel Rabelo-Soares, Yevgeniy Kovchegov, Giorgio Torrieri",
+      "fetched_at": "2026-11-09T05:42:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.09830v1",
+      "title": "Deterministic Quantum Search for NP Problems Through Verifier-Based Oracle Construction",
+      "url": "https://arxiv.org/abs/2611.09830v1",
+      "summary": "Problems in the class NP are important in computational science, where a given candidate solution can be verified in polynomial time, while finding a solution may require evaluating the entire search space in the worst case. Classical exhaustive approaches generally solve such problems by evaluating the verifier function over all possible inputs, resulting in a worst-case query complexity of O(N), where N = d^n represents the size of the search space, d is the number of possible values for each variable, and n is the number of variables. Quantum search algorithms can solve unstructured search problems more efficiently by reducing the query complexity to O(sqrt (N)), providing a quadratic speedup over classical exhaustive search. However, conventional quantum search formulations typically assume access to an oracle that identifies valid solutions, while standard implementations generally yield probabilistic success. In this work, we propose a generalised quantum oracle construction method for NP problems, together with a deterministic quantum search framework that identifies satisfying assignments using their corresponding classical verifier functions. The proposed framework retains the quadratic query speedup of quantum search over classical exhaustive search. We further establish that constructed oracle can be implemented using a number of gates polynomial in the size (L) of the binary encoding of verification function, consistent with the polynomial-time evaluation of the corresponding classical verifier, while the total qubit requirement remains O(poly(L)). The construction is demonstrated on multiple N-SAT instances, with circuit-level simulations confirming deterministic identification of satisfying assignments. These results establish the applicability of determin",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-06",
+      "author": "Soumyajyoti Chatterjee, Harishankar Mishra, Asvija Balasubramanyam, S D Sudarsan et al.",
+      "fetched_at": "2026-11-09T05:42:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.09822v1",
+      "title": "Discovering formally verified quantum programs with AI",
+      "url": "https://arxiv.org/abs/2611.09822v1",
+      "summary": "The timeline by which quantum computers can solve breakthrough problems in science depends on improved quantum algorithms as much as on better hardware. Such algorithmic advances are typically achieved through many years of expert human collaboration. In mathematics and computer science, large language models have accelerated progress through automated discovery loops. However, quantum algorithms can only be evaluated by classical computers on restricted or small instances. Here we demonstrate automated discovery of quantum programs beyond these regimes including order-of-magnitude improvements on scientific applications. To achieve this, we build a quantum program library in the Lean theorem prover in which large language model agents synthesize novel programs against formal problem specifications and verify their correctness and cost. Agent teams collaborate, sharing results and knowledge through wikis and discussing ideas at organized conferences. Our results improve on prior baselines for parallel search (up to 1.4x), quantum arithmetic (290x), and simulations relevant to fusion, photochemistry and drug-metabolism by 11x, 8x and 2.5x respectively. Combining human and artificial intelligence at scale, under the rigor of mathematical proof, lets researchers design algorithms that today's classical and quantum computers cannot test, shortening the path to practical quantum computation.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-06",
+      "author": "Sergey Shirobokov, Ben Jaderberg, Katerina Hristova, George Tsoukalas et al.",
+      "fetched_at": "2026-11-09T05:42:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.09814v1",
+      "title": "Arrival-time problem in the quantum information era - observation of a Zeno crossover in monitored arrival-time distributions",
+      "url": "https://arxiv.org/abs/2611.09814v1",
+      "summary": "When does a quantum particle arrive at a detector? The temporal distributions of itinerant quantum particles have been debated since the birth of quantum mechanics. Here we study the arrival-time problem in periodically monitored spin chains and quantum circuits. The arrival dynamics exhibits two regimes, the quantum Zeno and the low-monitoring regime, separated by an optimal monitoring period set by the single-particle bandwidth. In support of the theory, on superconducting quantum hardware, we measure arrival-time distributions for single and multiple interacting particles in one- and two-dimensional circuits. The measured distributions resolve both regimes and agree closely with quantum-trajectory theory. The crossover persists in interacting many-particle systems: the optimal monitoring point is preserved while many-body interference reshapes the distributions. Zeno suppression likewise persists in two-dimensional geometry. Together, these results show that the two regimes are a generic feature of monitored propagation rather than a single-particle effect. To our knowledge, our work constitutes the first experimental measurement of arrival-time distributions in a monitored quantum transport setting, addressing one of the longest-standing problems in quantum mechanics.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-06",
+      "author": "Yousef Mafi, K. G. S. H. Gunawardana, Kim Pöyhönen, Teemu Ojanen",
+      "fetched_at": "2026-11-09T05:42:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.09809v1",
+      "title": "Beyond the $n/2$ Threshold: Quantum Query Complexity for Computing Hamming Weight and Symmetric Functions",
+      "url": "https://arxiv.org/abs/2611.09809v1",
+      "summary": "The oracle-interrogation algorithm [van Dam, FOCS '98] computes every $n$-bit Boolean function with bounded error using $n/2+O(\\sqrt n)$ quantum queries. In contrast, parity can be computed exactly using $\\lceil n/2\\rceil$ queries, but whether an additive overhead beyond $n/2$ is necessary for a single Boolean output has remained open. In this work, we construct an explicit family of symmetric Boolean functions requiring $n/2+Ω(n^{1/3})$ quantum queries at a fixed positive constant error. We also give an algorithm that recovers the exact Hamming weight using $n/2+O(n^{1/3})$ quantum queries with bounded error, and therefore computes every symmetric Boolean function within the same query bound. Together, these results determine the optimal additive order for Hamming weight recovery and for the worst case over symmetric Boolean functions at sufficiently small constant error.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-06",
+      "author": "Yuan Deng, Zihan Hao, Honghao Lin, Qipeng Liu et al.",
+      "fetched_at": "2026-11-09T05:42:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.09779v1",
+      "title": "Differentiable Digital Twins for Optimization, Calibration, and Characterization of Neutral-Atom- and Ion-based Quantum Computers",
+      "url": "https://arxiv.org/abs/2611.09779v1",
+      "summary": "Quantum technologies based on individually controlled atoms are among the most promising platforms for scalable quantum computing, owing to their favorable coherence properties and controllability. Nonetheless, achieving reliable and high-fidelity gate operations remains challenging due to the sensitivity of these systems to noise and hardware imperfections. In this work, we introduce a comprehensive software toolset designed to model atomic quantum systems with high precision and simulate qubit gate dynamics. By integrating quantum optimal control and benchmarking techniques with automatic differentiation for efficient and accurate gradient-based optimization, the toolset enables significant improvements in gate performance. We demonstrate its capabilities through detailed case studies involving both neutral atoms and trapped ions, highlighting its effectiveness in enhancing quantum gate fidelities, and providing valuable insights for experimental implementation.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-06",
+      "author": "Marco Rossignolo, Lorena C. Bianchet, Anurag Saha Roy, Shai Machnes",
+      "fetched_at": "2026-11-09T05:42:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.09773v1",
+      "title": "A proof of the Aaronson-Ambainis conjecture",
+      "url": "https://arxiv.org/abs/2611.09773v1",
+      "summary": "Aaronson and Ambainis conjectured that every bounded polynomial of low degree on the discrete cube has an influential variable. They showed that the conjecture implies that the acceptance probability of every quantum algorithm making $T$ queries can be approximated on most inputs by a classical algorithm making $\\mathrm{poly}(T)$ queries. We prove their conjecture: every function $f\\colon\\{-1,1\\}^n\\to[-1,1]$ of degree at most $d\\ge1$ has a variable of influence at least $c\\,\\operatorname{Var}(f)^{5/2}/d^{6}$, where $c>0$ is an absolute constant. In the original formulation, for polynomials of degree at most $d$ with values in $[0,1]$ on $\\{0,1\\}^n$ and variance at least $\\varepsilon$, this gives a variable of influence at least $(\\varepsilon/d)^{7}$. The proof is elementary, with steps inspired by works of others. Thus, as Aaronson and Ambainis anticipated, superpolynomial quantum speedups in the query model require structure, such as a promise on the inputs.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-06",
+      "author": "David Turturean",
+      "fetched_at": "2026-11-09T05:42:28+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
     },
     {
       "id": "https://doi.org/10.1038/s41377-026-02491-3",
@@ -4726,6 +4870,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 9
+    "new_items": 12
   }
 }
