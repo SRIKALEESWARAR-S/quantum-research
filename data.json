@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-10T01:22:46+00:00",
+  "updated_at": "2026-11-10T14:40:18+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -173,6 +173,19 @@
       "open_access": true
     },
     {
+      "id": "https://doi.org/10.7566/jpsj.95.124003",
+      "title": "Real-Space Visualization of Site-Selective Co 3 d States in the Ising Magnet Ca 3 Co 2 O 6",
+      "url": "https://doi.org/10.7566/jpsj.95.124003",
+      "summary": "High-spin Co 3+ ions can retain a finite orbital contribution and exhibit pronounced magnetic anisotropy, providing model systems for Ising magnetism. However, direct real-space observations of their orbital states remain limited. Here, we visualize the site-dependent Co 3d electronic states in the Ising-chain magnet Ca 3 Co 2 O 6 , which contains crystallographically inequivalent high-spin and low-spin Co 3+ sites, using synchrotron X-ray diffraction and valence electron density (VED) analysis based on core differential Fourier synthesis. The octahedral Co site exhibits a VED distribution consistent with a low-spin state, whereas the trigonal-prismatic Co site shows pronounced anisotropy that cannot be reproduced by crystal electric field (CEF) effects alone. A wavefunction analysis incorporating CEF effects, spin–orbit coupling, and ligand-mediated Co 3d–O 2p–Co 4p hybridization reproduces the observed VED anisotropy. These results establish a site-selective real-space picture of the Co electronic states and demonstrate the capability of VED analysis to probe local orbital states and orbital hybridization in quantum materials.",
+      "source": "Journal of the Physical Society of Japan",
+      "category": "research",
+      "date": "2026-11-10",
+      "author": "K. Gautam, Shunsuke Kitou, Yuiga Nakamura, Norimasa Sasabe et al.",
+      "fetched_at": "2026-11-10T14:40:16+00:00",
+      "doi": "https://doi.org/10.7566/jpsj.95.124003",
+      "open_access": true
+    },
+    {
       "id": "https://doi.org/10.1007/s11128-026-05387-8",
       "title": "Quantum neural networks for wind power prediction: a benchmark against classical machine learning models",
       "url": "https://doi.org/10.1007/s11128-026-05387-8",
@@ -184,6 +197,189 @@
       "fetched_at": "2026-11-09T15:48:11+00:00",
       "doi": "https://doi.org/10.1007/s11128-026-05387-8",
       "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/s40687-026-00663-6",
+      "title": "Towards the simulation of higher-order quantum resources: a general type-theoretic approach",
+      "url": "https://doi.org/10.1007/s40687-026-00663-6",
+      "summary": "",
+      "source": "Research in the Mathematical Sciences",
+      "category": "research",
+      "date": "2026-11-09",
+      "author": "Samuel B. Steakley, Elia Zanoni, Carlo Maria Scandolo",
+      "fetched_at": "2026-11-10T14:40:16+00:00",
+      "doi": "https://doi.org/10.1007/s40687-026-00663-6",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s41377-026-02432-0",
+      "title": "Generation of spatiotemporal optical coil with controllable transverse intensity chirality",
+      "url": "https://doi.org/10.1038/s41377-026-02432-0",
+      "summary": "Chirality is a fundamental asymmetry in nature. In optics, control of chirality is evolving from spatial properties like polarization to the temporal chirality of local fields. Conventional approaches, however, encode chirality in abstract degrees of freedom such as phase or polarization, limiting direct and efficient coupling with matter on ultrafast timescales. We introduce and experimentally demonstrate a paradigm of intensity-driven optical chirality, where handedness is physically inscribed into the trajectory of spatiotemporal energy flow. Through the engineered non-collinear collision of Spatiotemporal Optical Vortices, the spatiotemporal optical coil is generated. The coil's chirality manifests as a physical torsion of its volumetric energy flow, a property distinct from chirality hidden in phase or polarization. By employing femtosecond tomography and phase-resolved reconstruction, we map the complete three-dimensional spatiotemporal intensity field, directly observing the evolution of singularity lines. This approach reveals programmable scaling relations between the coil's topology and interaction geometry, extending the concept of chirality to the energy-flow level. The introduced volumetric chiral density directly correlates with the optical forces and torques exerted on chiral particles, providing an intensity-manifested degree of freedom for topological photonics and enabling novel schemes for ultrafast chiral-selective excitation and high-dimensional information encoding.",
+      "source": "Light Science & Applications",
+      "category": "research",
+      "date": "2026-11-09",
+      "author": "Dana JiaShaner, Xingyuan Zhang, Huiming Wang, Zhirong Tao et al.",
+      "fetched_at": "2026-11-10T14:40:16+00:00",
+      "doi": "https://doi.org/10.1038/s41377-026-02432-0",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/n6lg-xbks",
+      "title": "Four-loop quark-to-quark splitting function in QCD",
+      "url": "https://doi.org/10.1103/n6lg-xbks",
+      "summary": "The scale evolution of parton distributions is governed by splitting functions. We compute the four-loop pure-singlet contribution to the quark-to-quark splitting function in perturbative QCD. Together with the known non-singlet contribution, our result completes the quark-to-quark splitting function at this order. We confirm previous partial results and obtain, for the first time, a fully analytic expression valid for all momentum fractions. We examine its behavior at small momentum fractions and provide precise numerical representations suitable for parton evolution.",
+      "source": "Physical review. D/Physical review. D.",
+      "category": "research",
+      "date": "2026-11-09",
+      "author": "Thomas Gehrmann, Andreas von Manteuffel, Vasily Sotnikov, Tong-Zhi Yang",
+      "fetched_at": "2026-11-10T14:40:16+00:00",
+      "doi": "https://doi.org/10.1103/n6lg-xbks",
+      "open_access": true
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.12888v1",
+      "title": "Dephasing-Induced Melting of Crystalline Spectral Form Factors",
+      "url": "https://arxiv.org/abs/2611.12888v1",
+      "summary": "Long-range spectral order can be probed using spectral form factors, where it manifests itself as sharp Bragg peaks at integer multiples of the Heisenberg time in nearly crystalline spectra. We examine how energy dephasing in open systems affects this spectral order and how to control it. We find that Bragg peaks fade algebraically with revival order and dephasing strength, $K_{\\rm Bragg}(p)\\propto(γp)^{-1/2}$, within an extensive intermediate regime, and persist up to the lifetime of nearest-neighbor coherences despite an extreme decoherence rate. Our results establish the spectral form factor as a probe of spectral order in open quantum systems and identify temporal correlations in spectral fluctuations as a means of controlling it.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-09",
+      "author": "Preethi Gopalakrishnan, Adolfo del Campo",
+      "fetched_at": "2026-11-10T14:40:18+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.12882v1",
+      "title": "Chiral waveguide model for error-correctable quantum computation",
+      "url": "https://arxiv.org/abs/2611.12882v1",
+      "summary": "We develop a first-principles framework connecting microscopic waveguide scattering to quantum error correction and algorithmic performance. For polarization-encoded single photons interacting with an ensemble of two-level atoms in a chiral waveguide, we derive an effective polarization quantum channel by tracing out the frequency degree of freedom. Using this channel as the physical noise model for a rotated planar code, we observe threshold behavior as the number of atoms $N$ and the atom-waveguide coupling strength $Γ$ are varied. An asymptotic analysis of the microscopic scattering model explains the threshold scaling with $NΓ/σ$, where $σ$ is the photon spectral bandwidth. For identical, lossless atoms with symmetric real coupling and a photon spectrum centered at resonance, the effective noise is strongly biased toward $X$ errors. We then incorporate the resulting logical errors into quantum phase estimation and demonstrate that the noise bias can guide circuit design. In particular, a Hadamard-basis implementation reduces sensitivity to the dominant error, improving algorithmic performance.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-09",
+      "author": "Zixiang Hong",
+      "fetched_at": "2026-11-10T14:40:18+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.12876v1",
+      "title": "The simulability frontiers of photonic quantum computing",
+      "url": "https://arxiv.org/abs/2611.12876v1",
+      "summary": "Estimates of when photonic devices outgrow classical simulation are hard to compare: even for single-photon boson sampling, quoted thresholds range from 50 to 98 photons, as they rest on different tasks and assumptions. We propose as a common unit the time a classical computer needs to draw one sample from the device's exact output distribution, up to floating-point rounding. Only exactness applies equally to every kind of light, since the cost of approximate sampling depends on the accuracy required. The simulability frontier is the device size at which our fastest exact sampler produces one sample per second on a fixed machine; this device size increases with better hardware and algorithms. As the time per sample grows exponentially with the number of detected photons, doubling the machine speed moves the frontier by about one photon, whereas a better algorithm changes the growth rate. We measure the frontier with photonic-engines, an open-source GPU library of exact samplers for single photons, entangled photons from quantum emitters, vacuum-single-photon superpositions and squeezed light. Each sampler is validated against a simulator sharing no code with it. On one NVIDIA H100 GPU, with Haar-random interferometers, twice as many modes as photonic inputs and photon-number-resolving detectors, the frontier lies at 38.3 single photons and at 31.0 entangled photons from one emitter. For squeezed light, a timing model fitted to measurements places it at 41.5 squeezed photonic inputs of mean photon number 0.5. For our samplers, coherence alone makes simulation harder: sources that emit a photon with probability one half reach 64.2 when vacuum and photon are mixed incoherently, as for lossy single photons, but only 50.0 when they are in coherent superposition. Feed-forward",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-09",
+      "author": "Jean Senellart, Benjamin Stott, Stephen Wein, Esperanza Cuenca Gomez et al.",
+      "fetched_at": "2026-11-10T14:40:18+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.12859v1",
+      "title": "The hidden symmetry operators of the asymmetric quantum Rabi model and its two-photon and two-mode variants in closed form",
+      "url": "https://arxiv.org/abs/2611.12859v1",
+      "summary": "The asymmetric quantum Rabi model, a two-level system with splitting $Δ$ and bias $ε$ coupled with strength $g$ to a boson mode, has level crossings when $ε$ is an integer multiple $N$ of the mode frequency. They are due to a hidden symmetry operator $J$, for which no general formula has been available. Here we obtain $J$ in closed form for every $N$. We find that $J$ is given by the parity of the symmetric model times the continuant (ordered tridiagonal determinant) of $N$ first-order operators, which are the Hamiltonians at the intermediate biases $N-1,N-3,\\dots,1-N$ minus a common number operator. The symmetry is thus a staircase of $N$ bias steps that closes on the mirror image of the model precisely at integer bias. The proof uses induction on two commutation relations. The same relations hold in the asymmetric two-photon and two-mode models, written with the generators of $\\mathfrak{su}(1,1)$, so that the same continuant gives their symmetry operators for every order, previously known only for the lowest ones. We also relate the closed formula for $J$ to the known recursion relations for its coefficients and give their terms of lowest order in $Δ$ explicitly.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-09",
+      "author": "Marcus Kollar, Arka Dutta",
+      "fetched_at": "2026-11-10T14:40:18+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.12850v1",
+      "title": "Enhancing valley splitting in Si/SiGe Wiggle Well quantum dots through integrated stressor-gate architectures",
+      "url": "https://arxiv.org/abs/2611.12850v1",
+      "summary": "Engineering large and reproducible valley splittings is essential for the scalable operation of silicon spin qubits. In Si/SiGe quantum dot devices, valley splitting arises predominantly from atomic-scale disorder and is therefore inherently random, motivating approaches that introduce a large deterministic contribution. Strain-assisted Wiggle Wells provide a route to deterministic valley splitting by combining an oscillatory Ge concentration in the Si well with shear strain; however, generating the required strain in a manner compatible with large-scale architectures remains a challenge. Here, we propose patterned stressed thin films as a scalable approach for generating shear strain in the quantum well of Si/SiGe quantum dot devices. Finite-element simulations show that compressively stressed TiN films can generate shear strains exceeding 0.1\\% at the quantum well, sufficient for deterministic valley splittings of hundreds of $μ\\text{eV}$ in strain-assisted Wiggle Wells. We show that this strain can extend across multiple quantum dots and is maintained in realistic gate geometries, providing a fabrication-compatible approach for scaling deterministic valley splitting to quantum dot arrays.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-09",
+      "author": "E. S. Joseph, Talise Oh, D. E. Savage, D. S. Stone et al.",
+      "fetched_at": "2026-11-10T14:40:18+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.12836v1",
+      "title": "Property F implies weak integrality for non-degenerate pivotal braided fusion categories",
+      "url": "https://arxiv.org/abs/2611.12836v1",
+      "summary": "We prove that every non-degenerate pivotal braided fusion category with property F is pseudo-unitary and weakly integral. In particular, every modular category with property F is weakly integral. Neither sphericality nor pseudo-unitarity is assumed. Passing to the Drinfeld centre extends the result to degenerate categories whose dimensions are positive on the intersection of the Müger centre with the adjoint subcategory; these include every braided fusion category with a pseudo-unitary Galois conjugate. Physically, the result connects the arithmetic of topological orders to the computational power of anyon braiding: non-integer squared total quantum dimension guarantees infinite braid group images, a necessary condition for universal quantum computation.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-09",
+      "author": "Justin Asher, Jonah Berean-Dutcher, Clay Cordova, Julio Parra-Martinez et al.",
+      "fetched_at": "2026-11-10T14:40:18+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.12833v1",
+      "title": "GARI++: A General-Purpose Decoder for Quantum Error Correction",
+      "url": "https://arxiv.org/abs/2611.12833v1",
+      "summary": "We present GARI++, a two-stage decoding pipeline achieving accuracy competitive with the state of the art across surface, bivariate bicycle and color codes without relying on ensembles. The first stage uses GARI, a normalized min-sum decoder with random serial scheduling on the GARI transformed matrix. The second stage decoder is used only for the cases that the first stage does not converge, and the decoder is configurable based on the choice of the QEC code. The first stage pipelines towards the second stage both the residual syndrome and the soft information. GARI++ pipelining is predictive, meaning that GARI++ chooses the first stage iteration outputs which are expected to deliver the best accuracy in the second stage. GARI++ motivates a hybrid FPGA-CPU architecture for real-time decoding. For example, under uniform circuit-level depolarising noise with a physical error rate of 0.001, the FPGA implementation of GARI achieves average latencies per round ranging from $201 ns$ to $11.8μs$ for surface code distances between 7 and 25. At the same time, due to the very low weight residuals output by the first stage, the average residual decoding time per round remains near constant and below one microsecond on a single Apple M2 core for surface code distances even up to 51 when using Union-Find and accuracy on par with correlated MWPM.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-09",
+      "author": "Arshpreet Singh Maan, Francisco Garcia-Herrero, Daniel Bascones, Valentin Savin et al.",
+      "fetched_at": "2026-11-10T14:40:18+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.12795v1",
+      "title": "A short proof of the Aaronson-Ambainis Conjecture via the completion framework",
+      "url": "https://arxiv.org/abs/2611.12795v1",
+      "summary": "We give a short proof of the Aaronson-Ambainis conjecture. If a partial Boolean function $f$ is defined on a $δ$-fraction of all $n$-bit strings and have quantum query complexity $Q(f)$, then, for every $0<ε<1$, a deterministic algorithm computes $f$ correctly on at least a $1-ε$ fraction of its domain using $O( Q(f)^6 / (εδ)^2)$ queries. Our proof uses the completion framework and establishes a more general bound in terms of the classical adversary measure. The only result we use from Turturean's recent proof is a special case of his certificate inequality, for which we provide a self-contained proof. We also derive the stronger variant of the Aaronson-Ambainis Conjecture, the bounded-polynomial influence conjecture, from our main result in the appendix.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-09",
+      "author": "Thomas Huffstutler, David Miloschewsky, Supartha Podder",
+      "fetched_at": "2026-11-10T14:40:18+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.12784v1",
+      "title": "Quantum Simulation of Quantum Channels and Applications",
+      "url": "https://arxiv.org/abs/2611.12784v1",
+      "summary": "We review the basic theory of quantum channels and develop a strategy for simulating them on digital quantum computers, drawing upon the \\emph{Choi-Kraus operator-sum representation} and Stinespring dilation to provide a unified approach for various applications. We discuss three types of applications, offering explicit examples for each: the preparation of mixed states, measurements described by positive operator-valued measures (POVMs), and the simulation of the evolution of Markovian quantum systems. We recover fundamental concepts from quantum theory, such as the purification of a mixed state and the Naimark dilation associated with a POVM. Regarding the simulation of the evolution of a Markovian quantum system, we introduce an operator, termed the residual operator, to construct, from the system's Liouvillian, a quantum channel that serves as a first-order approximation of the quantum dynamical semigroup. This allows the simulation of quantum dynamics to be performed in a manner analogous to the Euler method for ordinary differential equations, avoiding Trotterization. We prove all the theoretical results mentioned, with the exception of the fundamental Choi-Kraus theorem concerning the operator-sum representation of quantum channels, for which we provide the appropriate references. The explicit simulations discussed were implemented using the AerSimulator from IBM's Qiskit SDK, with the corresponding code available on GitHub.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-09",
+      "author": "Lúcio S. Fassarella",
+      "fetched_at": "2026-11-10T14:40:18+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.12783v1",
+      "title": "Universal semiclassical drift velocity of magnetic edge channels",
+      "url": "https://arxiv.org/abs/2611.12783v1",
+      "summary": "Magnetic edge channels, arising at the edge of a two-dimensional electron gas in a magnetic field, are topologically protected and propagate unidirectionally along the edge. Their group velocities at the Fermi level, being averaged harmonically, result in drift velocity, which is related to the edge density of states, quantum capacitance, and the velocity of edge magnetoplasmons. Using semiclassical quantization of electron skipping orbits, we show that the drift velocity equals 1/2 of the electron Fermi velocity in the limit of a large number of edge channels crossing the Fermi level. This result, being universal for a hard edge and for isotropic dispersion, is checked numerically for massive electrons and for massless electrons in graphene. The drift velocity at smooth electrostatically defined edges lacks such universality. In the case of anisotropic dispersion, the semiclassical drift velocity at the hard edge reduces to a coordinate-velocity correlation along the cyclotron orbit.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-09",
+      "author": "Ekaterina R. Sleptsova, Alexey A. Sokolik",
+      "fetched_at": "2026-11-10T14:40:18+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.12782v1",
+      "title": "Self-Energy Construction for Chain Representations of Open Quantum Systems",
+      "url": "https://arxiv.org/abs/2611.12782v1",
+      "summary": "We identify the self-energy as the environmental response to the system, which transforms covariantly under shifts of the system--environment cut. For a semi-infinite chain with asymptotically uniform parameters, this transformation admits a fixed point that defines the asymptotic boundary self-energy (BSE), whose spectral density is the Wigner semicircle. A chain-extended BSE exploits the trend of the retained chain, offering improved accuracy in representing the environment. The transformation introduces a pseudo-hyperbolic self-energy distance that is invariant under shifts of the cut, providing a natural geometry for comparing environmental responses. As a demonstration, this geometry enables cut-independent error measure of finite damped-oscillator closures of the chain, distinguishing the closure error from the chain depth error, and offers a more accurate fitting scheme than fitting the time-domain correlation function.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-09",
+      "author": "Pengju Chen, Da-Wei Luo, Ting Yu",
+      "fetched_at": "2026-11-10T14:40:18+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.12779v1",
+      "title": "Unified architecture for arbitrary two-qubit gates with neutral atoms",
+      "url": "https://arxiv.org/abs/2611.12779v1",
+      "summary": "We propose a unified architecture for two-qubit gates in neutral-atom quantum processors which allows the implementation of the complete set of two-qubit gates. Our approach rests on a single resource that unlocks the entire gate set: an XXZ interaction with tunable anisotropy, combined only with single-qubit operations. We introduce a Rydberg-atom realization of the tunable XXZ interaction and combine it with optimally controlled global microwave pulses to implement the B, QFT, iSWAP, and $\\sqrt{\\mathrm{iSWAP}}$ gates, as well as a continuous gate family interpolating from CZ to iSWAP via the B gate. This work allows the implementation of any two-qubit gate natively in neutral-atom platforms, enabling flexible switching between instruction sets to reduce circuit depth and compilation overhead in quantum algorithm implementation.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-09",
+      "author": "Nader Mostaan, Peter Schmelcher, Rick Mukherjee",
+      "fetched_at": "2026-11-10T14:40:18+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
     },
     {
       "id": "https://doi.org/10.1103/zg1p-nwf8",
@@ -4948,6 +5144,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 16
   }
 }
