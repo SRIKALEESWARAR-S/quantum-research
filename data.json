@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-10T14:40:18+00:00",
+  "updated_at": "2026-11-10T23:04:19+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -183,6 +183,19 @@
       "author": "K. Gautam, Shunsuke Kitou, Yuiga Nakamura, Norimasa Sasabe et al.",
       "fetched_at": "2026-11-10T14:40:16+00:00",
       "doi": "https://doi.org/10.7566/jpsj.95.124003",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/s00037-025-00284-5",
+      "title": "Space-bounded quantum state testing via space-efficient quantum singular value transformation",
+      "url": "https://doi.org/10.1007/s00037-025-00284-5",
+      "summary": "Abstract Driven by exploring the power of quantum computation with a limited number of qubits, we present a novel complete characterization for space-bounded quantum computation, which encompasses settings with one-sided error (unitary ) and two-sided error ( ), approached from a quantum (mixed) state testing perspective: The first family of natural complete problems for unitary $$\\text {\\textsf {coRQL}} $$ coRQL , namely space-bounded quantum state certification for trace distance and Hilbert–Schmidt distance; A new family of (arguably simpler) natural complete problems for , namely space-bounded quantum state testing for trace distance, Hilbert–Schmidt distance, and (von Neumann) entropy difference. In the space-bounded quantum state testing problem, we consider two logarithmic-qubit quantum circuits (devices) denoted as $$Q_0$$ Q 0 and $$Q_1$$ Q 1 , which prepare quantum states $$\\rho _0$$ ρ 0 and $$\\rho _1$$ ρ 1 , respectively, with access to their “source code”. Our goal is to decide whether $$\\rho _0$$ ρ 0 is $$\\epsilon _1$$ ϵ 1 -close to or $$\\epsilon _2$$ ϵ 2 -far from $$\\rho _1$$ ρ 1 with respect to a specified distance-like measure. Interestingly, unlike time-bounded state testing problems, which exhibit computational hardness depending on the chosen distance-like measure (either -complete or -complete), our results reveal that the space-bounded state testing problems, considering all three measures, are computationally as easy as preparing quantum states. Our results primarily build upon a space-efficient variant of the quantum singular value transformation (QSVT) introduced by Gilyén, Su, Low, and Wiebe (STOC 2019), which is of independent interest. Our technique provides a unified approach for designing space-bounded quantum algorithms. Specifically, we sho",
+      "source": "Computational Complexity",
+      "category": "research",
+      "date": "2026-11-10",
+      "author": "François Le Gall, Yupan Liu, Qisheng Wang",
+      "fetched_at": "2026-11-10T23:04:17+00:00",
+      "doi": "https://doi.org/10.1007/s00037-025-00284-5",
       "open_access": true
     },
     {
@@ -380,6 +393,97 @@
       "author": "Nader Mostaan, Peter Schmelcher, Rick Mukherjee",
       "fetched_at": "2026-11-10T14:40:18+00:00",
       "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://doi.org/10.1016/j.difgeo.2026.102460",
+      "title": "Curvature equations coupling symmetric tensors with a metric",
+      "url": "https://doi.org/10.1016/j.difgeo.2026.102460",
+      "summary": "There are described hierarchies of equations coupling a metric with a trace-free tensor having prescribed symmetries and in the kernel of certain generalized gradients. These specialize, when the tensor vanishes identically, to the usual hierarchy of constant sectional curvature (projectively flat), Einstein, and constant scalar curvature. At the Ricci curvature level these equations are formal analogues of the Einstein-Maxwell and supergravity equations that couple differential forms with a metric. The particular cases coupling a metric with trace-free symmetric tensors satisfying the Codazzi or conformal Killing equations are studied in detail. Examples of solutions are obtained from mean curvature zero immersions, affine spheres, isoparametric hypersurfaces, and related algebraic constructions. The formalism yields a hierarchy of curvature equations for statistical structures. There are deduced constraints on the scalar curvature of the metric occurring in a solution that generalize classical results of Simons, for mean curvature zero hypersurfaces in spheres, and of Calabi, for hyperbolic affine spheres.",
+      "source": "Differential Geometry and its Applications",
+      "category": "research",
+      "date": "2026-11-09",
+      "author": "Daniel J. F. Fox",
+      "fetched_at": "2026-11-10T23:04:17+00:00",
+      "doi": "https://doi.org/10.1016/j.difgeo.2026.102460",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1088/2399-6528/aebff1",
+      "title": "Catastrophic failure of quantum annealing owing to non-stoquastic Hamiltonian and its avoidance by decoherence",
+      "url": "https://doi.org/10.1088/2399-6528/aebff1",
+      "summary": "Abstract Quantum annealing (QA) is a promising method for solving combinatorial optimization problems whose solutions are embedded into a ground state of the Ising Hamiltonian. This method employs two types of Hamiltonians, namely a driver Hamiltonian and a problem Hamiltonian. After a sufficiently slow change from the driver Hamiltonian to the problem Hamiltonian, the target ground state that corresponds to the solution can be obtained. The inclusion of non-stoquastic terms in the driver Hamiltonian is believed to enhance the efficiency of the QA. Meanwhile, decoherence is regarded as one of the main obstacles for QA. This paper presents examples to show that non- stoquastic Hamiltonians can lead to catastrophic failure of QA, whereas a certain decoherence process can be adopted to avoid such failure. More specifically, when anti-ferromagnetic interactions (i.e., typical non-stoquastic terms) are included in the Hamiltonian, the target ground state cannot be prepared even with an infinitely long annealing time for some specific cases. In the example presented herein, owing to a symmetry, the Hamiltonian is block-diagonalized, and a crossing occurs during the QA, which leads to a complete failure of the ground-state search. Moreover, it is shown that adding a certain type of decoherence can yield the ground state after QA for these cases. This is because, even when a symmetry exists in isolated quantum systems, the environment breaks the symmetry. In summary, the counter-intuitive results presented herein provide an insight into the fundamental mechanism of QA.",
+      "source": "Journal of Physics Communications",
+      "category": "research",
+      "date": "2026-11-09",
+      "author": "Takashi Imoto, Yuichiro Matsuzaki",
+      "fetched_at": "2026-11-10T23:04:17+00:00",
+      "doi": "https://doi.org/10.1088/2399-6528/aebff1",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.3842/sigma.2026.110",
+      "title": "The Geometric Deformation of Curved $L_\\infty$ Algebras and Lie Algebroids",
+      "url": "https://doi.org/10.3842/sigma.2026.110",
+      "summary": "While $L_\\infty$ algebras are fundamental structures in differential geometry and mathematical physics, the geometric information encoded in such structures is often implicit. We address the following question: What constitutes a geometrically meaningful deformation of an $L_\\infty$ algebra arising from vector bundles, and how can such deformations classify new geometric invariants? Inspired by nonabelian extension theory of Lie algebras, we define geometric deformations of curved $L_\\infty$ algebras constructed from a vector bundle $V\\to M$, and demonstrate that such deformations uniquely correspond to Lie algebroid structures on $V$. Explicit computations reveal that a representative of the first Atiyah-Chern class is exact in the total Weil complex, with its primitive representing the modular class in Lie algebroid cohomology. In the case of action Lie algebroids, the leading-order Atiyah-Chern classes correspond to the equivariant Chern characters. Applications to BV theories show that the geometric deformations naturally generate Poisson sigma models. These results provide a coherent framework for deriving field theories from geometric deformations of $L_\\infty$ algebras.",
+      "source": "Symmetry Integrability and Geometry Methods and Applications",
+      "category": "research",
+      "date": "2026-11-09",
+      "author": "Xiaoyi Cui",
+      "fetched_at": "2026-11-10T23:04:17+00:00",
+      "doi": "https://doi.org/10.3842/sigma.2026.110",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1073/pnas.2611349123",
+      "title": "Generating interesting scientific ideas using knowledge graphs and LLMs: Evaluations with 100 research group leaders",
+      "url": "https://doi.org/10.1073/pnas.2611349123",
+      "summary": "The rapid growth of scientific literature makes it increasingly challenging for researchers to identify novel and impactful ideas, especially across disciplines. Modern AI systems offer new opportunities for scientific ideation, but how compelling are AI-generated ideas, and how can their quality be improved? Here, we introduce SCIMUSE , which generates personalized research ideas using a knowledge graph of 58 million papers and a large language model (LLM). A central focus of this work is to understand how interesting these ideas are. Therefore, we conducted a large-scale evaluation in which more than 100 research group leaders—spanning the natural sciences to the humanities—rated over 4,400 personalized ideas according to their level of interest. Overall, expert ratings were modest (mean 2.40 on a 5-point scale, most common rating 1), while 24.9% of ideas were rated 4 or 5. We find that supplying concept pairs selected using the knowledge graph does not improve expert-rated interest over a titles-only GPT baseline. High-citation-predicted pairs even showed a weak tendency (1.94 σ ) toward lower interest than random pairs. Nevertheless, graph features can be used to control properties of ideas, and, using this unique evaluation dataset, we show that idea interest can be predicted with both a supervised neural network based on graph features and a zero-shot ranking approach based on an LLM. Our work provides an AI methodology for generating scientific ideas and a large-scale interdisciplinary expert evaluation, paving the way to study and improve difficult-to-measure metrics such as expert-perceived scientific interestingness.",
+      "source": "Proceedings of the National Academy of Sciences",
+      "category": "research",
+      "date": "2026-11-09",
+      "author": "Xuemei Gu, Mario Krenn",
+      "fetched_at": "2026-11-10T23:04:17+00:00",
+      "doi": "https://doi.org/10.1073/pnas.2611349123",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/zr6v-vpkv",
+      "title": "Sequential decoding of the XYZ 2 hexagonal stabilizer code",
+      "url": "https://doi.org/10.1103/zr6v-vpkv",
+      "summary": "Quantum error correction requires accurate and efficient decoding to optimally suppress errors in the encoded information. For concatenated codes, where one code is embedded within another, optimal decoding can be achieved using a message-passing algorithm that sends conditional error probabilities from the lower-level code to a higher-level decoder. In this work, we study the XYZ$^2$ topological stabilizer code, defined on a honeycomb lattice, and use the fact that it can be viewed as a concatenation of a [[2, 1, 1]] phase-flip parity check code and the surface code with $YZZY$ stabilizers, to decode the syndrome information in two steps. We use this sequential decoding scheme to correct errors on data qubits, as well as measurement errors, under various biased error models using both a maximum-likelihood decoder (MLD) and more efficient matching-based decoders. For depolarizing noise we find that the sequential matching decoder gives a threshold of 18.3%, close to optimal, as a consequence of a favorable, effectively biased, error model on the upper-level YZZY code. For phase-biased noise on data qubits, at a bias $η= \\frac{p_z}{p_x+p_y} = 10$, we find that a belief-matching-based decoder reaches thresholds of 24.1%, compared to 28.6% for the MLD. With measurement errors the thresholds are reduced to 3.4% and 4.3%, for depolarizing and biased noise respectively, using the belief-matching decoder. This demonstrates that the XYZ$^2$ code has thresholds that are competitive with other codes tailored to biased noise. The results also showcase two approaches to taking advantage of concatenated codes: 1) tailoring the upper-level code to the effective noise profile of the decoded lower-level code, and 2) making use of an upper-level decoder that can utilize the local inform",
+      "source": "Physical Review A",
+      "category": "research",
+      "date": "2026-11-09",
+      "author": "Basudha Srivastava, Yinzi Xiao, Anton Frisk Kockum, Ben Criger et al.",
+      "fetched_at": "2026-11-10T23:04:17+00:00",
+      "doi": "https://doi.org/10.1103/zr6v-vpkv",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s41467-026-78736-x",
+      "title": "SimPoly: Simulation of polymers with machine learning force fields derived from first principles",
+      "url": "https://doi.org/10.1038/s41467-026-78736-x",
+      "summary": "Polymers are a versatile class of materials with widespread industrial applications. Advanced computational tools could revolutionize their design, but the complex, multi-scale nature of polymers poses significant modeling challenges. Classical force fields often lack the accuracy and transferability that polymers demand, while quantum-chemical methods are prohibitively expensive for the large systems and long timescales involved. Here we develop a fast, scalable machine learning force field and show that, trained on quantum-chemical calculations alone, without any experimental data, it predicts measured bulk properties across a broad range of polymers. It reproduces polymer densities as accurately as, or better than, established classical force fields and captures the glass transition signature in the density-temperature curve, enabling the prediction of glass transition temperatures. To accelerate progress in this domain, we release a benchmark of experimental bulk properties for 130 polymers and an accompanying quantum-chemical dataset, laying the foundation for a fully in silico design pipeline for next-generation polymeric materials. The authors develop a machine learning force field trained only on quantum-chemical data that can reproduce measured key polymer properties such as densities and glass transition temperatures.",
+      "source": "Nature Communications",
+      "category": "research",
+      "date": "2026-11-09",
+      "author": "Gregor N. C. Simm, Jean Hélie, Hannes Schulz, Yicheng Chen et al.",
+      "fetched_at": "2026-11-10T23:04:17+00:00",
+      "doi": "https://doi.org/10.1038/s41467-026-78736-x",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1140/epjc/s10052-026-16340-5",
+      "title": "Investigating production of TeV-scale muons in extensive air shower at 2400 m underground",
+      "url": "https://doi.org/10.1140/epjc/s10052-026-16340-5",
+      "summary": "Abstract Deep underground experiments present a new avenue to probe the first interactions in extensive air showers or hadronic interactions in the extreme forward phase space. The China Jinping Underground Laboratory, characterized by a vertical rock overburden of 2400 m, provides an exceptionally effective shield against cosmic muons with energies below 3 TeV. The surviving high-energy muons, produced in the first interactions of extensive air showers, open a unique observational window into primary cosmic rays from tens of TeV up to the PeV scale and beyond. This distinctive feature also enables detailed studies of charged hadron production in the earliest stages of shower development. Using 1,338.6 live days of data collected with a one-ton prototype detector for the Jinping Neutrino Experiment, we measured the underground muon flux originating from air showers. The results show discrepancies of about 40% corresponding to significances of more than 2 $$\\sigma $$ σ , relative to predictions from several leading hadronic interaction models. We interpret these findings from two complementary perspectives: (i) by adopting the expected cosmic-ray spectra, we constrain the modeling of the first hadronic interactions in air showers and provide novel insights into resolving the long-standing muon puzzle ; and (ii) by assuming specific hadronic interaction models, we infer the mass composition of cosmic rays, and our data favor a lighter component in the corresponding energy range. Our study demonstrates the potential of deep underground laboratories to provide new experimental insights into air shower physics and cosmic rays.",
+      "source": "The European Physical Journal C",
+      "category": "research",
+      "date": "2026-11-09",
+      "author": "Xinshun Zhang, Shaomin Chen, Wei Dou, Haoyang Fu et al.",
+      "fetched_at": "2026-11-10T23:04:17+00:00",
+      "doi": "https://doi.org/10.1140/epjc/s10052-026-16340-5",
+      "open_access": true
     },
     {
       "id": "https://doi.org/10.1103/zg1p-nwf8",
@@ -5144,6 +5248,6 @@
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 16
+    "new_items": 8
   }
 }
