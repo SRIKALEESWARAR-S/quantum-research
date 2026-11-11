@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-11T05:40:13+00:00",
+  "updated_at": "2026-11-11T13:55:20+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -473,6 +473,123 @@
       "author": "M. V. Bastrakova, D. S. Pashin, V. A. Vozhakov, N. V. Klenov et al.",
       "fetched_at": "2026-11-11T05:40:13+00:00",
       "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://doi.org/10.1038/s41598-026-77938-z",
+      "title": "Quantum approximate optimization algorithm with cat qubits",
+      "url": "https://doi.org/10.1038/s41598-026-77938-z",
+      "summary": "Abstract The Quantum Approximate Optimization Algorithm (QAOA)–a prominent candidate for near-term quantum computing applications–is tailored to find approximate solutions to combinatorial optimization problems using shallow quantum circuits. In this work, we investigate implementations of QAOA based on cat qubits, where the logical states $$|0\\rangle$$ and $$|1\\rangle$$ are represented by coherent states of opposite amplitudes, $$|\\alpha \\rangle$$ and $$|-\\alpha \\rangle$$ . Within this encoding, the primary source of noise–photon loss–induces a bias toward Z -type errors. We focus specifically on an imlementation employing Kerr resonators. By numerically simulating the gate sequences required for QAOA on these nonlinear resonators, we analyze performance on Max-Cut problems and benchmark it against conventional qubits realized as ideal two-level systems subject to single-photon loss. Our findings indicate that the use of cat qubits leads to improved approximation ratios for random Max-Cut instances compared to standard qubit encodings.",
+      "source": "Scientific Reports",
+      "category": "research",
+      "date": "2026-11-10",
+      "author": "Pontus Vikstål, Laura García-Álvarez, Shruti Puri, Giulia Ferrini",
+      "fetched_at": "2026-11-11T13:55:17+00:00",
+      "doi": "https://doi.org/10.1038/s41598-026-77938-z",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.22331/q-2026-11-10-2270",
+      "title": "Learning State Preparation Circuits for Quantum Phases of Matter",
+      "url": "https://doi.org/10.22331/q-2026-11-10-2270",
+      "summary": "Many-body ground state preparation is an important subroutine used in the simulation of physical systems. In this paper, we introduce a flexible and efficient framework for obtaining a state preparation circuit for a large class of many-body ground states. We introduce polynomial-time classical algorithms that take reduced density matrices over O ( 1 ) -sized balls as inputs, and output a circuit that prepares the global state. We introduce algorithms applicable to (i) short-range entangled states (e.g., states prepared by shallow quantum circuits in any number of dimensions, and more generally, invertible states) and (ii) long-range entangled ground states (e.g., the toric code on a disk). Both algorithms can provably find a circuit whose depth is asymptotically optimal. Our approach uses a variant of the quantum Markov chain condition that remains robust against constant-depth circuits. The robustness of this condition makes our method applicable to a large class of states, whilst ensuring a classically tractable optimization landscape.",
+      "source": "Quantum",
+      "category": "research",
+      "date": "2026-11-10",
+      "author": "Hyun-Soo Kim, Isaac H. Kim, Daniel Ranard",
+      "fetched_at": "2026-11-11T13:55:17+00:00",
+      "doi": "https://doi.org/10.22331/q-2026-11-10-2270",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1145/3862757",
+      "title": "Time Series Analysis in Frequency Domain: A Survey of Open Challenges, Opportunities and Benchmarks",
+      "url": "https://doi.org/10.1145/3862757",
+      "summary": "Frequency-domain analysis has emerged as a powerful paradigm for time series analysis, offering unique advantages over traditional time-domain approaches while introducing new theoretical and practical challenges. This survey provides a comprehensive examination of spectral methods from classical Fourier analysis to modern neural operators, systematically summarizing three open challenges in current research: (1) causal structure preservation during spectral transformations, (2) uncertainty quantification in learned frequency representations, and (3) topology-aware analysis for non-Euclidean data structures. Through rigorous reviewing of over 100 studies, we develop a unified taxonomy that bridges conventional spectral techniques with cutting-edge machine learning approaches, while establishing standardized benchmarks for performance evaluation. Our work identifies key knowledge gaps in the field, particularly in geometric deep learning and quantum-enhanced spectral analysis. The survey offers practitioners a systematic framework for method selection and implementation, while charting promising directions for future research in this rapidly evolving domain.",
+      "source": "ACM Computing Surveys",
+      "category": "research",
+      "date": "2026-11-10",
+      "author": "Qianru Zhang, Yuting Sun, Honggang Wen, Peng Yang et al.",
+      "fetched_at": "2026-11-11T13:55:17+00:00",
+      "doi": "https://doi.org/10.1145/3862757",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/5clr-mhwn",
+      "title": "Statistical benchmarking of optimization methods for a variational quantum eigensolver under quantum noise",
+      "url": "https://doi.org/10.1103/5clr-mhwn",
+      "summary": "This work investigates the performance of numerical optimization algorithms applied to the State-Averaged Orbital-Optimized Variational Quantum Eigensolver for the H2 molecule under various quantum noise conditions. The goal is to assess the stability, accuracy, and computational efficiency of commonly used gradient-based, gradient-free, and global optimization strategies within the Noisy Intermediate-Scale Quantum regime. We systematically compare six representative optimizers, BFGS, SLSQP, Nelder-Mead, Powell, COBYLA, and iSOMA, under ideal, stochastic, and decoherence noise models, including phase damping, depolarizing, and thermal relaxation channels. Each optimizer was tested over multiple noise intensities and measurement settings to characterize convergence behavior and sensitivity to noise-induced landscape distortions. The results show that BFGS consistently achieves the most accurate energies with minimal evaluations, maintaining robustness even under moderate decoherence. COBYLA performs well for low-cost approximations, while SLSQP exhibits instability in noisy regimes. Global approaches such as iSOMA show potential but are computationally expensive. These findings provide practical guidance for selecting suitable optimizers in variational quantum simulations, highlighting the importance of noise-aware optimization strategies for reliable and efficient quantum chemistry computations on current hardware.",
+      "source": "Physical Review A",
+      "category": "research",
+      "date": "2026-11-10",
+      "author": "Silvie Illésová, Tomáš Bezděk, Vojtĕch Novák, Bruno Senjean et al.",
+      "fetched_at": "2026-11-11T13:55:17+00:00",
+      "doi": "https://doi.org/10.1103/5clr-mhwn",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s41534-026-01375-z",
+      "title": "On the complexity of the succinct state local Hamiltonian problem",
+      "url": "https://doi.org/10.1038/s41534-026-01375-z",
+      "summary": "Abstract We study the computational complexity of the LOCAL HAMILTONIAN problem under the promise that its ground state, or a low-energy state, is succinctly represented. We show, for qubit Hamiltonians, that the SUCCINCT LOW-ENERGY STATE 2-LOCAL HAMILTONIAN problem, is (promise) MA -hard and the SUCCINCT GROUND STATE 3-LOCAL HAMILTONIAN problem is (promise) MA -complete. Our approach combines a systematic characterisation of succinct quantum states, defined through arithmetic over specific number fields, with a refined complexity-theoretic reduction that lowers the locality of Feynman–Kitaev circuit-Hamiltonians from 6 to 2, without increasing particle dimension. Since the 1-local case is solvable in P , these results narrow the locality-parameterised complexity transition and extend the scope of known MA -complete problem instances. Our results further clarify how succinctness behaves under circuit-based constructions, and progress towards a better understanding of the boundary between efficiently describable and efficiently verifiable quantum systems.",
+      "source": "npj Quantum Information",
+      "category": "research",
+      "date": "2026-11-10",
+      "author": "Gabriel Waite, Karl Lin",
+      "fetched_at": "2026-11-11T13:55:17+00:00",
+      "doi": "https://doi.org/10.1038/s41534-026-01375-z",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1016/j.na.2026.114322",
+      "title": "Generalized Fermat’s principle and Snell’s law for cone structures and applications",
+      "url": "https://doi.org/10.1016/j.na.2026.114322",
+      "summary": "Fermat’s principle is fully generalized to the case where a smooth interface separates two cone structures—Lorentz-Finsler lightcones—representing wave propagation in a potentially inhomogeneous, anisotropic, time-dependent and discontinuous medium. The interface, wave source and receiver are assumed to be a hypersurface, a submanifold and a curve in the spacetime, respectively, of any causal character. For a trajectory to fulfill Fermat’s principle—i.e., to be a critical point of the arrival time functional—its direction must change at the interface, obeying a precise condition that generalizes Snell’s law of refraction when the wave crosses the interface, or the law of reflection when it remains in a single medium. Both laws are analyzed in detail to establish the conditions ensuring the existence and uniqueness of refracted and reflected trajectories, and to determine whether they actually minimize the arrival time. Applications to Zermelo’s navigation problem and the determination of geodesics in discretized spacetimes are also emphasized.",
+      "source": "Nonlinear Analysis",
+      "category": "research",
+      "date": "2026-11-10",
+      "author": "Miguel Ángel Javaloyes, Steen Markvorsen, Enrique Pendás-Recondo, Miguel Sánchez",
+      "fetched_at": "2026-11-11T13:55:17+00:00",
+      "doi": "https://doi.org/10.1016/j.na.2026.114322",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/gnyn-z5dy",
+      "title": "Kondo cloud conductance in cavity-coupled quantum dots with asymmetric barriers",
+      "url": "https://doi.org/10.1103/gnyn-z5dy",
+      "summary": "The Kondo effect emerges when a localized spin is screened by conduction electrons, giving rise to a strongly-correlated many-body ground state. In this work, we investigate this phenomenon in a GaAs/AlGaAs quantum dot, focusing on the spatial extension of the Kondo screening cloud in the electron reservoirs. To probe its properties, the dot is coupled to an electronic Fabry-Pérot interferometer, enabling controlled modulation of the density of states at the Fermi level. The observation of Kondo temperature oscillations indicates a Kondo screening length comparable to the cavity size. Furthermore, we explore how the coupling asymmetry with the two reservoirs affects both the amplitude and the phase of the conductance oscillations, revealing a subtle interplay between coherent transport and Kondo effect.",
+      "source": "Physical review. B./Physical review. B",
+      "category": "research",
+      "date": "2026-11-10",
+      "author": "Diego Fossion, V. Champain, Sambit Mohapatra, A. Cavanna et al.",
+      "fetched_at": "2026-11-11T13:55:17+00:00",
+      "doi": "https://doi.org/10.1103/gnyn-z5dy",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.3389/fphy.2026.1957613",
+      "title": "Hofstadter-Herman visualization as a diagnostic tool for systematic effects in electromagnetic form factor extractions",
+      "url": "https://doi.org/10.3389/fphy.2026.1957613",
+      "summary": "The internal charge and magnetization distributions of the proton are characterized by the electromagnetic form factors G E and G M . They are extracted from elastic electron-proton cross sections measured at fixed momentum transfer over a range of beam energies and scattering angles via Rosenbluth separation. Conventionally, form factor values are obtained by plotting reduced cross sections against the virtual photon polarization parameter ϵ and then extracting the slope and intercept of the best-fit lines. An alternative visualization method, proposed by Hofstadter and Herman in 1960, plots form factors directly instead. The values of G E 2 and G M 2 are immediately visible from the intersection region of the curves and their uncertainty bands. In this work, we apply Hofstadter-Herman visualization to classic 1994 SLAC elastic scattering data. The 1994 data include a ∼ 4% downward normalization adjustment applied to the 1.6 GeV/ c spectrometer measurements. Overlaying modern global fit extractions on Hofstadter-Herman plots, we show that intersection regions obtained without including this adjustment sit closer to the global fit values. Such tensions are not readily visible in conventional plots. Our results motivate adopting this visualization method as a routine diagnostic cross-check at the Electron–Ion Collider and elsewhere to flag normalization shifts and related adjustments before they enter global fits.",
+      "source": "Frontiers in Physics",
+      "category": "research",
+      "date": "2026-11-10",
+      "author": "Tyler Williams, Jennifer Rittenhouse West, Douglas W. Higinbotham, F. Benmokhtar",
+      "fetched_at": "2026-11-11T13:55:17+00:00",
+      "doi": "https://doi.org/10.3389/fphy.2026.1957613",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.22331/q-2026-11-10-2269",
+      "title": "Geometric characterization of non-Gaussian entanglement for finite stellar rank states",
+      "url": "https://doi.org/10.22331/q-2026-11-10-2269",
+      "summary": "We introduce a general framework for the analysis of non-Gaussian entanglement in bosonic states of finite stellar rank. The central result is the full characterization of their entanglement structure through the atomic decomposition of their stellar polynomial and its associated structural graph, whose connected components determine the mode-intrinsic entanglement content of the state and all partitions compatible with passive separability. An essential ingredient in this construction is the concept of essential variables, which identify the minimal number of effective modes involved in a core state, in direct correspondence with the symplectic rank. This reduction provides the foundation for decomposing stellar polynomials into atomic factors and for revealing the underlying entanglement structure. Building on this, we derive complete separability criteria for two-mode states, expressed through hyperplane decompositions of zero sets, and for stellar-rank-2 states across an arbitrary number of modes. Applications to several example states illustrate how the method isolates genuinely non-Gaussian resources and quantifies preparation complexity.",
+      "source": "Quantum",
+      "category": "research",
+      "date": "2026-11-10",
+      "author": "Carlos E. Lopetegui, Massimo Frigerio, Mattia Walschaers",
+      "fetched_at": "2026-11-11T13:55:17+00:00",
+      "doi": "https://doi.org/10.22331/q-2026-11-10-2269",
+      "open_access": true
     },
     {
       "id": "https://doi.org/10.1007/s11128-026-05387-8",
@@ -5522,8 +5639,8 @@
     }
   ],
   "refresh": {
-    "sources_succeeded": 4,
+    "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 24
+    "new_items": 9
   }
 }
