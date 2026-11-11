@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-10T23:04:19+00:00",
+  "updated_at": "2026-11-11T05:40:13+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -173,6 +173,138 @@
       "open_access": true
     },
     {
+      "id": "http://news.fjsen.com/2026-11/11/content_32281582.htm",
+      "title": "实施更加公平普惠 、 精准有力的社会政策 国家发展改革委新闻发布会聚焦保障和改善民生 - 即时新闻",
+      "url": "http://news.fjsen.com/2026-11/11/content_32281582.htm",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "news.fjsen.com",
+      "category": "news",
+      "date": "2026-11-11",
+      "author": "",
+      "fetched_at": "2026-11-11T05:40:09+00:00"
+    },
+    {
+      "id": "http://vov.vn/chinh-tri/thu-tuong-le-minh-hung-du-le-ky-niem-70-nam-thanh-lap-dai-hoc-kinh-te-quoc-dan-post1349135.vov",
+      "title": "Thủ tướng Lê Minh Hưng dự lễ kỷ niệm 70 năm thành lập Đại học Kinh tế Quốc dân",
+      "url": "http://vov.vn/chinh-tri/thu-tuong-le-minh-hung-du-le-ky-niem-70-nam-thanh-lap-dai-hoc-kinh-te-quoc-dan-post1349135.vov",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "vov.vn",
+      "category": "news",
+      "date": "2026-11-11",
+      "author": "",
+      "fetched_at": "2026-11-11T05:40:09+00:00"
+    },
+    {
+      "id": "https://asianews.network/sense-of-moral-betrayal-high-profile-charity-scandal-threatens-donor-trust-in-thailand",
+      "title": "Sense of moral betrayal : High - profile charity scandal threatens donor trust in Thailand – Asia News Network",
+      "url": "https://asianews.network/sense-of-moral-betrayal-high-profile-charity-scandal-threatens-donor-trust-in-thailand/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "asianews.network",
+      "category": "news",
+      "date": "2026-11-11",
+      "author": "",
+      "fetched_at": "2026-11-11T05:40:09+00:00"
+    },
+    {
+      "id": "http://www.baotounews.com.cn/445807/445799/2026/11/45541975.html",
+      "title": "弘扬 三个精神 礼赞最美劳动者 | 屈美香 ： 每一个孩子都值得被用心浇灌",
+      "url": "http://www.baotounews.com.cn/445807/445799/2026/11/45541975.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "baotounews.com.cn",
+      "category": "news",
+      "date": "2026-11-11",
+      "author": "",
+      "fetched_at": "2026-11-11T05:40:09+00:00"
+    },
+    {
+      "id": "https://asianews.network/nvidias-ceo-probe-and-singapore-ties-will-future-chip-orders-suffer",
+      "title": "Nvidia CEO probe and Singapore ties : Will future chip orders suffer ? – Asia News Network",
+      "url": "https://asianews.network/nvidias-ceo-probe-and-singapore-ties-will-future-chip-orders-suffer/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "asianews.network",
+      "category": "news",
+      "date": "2026-11-11",
+      "author": "",
+      "fetched_at": "2026-11-11T05:40:09+00:00"
+    },
+    {
+      "id": "https://thethaovanhoa.vn/kien-tao-he-sinh-thai-giao-duc-nghe-thuat-viet-nam-trong-ky-nguyen-so-ky-1-chuyen-tu-tu-duy-mon-hoc-sang-he-sinh-thai-20261111054444069.htm",
+      "title": "Kiến tạo hệ sinh thái giáo dục nghệ thuật Việt Nam trong kỷ nguyên số ( kỳ 1 ): Chuyển từ tư duy môn học sang hệ sinh thái",
+      "url": "https://thethaovanhoa.vn/kien-tao-he-sinh-thai-giao-duc-nghe-thuat-viet-nam-trong-ky-nguyen-so-ky-1-chuyen-tu-tu-duy-mon-hoc-sang-he-sinh-thai-20261111054444069.htm",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "thethaovanhoa.vn",
+      "category": "news",
+      "date": "2026-11-11",
+      "author": "",
+      "fetched_at": "2026-11-11T05:40:09+00:00"
+    },
+    {
+      "id": "http://news.fjsen.com/2026-11/11/content_32281567.htm",
+      "title": "第九届进博会丨开放共赢创未来 第九届中国国际进口博览会观察 - 即时新闻",
+      "url": "http://news.fjsen.com/2026-11/11/content_32281567.htm",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "news.fjsen.com",
+      "category": "news",
+      "date": "2026-11-11",
+      "author": "",
+      "fetched_at": "2026-11-11T05:40:09+00:00"
+    },
+    {
+      "id": "https://tech.gmw.cn/2026-11/11/content_39095791.htm",
+      "title": "中国 两次发射 方案亮相 全球载人登月进入多路线并行时代 _ 光明网",
+      "url": "https://tech.gmw.cn/2026-11/11/content_39095791.htm",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "tech.gmw.cn",
+      "category": "news",
+      "date": "2026-11-11",
+      "author": "",
+      "fetched_at": "2026-11-11T05:40:09+00:00"
+    },
+    {
+      "id": "http://www.newstomato.com/ReadNews.aspx?no=1319925",
+      "title": "( 기고 ) 태양광 인버터 국산화 , 이제는 선언을 넘어 제도로 완성해야 한다",
+      "url": "http://www.newstomato.com/ReadNews.aspx?no=1319925",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "newstomato.com",
+      "category": "news",
+      "date": "2026-11-11",
+      "author": "",
+      "fetched_at": "2026-11-11T05:40:09+00:00"
+    },
+    {
+      "id": "http://finance.qingdaonews.com/content/2026-11/11/content_23765809.htm",
+      "title": "集成电路检测 小巨人 企业 致真精密完成B轮融资",
+      "url": "http://finance.qingdaonews.com/content/2026-11/11/content_23765809.htm",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "finance.qingdaonews.com",
+      "category": "news",
+      "date": "2026-11-11",
+      "author": "",
+      "fetched_at": "2026-11-11T05:40:09+00:00"
+    },
+    {
+      "id": "http://news.bandao.cn/a/1794361474813960926.html",
+      "title": "枣庄国资拟豁免 * ST雅博3 . 23亿元债务 ！ 总经理同步换人 ， 距退市红线还有多远 ？- 半岛网",
+      "url": "http://news.bandao.cn/a/1794361474813960926.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "news.bandao.cn",
+      "category": "news",
+      "date": "2026-11-11",
+      "author": "",
+      "fetched_at": "2026-11-11T05:40:09+00:00"
+    },
+    {
+      "id": "http://forex.cnfol.com/jingjiyaowen/20261111/32420597.shtml",
+      "title": "Anthropic IPO定价区间上调至70至78美元 估值最高或达1 . 405万亿美元 _ 汇市观察 _ 外汇 _ 中金在线",
+      "url": "http://forex.cnfol.com/jingjiyaowen/20261111/32420597.shtml",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "forex.cnfol.com",
+      "category": "news",
+      "date": "2026-11-11",
+      "author": "",
+      "fetched_at": "2026-11-11T05:40:09+00:00"
+    },
+    {
       "id": "https://doi.org/10.7566/jpsj.95.124003",
       "title": "Real-Space Visualization of Site-Selective Co 3 d States in the Ising Magnet Ca 3 Co 2 O 6",
       "url": "https://doi.org/10.7566/jpsj.95.124003",
@@ -197,6 +329,150 @@
       "fetched_at": "2026-11-10T23:04:17+00:00",
       "doi": "https://doi.org/10.1007/s00037-025-00284-5",
       "open_access": true
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.14484v1",
+      "title": "Nonperturbative string dynamics in a (2+1)D lattice gauge theory on a superconducting quantum processor",
+      "url": "https://arxiv.org/abs/2611.14484v1",
+      "summary": "Electric flux strings underpin confinement in gauge theories. In two spatial dimensions, their evolution involves competing processes of charge motion, pair creation, and transverse deformation. Accessing these dynamics beyond perturbative limits challenges classical approaches, as entanglement growth restricts the times accessible to tensor-network simulations. Here we use quantum simulation to investigate a (2+1)D Z2 lattice gauge theory with dynamical matter and an explicit magnetic plaquette interaction, spanning strongly confined and nonperturbative deconfined regimes. Using 63 superconducting qubits, including 12 ancillas, we evolve initially localized strings with static or dynamical endpoint charges. Spatially resolved measurements reveal rapid charge and flux spreading in the deconfined regime, enhanced matter occupation in the string interior near the pair-creation resonance, and suppressed spreading at strong electric fields. String-path occupations further probe transverse rearrangements between configurations connected by plaquette operations. Retaining separate matter and gauge degrees of freedom makes local Gauss-law constraints directly accessible for error detection. Combining these constraints with ancilla checks and noise rescaling, we measure dynamics in circuits containing up to 15 second-order Trotter steps. Our results establish quantum simulation as a practical approach to exploring nonperturbative string dynamics in two spatial dimensions, with gauge redundancy serving as an experimental resource.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-10",
+      "author": "Sanziana Stelea, Anthony Gandon, Francesco Tacchino, Jad C. Halimeh et al.",
+      "fetched_at": "2026-11-11T05:40:13+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.14474v1",
+      "title": "Thin-film lithium niobate integrated photonics at 493 nm",
+      "url": "https://arxiv.org/abs/2611.14474v1",
+      "summary": "Visible and near-ultraviolet light underpins applications from biophotonics to quantum computing, which demand fast control of optical amplitude and phase. Integrated photonics offers scalable control, yet most visible-wavelength platforms lack gigahertz-scale modulation. We demonstrate a thin-film lithium niobate platform at 493 nm integrating grating couplers, beamsplitters, ring resonators, and modulators. Segmented traveling-wave modulators achieve a half-wave voltage--length product of 450 mV$\\cdot$cm, $>$20 dB extinction, and bandwidth beyond 50 GHz. Ring resonators show $2.9 \\pm 0.2$ dB/cm propagation loss and quantify the platform's photorefractive response. This enables agile visible beam delivery for trapped-ion systems, although photorefraction and substrate uniformity remain key challenges to scaling.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-10",
+      "author": "Nicholas Achuthan, Letícia Magalhães, Xudong Li, Hugo Voncken et al.",
+      "fetched_at": "2026-11-11T05:40:13+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.14461v1",
+      "title": "Finite-Key Readiness and Authentication-Key Replenishment in QKD-Assisted UAV Edge Computing",
+      "url": "https://arxiv.org/abs/2611.14461v1",
+      "summary": "A service that needs fresh quantum keys must wait for key release, and may be denied it, before protected computation starts. We quantify this cost for a trusted stationary UAV serving two ground gateways, each obtaining its keys from one finite-key decoy-state BB84 attempt with parameters fixed in advance. A count-level Monte Carlo model, reproduced by a semi-analytic model, links key acceptance to protected upload, computation, and download, including failed attempts and hover energy. At 26~dB effective optical loss, with authentication hashing at its proxy-benchmarked, near-zero cost, fresh keys raise the 95th-percentile completion time of both tasks from 10.37 to 28.65~s; hover energy grows in proportion. The scalar rate models evaluated here miss the deadline limit on the block size. The pulse budget lies in a window bounded below by authentication-key replenishment and above by the deadline; for a fixed source, channel, and acceptance model, the authentication debit shifts the floor, whereas hashing cost does not. At a 35-s deadline the largest tested loss with a non-empty window is 27~dB at 1\\% misalignment and 22~dB at 2\\%; at 3\\% no tested setting has one. Conditional on the assumed acquisition probability, the selected configurations meet this deadline with simultaneous lower confidence bounds of 96.9--97.3\\% on held-out trials, at 26~dB and at 18--20~dB with 2\\% misalignment. A high-cost stress reference that charges hashing in full narrows the window and lowers these loss limits to 26 and 20~dB at the reference processing capacity. A small rise in error rate or loss pushes the deadline probability well below its target and drains authentication keys, while the protocol's security parameter is unchanged.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-10",
+      "author": "Dang H. Le, Ban Q. Tran, Susan Mengel",
+      "fetched_at": "2026-11-11T05:40:13+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.14460v1",
+      "title": "Structure of correlations for the single-$j$ model using quantum information theory",
+      "url": "https://arxiv.org/abs/2611.14460v1",
+      "summary": "We say that a system undergoes a quantum phase transition when the mean-field ground state of a given Hamiltonian spontaneously breaks its symmetries depending on the Hamiltonian parameters. It is a widely accepted view that this phenomenon enables the mean-field state to absorb the maximum amount of correlations without losing its mean-field structure. However, it is still uncertain how those correlations are incorporated within the mean-field state and how the correlation structure changes when we get closer to the exact ground state by restoring the symmetries. In this work, we answer these questions by studying the single-$j$ model, which is a realistic fermionic nuclear model with abelian and non-abelian broken symmetries. We find that both types of symmetries have very different effects for the correlations within the mean-field state. This makes unclear the concept of the symmetry breaking process as a mechanism to absorb the maximum amount of correlations. Moreover, the symmetry restoration redistributes existing `fake' correlations between paired orbitals to more complex subsystems.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-10",
+      "author": "Javier Faba, Vicente Martín, Luis Robledo",
+      "fetched_at": "2026-11-11T05:40:13+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.14458v1",
+      "title": "Quantum Thermal Transistor via Nonlinear Environmental Coupling",
+      "url": "https://arxiv.org/abs/2611.14458v1",
+      "summary": "Thermal amplification enables sensitive control of heat currents, providing a basis for heat management and thermal signal processing in quantum devices. For a harmonic oscillator coupled to emitter, collector, and base thermal reservoirs, we recover the absence of thermal amplification when system-reservoir interactions permit only single-quantum exchange. A controlled weak-nonlinearity expansion, supported by numerical stationary solutions, shows that two-quantum exchange at the emitter enables amplification and predicts its onset. When two-quantum exchange dominates at the emitter and collector, varying the base temperature redistributes populations between even and odd oscillator sectors. This changes the emitter and collector heat currents far more than the base current, enabling large thermal amplification. We propose a realization using a longitudinally coupled auxiliary two-level system and bath spectral filtering, specifying conditions for its elimination to yield the required oscillator dynamics. These results establish nonlinear system-reservoir coupling as a resource for controlling heat flow and enabling thermal amplification.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-10",
+      "author": "Laiba Hayat, M. Tahir Naseem",
+      "fetched_at": "2026-11-11T05:40:13+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.14422v1",
+      "title": "The energetic cost of loading classical data in quantum computers",
+      "url": "https://arxiv.org/abs/2611.14422v1",
+      "summary": "Quantum algorithms for machine learning, chemistry, and cryptanalysis often assume coherent access to classical data at negligible physical cost. We instead treat data loading as a hardware process and quantify the dynamic energetic cost of a quantum random access memory (QRAM) query on a superconducting processor. Using the metric-noise-resource framework, we relate query fidelity and power to gate duration, relative two-qubit drive strength, and the distribution of attenuation across a multi-stage refrigerator, while accounting for thermal photons and gate errors. We analyze the linear-depth multiplexer and the noise-resilient bucket-brigade architectures, adapting the latter to a native superconducting gate set and refining its fidelity analysis using the fully decomposed gate schedule. For a representative bucket-brigade QRAM query with a $12$-qubit address register we obtain a query fidelity of $0.969$. The query consumes $3.51\\times10^{-4}\\,\\mathrm{J}$ of dynamic energy, corresponding to an average dynamic power of $4.38\\,\\mathrm{W}$ and a peak of $64.4\\,\\mathrm{W}$. Our optimization shows that, at fixed target fidelity, the operating point and attenuation profile can change the average power by a factor of two or more.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-10",
+      "author": "Joao F. Doriguello, Alessandro Luongo, Harshit Verma",
+      "fetched_at": "2026-11-11T05:40:13+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.14406v1",
+      "title": "Multidimensional Quantum Block Turbo Codes",
+      "url": "https://arxiv.org/abs/2611.14406v1",
+      "summary": "The theory of turbo iterative decoding was brought into the quantum coding framework through the development of quantum serial turbo codes and quantum block turbo codes. In this paper, we present a theory for multidimensional quantum block turbo codes, a turbo decoding technique for multi layer product codes. We describe its algorithm and simulate the performance for the 3D case on a depolarizing channel.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-10",
+      "author": "Khaled Jebari, Luiz Anet Neto, Ramesh Pyndiah, Jean-Louis de Bougrenet de la Tocnaye",
+      "fetched_at": "2026-11-11T05:40:13+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.14398v1",
+      "title": "Simulating closed- and open-system dynamics of Tavis--Cummings lattices on fault-tolerant quantum computers",
+      "url": "https://arxiv.org/abs/2611.14398v1",
+      "summary": "Tavis--Cummings lattices couple cavities containing several emitters and host polaritonic many-body dynamics whose real-time correlations are costly to compute classically in two dimensions, especially when unequal emitter relaxation or dephasing rates break permutation symmetry. We analyze logical resources for fault-tolerant closed- and open-system simulation of an atom-resolved lattice with $L$ cavities, $N$ emitters per cavity, and photon cutoff $n\\_{\\max}$, including target observable estimation. Building on ladder-operator block encoding, we construct circuits for photon hopping and local light--matter exchange and combine them to encode the lattice Hamiltonian. By updating source and destination photon occupations in place, the hopping circuit eliminates the auxiliary $L\\lceil\\log_2(n\\_{\\max}+1)\\rceil$-qubit photon register used by two-register implementations. Across three uniform-coefficient examples with $16$ to $256$ cavities, the controlled walk uses $4.75$--$8.11%$ fewer Toffoli gates than the paired two-register implementation under matched shared preparation, precision, control, and workspace conventions. For closed systems, we implement real-time evolution with generalized quantum signal processing and bound the cost of estimating retarded cavity spectral functions. For open systems with photon loss, emitter relaxation, and dephasing, we use a sampled first-order dilation and bound the runs and timesteps needed to estimate transient photon statistics such as $g^{(2)}(0)$. With state-preparation and measurement costs explicit, these estimates provide a reference for assessing fault-tolerant light--matter lattice simulation costs.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-10",
+      "author": "Soumya Sarkar, Rakshit Gharat, Nam Nguyen, Gavin Brennen",
+      "fetched_at": "2026-11-11T05:40:13+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.14391v1",
+      "title": "Implementing rapid reset of superconducting qubits with on-chip dissipation",
+      "url": "https://arxiv.org/abs/2611.14391v1",
+      "summary": "Rapid and high-fidelity qubit reset is essential for quantum state initialization and quantum error correction. Conventional reset protocols for superconducting qubits often rely on dissipative elements connected to external circuitry, exposing qubits to thermal noise from higher-temperature environments. Here, we experimentally demonstrate a scalable approach to qubit reset and leakage removal over multiple transmon qubits using dedicated dissipation units comprising resonators coupled to on-chip resistive loads. This architecture provides Purcell protection while isolating the qubits from warmer external circuitry. We achieve a median reset time constant of approximately 48 ns for the $|g\\rangle-|e\\rangle$ transition, with an effective bath temperature of 30 mK. A 400-ns reset pulse yields residual excited-state populations of $0.29\\%$ and $0.67\\%$ for qubits initialized in $|g\\rangle$ and $|e\\rangle$, respectively. We further demonstrate efficient leakage removal from the $|f\\rangle$ state, reducing its residual population to $0.51\\%$. These results establish a simple, reproducible, and easy-to-integrate approach to dissipation engineering in superconducting quantum processors.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-10",
+      "author": "Feiyu Li, Yang Liu, Zhen Yang, Zhenxing Liu et al.",
+      "fetched_at": "2026-11-11T05:40:13+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.14376v1",
+      "title": "Operational limits of reference renewal for retained quantum-service results",
+      "url": "https://arxiv.org/abs/2611.14376v1",
+      "summary": "We implement reference renewal to reconsider retained physical quantum-service results under a prespecified protocol. Twelve transitions retained six results each; ten completed renewal, eight met the prespecified endpoint, and five succeeded using retained results alone. The exact one-sided p=0.0546875 does not establish the recovery hypothesis. Incomplete references, binding failures and sequential waits expose operational limits. Offline reconstruction recovers decisions from preserved counts. Retrospective binding-plus-oracle checking accepts all 60 usable-transition results without renewal. With the exact oracle also supplying calibration scores, the study does not demonstrate incremental numerical-correctness utility of renewal.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-10",
+      "author": "Roberto Fernández-Barrios, Iker Pastor-López, Amaia Pikatza-Huerga, Pablo García Bringas",
+      "fetched_at": "2026-11-11T05:40:13+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.14368v1",
+      "title": "Invariance can prevent overfitting and shortcut learning in Quantum Neural Networks",
+      "url": "https://arxiv.org/abs/2611.14368v1",
+      "summary": "Many image classification tasks have labels that are unchanged by rotations and reflections. Equivariant quantum neural networks incorporate such symmetries by design, but the specific benefit of symmetry is difficult to isolate. Equivariant quantum circuits are usually compared with architectures that also differ in gates, structure or size. Here, we investigate the role of invariance in a controlled setting, classifying images whose labels are invariant under the dihedral group $D_4$. We compare four eight-qubit models with identical encoding, circuit structure and number of trainable parameters, and equivalent dynamical Lie algebras, and benchmark invariant implementations against non-invariant ones in terms of generalization error, robustness to shortcut learning and resilience to a realistic noise model. On four binary tasks, including MNIST and two scientific data sets of galaxies and red blood cells, the invariant models trained on a few tens of images show better generalization than non-invariant ones. Invariance also makes the models immune to orientation shortcuts: when trained with a class-dependent corner watermark, the non-invariant models learn the watermark and often drop to chance level when it is moved. We show that the gain in accuracy of invariant models persists also under a realistic noise model.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-10",
+      "author": "Giuseppe D'Ambruoso, Giovanni Gramegna, Domenico Pomarico, Giuseppe Magnifico et al.",
+      "fetched_at": "2026-11-11T05:40:13+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.14358v1",
+      "title": "High-Speed Control of a Fluxonium Qubit via Picosecond Pulses from Josephson Digital Circuits",
+      "url": "https://arxiv.org/abs/2611.14358v1",
+      "summary": "We develop a control strategy for fluxonium qubits based on picosecond single-flux-quantum (SFQ) pulses generated by Josephson digital circuits. A major challenge is that SFQ protocols originally designed for transmon control become inefficient for low-frequency fluxonium. In this regime, the asymmetry of flux and charge couplings leads either to excessive leakage or excessively long gate times. We show that this limitation can be overcome by two complementary protocols. The first protocol employs high-frequency SFQ pulse packets applied through the flux channel, offering a simple, analytically transparent, and robust approach for high-fidelity single-qubit control. The second protocol combines phase-shifted flux and charge pulse sequences to enhance the resonant drive and reduce the gate duration. Multilevel simulations demonstrate single-qubit gate fidelities above $99.99\\%$; the simpler protocol remains robust under moderate variations of qubit parameters and flux bias, while the combined protocol preserves high fidelity while substantially accelerating the gate. These results establish SFQ-based cryogenic control as a realistic route to fast, accurate, and scalable manipulation of fluxonium qubits.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-10",
+      "author": "M. V. Bastrakova, D. S. Pashin, V. A. Vozhakov, N. V. Klenov et al.",
+      "fetched_at": "2026-11-11T05:40:13+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
     },
     {
       "id": "https://doi.org/10.1007/s11128-026-05387-8",
@@ -5246,8 +5522,8 @@
     }
   ],
   "refresh": {
-    "sources_succeeded": 3,
+    "sources_succeeded": 4,
     "sources_total": 4,
-    "new_items": 8
+    "new_items": 24
   }
 }
