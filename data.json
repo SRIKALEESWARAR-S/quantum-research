@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-12T00:22:54+00:00",
+  "updated_at": "2026-11-12T14:57:19+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -173,6 +173,32 @@
       "open_access": true
     },
     {
+      "id": "https://doi.org/10.1007/s11005-026-02186-1",
+      "title": "Hankel determinant for a perturbed Laguerre weight with pole singularities and generalized Painlevé $$\\text {III}^{\\prime }$$ equation",
+      "url": "https://doi.org/10.1007/s11005-026-02186-1",
+      "summary": "",
+      "source": "Letters in Mathematical Physics",
+      "category": "research",
+      "date": "2026-11-12",
+      "author": "Shulin Lyu, Yuanfei Lyu",
+      "fetched_at": "2026-11-12T14:57:16+00:00",
+      "doi": "https://doi.org/10.1007/s11005-026-02186-1",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1021/acs.jctc.6c01621",
+      "title": "A Charge-Consistent Long-Range Machine-Learned Interatomic Potential Compatible with Quantum Linear System Algorithms",
+      "url": "https://doi.org/10.1021/acs.jctc.6c01621",
+      "summary": "Abstract Charge equilibration in machine-learned interatomic potentials (MLIPs) requires repeatedly solving linear systems, providing a promising target for quantum linear-system algorithms (QLSAs). However, conventional electronegativity equalization schemes suffer from spurious fractional charges between neutral fragments at large separations. To address this limitation, we incorporate atom-condensed Kohn–Sham density functional theory approximated to second order (ACKS2) into a long-range equivariant neural-network MLIP. Across benchmark systems, the ACKS2-based model improves energy, force, and charge predictions. At a molecule–metal interface, ACKS2 restores molecular fragments to near-neutral charge states upon separation while preserving local charge redistribution near adsorption. Because ACKS2 charge equilibration reduces to solving a linear system, the classical solver can be directly replaced with the Harrow–Hassidim–Lloyd algorithm during inference, demonstrating compatibility with quantum linear-system solvers. These results indicate that ACKS2 provides a promising framework for charge-aware MLIPs and highlight a potential pathway toward atomistic simulations based on QLSAs.",
+      "source": "Journal of Chemical Theory and Computation",
+      "category": "research",
+      "date": "2026-11-12",
+      "author": "Da Bean Han, Hyun Woo Kim",
+      "fetched_at": "2026-11-12T14:57:16+00:00",
+      "doi": "https://doi.org/10.1021/acs.jctc.6c01621",
+      "open_access": true
+    },
+    {
       "id": "http://news.fjsen.com/2026-11/11/content_32281582.htm",
       "title": "实施更加公平普惠 、 精准有力的社会政策 国家发展改革委新闻发布会聚焦保障和改善民生 - 即时新闻",
       "url": "http://news.fjsen.com/2026-11/11/content_32281582.htm",
@@ -303,6 +329,123 @@
       "date": "2026-11-11",
       "author": "",
       "fetched_at": "2026-11-11T05:40:09+00:00"
+    },
+    {
+      "id": "https://doi.org/10.1088/1361-6455/aebb7c",
+      "title": "Tuning long-range interactions in Sr Rydberg atoms: the effect of series perturbations",
+      "url": "https://doi.org/10.1088/1361-6455/aebb7c",
+      "summary": "Abstract We investigate the effect of series perturbation on the second-order dipole-dipole interactions between strontium atoms in the 5 s n s ( 1 S 0 ) and 5 s n p ( 1 P 1 ) Rydberg states as a means of engineering long-range interactions between atoms. The series perturbation in these atoms enables modifying the strength and the sign of the interaction by varying the principal quantum number n of the Rydberg electron. We utilize experimentally available data to estimate the importance of perturber states, and find that the van der Waals interaction between two strontium atoms in the 5 s n p ( 1 P 1 ) states shows strong peaks that deviate from the anticipated hydrogenic n 11 scaling. We identify this to be the result of the perturbation of 5 s n d ( 1 D 2 ) intermediate states by the 4 d 2 ( 1 D 2 ) and 4 d n ′ s ( 1 D 2 ) states in the n < 20 range. This demonstrates that divalent atoms offer a unique advantage for generating substantially stronger or weaker inter-atomic interactions than those that can be achieved using alkali metal atoms. This is due to the highly perturbed spectra of divalent atoms and other multivalent atoms that can persist up to high",
+      "source": "Journal of Physics B Atomic Molecular and Optical Physics",
+      "category": "research",
+      "date": "2026-11-11",
+      "author": "Türker Topçu, Andrei Derevianko",
+      "fetched_at": "2026-11-12T14:57:16+00:00",
+      "doi": "https://doi.org/10.1088/1361-6455/aebb7c",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1021/acs.nanolett.6c02705",
+      "title": "Measurement of Parity-Dependent Energy-Phase Relations in a Potential Artificial Kitaev Chain Utilizing a Transmon Qubit",
+      "url": "https://doi.org/10.1021/acs.nanolett.6c02705",
+      "summary": "Abstract Artificial Kitaev chains have emerged as a promising platform for realizing topological quantum computing. Once the chains are formed and Majorana zero modes are braided/fused, reading out the parity of the chains is essential for verifying the non-Abelian property of Majorana zero modes. Here, we demonstrate a transmon-based microwave probe for a four-site quantum dot–superconductor chain based on a Ge/Si nanowire. One end of the chain is incorporated into a superconducting transmon circuit, enabling spectroscopic identification of the chain’s singlet/doublet ground state and thereby inference of its total Fermion parity. We also demonstrate that, for multiple-dot chains, there are two types of 0−π transitions between different charging states: the parity-flip 0−π transition and the parity-preserved 0−π transition. Furthermore, we demonstrate electrostatic tunability of the interdot coupling. This phase-sensitive microwave platform provides a tool for studying complex hybrid superconducting quantum dot systems and for future extended artificial Kitaev chains.",
+      "source": "Nano Letters",
+      "category": "research",
+      "date": "2026-11-11",
+      "author": "Enna Zhuo, Xiaozhou Yang, Yuyang Huang, Zhaozheng Lyu et al.",
+      "fetched_at": "2026-11-12T14:57:16+00:00",
+      "doi": "https://doi.org/10.1021/acs.nanolett.6c02705",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1126/sciadv.aee5380",
+      "title": "Nonlinear cooling and control of a mechanical quantum harmonic oscillator",
+      "url": "https://doi.org/10.1126/sciadv.aee5380",
+      "summary": "Nonlinearities are a key feature allowing nonclassical control of quantum harmonic oscillators. However, when nonlinearities are strong, designing protocols for control is often difficult, placing a barrier to exploiting these properties fully. In this work, using a single trapped-ion oscillator operated in the strongly nonlinear regime of the atom-light interaction, we show how to generate localized multi (two, three, four, and five)–component Schrödinger’s cat manifolds using a novel form of nonlinear reservoir engineering. We then specifically select Hamiltonians which allow us to perform measurements on these state manifolds. Our work demonstrates the experimental use of high-order nonlinear processes for control of nonclassical states of a quantum harmonic oscillator, opening up a new toolbox which can be applied to bosonic quantum error correction, computation, and sensing.",
+      "source": "Science Advances",
+      "category": "research",
+      "date": "2026-11-11",
+      "author": "Matteo Simoni, Ivan Rojkov, M. Mazzanti, Wojciech Adamczyk et al.",
+      "fetched_at": "2026-11-12T14:57:16+00:00",
+      "doi": "https://doi.org/10.1126/sciadv.aee5380",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.33232/001c.175199",
+      "title": "The Entangling of Supernova Feedback Impacts with Coarsening Simulation Resolution",
+      "url": "https://doi.org/10.33232/001c.175199",
+      "summary": "It is often understood that supernova (SN) feedback in galaxies is responsible for regulating star formation (SF) and generating gaseous outflows. However, a detailed look at the small-scale effects of SNe on the interstellar medium (ISM) in simulations shows that the macroscopic processes of SF suppression and outflow generation proceed in distinct channels. We demonstrate this finding in two independent simulations of isolated dwarf galaxies with very high (m_gas ~ Msun) numerical resolution, LYRA and RIGEL. Our findings suggest that the macroscopic effect of a given SN on the galaxy is best predicted by its local density. Outflows are primarily linked to SNe in diffuse regions expanding to their cooling radii on large (~kpc) scales, while dense SF regions are disrupted in a localized (~pc) manner. However, these separate feedback channels are only distinguishable at very high resolutions capable of following mass scales ^2 . When averaging on coarser scales, ISM densities are greatly mis-estimated, and variations between different SF and SNe-affected regions are severely washed out. It therefore cannot be self-consistently determined, from coarse-resolution information alone , (1) whether a SN tends to contribute to outflows or direct SF suppression, and (2) the rate of SF in a given region. In particular, commonly used parameters in coarse-resolution (subgrid) models, such as the SN cooling radius and SF density threshold, may require more detailed treatments informed by high-resolution studies.",
+      "source": "The Open Journal of Astrophysics",
+      "category": "research",
+      "date": "2026-11-11",
+      "author": "Eric Zhang, Laura V. Sales, Thales A. Gutcke, Yunwei Deng et al.",
+      "fetched_at": "2026-11-12T14:57:16+00:00",
+      "doi": "https://doi.org/10.33232/001c.175199",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1088/2632-2153/aec111",
+      "title": "Differentiable quantum-trajectory simulation of Lindblad dynamics for QGP transport-coefficient inference",
+      "url": "https://doi.org/10.1088/2632-2153/aec111",
+      "summary": "Abstract We study parameter estimation for the transport coefficients of the quark-gluon plasma by differentiating open-quantum-system-based Monte Carlo simulations of quarkonium suppression. The underlying simulator requires solving a Lindblad equation in a large Hilbert space, which makes parameter estimation computationally expensive. We approach the problem using gradient-based optimization. Specifically, we apply the score-function gradient estimator to differentiate through discrete jump sampling in the Monte Carlo wave-function algorithm used to solve the Lindblad equation. The resulting stochastic gradient estimator exhibits sufficiently low variance and can still be estimated in an embarrassingly parallel manner, enabling efficient scaling of the simulations. We implement this gradient estimator in the existing open-source quarkonium suppression code QTraj. To demonstrate its utility for parameter estimation, we infer the two transport coefficients κ and γ using gradient-based optimization on synthetic nuclear modification factor data.",
+      "source": "Machine Learning Science and Technology",
+      "category": "research",
+      "date": "2026-11-11",
+      "author": "Lukas Heinrich, Tom Magorsch",
+      "fetched_at": "2026-11-12T14:57:16+00:00",
+      "doi": "https://doi.org/10.1088/2632-2153/aec111",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1073/pnas.2604227123",
+      "title": "Principles of use of tensile J-curve materials in antagonistic arrangements",
+      "url": "https://doi.org/10.1073/pnas.2604227123",
+      "summary": "Natural ligaments are soft connective tissues that provide high stretchability for dexterous flexibility but switch to high stiffness to protect the musculoskeletal system from excessive deformation. These two functions cannot be independently tuned in conventional engineering materials with linear or hyperelasticity. Biological materials achieve this tailored behavior through a highly nonlinear tensile response characterized by a J-shaped curve, featuring an extended “toe region” of low force up to intermediate strains followed by an inflection, called the “heel region” which marks the onset of nonlinear stiffening. Here, we aim to study the characteristics of J-curves to establish principles for their use in robotic mechanisms. We define and measure the J-curve features responsible for protectiveness and mobility, describe the effective stiffness and the level of nonlinearity as a function of pre-stretch, and elucidate how the J-curve decouples flexibility from damage protection. Experimental measurements reveal the performance advantages of twisted and coiled elastomeric J-curve materials in engineered antagonistic arrangements and highlight their unique design space compared with linear elastic systems. Furthermore, we present a conceptual analysis of exploiting J-curve materials in energy-efficient running as an outlook toward their use in bioinspired robots.",
+      "source": "Proceedings of the National Academy of Sciences",
+      "category": "research",
+      "date": "2026-11-11",
+      "author": "Liuyang Cheng, Wonsik Eom, Qiong Wang, Hyeongkeun Kim et al.",
+      "fetched_at": "2026-11-12T14:57:16+00:00",
+      "doi": "https://doi.org/10.1073/pnas.2604227123",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1088/1361-6382/aec10a",
+      "title": "Gravitational wave signatures from periodic orbits around a Schwarzschild-Bertotti-Robinson black hole",
+      "url": "https://doi.org/10.1088/1361-6382/aec10a",
+      "summary": "Abstract In this paper, we investigate periodic bound orbits and gravitational wave (GW) emission in the Schwarzschild–Bertotti–Robinson (Schwarzschild–BR) spacetime—an exact electrovacuum solution describing a static black hole (BH) immersed in a uniform magnetic field. We explore how the background magnetic field qualitatively alters the BH's gravitational dynamics, affecting timelike geodesics such as the marginally bound orbit (MBO) and the innermost stable circular orbit (ISCO). We then analyze periodic bound orbits using the ratio of the azimuthal and radial frequencies, which characterizes the orbits by their azimuthal and radial motions. Based on the numerical kludge method, we further compute the gravitational waveforms emitted from periodic orbits around a supermassive Schwarzschild–BR BH. We show that the background magnetic field changes the orbital frequencies, resonance conditions, zoom–whirl structures, and the resulting waveforms. Finally, we compute the frequency spectra in the mHz band and estimate the signal-to-noise ratio for LISA, Taiji, and TianQin. Our results show how a magnetic field that is part of the spacetime geometry affects periodic orbits and their gravitational-wave signals.",
+      "source": "Classical and Quantum Gravity",
+      "category": "research",
+      "date": "2026-11-11",
+      "author": "Tursunali Xamidov, Sanjar Shaymatov, Qiang Wu, Tao Zhu",
+      "fetched_at": "2026-11-12T14:57:16+00:00",
+      "doi": "https://doi.org/10.1088/1361-6382/aec10a",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1063/5.0359674",
+      "title": "Modeling the inner electric double layer using short-range machine learning potentials: A critical assessment",
+      "url": "https://doi.org/10.1063/5.0359674",
+      "summary": "Atomistic simulations of electrochemical interfaces typically require large system sizes and long simulation times to obtain reliable thermodynamic properties. In this context, machine learning interatomic potentials (MLIPs) allow for computationally efficient sampling compared to density functional theory-based molecular dynamics simulations. Although conventional short-range MLIPs are recognized as inadequate for modeling the (potentially nanometer-wide) diffuse layer, they may still be capable of describing the inner electric double layer that is relevant for electrochemical reactions. Here, we evaluate the performance of common (short-ranged) MLIP architectures [the deep potential DP, the (graph) atomic cluster expansion-based models GRACE and MACE, and the pre-trained eSEN-OC25] for charged Au/electrolyte interfaces. In the evaluation, we focus on the effect of message passing and on the potentially adverse effect of data interference when training for a broad range of surface charges. Our results suggest that both local and message-passing models are able to reliably learn the interfacial structure when training on a single charge state. However, when trained on datasets that span multiple charge states, the MLIPs tested yield inconsistent predictions of interfacial water orientation and ion distributions. This behavior can be traced to the MLIPs being \"blind\" to the actual surface charge. Message-passing models show somewhat greater robustness to mixed-charge training data, likely due to their larger receptive field, but are still prone to artifacts and errors in the description of the interfacial structure. Overall, our results provide practical guidance on the expected accuracy and cross-charge-state transferability of short-ranged MLIPs for the description of ",
+      "source": "The Journal of Chemical Physics",
+      "category": "research",
+      "date": "2026-11-11",
+      "author": "Lucas B. T. de Kam, Jiaxin Zhu, Ankit Mathanker, Katharina Doblhoff-Dier et al.",
+      "fetched_at": "2026-11-12T14:57:16+00:00",
+      "doi": "https://doi.org/10.1063/5.0359674",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s41467-026-79032-4",
+      "title": "Probing topological edge states in a molecular synthetic dimension",
+      "url": "https://doi.org/10.1038/s41467-026-79032-4",
+      "summary": "Abstract Synthetic dimensions, where additional spatial dimensions are encoded within the internal states of a quantum system, allow the realisation of phenomena usually inaccessible in experiments. Ultracold polar molecules are an ideal platform for synthetic dimensions, providing large Hilbert spaces of long-lived rotational and hyperfine states that can be linked with microwave fields to simulate tunnelling. Here, we realise a one-dimensional synthetic lattice using the rotational states of ultracold RbCs molecules and investigate the topological properties of the Su-Schrieffer-Heeger model. We spectroscopically probe the system using an auxiliary rotational state and study the time dynamics after deterministic state preparation. We demonstrate long coherence times, reaching ~ 500 tunnelling periods even for lattices spanning eight rotational states. Using full site-resolved readout over long evolution times, we study the robustness of topologically protected edge states against perturbations that preserve or break chiral symmetry. These results establish ultracold molecules as a powerful platform for quantum simulation using synthetic dimensions.",
+      "source": "Nature Communications",
+      "category": "research",
+      "date": "2026-11-11",
+      "author": "Adarsh P. Raghuram, Francesca M. Blondell, Jonathan M. Mortlock, Benjamin Maddox et al.",
+      "fetched_at": "2026-11-12T14:57:16+00:00",
+      "doi": "https://doi.org/10.1038/s41467-026-79032-4",
+      "open_access": true
     },
     {
       "id": "https://doi.org/10.7566/jpsj.95.124003",
@@ -5639,8 +5782,8 @@
     }
   ],
   "refresh": {
-    "sources_succeeded": 2,
+    "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 11
   }
 }
