@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-13T06:02:18+00:00",
+  "updated_at": "2026-11-13T19:27:31+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -170,6 +170,32 @@
       "author": "Reuben Kwabla Adigbli",
       "fetched_at": "2026-11-06T22:55:45+00:00",
       "doi": "",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/s13226-026-01068-5",
+      "title": "Cramér-type moderate deviation and Berry–Esseen bounds in the p-spin Curie–Weiss model",
+      "url": "https://doi.org/10.1007/s13226-026-01068-5",
+      "summary": "",
+      "source": "Indian Journal of Pure and Applied Mathematics",
+      "category": "research",
+      "date": "2026-11-13",
+      "author": "Somabha Mukherjee, Tianyu Liu, Bhaswar B. Bhattacharya",
+      "fetched_at": "2026-11-13T19:27:30+00:00",
+      "doi": "https://doi.org/10.1007/s13226-026-01068-5",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/s44214-026-00113-y",
+      "title": "Flat band excitons and quantum metric",
+      "url": "https://doi.org/10.1007/s44214-026-00113-y",
+      "summary": "Abstract We discuss the excitons in flat band systems. Quantum metric plays a central role in determining the properties of single exciton excitations as well as the exciton condensate. While the electrons and holes are supposed to be extremely heavy in flat bands, the excitons (the bound state of an electron-hole pair) could be light and mobile. In particular, we show that the inverse of the effective mass tensor of excitons is proportional to the quantum metric tensor. Meanwhile, the flat band excitons have a finite size, lower bounded by the trace of the quantum metric tensor. Given the properties of single exciton excitation, one can argue for the formation of exciton condensate. Because of the quantum metric, the exciton condensate can support dissipationless counterflow supercurrent, implying the stability of exciton condensate.",
+      "source": "Quantum Frontiers",
+      "category": "research",
+      "date": "2026-11-13",
+      "author": "Xuzhe Ying, K. T. Law",
+      "fetched_at": "2026-11-13T19:27:30+00:00",
+      "doi": "https://doi.org/10.1007/s44214-026-00113-y",
       "open_access": true
     },
     {
@@ -473,6 +499,123 @@
       "author": "Alev Orfi, Andrew Kille, J. Clayton Peacock, Jack Dunham et al.",
       "fetched_at": "2026-11-13T06:02:18+00:00",
       "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://doi.org/10.3934/jcd.2026.100231",
+      "title": "Eight-stage pseudo-symplectic Runge–Kutta methods of order (4, 8)",
+      "url": "https://doi.org/10.3934/jcd.2026.100231",
+      "summary": "Using simplifying assumptions that are related to the time reversal symmetry, a 1-dimensional family of 8-stage pseudo-symplectic Runge-Kutta methods of order (4, 8), i.e., methods of order 4 that preserve symplectic structure up to order 8, is derived. An example of 7-stage method of order (4, 9) is given.",
+      "source": "Journal of Computational Dynamics",
+      "category": "research",
+      "date": "2026-11-12",
+      "author": "М. Г. Степанов",
+      "fetched_at": "2026-11-13T19:27:30+00:00",
+      "doi": "https://doi.org/10.3934/jcd.2026.100231",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/s00211-026-01578-8",
+      "title": "Guaranteed, locally efficient, and robust a posteriori estimates for nonlinear elliptic problems in iteration-dependent norms: an orthogonal decomposition result based on iterative linearization",
+      "url": "https://doi.org/10.1007/s00211-026-01578-8",
+      "summary": "",
+      "source": "Numerische Mathematik",
+      "category": "research",
+      "date": "2026-11-12",
+      "author": "Koondanibha Mitra, Martin Vohralík",
+      "fetched_at": "2026-11-13T19:27:30+00:00",
+      "doi": "https://doi.org/10.1007/s00211-026-01578-8",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1137/24m1669062",
+      "title": "Differentiable Programming for Differential Equations: A Review",
+      "url": "https://doi.org/10.1137/24m1669062",
+      "summary": "Abstract. The differentiable programming paradigm is a cornerstone of modern scientific computing. It refers to numerical methods for computing the gradient of a numerical model’s output. Many scientific models are based on differential equations, in which differentiable programming plays a crucial role in calculating model sensitivities, inverting model parameters, and training hybrid models that combine differential equations with data-driven approaches. Furthermore, recognizing the strong synergies between inverse methods and machine learning offers the opportunity to establish a coherent framework applicable to both fields. Differentiating functions based on the numerical solution of differential equations is nontrivial. Numerous methods based on a wide variety of paradigms have been proposed in the literature, each with pros and cons specific to the type of problem investigated. Here, we provide a comprehensive review of existing techniques to compute derivatives of numerical solutions of differential equations. We first discuss the importance of gradients of solutions of differential equations in a variety of scientific domains. Second, we lay out and compare the mathematical foundations of the various approaches. Third, we cover computational considerations and explore the solutions available in modern scientific software. Last but not least, we provide best practices and recommendations for practitioners. We hope that this work accelerates the fusion of scientific models and data and fosters a modern approach to scientific modeling.",
+      "source": "SIAM Review",
+      "category": "research",
+      "date": "2026-11-12",
+      "author": "Facundo Sapienza, Jordi Bolíbar, Frank Schäfer, Brian Groenke et al.",
+      "fetched_at": "2026-11-13T19:27:30+00:00",
+      "doi": "https://doi.org/10.1137/24m1669062",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/frnd-ldcj",
+      "title": "Unified quantification of entanglement and nonstabilizerness in information scrambling and their trade-off relation",
+      "url": "https://doi.org/10.1103/frnd-ldcj",
+      "summary": "Entanglement and magic are among the most fundamental properties unique to quantum systems. Each quantity captures a different aspect of non-classical behavior, and each can be regarded as a resource within its own operational setting. However, the interrelation between them has not yet been fully clarified, and whether a more fundamental measure exists remains an open question. Addressing these issues is essential for deepening our understanding of quantumness. In this study, we establish a unified resource theory of information scrambling, consisting of two types: entanglement scrambling and magic scrambling. We introduce a measure that jointly characterizes both types of scrambling. This unified approach reveals a rigorous trade-off relation between entanglement and magic scrambling, as the exact maximum value of the proposed measure can be derived analytically. Furthermore, we quantify the scrambling capability of unitary transformations in terms of their ability to amplify this measure. We also discuss the relevance of our framework to the Pauli propagation method as a practical application. Our work provides insights into the connection between entanglement and magic that extend beyond the context of information scrambling.",
+      "source": "Physical Review A",
+      "category": "research",
+      "date": "2026-11-12",
+      "author": "Mao Kaneyasu, Yoshihiko Hasegawa",
+      "fetched_at": "2026-11-13T19:27:30+00:00",
+      "doi": "https://doi.org/10.1103/frnd-ldcj",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/psph-rgkg",
+      "title": "Thermodynamic probes of multipartite entanglement in strongly interacting quantum systems",
+      "url": "https://doi.org/10.1103/psph-rgkg",
+      "summary": "Quantifying multipartite entanglement in quantum many-body systems and hybrid quantum computing architectures is a fundamental yet challenging task. In recent years, thermodynamic quantities such as the maximum extractable work from an isolated system (the ergotropy) have allowed for entanglement measures that are operationally more accessible. However, these measures can be restrictive when applied to systems governed by Hamiltonians with strong collective or interparticle interactions. Motivated by advances in quantum simulators, we propose a framework that circumvents these restrictions by evaluating global and local ergotropy either through controlled quenching of interactions or by measuring suitable local observables only. We show that this formalism allows us to correctly estimate genuine multipartite entanglement in both stationary and time-evolved states of systems with strong interactions, including parametrized quantum states simulated on a quantum circuit with varying circuit depth and noise. We demonstrate its applicability to realistic physical models, namely, the Tavis-Cummings model, the three-level Dicke model, and the transverse-field Ising model, highlighting its potential as a versatile tool for characterizing entanglement in near-term quantum simulators.",
+      "source": "Physical Review A",
+      "category": "research",
+      "date": "2026-11-12",
+      "author": "Harsh Sharma, Sampriti Saha, A. S. Majumdar, Manik Banik et al.",
+      "fetched_at": "2026-11-13T19:27:30+00:00",
+      "doi": "https://doi.org/10.1103/psph-rgkg",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/4zmd-tdwg",
+      "title": "Discrete shift and polarization from response to symmetry defects in interacting topological phases",
+      "url": "https://doi.org/10.1103/4zmd-tdwg",
+      "summary": "We extend the previous study of extracting crystalline symmetry-protected topological invariants to the correlated regime. We construct the interacting Hofstadter model defined on square lattice with the rotation and translation symmetry defects: disclination and dislocation. The model realizes Chern insulator and the charge density wave state as one tunes interactions. Employing the density matrix renormalization group (DMRG) method, we calculate the excess charge around the defects and find that the topological invariants remain quantized in both phases, with the topological quantity extracted to great precision. This study paves the way for utilizing matrix product state, and potentially other quantum many-body computation methods, to efficiently study crystalline symmetry defects on 2D interacting lattice systems.",
+      "source": "Physical review. B./Physical review. B",
+      "category": "research",
+      "date": "2026-11-12",
+      "author": "Lu Zhang, Min Long, Yuxuan Zhang, Zi Yang Meng et al.",
+      "fetched_at": "2026-11-13T19:27:30+00:00",
+      "doi": "https://doi.org/10.1103/4zmd-tdwg",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1073/pnas.2613021123",
+      "title": "The quantum agreement theorem",
+      "url": "https://doi.org/10.1073/pnas.2613021123",
+      "summary": "Intersubjective consistency asks when different observers of a physical system, reasoning from a shared theory, will agree on their probability assessments. Classical probability theory provides a benchmark in the form of the Agreement Theorem [R. J. Aumann, Ann. Stat. 4 , 1236–1239 (1976)]. We study the quantum mechanics (QM) analog to the classical Agreement Theorem in a finite-dimensional tripartite setting in which two observers obtain information via local projective measurements. We represent their mutual awareness by common certainty, which is formally an infinite hierarchy of certainty operators concerning the probability of an event of interest. We first prove that if the observers’ measurements commute with one another and with the property of interest, common certainty forces their probability assessments to coincide, thereby recovering a QM analog to the classical Agreement Theorem. We then construct a one-parameter family of qutrit–qubit–qubit models in which one observer’s measurement does not commute with the property and common certainty of disagreement occurs—a distinctively QM phenomenon. The mechanism is coherence between branches distinguished by one but not the other observer’s measurement. When measurement outcomes are stored in a classical register, the resulting dephasing removes this coherence and restores agreement. Finally, we prove that QM does not permit the extreme 0 - 1 configuration in which Alice is certain of a property and is also certain that Bob is certain of its negation. These results aim to turn debate in QM about observer-dependent facts into precise mathematical conditions for when intersubjective agreement or disagreement in QM can be sustained.",
+      "source": "Proceedings of the National Academy of Sciences",
+      "category": "research",
+      "date": "2026-11-12",
+      "author": "María García Díaz, Adam M. Brandenburger, Giannicola Scarpa",
+      "fetched_at": "2026-11-13T19:27:30+00:00",
+      "doi": "https://doi.org/10.1073/pnas.2613021123",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/9z1f-7lct",
+      "title": "Observation of an anomaly in the statistics of Kibble-Zurek defects",
+      "url": "https://doi.org/10.1103/9z1f-7lct",
+      "summary": "The Kibble-Zurek mechanism quantifies defect formation during adiabatic passage across a continuous phase transition, providing key insights into universality in quantum many-body systems. We explore counting statistics of defects in adiabatic passage experiments on long 1D Rydberg atom chains. The experiments reveal an anomaly in the defect number distribution at long ramp times, challenging the hypothesis of defect formation through independent domain mergers. Numerical simulations confirm the anomaly and suggest its link to non-critical coarsening dynamics, which we suppress in prepare-and-hold experiments. Our results highlight the ability of quantum simulators to uncover unexpected correlated quantum phenomena.",
+      "source": "Physical review. B./Physical review. B",
+      "category": "research",
+      "date": "2026-11-12",
+      "author": "J. Balewski, Alexey Khudorozhkov, Siva Darbha, Omar A. Ashour et al.",
+      "fetched_at": "2026-11-13T19:27:30+00:00",
+      "doi": "https://doi.org/10.1103/9z1f-7lct",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s41567-026-03499-7",
+      "title": "Optimal learning of quantum channels in diamond distance",
+      "url": "https://doi.org/10.1038/s41567-026-03499-7",
+      "summary": "Abstract The evolution of quantum states can be described by quantum channels. The task of estimating an unknown quantum channel, known as process tomography, is a central problem in quantum information theory. A long-standing open question is how many uses of an unknown channel are required to learn it to a precision quantified by the standard metric for distinguishing quantum processes, known as the diamond distance. Here we address this by establishing the query complexity of channel tomography with optimal dependence on the dimensions of the input and output spaces and the channel’s Kraus rank at any fixed constant accuracy in diamond distance. We design an algorithm that establishes an upper bound and prove a matching lower bound for learning a channel to the given accuracy. Our algorithm follows the strategy of performing optimal tomography on the Choi-state representation of the process, and we show that channel tomography can be reduced to the well-studied problem of pure-state tomography. As channels subsume states, unitaries and measurements as special cases, our protocol provides a unified framework for tomography of these tasks.",
+      "source": "Nature Physics",
+      "category": "research",
+      "date": "2026-11-12",
+      "author": "Antonio Anna Mele, Lennart Bittel",
+      "fetched_at": "2026-11-13T19:27:30+00:00",
+      "doi": "https://doi.org/10.1038/s41567-026-03499-7",
+      "open_access": true
     },
     {
       "id": "http://news.fjsen.com/2026-11/11/content_32281582.htm",
@@ -5983,83 +6126,11 @@
       "author": "Brian Coyle, Jonathan H. Fetherolf, Antonio Márquez Romero, Stefano Scali et al.",
       "fetched_at": "2026-10-24T20:32:20+00:00",
       "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.31501v1",
-      "title": "One-shot entanglement generation and distillation via Petz recovery and binary hypothesis testing",
-      "url": "https://arxiv.org/abs/2610.31501v1",
-      "summary": "How much entanglement can two distant laboratories share when their connection is noisy? We relate this question to deciding which of two quantum hypotheses is present. Our one-shot bounds apply to entanglement generation over a quantum channel and to one-way entanglement distillation from a shared state. We use Cheng's trace inequality to bound the infidelity of a Petz decoder in terms of a binary hypothesis testing cost. Applying the inequality before averaging over codes reduces the error analysis to computing a second moment of random subspaces. The proof covers every integer target dimension and treats rank-deficient states explicitly. A corollary expresses the achievable entanglement through hypothesis-testing coherent information, with a single logarithmic error slack and exact integer rounding. We also prove an error-preserving conversion from entanglement generation codes to entanglement transmission codes: the target dimension decreases by only a constant factor at fixed error, and the decoder is the original decoder followed by local processing. Consequently, for both entanglement generation and entanglement transmission, arbitrary pure reference-input states yield the same coherent-information rate, second-order Gaussian correction at the original error tolerance, and explicit achievable logarithmic remainder. For commuting testing hypotheses, the logarithmic remainder improves to a constant. These results give a direct route from binary distinguishability to explicit recovery guarantees and finite-resource quantum communication rates.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-22",
-      "author": "Matthew Can, Mark M. Wilde",
-      "fetched_at": "2026-10-24T20:32:20+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.31500v1",
-      "title": "The Impact of Markovian Errors on Random Circuits",
-      "url": "https://arxiv.org/abs/2610.31500v1",
-      "summary": "Randomized benchmarking (RB) returns a single decay parameter or gate error rate, but when the noise is gate-dependent that parameter is notoriously difficult to interpret. We study RB and related random-circuit benchmarks under small gate-local Markovian noise by factorizing each noisy gate into its ideal action followed by the exponential of a small error generator and then perturbing the RB $\\mathscr{L}$ matrix, which models the RB decay. For any low-error gate set that satisfies the requirements of RB (it is a sequence-asymptotic unitary 2-design), we show that Pauli-stochastic error rates contribute linearly to the RB decay parameter, while Hamiltonian error rates contribute through a gauge-invariant quadratic form. Pauli-correlation and active generators are absent from the linear term and enter only at higher order. For the single-qubit native gate set $\\{X_{π/2},Y_{π/2}\\}$ we derive this quadratic form explicitly in terms of three first-order gauge-invariant (FOGI) coordinates: the two intrinsic over-rotations and one relational axis-tilt error. The resulting formula explains the dependence of DRB on the sampling distribution and the compilation dependence of CRB. These results turn RB decay rates into interpretable functions of experimentally meaningful elementary error rates.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-22",
-      "author": "Anthony M. Polloreno, Timothy Proctor, Robin Blume-Kohout",
-      "fetched_at": "2026-10-24T20:32:20+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.31452v1",
-      "title": "Nanopillar metasurfaces uniting high optical reflectivity with ultracoherent nanomechanics",
-      "url": "https://arxiv.org/abs/2610.31452v1",
-      "summary": "Mechanically compliant mirrors are key components in cavity optomechanics. However, the requirements to achieve the best optical and mechanical performance are usually in direct competition. A high reflectivity for tightly focused beams entails thick reflectors, whereas ultracoherent flexural nanomechanics necessitates thin membranes. We eliminate this trade-off by introducing high-refractive-index nanopillar metasurfaces on top of a thin membrane. We pattern a 50 micrometer-diameter array of nanopillars to form a photonic crystal. The flat band behavior of guided resonances in the photonic crystal enables a reflectivity of 99.82(1)% for a tightly focused beam of 7 micrometer waist. The combination of two guided resonances creates a 100 nanometer-wide high-reflectivity band around 1550 nanometer. Simultaneously, the nanopillar patterning realizes a density-modulated phononic crystal that isolates an ultracoherent localized mechanical mode with a $Q\\cdot f$-product of $2\\cdot 10^{14}$Hz. The demonstrated nanopillar metasurfaces enable lightweight mirrors for room-temperature quantum optomechanics and for use as levitated mirrors or lightsails.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-22",
-      "author": "Alexander Jung, Anastasiia Ciers, Hannes Pfeifer, Albert Hansson et al.",
-      "fetched_at": "2026-10-24T20:32:20+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.31443v1",
-      "title": "ConQEC: Concolic Testing for Quantum Error-Correcting Code Implementations",
-      "url": "https://arxiv.org/abs/2610.31443v1",
-      "summary": "Quantum error-correcting code (QECC) implementations are hybrid software-control systems: measured syndromes drive decoder dispatch, recovery actions, and logical checks. Existing QECC verification techniques can prove formal obligations, and general quantum testing can expose final failures, but developers still lack a scalable testing workflow that generates concrete faults and explains where a QECC repair path first diverges. This paper presents ConQEC, to our knowledge the first concolic testing framework for QECC implementations. By combining concrete (Pauli) fault replay with symbolic repair-path constraints, ConQEC generates tests that expose not only final logical failures but also fault--syndrome--decoder--recovery (FSDR) diagnostics: the injected fault, observed syndrome, decoder decision, recovery action, oracle result, and earliest divergent stage. Its symbolic encoding of Pauli faults, syndrome predicates, decoder and recovery relations, and oracle checks enables this diagnostic workflow to scale beyond exponentially increasing amplitude-level quantum-state reasoning. We implemented ConQEC and evaluated it on generated source-level QECC families and public QECC artifacts with up to thousands of qubits. ConQEC detects the seeded bug in every experimental case and reports a replay-valid, fault-localizing FSDR witness for each.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-22",
-      "author": "Zihao Li, Ji Guan, Mingsheng Ying",
-      "fetched_at": "2026-10-24T20:32:20+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.31406v1",
-      "title": "Nonlinear quantum noise polarization in macroscopic nonlinear QED",
-      "url": "https://arxiv.org/abs/2610.31406v1",
-      "summary": "We construct a quantum theory of light in nonlinearly responding materials with dispersion and absorption and, in particular, show the emergence of non-Gaussian noise associated with nonlinear absorption processes. Our theory is based on a path-integral formulation of the microscopic Huttner-Barnett model including cubic matter self-interaction required for $χ^{(2)}$ nonlinear processes. We show that the noise polarization emerges naturally from a decoupling of the stochastic weights of the bath response which, in case of cubic self-interactions, leads to a decoupling via Airy functions. As the theory is, by construction, consistent with the nonlinear fluctuation-dissipation theorem, it constitutes a viable quantum theory of light in nonlinear media.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-22",
-      "author": "Arman Kashef, Stefan Scheel, Marco Ornigotti",
-      "fetched_at": "2026-10-24T20:32:20+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.31396v1",
-      "title": "Predictive electronic feedback control for narrow-linewidth lasers",
-      "url": "https://arxiv.org/abs/2610.31396v1",
-      "summary": "Narrow-linewidth lasers are essential for various key atom-laser interaction processes and optical setups in quantum coherent control, quantum precision measurement, and quantum information science. The Pound-Drever-Hall (PDH) technique is the standard method for the frequency-stabilization of narrow-linewidth lasers, but the inherent time delay in its feedback loop inevitably induces excessive phase noise, commonly known as servo bumps. Previous solutions primarily rely on additional optical components outside the electronic feedback control loop. Here, we propose and implement a generic method based on the Smith predictor to address the time-delay issue entirely within the electronic part of the PDH feedback control loop. We systematically demonstrate its capability to suppress phase noise and reduce servo bumps by adding only a single Field-Programmable Gate Array (FPGA) controller to the loop. This class of methods is demonstrated to be conceptually concise with minimal hardware overhead, effective in practice, and holds potential for a wide variety of future applications.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-22",
-      "author": "Jiatian Liu, Xuan Qi, Xiayang Fan, Shenchao Jin et al.",
-      "fetched_at": "2026-10-24T20:32:20+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
     }
   ],
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 12
+    "new_items": 11
   }
 }
