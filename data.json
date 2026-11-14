@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-14T05:50:38+00:00",
+  "updated_at": "2026-11-14T13:18:14+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -196,6 +196,123 @@
       "author": "Xuzhe Ying, K. T. Law",
       "fetched_at": "2026-11-13T19:27:30+00:00",
       "doi": "https://doi.org/10.1007/s44214-026-00113-y",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/srp9-4ysl",
+      "title": "Fermi-arc-mediated transport in surface Josephson junctions of Weyl semimetals",
+      "url": "https://doi.org/10.1103/srp9-4ysl",
+      "summary": "This study presents Fermi-arcs mediated transport in a Weyl semimetal thin slab, interfacing two $s$-wave superconductors. We present detailed study with both time-reversal and inversion symmetry broken Weyl semimetals under grounding, orbital magnetic fields, and Zeeman fields. An orbital magnetic field induces energy level oscillations, while a Zeeman field give rise to the periodic anomalous oscillations in the Josephson current. These anomalous oscillations correlate with the separation of Weyl nodes in momentum space, junction length, and system symmetries. Additionally, we present an explanation by scattering theory modeling the Fermi-arcs as a network model.",
+      "source": "Physical review. B./Physical review. B",
+      "category": "research",
+      "date": "2026-11-13",
+      "author": "Rekha Kumari, Dibya Kanti Mukherjee, Arijit Kundu",
+      "fetched_at": "2026-11-14T13:18:13+00:00",
+      "doi": "https://doi.org/10.1103/srp9-4ysl",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/658l-x6gx",
+      "title": "Enumeration of all superconducting circuits up to 5 nodes",
+      "url": "https://doi.org/10.1103/658l-x6gx",
+      "summary": "Nonlinear superconducting circuits can be used as amplifiers, transducers, and qubits. Only a handful have been analyzed or built, so useful configurations likely remain undiscovered. In this paper, we enumerate all unique nonlinear superconducting circuits, up to five nodes in size, built of capacitors, inductors, and Josephson junctions. We catalog the resulting design space by sorting circuits into \"Hamiltonian classes\" using a set of reference coordinates. Finally, we search for novel superconducting qubits by explicitly considering all three-node circuits, showing how the results of our enumeration can be used as a starting point for circuit design tasks.",
+      "source": "Physical Review Research",
+      "category": "research",
+      "date": "2026-11-13",
+      "author": "Eli J. Weissler, Mohit Bhat, Zhenxing Liu, Joshua Combes",
+      "fetched_at": "2026-11-14T13:18:13+00:00",
+      "doi": "https://doi.org/10.1103/658l-x6gx",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s41566-026-02031-w",
+      "title": "High-harmonic generation during ultrafast melting of a Mott insulating state",
+      "url": "https://doi.org/10.1038/s41566-026-02031-w",
+      "summary": "Abstract Solids in an intense laser field show high-harmonic generation (HHG), which can provide information on carrier dynamics and band structures in weakly correlated systems. In strongly correlated systems, a laser field can induce a transition between the various electronic phases formed by the entanglement of charge, spin, and orbital degrees of freedom via carrier generation. The HHG accompanying this process should contain information on the nonequilibrium electronic-state dynamics along the oscillating field—an aspect that remains unresolved to date. Here, we show that an intense mid-infrared (MIR) pulse induces a Mott insulator–metal transition in a one-dimensional cuprate, Sr2CuO3, the evolution of which is reflected by the spectral features of HHs. When the electric-field amplitude exceeds 6 MV/cm, carriers are efficiently generated and each harmonic frequency decreases from odd multiples of the MIR frequency. Dynamical mean-field theory indicates that these redshifts originate from a series of electronic-structure reconstructions in each electric-field cycle during the melting of the Mott-insulator state, which modifies the radiation phase from carrier recombination cycle-by-cycle. This phenomenon is negligible in rigid-band systems. This experimental-theoretical study confirms that HH spectroscopy research can potentially unravel the sub-cycle dynamics of nonequilibrium phase transitions in correlated materials.",
+      "source": "Nature Photonics",
+      "category": "research",
+      "date": "2026-11-13",
+      "author": "Ryohei Ikeda, Yuta Murakami, Daiki Sakai, Tatsuya Miyamoto et al.",
+      "fetched_at": "2026-11-14T13:18:13+00:00",
+      "doi": "https://doi.org/10.1038/s41566-026-02031-w",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1016/j.trip.2026.102352",
+      "title": "Digital twins for intelligent intersections: A literature review",
+      "url": "https://doi.org/10.1016/j.trip.2026.102352",
+      "summary": "Intelligent intersections play a pivotal role in urban mobility, demanding innovative solutions such as digital twins to enhance safety and efficiency. This literature review investigates the integration and application of digital twins for intelligent intersections, a critical area within smart urban traffic systems. The review systematically categorizes existing research into five key thematic areas: (i) Digital Twin Architectures and Frameworks; (ii) Data Processing and Simulation Techniques; (iii) Artificial Intelligence and Machine Learning for Adaptive Traffic Control; (iv) Safety and Protection of Vulnerable Road Users; and (v) Scaling from Localized Intersections to Citywide Traffic Networks. Each theme is explored comprehensively, highlighting significant advancements, current challenges, and critical insights. The findings reveal that multi-layered digital twin architectures incorporating real-time data fusion and AI-driven decision-making enhances traffic efficiency and safety. Advanced simulation techniques combined with sophisticated AI/ML algorithms demonstrate notable improvements in real-time responsiveness and predictive accuracy for traffic management. Additionally, the integration of digital twins has shown substantial promise in safeguarding vulnerable road users through proactive and adaptive safety strategies. Despite these advancements, key challenges persist, including interoperability of diverse data sources, scalability of digital twins for extensive traffic networks, and managing uncertainty within dynamic urban environments. Addressing these challenges will be essential for the future development and deployment of intelligent, adaptive, and sustainable intersection management systems.",
+      "source": "Transportation Research Interdisciplinary Perspectives",
+      "category": "research",
+      "date": "2026-11-13",
+      "author": "Alben Rome Bagabaldo, Jürgen Hackl",
+      "fetched_at": "2026-11-14T13:18:13+00:00",
+      "doi": "https://doi.org/10.1016/j.trip.2026.102352",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1140/epjqt/s40507-026-00594-9",
+      "title": "Making sense of quantum teleportation: an intervention study on students’ conceptions using a diagrammatic approach",
+      "url": "https://doi.org/10.1140/epjqt/s40507-026-00594-9",
+      "summary": "Abstract Quantum physics education at the upper-secondary level traditionally follows a historical approach, rarely extending beyond early 20th-century ideas, leaving students unprepared for comprehending modern quantum technologies central to everyday life and many facets of modern industry. To address this gap, we investigated how upper-secondary students and pre-service teachers understand quantum teleportation when taught with a simplified diagrammatic formalism based on the ZX-calculus, which represents quantum processes as diagrams of wires and boxes. Through phenomenographic analysis of video-recorded group work sessions, written responses to exercises, and a group interview, with a total of $n=21$ n = 21 participants, we identified an outcome space consisting of four qualitatively different, hierarchically ordered categories of description encapsulating the different ways of experiencing quantum teleportation. The categories revealed that a conceptual progression depends on how one understands the temporality in quantum processes, the role of entanglement in quantum teleportation, the active nature of quantum measurements, and interpretations of mathematical operations in the diagrams. Our findings indicate that while a simplified diagrammatic formalism for teaching quantum physics can provide an accessible entry point at the upper-secondary level, it does not automatically resolve fundamental conceptual challenges, and requires careful consideration in terms of developing teaching and learning sequences. Finally, these results provide educators with a deeper understanding of conceptual affordances and challenges for designing and improving instruction, while also highlighting the need for further exploring how students and teachers alike understand quantum phen",
+      "source": "EPJ Quantum Technology",
+      "category": "research",
+      "date": "2026-11-13",
+      "author": "Sebastian Kilde-Westberg, Andreas Johansson, Anna Pearson, Jonas Enger",
+      "fetched_at": "2026-11-14T13:18:13+00:00",
+      "doi": "https://doi.org/10.1140/epjqt/s40507-026-00594-9",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1103/zbxp-fp54",
+      "title": "One-sided witnesses for the quantumness of gravitational dynamics",
+      "url": "https://doi.org/10.1103/zbxp-fp54",
+      "summary": "Quantum information concepts and quantum technologies have opened the prospect of probing the quantum nature of gravity in table-top experiments. Most proposals rely on detecting gravitationally mediated entanglement, which requires measurements on both interacting systems. Here we propose an alternative test based on witnessing quantum memory effects in the dynamics of a single system. We show how the quantum memory concept allows the non-classicality of the interaction between two systems to be certified through local measurements on only one of them. We then develop a novel quantum memory witness, making the approach applicable to gravitationally coupled harmonic oscillators. This witness requires no assumptions about the dynamics, such as Gaussianity. Our results show that the quantumness of gravitational dynamics can be certified with access to only one subsystem, opening the door to asymmetric implementations that can offer conceptual and experimental advantages to probing the quantum nature of the gravitational interaction.",
+      "source": "Physical Review Research",
+      "category": "research",
+      "date": "2026-11-13",
+      "author": "Konstantin Beyer, M. S. Kim, Igor Pikovski",
+      "fetched_at": "2026-11-14T13:18:13+00:00",
+      "doi": "https://doi.org/10.1103/zbxp-fp54",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1142/s0219887827500332",
+      "title": "Loop Quantum Gravity Black Holes Surrounded by Quintessence",
+      "url": "https://doi.org/10.1142/s0219887827500332",
+      "summary": "Quantum gravity corrections act on the near-horizon geometry of a black hole (BH), while dark energy acts on its asymptotic region, and how the two imprints combine is still poorly understood. We study a static, spherically symmetric BH of Loop Quantum Gravity (LQG) surrounded by a quintessence field. The metric function carries the LQG parameters [Formula: see text] and the quintessence parameters [Formula: see text], and for suitable values it has three horizons, a structure found neither in pure LQG BHs nor in classical quintessence BHs. We analyze null and timelike geodesics, photon spheres and the shadow seen by a static observer placed between the event and the cosmological horizons. Sixth-order WKB quasinormal modes (QNMs) of scalar and electromagnetic fields confirm stability over the ranges examined. The quantum term behaves as a short-range repulsive correction: it shrinks the photon sphere and the shadow, raises the QNM oscillation frequency and lowers the light deflection. Quintessence works the other way on the photon sphere, the ringing frequency and the bending. With the Gauss-Bonnet method we obtain a weak deflection angle valid for [Formula: see text], which we check against direct numerical integration, and in which quintessence dominates at large impact parameters and the LQG terms at small ones.",
+      "source": "International Journal of Geometric Methods in Modern Physics",
+      "category": "research",
+      "date": "2026-11-13",
+      "author": "Ahmad Al‐Badawi, Faizuddin Ahmed, İzzet Sakallı",
+      "fetched_at": "2026-11-14T13:18:13+00:00",
+      "doi": "https://doi.org/10.1142/s0219887827500332",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1177/15578666261499737",
+      "title": "A Synthetic Benchmark for Topology-Aware Modeling of Multispecific Antibody Function",
+      "url": "https://doi.org/10.1177/15578666261499737",
+      "summary": "Multispecific antibodies (msAbs) offer transformative therapeutic potential by engaging multiple epitopes simultaneously, yet their efficacy is an emergent property governed by complex molecular architectures. Rational design is often bottlenecked by the inability to predict how subtle changes in domain topology influence functional outcomes, a challenge exacerbated by the scarcity of comprehensive experimental data. Here, we introduce Synapse, a biologically inspired synthetic benchmark for topology-aware modeling of msAbs. First, we present a generative method that combines nonlinear per-domain sequence-to-score landscapes with connectivity-dependent synthetic readouts. Second, we propose a graph neural network architecture that explicitly encodes these topological constraints, distinguishing between format configurations that appear identical to the evaluated connectivity-agnostic multilayer perceptron. We demonstrate that this model learns topology-dependent structure-function relationships on synthetic landscapes and evaluate a transfer learning workflow as infrastructure for adaptation to biological datasets. We showcase our framework with a trispecific T cell engager-inspired synthetic topology-dependent optimization task and a constrained ranking of common light chain candidates against a composite objective. This work provides a controlled benchmarking environment for developing and evaluating topology-aware computational tools for msAb modeling. All experiments use synthetic data; no biological validation is performed.",
+      "source": "Journal of Computational Biology",
+      "category": "research",
+      "date": "2026-11-13",
+      "author": "Joshua Southern, Changpeng Lu, Santrupti Nerli, Samuel Stanton et al.",
+      "fetched_at": "2026-11-14T13:18:13+00:00",
+      "doi": "https://doi.org/10.1177/15578666261499737",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s41535-026-00952-x",
+      "title": "Electron-phonon coupling and electronic transport at the moiré scale in twisted bilayer graphene",
+      "url": "https://doi.org/10.1038/s41535-026-00952-x",
+      "summary": "Abstract First-principles calculations can accurately describe electron-phonon (e-ph) interactions and electronic transport in a wide range of materials, but are currently limited to unit cells with up to ~100 atoms due to computational cost. Here, we develop an atomistic electronic potential with Holstein- and Peierls-like terms for modeling e-ph interactions and phonon-limited electronic transport that enables the study of moiré systems with thousands of atoms per unit cell. This method can accurately reproduce first-principles e-ph coupling and resistivity in graphene and large-angle twisted bilayer graphene (TBG). Using this approach, we study TBG over a range of twist angles down to 1.6 ∘ (5044-atom unit cell), and report the evolution of e-ph interactions and phonon-limited resistivity with twist angle. The predicted resistivity increases by two orders of magnitude between 13.2 ∘ and 1.6 ∘ , driven by the progressive reduction of the electronic energy scale. Our calculations can predict key experimental trends in 2.0 ∘ and 1.6 ∘ TBG, including the resistivity and its dependence on temperature and band filling. Our work establishes a scalable approach for quantitative studies of e-ph interactions and transport in moiré materials and other systems with previously inaccessible length scales.",
+      "source": "npj Quantum Materials",
+      "category": "research",
+      "date": "2026-11-13",
+      "author": "David Abramovitch, Marco Bernardi",
+      "fetched_at": "2026-11-14T13:18:13+00:00",
+      "doi": "https://doi.org/10.1038/s41535-026-00952-x",
       "open_access": true
     },
     {
@@ -6018,119 +6135,11 @@
       "author": "Steven Abel, Michael Spannowsky, Simon Williams",
       "fetched_at": "2026-10-26T04:13:28+00:00",
       "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.32841v1",
-      "title": "Hardware-Friendly Estimation of LCU-Based Expectation Values via Quantum-to-Classical Workload Shifting",
-      "url": "https://arxiv.org/abs/2610.32841v1",
-      "summary": "Estimating the expectation value of an observable $O$ for a quantum state evolved under a general, possibly non-unitary, operator $A$ is a fundamental task in quantum simulation, chemistry, and variational algorithms. Existing linear-combination-of-unitaries (LCU) approaches implement $A$ on hardware, requiring ancilla qubits, controlled unitaries and, in randomized variants, fresh circuit executions for every Monte Carlo sample. These costs are prohibitive on NISQ and early fault-tolerant devices. We propose HERMES (Hardware-Efficient Reusable Measurements for Estimating LCU-based expectation valueS), which moves the processing of $A$ entirely to the classical domain. Expanding $A$ and $O$ in the Pauli basis and sampling pairs of Pauli terms classically, HERMES rewrites $μ= \\mathrm{Tr}(OAρA^{\\dagger})/\\mathrm{Tr}(AρA^{\\dagger})$ as a ratio of weighted sums of Pauli expectation values on the unmodified state $ρ$, with no ancillas, controlled unitaries, or quantum implementation of $A$. A two-level measurement reduction scheme (Pauli deduplication and commuting-group partitioning) bounds the number of distinct measurement settings independently of the sample count, unlike randomized LCU methods whose circuit executions grow linearly with it. On ground-state energy estimation of $\\mathrm{H}_2$ and $\\mathrm{LiH}$ via imaginary-time evolution, HERMES matches or beats Pauli single-ancilla LCU baseline using shallow circuits with no two-qubit gates beyond state preparation under qubit-wise commuting grouping. It is also more robust to noise and completes a noisy $\\mathrm{LiH}$ simulation infeasible for the baseline, at the cost of classical overhead growing with the number of Pauli terms in $A$.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-23",
-      "author": "Hari Hara Suthan Chittoor, Thirumalai Manimaran",
-      "fetched_at": "2026-10-26T04:13:28+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.32838v1",
-      "title": "Modular optical fault-tolerant quantum computation via an interface between verified resources and online logical operations",
-      "url": "https://arxiv.org/abs/2610.32838v1",
-      "summary": "We introduce a factory--processor interface architecture for modular optical fault-tolerant quantum computation that separates code-dependent encoded-resource preparation from reusable online logical processing on a common Gaussian optical processor. Beyond encoded resources, the interface specifies logical outputs, code-to-mode mapping, measurement roles, frame updates, verification records, and resource-injection boundaries. As a concrete realization, we combine an offline verified Bell-resource factory based on a recursively concatenated $C_4$ code with physical Gottesman--Kitaev--Preskill (GKP) qubits with an online time-domain measurement-based quantum computation (MBQC) processor. Under the specified additive-displacement-noise model and fixed postselection policy, simulations support the finite-level logical Bell-error ordering $P_5<P_4<P_3<P_2$ at 12.25 dB of effective GKP displacement-noise quality, both with and without the prescribed additional post-injection displacement noise. At 15.6 dB and $L=2$, a separate fixed-sample evaluation gives one-sided 95$\\%$ Clopper--Pearson upper bounds below $10^{-5}$ for both conditions under the binomial model. The interface supports address-tracked injection, transversal CNOT and logical Bell-measurement constructions, and logical SWAP and Hadamard constructions with tracked code permutations. Given advance resource preparation and sufficient routing parallelism, increasing the concatenation level expands parallel encoded-resource width without increasing the protected online sequence length of these constructions. These results identify a modular route to lower logical error rates while retaining a common Gaussian MBQC operation set with shallow online processing.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-23",
-      "author": "Kosuke Fukui, Takaya Matsuura, Yohji Chin, Shohei Kiryu et al.",
-      "fetched_at": "2026-10-26T04:13:28+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.32828v1",
-      "title": "Quantum Index Report 2026",
-      "url": "https://arxiv.org/abs/2610.32828v1",
-      "summary": "The MIT Quantum Index Report 2026 provides a comprehensive, data-driven assessment of the evolving quantum-technology landscape. As quantum technologies progress from scientific promise toward practical deployment, decision-makers need clear, accessible measures of technical capability, investment, workforce development, policy and public engagement. This second edition expands and updates the Quantum Index Report's analysis of quantum computing and networking. It tracks developments across research, industry, education, government and society. Drawing on academic, commercial, and policy sources, the report synthesizes trends and visualizes change over time to support informed comparison and discussion. The Quantum Index Report is intended as a nonpartisan public resource for business leaders, educators, policymakers, researchers and the broader public. Its aim is to reduce the complexity of a rapidly changing field while clarifying both its opportunities and remaining challenges.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-23",
-      "author": "Jonathan Ruane, Elif Kiesow, Carl Dukatz, Laura Converso",
-      "fetched_at": "2026-10-26T04:13:28+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.31632v1",
-      "title": "What does quantum parameter estimation estimate? A no-go result for true quantity values",
-      "url": "https://arxiv.org/abs/2610.31632v1",
-      "summary": "We examine the conditions under which quantum parameter estimation is compatible with the concept of a ``true'' quantity value: a unique value of the estimated quantity that exists prior to and independently of measurement. While quantum parameter estimation typically assumes that the quantity to be estimated is a parameter, we argue that this assumption can be lifted, opening the way to a more general formulation of estimation that may apply even in situations where the quantity to be estimated is no longer a parameter, but instead a quantum variable susceptible to quantum fluctuations. We identify three assumptions that characterize the way estimation is often presented in the quantum metrology literature, namely, as a procedure for inferring an unknown ``true value\", which is assumed to be unique and to exist prior to and independently of measurement. Using our more general framework, we prove a no-go theorem showing that the preceding assumptions are jointly incompatible with two further assumptions: the completeness of the quantum state (no `hidden variables'), and the presence of entanglement between the probe systems and the system under measurement. We note that the presence of such entanglement is a generic prediction of standard quantum theory. Consequently, if one is not willing to accept hidden variables, nor willing to modify standard quantum theory by introducing a new physical mechanism that destroys entanglement at some scale or regime, then a realist account of estimation is ultimately impossible.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-22",
-      "author": "Jacques L. Pienaar, Eran Tal, Asya Ciftci",
-      "fetched_at": "2026-10-24T14:12:33+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.31591v1",
-      "title": "Screening strongly correlated materials in solid oxide cells with quantum simulation",
-      "url": "https://arxiv.org/abs/2610.31591v1",
-      "summary": "We develop an end-to-end framework for assessing a quantum-computing application in industrial materials science: the screening of strongly correlated oxygen-electrode materials for SOFCs and SOECs. We formulate the materials problem in terms of interface observables including oxygen-vacancy formation energies, vacancy migration barriers, and electronic conductivity. We describe how these observables can be obtained using a diagrammatic GW-based embedding, either GW+DMFT or self-energy embedding theory (SEET), applied to a DFT-screened shortlist. The atomistic electrode/electrolyte interface defines the electronic structure problem from which the correlated impurity models are constructed. Quantum impurity solvers would provide the finite-temperature impurity Green's functions required by the embedding. The computational challenges that classical solvers may encounter as the interacting active space grows, together with the polynomial scaling of quantum Hamiltonian simulation for efficiently represented discretized models, open an opportunity for quantum advantage. We identify the benchmarks needed to assess this opportunity through convergence of vacancy and migration energetics and comparison with the best applicable classical solvers. We provide illustrative logical qubit counts and identify the thermal state preparation, simulation, measurement, and repeated-solve costs needed for a complete resource assessment. We connect microscopic observables to macroscopic engineering metrics using a continuum model for mixed ionic--electronic conducting oxygen electrodes that couples oxygen surface exchange, solid-state oxygen transport, electrode microstructure, and finite electrode thickness. Finally, we estimate the potential worldwide business value of improved electrode m",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-22",
-      "author": "Ouns El Harzli, Jelle Bor, Linde Wester, Leonid Zhukov et al.",
-      "fetched_at": "2026-10-24T14:12:33+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.31580v1",
-      "title": "Mixed State Deep Thermalization under Generic Quantum Errors",
-      "url": "https://arxiv.org/abs/2610.31580v1",
-      "summary": "Pure-state deep thermalization predicts that, after sufficient scrambling, projected ensembles approach universal distributions that contain information beyond the reduced density matrix. In realistic quantum systems, however, noise is unavoidable and the projected states are generally mixed. Whether mixed-state deep thermalization admits an analogous universal limiting distribution has remained unclear. Here we answer this question for quantum dynamics containing local quantum channels, i.e., errors. We show that the late-time mixed-state projected ensemble is completely determined by the normalized Choi state of the error channel and is universal, independent of the microscopic details of the underlying unitary dynamics. We establish this result analytically for dual-unitary circuits, global Haar-random dynamics, and local Haar-random circuits at large local dimension, and verify it numerically in qubit circuits and kicked Ising dynamics. In a solvable setting, we further find exponentially fast convergence to the limiting ensemble. Our results extend deep thermalization to noisy quantum dynamics and establish a direct correspondence between quantum errors and universal random mixed-state ensembles.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-22",
-      "author": "Xie-Hang Yu, Pavel Kos",
-      "fetched_at": "2026-10-24T14:12:33+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.31571v1",
-      "title": "Size-independent Logarithmic Sobolev Inequalities for Quantum Gibbs Samplers",
-      "url": "https://arxiv.org/abs/2610.31571v1",
-      "summary": "We propose a new method for proving $L^2$ and modified logarithmic Sobolev inequalities with constants independent of system size for quantum Gibbs samplers whose Lindblad generators satisfy Kubo-Martin-Schwinger (KMS) detailed balance. We first establish the $L^2$ logarithmic Sobolev inequality by transporting it along a temperature-dependent path from the infinite-temperature product state to the target Gibbs state while maintaining a size-independent decay rate for the sandwiched Rényi-2 divergence. A tensor-power argument, combined with the quantum asymptotic equipartition property, then transfers this decay bound to relative entropy, yielding the modified logarithmic Sobolev inequality. This approach provides a general framework for proving size-independent logarithmic Sobolev inequalities for quantum Gibbs samplers. We apply it to two regimes: one-dimensional quantum spin chains at every finite temperature, and finite-range quantum spin systems at sufficiently high temperature in any fixed dimension.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-22",
-      "author": "Hongrui Chen, Zhiyan Ding, Jianfeng Lu",
-      "fetched_at": "2026-10-24T14:12:33+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.31554v1",
-      "title": "ArcTN: Efficient Tensor-Network Contraction Planning for Quantum Circuit Simulation",
-      "url": "https://arxiv.org/abs/2610.31554v1",
-      "summary": "Tensor-network simulation of quantum circuits depends on contraction orders with low computational cost and small intermediate tensors, found without excessive planning time. We present ArcTN, a contraction-order optimization framework with two search presets. Light keeps planning overhead low, and Heavy spends more effort on refinement. Both combine randomized-greedy construction, subtree reconfiguration, and parallel tempering with stage-specific stopping rules. ArcTN also provides Fixed and Dynamic slicing to meet tensor-size limits and executes the returned orders. On the 30 QC32 quantum-circuit networks completed by all eight compared configurations, Light reduces FLOPs by 61.32% and plans 1.62$\\times$ faster than Cotengra Auto/CMA-ES, and Heavy reduces FLOPs by 43.83% and plans 7.21$\\times$ faster than Cotengra AutoHQ/Optuna. Heavy also needs 11.85% fewer FLOPs than OMECO TreeSA-8 and plans 1.33$\\times$ faster. Dynamic slicing meets the size limits in all 90 runs on 18 scalar-output networks and reduces total sliced FLOPs by 31.99% relative to Fixed slicing, at the cost of longer planning. With a common NumPy executor, Heavy has the lowest combined planning and execution time among five configurations on the runs that all of them completed. On 672 networks built from 320 MQT Bench circuits, Heavy obtains the lowest geometric-mean FLOPs on the 142 large networks while planning 3.1$\\times$ and 31$\\times$ faster than Cotengra AutoHQ and Hyper128.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-22",
-      "author": "Zhengyi Liu, Li Liu, Songtao Liu, Xianglong Liu et al.",
-      "fetched_at": "2026-10-24T20:32:20+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.31515v1",
-      "title": "Problem-aware sampling for bias and variance reduction in randomised Hamiltonian simulation",
-      "url": "https://arxiv.org/abs/2610.31515v1",
-      "summary": "Randomised quantum simulation algorithms such as qDRIFT reduce circuit depth by replacing deterministic product formulas with stochastic compilations, but achieving high accuracy can require many steps. In vanilla qDRIFT, Hamiltonian terms are sampled with probabilities proportional to their coefficient magnitudes. We propose StateDRIFT, a variant of qDRIFT which optimises its sampling distribution to estimate time-evolved quantities using knowledge of the initial state and target observable, with a provable truncation bound that keeps qDRIFT's guarantees. The distribution at each depth is chosen by solving an optimisation problem targeting bias and/or variance. StateDRIFT can significantly reduce the bias and variance of estimators, and hence circuit depth, which we test on short-time dynamics of lattice models and molecules under Jordan-Wigner up to 18 qubits. For example, with BeH2 StateDRIFT can reduce the number of two-qubit gates required to achieve a given accuracy from 11,201 to 983. StateDRIFT involves measuring observables and commutators on the initial state, so we propose two practical ways to estimate these: classical surrogates such as tensor networks, and classical shadows, which recover most or all of the saving from exact oracles in the systems tested.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-22",
-      "author": "Brian Coyle, Jonathan H. Fetherolf, Antonio Márquez Romero, Stefano Scali et al.",
-      "fetched_at": "2026-10-24T20:32:20+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
     }
   ],
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 9
   }
 }
