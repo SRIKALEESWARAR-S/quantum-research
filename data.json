@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-14T22:12:05+00:00",
+  "updated_at": "2026-11-15T05:52:07+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -170,6 +170,32 @@
       "author": "Reuben Kwabla Adigbli",
       "fetched_at": "2026-11-06T22:55:45+00:00",
       "doi": "",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1021/acs.jctc.6c00944",
+      "title": "Functional and Density-Driven Errors in Density Functional Theory: Quantum Monte Carlo Benchmarks for Solids",
+      "url": "https://doi.org/10.1021/acs.jctc.6c00944",
+      "summary": "Abstract We introduce a systematic analysis of density functional approximation errors in solids by separating functional-driven from density-driven contributions using quantum Monte Carlo densities of silicon, sodium chloride, and copper as reference. Typically, functional errors dominate, but we identify important exceptions where the xc component of the density-driven error exceeds the functional error, notably for SOGGA11 in the semiconductor and the insulator. Material dependence is striking: 61% of functionals show error cancellation in silicon versus 16% in copper, and only five functionals surpass LDA accuracy for metallic copper even with exact densities. For silicon and sodium chloride, GILL or BECKE exchange combined with PBE, PW91, or P86 correlation achieves near-exact xc energies on QMC densities, while copper requires specialized functionals like PBEsol or PBELYP. High-quality densities consistently reduce density-driven errors across all systems. Historical analysis reveals that 1990s GGA functionals outperform many modern meta-GGAs, contradicting expectations of systematic improvement along Jacob’s ladder. These results provide practical guidance for functional selection and highlight implications for machine learning potential development, where material-dependent error cancellation may compromise transferability.",
+      "source": "Journal of Chemical Theory and Computation",
+      "category": "research",
+      "date": "2026-11-14",
+      "author": "Ayoub Aouina, Nicolas Tancogne-Dejean, Silvana Botti",
+      "fetched_at": "2026-11-15T05:52:06+00:00",
+      "doi": "https://doi.org/10.1021/acs.jctc.6c00944",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.5281/zenodo.24209412",
+      "title": "Chinthaka-Gemini Theory (CGT): Deterministic Quantitative Resolution of the Cosmological Lithium Problem (Primordial ^7\\text{Li} Deficit at 5.3\\sigma and ^6\\text{Li} Plateau Overabundance), the Stellar Destruction Fallacy, and Big Bang Nucleosynthesis (BBN) Breakdown via Nuclear Data Packaging Dynamics (CGEq05), Alpha-Cluster Gravitronic Saturation, and CGEq18 Primordial Genesis Mechanics",
+      "url": "https://doi.org/10.5281/zenodo.24209412",
+      "summary": "Chinthaka-Gemini Theory (CGT): Deterministic Quantitative Resolution of the Cosmological Lithium Problem (Primordial ^7\\text{Li} Deficit at 5.3\\sigma and ^6\\text{Li} Plateau Overabundance), the Stellar Destruction Fallacy, and Big Bang Nucleosynthesis (BBN) Breakdown via Nuclear Data Packaging Dynamics (CGEq05), Alpha-Cluster Gravitronic Saturation, and CGEq18 Primordial Genesis Mechanics Chinthaka Maddumarachchi^{1} and Gemini Maddumarachchi (Sudu Manika)^{2} Chinthaka-Gemini Universal Research Laboratory ORCID: 0009-0003-2416-5686 Zenodo Compendium Research Milestone #74 Abstract The Cosmological Lithium Problem represents one of the most stubborn, severe, and persistent anomalies in modern physical cosmology and nuclear astrophysics. While Standard Big Bang Nucleosynthesis (SBBN), parameterised by Planck Cosmic Microwave Background (CMB) baryon acoustic measurements (baryon-to-photon ratio \\eta_{10} = 6.104 \\pm 0.058), exhibits immaculate agreement with observed primordial abundances of Deuterium (D/H \\approx 2.54 \\times 10^{-5}) and Helium-4 (Y_p \\approx 0.245), it catastrophically over-predicts the primordial abundance of Lithium-7 by a factor of approximately 3 (a 5.3\\sigma statistical tension against the Spite plateau value [^7\\text{Li}/H] = (1.58 \\pm 0.11) \\times 10^{-10} observed in unevolved metal-poor galactic halo stars). Concurrently, spectroscopic observations indicate an unexpected plateau of Lithium-6 (^6\\text{Li}/^7\\text{Li} \\sim 0.05), exceeding SBBN predictions by three orders of magnitude (10^3). For four decades, conventional physics has attempted to resolve this dual crisis by invoking ad-hoc stellar rotational mixing, non-standard nuclear cross-section resonances, or decaying supersymmetric dark matter particles—all of which fail empirical bounds ",
+      "source": "Zenodo (CERN European Organization for Nuclear Research)",
+      "category": "research",
+      "date": "2026-11-14",
+      "author": "Chinthaka Maddumarachchi, Gemini Maddumarachchi",
+      "fetched_at": "2026-11-15T05:52:06+00:00",
+      "doi": "https://doi.org/10.5281/zenodo.24209412",
       "open_access": true
     },
     {
@@ -6111,35 +6137,11 @@
       "author": "Bohnishikha Ghosh, Chithra Raj, Shubhayan Sarkar",
       "fetched_at": "2026-10-26T04:13:28+00:00",
       "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.32908v1",
-      "title": "Nonclassicality from Incomplete Fock-State Statistics",
-      "url": "https://arxiv.org/abs/2610.32908v1",
-      "summary": "Nonclassicality in bosonic systems can be certified directly from occupation probabilities without full state reconstruction. To complete a library of such criteria we introduce a numerical framework that constructs optimal linear nonclassicality witnesses from arbitrary subsets of measured occupation probabilities by solving a semi-infinite linear program. The method contains known analytical criteria as special cases while generally detecting substantially larger nonclassical regions. We provide an open-source implementation of the numerical optimization together with the analytical criteria discussed here, enabling direct application of the framework to measured occupation statistics across bosonic platforms. As a case study, we apply it to the resonant Jaynes--Cummings model with thermal states and reveal nonclassicality at short interaction times and close to thermal balance, where detection of nonclassicality is otherwise challenging.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-23",
-      "author": "Martin Žonda, Pavel Baláž, Lukáš Lachman, Darren W. Moore et al.",
-      "fetched_at": "2026-10-26T04:13:28+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.32882v1",
-      "title": "Fermion Scattering on Quantum Computers",
-      "url": "https://arxiv.org/abs/2610.32882v1",
-      "summary": "Resonant scattering links particle interactions to the formation and decay of unstable excitations. We develop a hybrid quantum-computing framework to study these dynamics through fermion--antifermion collisions. Our formulation of $(1+1)$-dimensional Yukawa theory encodes fermions in qubits and the scalar field in qumodes. We identify the operations needed for a photonic implementation and benchmark the dynamics with tensor-network simulations. Near resonance, we resolve the build-up of a localised scalar excitation and the subsequent partial return of energy to the fermions. Enhanced entanglement accompanies this exchange. Time-dependent correlator measurements reproduce the analytically predicted decay rate to a few percent precision, with energy scans exhibiting a resonance peak consistent with packet-averaged Breit--Wigner behaviour. These results establish a concrete scattering benchmark for hybrid quantum computers and demonstrate how local real-time observables can probe particle-resonance dynamics.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-23",
-      "author": "Steven Abel, Michael Spannowsky, Simon Williams",
-      "fetched_at": "2026-10-26T04:13:28+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
     }
   ],
   "refresh": {
-    "sources_succeeded": 2,
+    "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 2
   }
 }
