@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-15T13:45:52+00:00",
+  "updated_at": "2026-11-15T22:40:45+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -196,6 +196,123 @@
       "author": "Chinthaka Maddumarachchi, Gemini Maddumarachchi",
       "fetched_at": "2026-11-15T05:52:06+00:00",
       "doi": "https://doi.org/10.5281/zenodo.24209412",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/s40687-026-00667-2",
+      "title": "A characteristic-graph reduction for deterministic L-system inference with classical and quantum-heuristic solvers",
+      "url": "https://doi.org/10.1007/s40687-026-00667-2",
+      "summary": "Abstract L-systems can be made to model and create simulations of many biological processes, such as plant development. Finding an L-system for a given process is typically solved by hand, by experts, in a massively time-consuming process. It would be significant if this could be done automatically from data, such as from sequences of images. In this paper, we are interested in inferring a particular type of L-system, deterministic context-free L-system (D0L-system) from a sequence of strings. We introduce the characteristic graph of a sequence of strings, which we then utilize to translate our problem (inferring D0L-systems) in polynomial time into the maximum independent set problem (MIS) and the SAT problem. After that, we offer a classical exact algorithm and an approximate quantum algorithm for the problem.",
+      "source": "Research in the Mathematical Sciences",
+      "category": "research",
+      "date": "2026-11-14",
+      "author": "Ali Lotfi, Ian McQuillan, Steven Rayan",
+      "fetched_at": "2026-11-15T22:40:44+00:00",
+      "doi": "https://doi.org/10.1007/s40687-026-00667-2",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1093/mnras/stag2032",
+      "title": "Benchmarking AI-evolved cosmological structure formation",
+      "url": "https://doi.org/10.1093/mnras/stag2032",
+      "summary": "Abstract The potential of deep learning-based image-to-image translations has attracted significant attention as a fast, approximate alternative to cosmological simulations, which would be particularly useful in various contexts, including covariance studies, investigations of systematics, and cosmological parameter inference. We model the evolution of structure formation using U-Net, a widely employed convolutional image translation framework with previous applications in cosmology. To study aspects of learning-based cosmological mappings in a controlled, illustrative setting, we use two approaches for generating suitable cosmological matter fields as datasets: a simple analytical prescription provided by the Zel’dovich approximation, and a standard N-body method using Particle-Mesh simulations. We apply established metrics such as matter power spectra and bispectra, topological indicators, and statistical independence of density fields and study their reproducibility and convergence properties. The U-Net approach performs well only for some of these physical metrics, and accuracy is worse at more nonlinear scales, where the dynamic range in density is larger. Motivated by field-level emulator studies utilizing Eulerian-aware loss functions and beyond pixel-wise mean squared errors, we examine a density-weighted objective. In the PM tests ending at z = 4, where the evolution is only mildly nonlinear, using the Eulerian matter density evaluated at each particle position as a direct weight on that particle’s Lagrangian displacement error improves the U-Net results at smaller scales; this result does not establish comparable accuracy in the strongly nonlinear low-redshift regime.",
+      "source": "Monthly Notices of the Royal Astronomical Society",
+      "category": "research",
+      "date": "2026-11-14",
+      "author": "Xiaofeng Dong, Nesar Ramachandra, Salman Habib, Katrin Heitmann",
+      "fetched_at": "2026-11-15T22:40:44+00:00",
+      "doi": "https://doi.org/10.1093/mnras/stag2032",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1007/s41365-026-02085-z",
+      "title": "Correlation between nuclear isospin asymmetry and α-particle preformation probability for superheavy nuclei from a Bayesian inference",
+      "url": "https://doi.org/10.1007/s41365-026-02085-z",
+      "summary": "",
+      "source": "Nuclear Science and Techniques",
+      "category": "research",
+      "date": "2026-11-14",
+      "author": "Xiaoyu Zhu, Hao Zhang, Wei Gao, Wen-Jing Xing et al.",
+      "fetched_at": "2026-11-15T22:40:44+00:00",
+      "doi": "https://doi.org/10.1007/s41365-026-02085-z",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1038/s41534-026-01424-7",
+      "title": "CryoCMOS RF multiplexer for superconducting qubit control, readout and flux biasing at millikelvin temperatures with picowatt power consumption",
+      "url": "https://doi.org/10.1038/s41534-026-01424-7",
+      "summary": "Large-scale cryogenic quantum systems are constrained by an input–output bottleneck between room-temperature electronics and millikelvin stages, particularly in superconducting qubit platforms. This bottleneck is most acute for output lines, where bulky and expensive microwave components limit scalability. A promising approach for scalable characterization and testing is to perform signal multiplexing directly at the qubit plane. We demonstrate a cryogenic CMOS (cryoCMOS) RF multiplexer operating at 10 millikelvin with record-low static power consumption of 200 pW. The device provides 30 dB isolation across DC-8 GHz. Direct connection to transmon qubits marginally affects coherence times in the range of 100 µs, enabling multiplexing of readout, flux and, in principle, XY drive lines. This work introduces cryoCMOS multiplexers as valuable tools for scalable, high‑throughput cryogenic characterization and testing, and advances co‑integrated quantum-classical control for future large-scale quantum processors.",
+      "source": "npj Quantum Information",
+      "category": "research",
+      "date": "2026-11-14",
+      "author": "Liam Fallik, Sriram Balamurali, Alican Çağlar, Rohith Acharya et al.",
+      "fetched_at": "2026-11-15T22:40:44+00:00",
+      "doi": "https://doi.org/10.1038/s41534-026-01424-7",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1140/epjp/s13360-026-08405-x",
+      "title": "Three advanced lectures on inflation",
+      "url": "https://doi.org/10.1140/epjp/s13360-026-08405-x",
+      "summary": "",
+      "source": "The European Physical Journal Plus",
+      "category": "research",
+      "date": "2026-11-14",
+      "author": "Martin S. Sloth",
+      "fetched_at": "2026-11-15T22:40:44+00:00",
+      "doi": "https://doi.org/10.1140/epjp/s13360-026-08405-x",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1111/jmi.70200",
+      "title": "From London to Morse via Binnig, Quate, and Gerber",
+      "url": "https://doi.org/10.1111/jmi.70200",
+      "summary": "Summary In their landmark paper introducing the atomic force microscope [Phys. Rev. Lett. 56 , 930 (1986)], Binnig, Quate, and Gerber presciently anticipated that the technique would ultimately be capable of probing interactions running the gamut from weak van der Waals interactions to strong covalent bonding. They also highlighted that the tip‐sample forces central to AFM are present, and often highly influential, in scanning tunnelling microscopy; indeed, this realisation directly inspired the invention of the force microscope. In this perspective for the Forty Years of AFM special issue, we review selected aspects of two decades of work from our group at the University of Nottingham that span the force range highlighted by BQG and are united by a common, central theme: the probe as active participant rather than passive observer. Our selection of results also covers length and correlation scales from the microscopic right down to the single chemical bond limit, tracking a spectrum of interactions from van der Waals/Hamaker forces, through hydrogen bonding, to covalent bonds and, finally, atom‐by‐atom assembly of metal clusters via vertical tip‐sample transfer. Echoing BQG's own observations on the prevalence of probe‐sample forces in STM, we also discuss recent evidence that tip‐induced heterogeneity underpins first‐passage dynamics in molecular diffusion and highlight the challenges in acquiring non‐invasive measurements of diffusion barriers for adsorbed molecules that are readily perturbed by the probe. We close with a perspective on machine learning's growing role in automating tip‐driven atomic and molecular manipulation.",
+      "source": "Journal of Microscopy",
+      "category": "research",
+      "date": "2026-11-14",
+      "author": "Sofia Alonso Perez, Matthew O. Blunt, Frederick Carlisle, Neil R. Champness et al.",
+      "fetched_at": "2026-11-15T22:40:44+00:00",
+      "doi": "https://doi.org/10.1111/jmi.70200",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1108/jm2-06-2026-0347",
+      "title": "Hybrid intelligent modeling for calibrated business and financial risk classification: a decision-support perspective",
+      "url": "https://doi.org/10.1108/jm2-06-2026-0347",
+      "summary": "Purpose This study aims to develop a calibration-aware hybrid framework for large-scale business and financial risk classification, addressing heterogeneous features, nonlinear relationships, temporal distribution shifts, class imbalance and unreliable probability estimates. Design/methodology/approach The hybrid multi-agent quantum neural transformer (H–MAQNT) combines a tabular transformer, domain-specialized variational quantum neural network (VQNN) agents and adaptive attention-based fusion. It uses leakage-controlled preprocessing, domain-informed features, imbalance-aware training, validation-only model selection and calibration and quantum-aware multi-fidelity Bayesian optimization (QMFBO) for cost-aware tuning. Findings On temporally held-out LendingClub and IEEE–CIS future test periods, H–MAQNT outperforms strong gradient-boosted, neural and transformer-based baselines in discrimination and probability quality. It improves the receiver operating characteristic area under the curve (ROC–AUC) by approximately 1.1–1.3 percentage points over the strongest Transformer-based baselines, lowers expected calibration error (ECE) on both data sets and reduces high-fidelity optimization evaluations by 35% relative to single-fidelity Bayesian optimization. Research limitations/implications The evidence is based on two public data sets and classically simulated quantum circuits. Future work should test additional institutions, rolling time windows, physical hardware and prospective drift and recalibration policies. Practical implications Calibrated risk probabilities may support fraud-alert prioritization, risk ranking, threshold setting, and secondary review, helping institutions weigh predictive gains against computational cost. For LendingClub, the inclusion of loan grade",
+      "source": "Journal of Modelling in Management",
+      "category": "research",
+      "date": "2026-11-14",
+      "author": "Somayeh Mohebi, Javad Mohebbi Najm Abad, Maryam Nazarabadian, Mohammad Reza Mohebbi",
+      "fetched_at": "2026-11-15T22:40:44+00:00",
+      "doi": "https://doi.org/10.1108/jm2-06-2026-0347",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.5281/zenodo.24220067",
+      "title": "\"量子可分悖论\"在量子信息工程中的本体论支撑——兼论连续幻象与物理底线的重构 (The Ontological Support of the \"Quantum Divisibility Paradox\" in Quantum Information Engineering)",
+      "url": "https://doi.org/10.5281/zenodo.24220067",
+      "summary": "摘要 《永哲学》V3版提出的“量子可分悖论”指出:物理不可无限细分,空间与能量存在最小尺度。这一论断并非试图推翻量子力学公理,而是确立了宇宙的“本体论边界”。本文将该悖论从基础物理疑难转化为量子信息工程的“边界护栏”。研究指出,最小尺度约束不仅为量子场论的紫外发散提供了本体论正则化,更构成了量子密码学(QKD)防窃听、量子纠错防退相干的绝对物理底线。从BB84协议的不可克隆性,到表面码的最稳定体积,离散边界正是量子信息安全的真正来源。本文论证了:将连续数学幻觉还原为“点离散与绝对刻度”,是迈向容错量子计算与绝对安全通信的必由之路。 Abstract The \"Quantum Divisibility Paradox\" proposed in Yong Philosophy V3 asserts that physical entities cannot be divided infinitely, and that space and energy possess a minimal scale. This assertion does not aim to overturn quantum mechanical axioms, but rather establishes an \"ontological boundary\" of the universe. This paper transforms this paradox from a fundamental physics dilemma into an \"engineering guardrail\" for quantum information. We demonstrate that this minimal scale constraint not only provides ontological regularization for UV divergences in QFT, but also forms the absolute physical bottom line for anti-eavesdropping in QKD and anti-decoherence in quantum error correction. From the unclonability of the BB84 protocol to the stable volume of surface codes, the discrete boundary is the true source of quantum information security. This paper argues that reducing the mathematical illusion of continuum to \"point discreteness and absolute scale\" is the inevitable path toward fault-tolerant quantum computing and unconditionally secure communication.",
+      "source": "Zenodo (CERN European Organization for Nuclear Research)",
+      "category": "research",
+      "date": "2026-11-14",
+      "author": "Xiaohui Peng",
+      "fetched_at": "2026-11-15T22:40:44+00:00",
+      "doi": "https://doi.org/10.5281/zenodo.24220067",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1364/opticaopen.34968808",
+      "title": "Complex effective confinement factor of Gain-Dressed Modes for Reduced Linewidth and Chirp in VCSELs",
+      "url": "https://doi.org/10.1364/opticaopen.34968808",
+      "summary": "We show that, by separating current and optical confinement in a VCSEL, gain-dressed lasing modes can be induced, i.e., modes whose shape, emission frequency and losses depend on the gain distribution. Such modes experience non-Hermitian dynamics, described by a complex effective confinement factor, allowing reduced chirp and linewidth.",
+      "source": "OpenAlex",
+      "category": "research",
+      "date": "2026-11-14",
+      "author": "Martino D Alessandro",
+      "fetched_at": "2026-11-15T22:40:44+00:00",
+      "doi": "https://doi.org/10.1364/opticaopen.34968808",
       "open_access": true
     },
     {
@@ -6027,121 +6144,11 @@
       "fetched_at": "2026-10-24T14:12:32+00:00",
       "doi": "https://doi.org/10.1038/s41524-026-02363-9",
       "open_access": true
-    },
-    {
-      "id": "https://doi.org/10.1007/s40818-026-00252-4",
-      "title": "Sobolev Regularity of Compactified 3-Manifolds and the ADM Center of Mass",
-      "url": "https://doi.org/10.1007/s40818-026-00252-4",
-      "summary": "Abstract In this paper we address the existence of preferred asymptotic coordinates on asymptotically Euclidean (AE) manifolds $$(M^3,g)$$ ( M 3 , g ) such that g admits an asymptotically Schwarzschildian first order expansion, based purely on a priori geometric conditions, which will then be used to establish geometric criteria guaranteeing the convergence of the ADM center of mass (COM). This problem is analysed relating it to the study of the regularity of conformal compactifications of such manifolds, which is itself explored via elliptic theory for operators with coefficients of very limited regularity. With these related problems in mind, we first establish Sobolev regularity properties of conformally compactified AE 3-manifolds via the decay of the Cotton tensor, improving on previous results. This allows us to construct preferred asymptotic coordinates on such AE manifolds where the metric has a first order Schwarzschildian expansion, which in turn allows us to address a version of a conjecture posed by C. Cederbaum and A. Sakovich concerning the convergence of the COM of such manifolds.",
-      "source": "Annals of PDE",
-      "category": "research",
-      "date": "2026-10-23",
-      "author": "Rodrigo Ávalos",
-      "fetched_at": "2026-10-25T11:05:26+00:00",
-      "doi": "https://doi.org/10.1007/s40818-026-00252-4",
-      "open_access": true
-    },
-    {
-      "id": "https://doi.org/10.1088/1367-2630/aeb8b0",
-      "title": "Model predictive quantum control: A modular approach for efficient and robust quantum optimal control",
-      "url": "https://doi.org/10.1088/1367-2630/aeb8b0",
-      "summary": "Abstract Model predictive control (MPC) is one of the most successful modern control methods. It relies on repeatedly solving a finite-horizon optimal control problem and applying the beginning piece of the optimal input. In this paper, we develop a modular framework for improving efficiency and robustness of quantum optimal control (QOC) via MPC. We first provide a tutorial introduction to basic concepts of MPC from a QOC perspective. We then present multiple MPC schemes, ranging from simple approaches to more sophisticated schemes which admit stability guarantees. This yields a modular framework which can be used 1) to improve efficiency of open-loop QOC and 2) to improve robustness of closed-loop quantum control by incorporating feedback. We demonstrate these benefits with numerical results, where we benchmark the proposed methods against competing approaches.",
-      "source": "New Journal of Physics",
-      "category": "research",
-      "date": "2026-10-23",
-      "author": "Eya Guizani, Julian Berberich",
-      "fetched_at": "2026-10-25T11:05:26+00:00",
-      "doi": "https://doi.org/10.1088/1367-2630/aeb8b0",
-      "open_access": true
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.32974v1",
-      "title": "Maximal Orbital Entanglement from Non-Interacting Fermions",
-      "url": "https://arxiv.org/abs/2610.32974v1",
-      "summary": "Orbital rotations are used in quantum many-body physics and chemistry to reduce the complexity of quantum states by compressing their correlation into a small set of relevant orbitals. In striking contrast, quantum information processing strives for the opposite: orbitals that maximize entanglement as a resource. Motivated by this, we prove that Slater determinants of $N$ fermions on a lattice of $d_A + d_B = d$ sites, although free of particle correlation, can carry up to $\\min\\{d_A, d_B, N, d-N\\}$ ebits of orbital entanglement. Given enough particles and holes, this equals the maximum over all fermionic states. For arbitrary free states, we derive the maximal orbital total correlation in closed form for all bipartitions, the finest partition, and all partitions of up to five sites, using new majorization relations for Hermitian matrices. Taken together, these results turn mean-field states, the starting point of most many-body methods in physics and chemistry, into a viable resource for quantum information processing.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-23",
-      "author": "Damiano Aliverti-Piuri, Julia Liebert, Christian Schilling",
-      "fetched_at": "2026-10-26T04:13:28+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.32973v1",
-      "title": "Ideal interaction dynamics of defects and background fields in condensed matter",
-      "url": "https://arxiv.org/abs/2610.32973v1",
-      "summary": "While defect dynamics in condensed matter systems is widely studied and several methods are available to track the defect position over time, the formulation of dynamical models for the coupled evolution of both defect and background field quantities seems to be more challenging. Yet, the overall behavior of a system containing moving defects is strongly influenced by this defect-field interaction. Here, we propose a modeling framework for the conservative coupled evolution of the defect density and the background fields upon focusing on two relevant cases of study: the Gross-Pitaevskii theory of quantum fluids and the Ericksen-Leslie model of nematic liquid crystals. To achieve the coupled evolution, we combine the Euler-Poincaré variational setting of continuum dynamics with the gauge theory of topological defects. While the latter allows us to overcome certain ambiguities in definition of the defect density, the Euler-Poincaré method provides a unified modeling approach in the absence of defect reconnection.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-23",
-      "author": "François Gay-Balmaz, Tudor S. Ratiu, Cesare Tronci",
-      "fetched_at": "2026-10-26T04:13:28+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.32968v1",
-      "title": "Distributed Quantum-Centric Supercomputing with Multi-Layered Generative Learning for Intermolecular Interactions",
-      "url": "https://arxiv.org/abs/2610.32968v1",
-      "summary": "Quantum-centric supercomputing (QCSC) approaches, such as sample-based quantum diagonalization (SQD), combine quantum processors with high-performance computers (HPC), offering a promising route toward solving challenging electronic structure problems. However, implementation of QCSC approaches to large active space calculations is constrained by the associated number of qubits, deep quantum circuits, sampling cost, and large-scale Hamiltonian diagonalization. To overcome these limitations, we introduce a distributed QCSC framework that decomposes complex molecular problems into parallel sub-problems requiring fewer qubits, shallower circuits, and reduced shot budgets. A physically motivated, two-step aggregation scheme then reconstructs the global solution: first, a computational bit assignment strategy optimizes a cost function to appropriately map local bit indices to global ones, yielding a mapped tensor product state (MTPS); second, an inter-fragment correlation recovery module restores missing cross-fragment interactions. Herein, we employ a multi-layered generative machine learning architecture, starting with utilizing the recently proposed physics-informed generative SQD (PIGen-SQD) as a distributed QCSC solver, followed by a secondary generative module to model configuration distributions and identify dominant sectors of the global Hilbert space. For water and formamide dimers, our method achieves up to $95\\%$ reduction in the diagonalization dimension while enhancing energy accuracy by an order of magnitude over conventional SQD. Furthermore, application to the water hexamer ($\\mathrm{(H_2O)_6}$) cage successfully decomposes a 120-qubit problem into six 20-qubit monomeric subsystems, and stitches the monomers under a dimeric approximation, demonstrating excell",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-23",
-      "author": "Chayan Patra, Prayas Ghosh, Adwait Patkhedkar, Rahul Maitra",
-      "fetched_at": "2026-10-26T04:13:28+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.32946v1",
-      "title": "Low-frustration block encodings by patch routing",
-      "url": "https://arxiv.org/abs/2610.32946v1",
-      "summary": "Block-encoding has emerged as a core primitive in many quantum algorithms, including quantum simulation. In this work, we design efficient and extensible methods for generating low-frustration block encodings of frustrated lattice Hamiltonians built from repeated local interaction patches through a technique we call \"patch routing\". We construct block encodings for a full Hamiltonian by first block-encoding a small local patch and then using a SWAP-style routing network to coherently apply the local patch encoding across the lattice. The expensive, local block-encoding cost is paid only once per query and is independent of lattice size, whereas the comparatively inexpensive routing network grows linearly with the lattice size, dominating at large sizes. Our method allows for a hierarchical structure in which larger patches can be block-encoded with small normalization factors, albeit at a higher (local, non-extensive) block-encoding cost, thereby reducing overall query complexity in an algorithm. We exploit symmetries and algebraic structures in local interactions to construct efficient block encodings, and we apply these techniques to the Heisenberg, Fermi-Hubbard, and honeycomb spin-liquid models. For a $120\\times 120$ square-lattice $J_1$-$J_2$ Heisenberg model near maximal frustration ($J_2/J_1=0.4-0.6$), our methods result in a $15-17\\times$ reduction in the leading $T$ cost per qubitized-QPE run (ignoring initial state preparation and overlap) relative to prior state-of-the-art Pauli LCU constructions. Corresponding reductions are approximately $3\\times$ for the $120\\times120$ Fermi-Hubbard model at half-filling. For time evolution of the honeycomb spin-liquid model on $120\\times120$ unit cells, the leading cost is reduced by $5\\times$. Our framework provides a sy",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-23",
-      "author": "Minzhao Liu, Abeynaya Gnanasekaran, Ananth Kaushik, Siddharth Hariprakash et al.",
-      "fetched_at": "2026-10-26T04:13:28+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.32937v1",
-      "title": "Certain Quantum States Already Require Quantum Time Evolution",
-      "url": "https://arxiv.org/abs/2610.32937v1",
-      "summary": "Model-independent tests of quantum theory, such as Bell inequality violations, focus on static properties of the theory and do not rely on its dynamical aspects. Hence, this core part of quantum theory remains largely untested in a model-independent way. We show that the structure of quantum time evolution can be examined by testing the consistency between the state space and the dynamical laws. Considering a class of generalized phase-space theories, we find that certain quantum states can only be part of a theory if the time evolution is quantum: their evolution in anharmonic potentials would otherwise result in unphysical, negative marginal distributions. Furthermore, we demonstrate that the existence of the first excited state of a quantum harmonic oscillator is already sufficient to single out the Moyal bracket (quantum dynamics) to leading order in $\\hbar^2$. We outline how theory-independent Wigner tomography of this state can be used to empirically exclude nonquantum dynamical theories.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-23",
-      "author": "Joel D. Huber, Matthias Kleinmann",
-      "fetched_at": "2026-10-26T04:13:28+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.32936v1",
-      "title": "Generating entanglement in quantum matter with pathway-entangled photons via resonant inelastic X-ray scattering",
-      "url": "https://arxiv.org/abs/2610.32936v1",
-      "summary": "Resonant inelastic X-ray scattering (RIXS) is conventionally used to probe elementary excitations and correlations in quantum materials. Here, we propose an interferometric RIXS protocol that instead creates entanglement between spatially separated regions of a solid-state material. An incident X-ray photon is coherently split by a beam splitter into two arms illuminating opposite ends of a sample. Recombining the scattered photons at a second beam splitter and detecting an energy-selected photon then projects the material into a coherent superposition of excitations at the two ends. This protocol is the X-ray, solid-state analogue of the Duan-Lukin-Cirac-Zoller (DLCZ) heralding scheme. Using a Kramers-Heisenberg formalism with quantized photon modes, we show that orthogonal and degenerate end excitations yield maximally entangled states. We illustrate this mechanism in three models: (1) two decoupled sites yield a heralded Bell state. (2) An open tight-binding chain exhibits reflection-parity-dependent interference, providing a benchmark for the interferometer's coherence. (3) A spin-1 Haldane (AKLT) chain yields an entangled pair of fractionalized edge spins. We also discuss practical considerations and challenges for realizing the protocol in X-ray experiments.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-23",
-      "author": "Chunjing Jia, Valentin Walther, Laimei Nie",
-      "fetched_at": "2026-10-26T04:13:28+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.32923v1",
-      "title": "One-sided-DIQKD using any pure bipartite entangled state secure against all attacks",
-      "url": "https://arxiv.org/abs/2610.32923v1",
-      "summary": "Quantum Key Distribution (QKD) allows spatially separated parties to establish a secret key among themselves based on quantum principles. While QKD systems are being deployed worldwide, their reliance on trusted measurements makes them vulnerable. Moreover, existing protocols have largely focussed on the qubit cases, and rely on the maximally entangled state, a costly resource to generate. Here, we consider the one-sided-device-independent (1SDI) QKD protocols, where one of the measurement devices is trusted while the other is untrusted. The resource in this scenario is quantum steering, an asymmetric form of quantum nonlocality. This is inspired by a real-world scenario, where the trusted party can be considered to be a bank, or any large organisation that has sufficient resources to protect its systems and validate them, while the users are vulnerable to attacks. We then demonstrate that a secure key can be obtained using any pure bipartite entangled state in this setup. Considering realistic detectors and sources based on current technology, we demonstrate that even states that are almost separable can be used to extract a secure key. Moreover, for every pure entangled bipartite state, we find the critical detection efficiencies and visibility to obtain a secure key.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-23",
-      "author": "Bohnishikha Ghosh, Chithra Raj, Shubhayan Sarkar",
-      "fetched_at": "2026-10-26T04:13:28+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
     }
   ],
   "refresh": {
-    "sources_succeeded": 2,
+    "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 9
   }
 }
