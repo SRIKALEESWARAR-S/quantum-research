@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-16T15:24:15+00:00",
+  "updated_at": "2026-11-17T01:47:42+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -303,6 +303,19 @@
       "date": "2026-11-16",
       "author": "",
       "fetched_at": "2026-11-16T15:24:12+00:00"
+    },
+    {
+      "id": "https://doi.org/10.1007/s13226-026-01072-9",
+      "title": "Negative dependence as a toolbox for machine learning: review and new developments",
+      "url": "https://doi.org/10.1007/s13226-026-01072-9",
+      "summary": "",
+      "source": "Indian Journal of Pure and Applied Mathematics",
+      "category": "research",
+      "date": "2026-11-16",
+      "author": "Hoang-Son Tran, V. Petrovic, Rémi Bardenet, Subhroshekhar Ghosh",
+      "fetched_at": "2026-11-17T01:47:41+00:00",
+      "doi": "https://doi.org/10.1007/s13226-026-01072-9",
+      "open_access": true
     },
     {
       "id": "https://doi.org/10.1016/j.chaos.2026.119491",
@@ -6107,22 +6120,11 @@
       "date": "2026-10-24",
       "author": "",
       "fetched_at": "2026-10-24T20:32:19+00:00"
-    },
-    {
-      "id": "https://www.volynnews.com/news/all/zelenskyy-zaprovadyv-sanktsiyi-proty-vyrobnykiv-rosiyskoyi-balistyky",
-      "title": "Зеленський запровадив санкції проти виробників російської балістики",
-      "url": "https://www.volynnews.com/news/all/zelenskyy-zaprovadyv-sanktsiyi-proty-vyrobnykiv-rosiyskoyi-balistyky/",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "volynnews.com",
-      "category": "news",
-      "date": "2026-10-24",
-      "author": "",
-      "fetched_at": "2026-10-24T20:32:19+00:00"
     }
   ],
   "refresh": {
-    "sources_succeeded": 4,
+    "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 16
+    "new_items": 1
   }
 }
