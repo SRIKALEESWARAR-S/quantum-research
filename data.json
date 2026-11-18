@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-18T00:50:06+00:00",
+  "updated_at": "2026-11-18T15:27:04+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -210,6 +210,150 @@
       "fetched_at": "2026-11-17T15:46:49+00:00",
       "doi": "https://doi.org/10.1021/jacs.6c17007",
       "open_access": true
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.23227v1",
+      "title": "Expressivity of two-dimensional Gaussian fermion tensor network states",
+      "url": "https://arxiv.org/abs/2611.23227v1",
+      "summary": "Tensor network states (TNS) provide a family of efficiently compressed approximations to physically relevant many-body quantum states. An important quantity that characterizes the computational resources required by a TNS is its bond dimension. While in one dimension an area law for the Renyi-0 entropy guarantees an exact matrix product state representation with a bond dimension independent of the system size, an analogous statement does not hold for general states in two dimensions (2D). This leaves open the question of how the expressivity of 2D TNS is related to the entanglement properties of the states they represent. In this work, we focus on two families of 2D translation-invariant Gaussian fermionic states: single-band BCS superconductors and half-filled two-band insulators (including semimetals). For each family, we prove that an area law for the Renyi-0 entropy is equivalent to having an exact Gaussian fermionic TNS representation with a finite bond dimension determined by the Renyi-0 entropy. We also establish equivalent characterizations in terms of compactly supported Wannier-type orbitals and the momentum-space wavefunction, relating the spatial extent of these orbitals and the structure of the wavefunction to the required bond dimension.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-17",
+      "author": "Pok Man Tam, William Musk, Zhehao Dai",
+      "fetched_at": "2026-11-18T15:27:04+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.23224v1",
+      "title": "From nonlocal correlations to local symmetry breaking: Asymmetry dynamics of crosscap states",
+      "url": "https://arxiv.org/abs/2611.23224v1",
+      "summary": "Under unitary dynamics preserving a global symmetry, bipartite entanglement typically grows while an initially broken symmetry is locally restored. Here, we show that this conventional scenario can be reversed when symmetry-breaking coherence is initially encoded in long-range entanglement. We investigate this phenomenon in a family of charge deformed crosscap states, characterized by antipodal entangled pairs with tunable entanglement and symmetry breaking. We first characterize their static properties, finding a Page-like entanglement profile and an entanglement asymmetry that vanishes for subsystems smaller than half the system size, but grows logarithmically for larger subsystems. For symmetric subsystems, we also analyze the symmetry-resolved entanglement and investigate how it evolves as the subsystem is continuously deformed away from a symmetric partition. Following a quench to a free-fermion tight-binding chain, we uncover an unconventional dynamics in which the entanglement entropy decreases whereas the entanglement asymmetry increases, so that initially symmetric subsystems dynamically develop local symmetry breaking. This behavior is quantitatively captured by a quasiparticle picture describing the propagation of antipodal correlations. Our results reveal how symmetry-preserving dynamics can redistribute globally encoded symmetry-breaking coherence, making it locally accessible, and establish the initial entanglement structure as a key ingredient in determining the fate of local symmetries out of equilibrium.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-17",
+      "author": "Konstantinos Chalas, Pasquale Calabrese, Colin Rylands",
+      "fetched_at": "2026-11-18T15:27:04+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.23213v1",
+      "title": "Modeling quantum information scrambling in realistic protein NMR experiments",
+      "url": "https://arxiv.org/abs/2611.23213v1",
+      "summary": "Out-of-time-order correlators (OTOCs) are important probes of operator spreading and information scrambling, and have recently been proposed as a means of extracting molecular structural information through nuclear magnetic resonance (NMR). Realizing this potential requires accurate modeling of OTOCs in complex molecular environments within experimentally relevant settings. Here, we develop an end-to-end computational pipeline connecting molecular structures to OTOC dynamics in protein systems. Our framework incorporates molecular motion through molecular dynamics simulations, orientational averaging appropriate for powder samples, and spin-network truncation, using an experimentally realizable double-quantum effective Hamiltonian. We apply this framework to a dataset of over 350 carbon-carbon spin pairs across 10 protein systems, spanning interspin distances of 5-17 A. We find that OTOC arrival times scale approximately linearly with interspin distance, revealing system-dependent operator-spreading velocities that enable correlations to propagate over extended distances within milliseconds. Our sensitivity analysis further shows that individual OTOCs predominantly constrain a single structural parameter, primarily associated with interspin distance. Together, these findings highlight the potential of OTOCs to probe spatially extended spin correlations on timescales compatible with solid-state NMR experiments.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-17",
+      "author": "Alec F. White, Joseph Haslehurst, Daniel R. Moberg, Justin Provazza et al.",
+      "fetched_at": "2026-11-18T15:27:04+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.23207v1",
+      "title": "Local interference algorithms for observables in large random circuits",
+      "url": "https://arxiv.org/abs/2611.23207v1",
+      "summary": "In quantum dynamics, it is generally believed that interference effects lead to a sign problem for classical Monte Carlo sampling methods, rendering sampling ineffective. In this paper we show that this is generically not the case for the task of simulating the evolution of observables in random instances of circuit dynamics. Specifically, we consider two examples of observables which give large signals despite the randomness of the dynamics: first order out-of-time-ordered correlators (OTOCs) in unstructured random circuits without conservation laws and time-ordered charge-charge correlators (TOCs) in particle number-preserving random circuits. We show that these observables can be approximated by classical stochastic processes and that these approximations can be systematically improved with a series expansion that incorporates coherent corrections associated with clusters of gates. We design and implement algorithms that combine Monte Carlo sampling and tensor network methods to approximate the series. We observe numerically that the computational complexity of approximating TOCs and OTOCs scales polynomially in the circuit size and in the target precision. We study the accuracy of these algorithms by directly mapping their ensemble-averaged errors to partition functions of replica statistical models, allowing for perturbative analysis and numerics in $1$d brickwork geometries. Our theoretical analysis explains the empirical observation of polynomial complexity of these algorithms and is consistent with polynomial complexity extending to arbitrarily small precision and to the thermodynamic limit.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-17",
+      "author": "Philippe Suchsland, Brayden Ware, Vladislav D. Kurilovich, Vadim Smelyanskiy et al.",
+      "fetched_at": "2026-11-18T15:27:04+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.23196v1",
+      "title": "Nonlinearity-preserving quantum simulation of flows in the early fault-tolerant regime",
+      "url": "https://arxiv.org/abs/2611.23196v1",
+      "summary": "Ensemble prediction of nonlinear dynamics propagates a probability density whose linear transport equation retains the nonlinear drift, but grid-dependent circuit costs leave end-to-end feasibility in early fault-tolerant quantum computing unresolved. We couple polynomial reduced-order models fitted by sparse identification of nonlinear dynamics to Walsh-synthesized Koopman-von Neumann (KvN) transport and surface-code resource estimation. At fixed model dimension and drift degree, per-step transport rotation counts scale polylogarithmically with cells per reduced coordinate. Balancing model accuracy against circuit costs makes reduced-model polynomial degree a design variable for early fault-tolerant quantum simulation. For a cylinder wake approaching saturation, preparation, propagation and sampling to 1% relative root-mean-square field error against the radial model are estimated to take 1.62 h on about 560,000 physical qubits. Estimated three-coordinate wake runtimes span hours to weeks below one million qubits. IBM hardware experiments demonstrate nonlinear radial KvN transport for this wake, using reference circuits to mitigate noise.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-17",
+      "author": "Hansol Noh, Unam Oh, Sangkyu Baek, Doyeol et al.",
+      "fetched_at": "2026-11-18T15:27:04+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.23193v1",
+      "title": "Performance analysis of a Rydberg atom THz radiometer concept",
+      "url": "https://arxiv.org/abs/2611.23193v1",
+      "summary": "THz receiver technology lies between electronics and photonics; as such, its implementation is not as mature. This warrants investigation into alternative THz receivers such as Rydberg atom sensors, which are highly susceptible to electric fields. In particular, the conversion architecture has been demonstrated to coherently transduce thermal radiation. This system offers room-temperature operation and does not necessarily require a local oscillator at the frequency of the input signal. We provide an assessment of the feasibility of such sensors for THz radiometry within the context of Earth observation.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-17",
+      "author": "Richard J. Murchie, Petronilo Martin-Iglesias, Julian Hofmann, Christophe Buisset",
+      "fetched_at": "2026-11-18T15:27:04+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.23188v1",
+      "title": "Quantum amplification with a linear quantum coupler",
+      "url": "https://arxiv.org/abs/2611.23188v1",
+      "summary": "Josephson parametric amplifiers (JPAs) are essential components for quantum-limited microwave measurement, but their dynamic range is often constrained by Kerr and other pump-induced nonlinear effects. In this work, we systematically study the performance of a parametric amplifier based on the linear inductive coupler (LINC). Starting from the driven-circuit Hamiltonian, we derive the effective three-wave-mixing amplifier model, including leading flux-driven nonlinear corrections relevant to realistic operation. We analyze the resulting gain response, saturation behavior, and intermodulation distortion, comparing them with representative state-of-the-art JPA designs. Our results show that the symmetry-protected structure of the LINC suppresses static Kerr nonlinearity. Moreover, suitable circuit-parameter optimization can further reduce the dressed-squeezing and driven-Kerr effects, leading to considerable improvements in power-handling metrics. These results identify the LINC architecture as a promising platform for high-linearity Josephson parametric amplification.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-17",
+      "author": "Changqing Wang, Yao Lu",
+      "fetched_at": "2026-11-18T15:27:04+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.23186v1",
+      "title": "Integral Tensor Isomorphism via Cubic Rings and Lattice Methods",
+      "url": "https://arxiv.org/abs/2611.23186v1",
+      "summary": "We prove that isomorphism of integral $2\\times3\\times3$ tensors under $\\mathrm{GL}_2(\\mathbb{Z})\\times\\mathrm{GL}_3(\\mathbb{Z})\\times\\mathrm{GL}_3(\\mathbb{Z})$ is decidable in bounded-error quantum polynomial time. For a tensor $T=(A,B)$ with nonzero determinant form $\\det(xA-yB)$, we use the parametrization of Wood by balanced modules to reduce the isomorphism problem to principality tests for compatible lattices, and use the algorithms of Bley, Hofmann, and Johnston to solve this in BQP. When the determinant form vanishes identically, we get either an integral $2\\times2\\times2$ core, or a polynomial kernel vector of degree one or two. The linear-kernel case yields another compatible lattice problem, while the quadratic-kernel case reduces to a fixed system of polynomial congruences and unimodular lifting. A quantifier-elimination argument decides these congruences in deterministic polynomial time given the prime factorization of the modulus, which quantum integer factorization supplies. Finally, we show that zero padding preserves integral $2\\times2\\times2$ tensor isomorphism, yielding a polynomial-time reduction from real-quadratic principality to the identically singular $2\\times3\\times3$ problem.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-17",
+      "author": "Thomas Huffstutler",
+      "fetched_at": "2026-11-18T15:27:04+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.23165v1",
+      "title": "Teleportation of Logical Qubits using Lattice Surgery with Superconducting Circuits",
+      "url": "https://arxiv.org/abs/2611.23165v1",
+      "summary": "Demonstrating a quantum advantage when solving large-scale computational problems on a quantum computer requires the correction of errors that occur due to limitations in control accuracy and coherence. Using the concept of quantum error correction, fault-tolerant logical qubits can be realized and manipulated with logical single- and two-qubit gates. In this paper, we experimentally analyze fault-tolerant lattice-surgery, which is a key primitive that enables operations between logical qubits realized in the surface-code. Using this primitive, we demonstrate the teleportation of logical states between two distance-three logical qubits realized in a superconducting circuit composed of 41 physical qubits. Throughout this process, we study the step-by-step transfer of logical information from a source to a target logical qubit by characterizing the time evolution of logical observables. We find that repeated execution of stabilizer measurements, after merging two surface-code patches, restores fault tolerance and yields increased fidelity of the teleported state. When optimizing the protocol in terms of gate count and sequence duration, we observe further improvements in fidelity. Our work offers new insights into the optimization of fault-tolerant lattice-surgery operations, while also providing a comprehensive description of the physical device and gate sequences used. We expect the efficient implementation of increasingly complex logical circuits to enhance the performance of future fault-tolerant quantum computers.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-17",
+      "author": "Luca Hofele, Yongxin Song, Áron Márton, Ian Hesner et al.",
+      "fetched_at": "2026-11-18T15:27:04+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.23156v1",
+      "title": "Quantum simulation of neutral-meson mixing and decay on a reprogrammable photonic processor",
+      "url": "https://arxiv.org/abs/2611.23156v1",
+      "summary": "Neutral mesons oscillate into their antiparticles while decaying, so their dynamics is generated by a non-Hermitian effective Hamiltonian which a quantum simulator restricted to unitary operations cannot implement directly. We propose a reprogrammable photonic processor that simulates this open-system evolution through dilation and analyze it at the circuit level. The effective Hamiltonian is reconstructed exactly from measured lifetimes, mass and width differences, and the CP-violation parameter $|q/p|$. Through a singular-value decomposition and a single ancilla that encodes the total decay probability, its propagator is embedded in a four-mode unitary, which is compiled at each time step into a rectangular interferometer on a hexagonal mesh of tunable Mach-Zehnder units. Circuit simulations including coupler, propagation, and bend losses show that one fixed device, reprogrammed only through its control voltages, reproduces the flavor oscillation and decay of neutral kaons and of $B_d$ and $B_s$ mesons, with $x=Δm/Γ$ from 0.77 to 26.9. Over 500 time steps per system, the mean fidelity lies between 0.99979 and 0.99982, and no step falls below 0.9996. Because every optical path crosses nine tunable units, uniform insertion loss reduces only the transmitted power, whereas unit-to-unit loss variations lower the fidelity quadratically, $1-\\langle F\\rangle \\simeq 0.08σ^2$ for a loss standard deviation $σ$ in dB. A leading-order analysis traces this coefficient to the routing of light through the mesh, reproduces the fitted value to within 2%, and explains why it is the same for all three mesons; a mean fidelity of 0.999 tolerates $σ\\approx 0.11$ dB. The ancillary outputs encode the total decay probability without postselection, and the reported probabilities are normalized ",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-17",
+      "author": "Mohd Abu Bakar Siddique, Abrar Al Shadid Abir, A. K. M. Rakib, Mohammad Abrar Kabir et al.",
+      "fetched_at": "2026-11-18T15:27:04+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.23132v1",
+      "title": "Non-equilibrium topological order from Floquet anyon proliferation in the toric code",
+      "url": "https://arxiv.org/abs/2611.23132v1",
+      "summary": "We analyze the dynamics of Kitaev's toric code in Floquet quenches where the drive coherently creates and propagates fermionic $f$ anyons. We show that the long-time state departs from pure-state topological order but retains long-range entanglement, thereby realizing a Floquet analog of intrinsic mixed-state topological order. As a key result enabling this analysis, we derive decompositions of the entanglement entropy and logarithmic negativity that separate the ground-state value, including topological terms, from a contribution given by the driven quasiparticles. For a drive inducing non-interacting $f$ dynamics, these decompositions allow us to leverage numerical methods for free fermions and to link the emergence of the proposed long-time ordered state to the equilibration of $f$ anyons to a periodic Gibbs ensemble. For drives inducing Floquet eigenstate thermalization of $f$, our results suggest a scenario where Floquet heating of the $f$ sector stabilizes a genuine non-equilibrium topological phase, in contrast with the usual view of heating as an obstacle to order in periodically driven systems.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-17",
+      "author": "Francesco Petiziol",
+      "fetched_at": "2026-11-18T15:27:04+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.23128v1",
+      "title": "Causality, determinism and predictability: Probing nature through classical and quantum eyes",
+      "url": "https://arxiv.org/abs/2611.23128v1",
+      "summary": "In this article, mainly focussed on students and interested readers, we discuss how the understanding of causality, determinism and predictability is transformed as we move from the classical world view to the quantum description. We first explain how determinism and predictability operate in classical dynamics and outline the notion of causality. A paradigm shift occurs within the framework of quantum mechanics where we have to revisit, and even give up, the notions of determinism, predictability and maybe even strict causality. An engrossing and fascinating debate ensues, after the formulation of quantum mechanics among the giants of physics like Einstein, Bohr, Heisenberg, Pauli, and many others. While some questions have been settled in the last century in favour of quantum world view, there are still many open questions, most important of which is the role of gravity in shaping events within the quantum framework.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-17",
+      "author": "Mundur V N Murthy, Usha Devi A R",
+      "fetched_at": "2026-11-18T15:27:04+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
     },
     {
       "id": "http://sz.people.com.cn/n2/2026/1116/c202846-41751895.html",
@@ -6015,149 +6159,11 @@
       "date": "2026-10-25",
       "author": "",
       "fetched_at": "2026-10-25T15:54:00+00:00"
-    },
-    {
-      "id": "https://www.southcn.com/node_07e973c1a3/9be7bfcfbf.shtml",
-      "title": "时政微观察丨三个维度读懂全面从严治党 _ 南方网",
-      "url": "https://www.southcn.com/node_07e973c1a3/9be7bfcfbf.shtml",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "southcn.com",
-      "category": "news",
-      "date": "2026-10-25",
-      "author": "",
-      "fetched_at": "2026-10-25T15:54:00+00:00"
-    },
-    {
-      "id": "https://aif.ru/health/uchyonye-priblizilis-k-sozdaniyu-novogo-metoda-lecheniya-tuberkulyoza",
-      "title": "Учёные приблизились к созданию нового метода лечения туберкулёза",
-      "url": "https://aif.ru/health/uchyonye-priblizilis-k-sozdaniyu-novogo-metoda-lecheniya-tuberkulyoza",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "aif.ru",
-      "category": "news",
-      "date": "2026-10-25",
-      "author": "",
-      "fetched_at": "2026-10-25T15:54:00+00:00"
-    },
-    {
-      "id": "http://www.cfi.net.cn/p20261025000943.html",
-      "title": "物理AI加速落地 机器人产业链迎来价值重估 - CFi . CN 中财网",
-      "url": "http://www.cfi.net.cn/p20261025000943.html",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "cfi.net.cn",
-      "category": "news",
-      "date": "2026-10-25",
-      "author": "",
-      "fetched_at": "2026-10-25T15:54:00+00:00"
-    },
-    {
-      "id": "https://www.vava8.com/index.php?app=index&act=view&id=174973",
-      "title": "高盛 ： 人民币将迎来5 . 5时代 ！ 这三类中国资产将迎来超级红利",
-      "url": "https://www.vava8.com/index.php?app=index&act=view&id=174973",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "vava8.com",
-      "category": "news",
-      "date": "2026-10-25",
-      "author": "",
-      "fetched_at": "2026-10-25T15:54:00+00:00"
-    },
-    {
-      "id": "https://www.slobodna-bosna.ba/vijest/511862/struchnjaci_upozoravaju_ukoliko_imate_bolesnu_ili_masnu_jetru_ovo_trebate_znati.html",
-      "title": "STRUČNJACI UPOZORAVAJU : Ukoliko imate bolesnu ili masnu jetru – ovo trebate znati ...",
-      "url": "https://www.slobodna-bosna.ba/vijest/511862/struchnjaci_upozoravaju_ukoliko_imate_bolesnu_ili_masnu_jetru_ovo_trebate_znati.html",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "slobodna-bosna.ba",
-      "category": "news",
-      "date": "2026-10-25",
-      "author": "",
-      "fetched_at": "2026-10-25T15:54:00+00:00"
-    },
-    {
-      "id": "https://www.dailygazette.com/hv360/ap/business/to-make-ai-morally-good-tech-companies-are-turning-to-religion-but-some-say-it/article_a70d5f23-b740-5dbb-89c1-577fb85ca97c.html",
-      "title": "To make AI morally good , tech companies are turning to religion . But some say it isnt that simple",
-      "url": "https://www.dailygazette.com/hv360/ap/business/to-make-ai-morally-good-tech-companies-are-turning-to-religion-but-some-say-it/article_a70d5f23-b740-5dbb-89c1-577fb85ca97c.html",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "dailygazette.com",
-      "category": "news",
-      "date": "2026-10-25",
-      "author": "",
-      "fetched_at": "2026-10-25T15:54:00+00:00"
-    },
-    {
-      "id": "https://www.messenger-inquirer.com/ap/ap_national_news/to-make-ai-morally-good-tech-companies-are-turning-to-religion-but-some-say-it/article_234118a4-240e-5746-ae5c-5aebe337da67.html",
-      "title": "To make AI morally good , tech companies are turning to religion . But some say it isnt that simple",
-      "url": "https://www.messenger-inquirer.com/ap/ap_national_news/to-make-ai-morally-good-tech-companies-are-turning-to-religion-but-some-say-it/article_234118a4-240e-5746-ae5c-5aebe337da67.html",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "messenger-inquirer.com",
-      "category": "news",
-      "date": "2026-10-25",
-      "author": "",
-      "fetched_at": "2026-10-25T15:54:00+00:00"
-    },
-    {
-      "id": "https://www.adndigital.com.py/lula-da-silva-y-flavio-bolsonaro-se-disputan-la-presidencia-de-brasil-en-el-balotaje",
-      "title": "Lula da Silva y Flávio Bolsonaro se disputan la presidencia de Brasil en el balotaje",
-      "url": "https://www.adndigital.com.py/lula-da-silva-y-flavio-bolsonaro-se-disputan-la-presidencia-de-brasil-en-el-balotaje/",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "adndigital.com.py",
-      "category": "news",
-      "date": "2026-10-25",
-      "author": "",
-      "fetched_at": "2026-10-25T15:54:00+00:00"
-    },
-    {
-      "id": "https://www.aol.com/articles/prediction-heres-500-invested-archer-120300000.html",
-      "title": "Prediction : Here What $500 Invested in Archer Aviation Will Be Worth in 5 Years",
-      "url": "https://www.aol.com/articles/prediction-heres-500-invested-archer-120300000.html",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "aol.com",
-      "category": "news",
-      "date": "2026-10-25",
-      "author": "",
-      "fetched_at": "2026-10-25T15:54:00+00:00"
-    },
-    {
-      "id": "https://doi.org/10.67347/pith.preprint.2026.000010",
-      "title": "The Structure of Reality: Recognition, Necessity, and Physical Prediction",
-      "url": "https://doi.org/10.67347/pith.preprint.2026.000010",
-      "summary": "A comparison is a physical occurrence. It needs something to compare, an operation that uses both terms, and a state in which its result can matter to what happens next. If the result is measured, the measurement needs a reference. If it is retained, the record needs a carrier. If the operation transfers energy, that energy must appear in the same account. This book asks how much of physical structure is fixed by those demands. Recognition Science begins with the distinctions already exhibited by actual operations and follows their consequences. Its central arguments remove alternatives: a conserved comparison selects a quadratic reading; its residual and reference fix a normalized cost; preservation of additive comparisons, together with a first costly join, fixes golden scaling. A retained linking observation selects three spatial dimensions under its stated realization conditions. Further constructions ask how the resulting source evolves, transfers energy and leaves records. The argument is technical because the alternatives matter. A theorem that selects one cost from a specified class says exactly which other costs fail and why. Changing the class can change the conclusion. A Hamiltonian that acts on a full field carrier establishes more than a finite matrix calculation, while an exact matrix compression remains useful at its own scope. The reader should be able to identify the physical objects, inspect the hypotheses and follow the reason for each conclusion.",
-      "source": "OpenAlex",
-      "category": "research",
-      "date": "2026-10-25",
-      "author": "Jonathan Washburn",
-      "fetched_at": "2026-10-26T12:38:38+00:00",
-      "doi": "https://doi.org/10.67347/pith.preprint.2026.000010",
-      "open_access": true
-    },
-    {
-      "id": "https://doi.org/10.5281/zenodo.23632167",
-      "title": "Superconducting Nanowire Single-Photon Detectors (SNSPDs) and Scalable Quantum Photonic Integrated Circuits: Cryogenic Quantum Light Sources, Multiplexed Readout Architectures, and Quantum Key Distribution",
-      "url": "https://doi.org/10.5281/zenodo.23632167",
-      "summary": "Optical quantum information processing, quantum key distribution (QKD), and linear optical quantum computing (LOQC) rely fundamentally on single-photon detectors capable of ultra-high system detection efficiency, low dark count rates, sub-nanosecond timing jitter, and high maximum count rates. Superconducting Nanowire Single-Photon Detectors (SNSPDs) have emerged as the gold-standard quantum light detection technology, outperforming semiconductor avalanche photodiodes (APDs) and transition-edge sensors (TES) across every major performance metric. By biasing ultrathin superconducting nanometric strips (e.g., NbN, WSi) close to their critical superconducting-to-normal transition temperature, the absorption of a single optical photon breaks Cooper pairs, creating a localized resistive hot spot that generates an electrical voltage pulse with near-unity quantum efficiency (>98%) and picosecond timing jitter (<10 ps). Integrating SNSPDs directly onto Quantum Photonic Integrated Circuits (QPICs) on silicon-on-insulator or lithium niobate substrates unlocks scalable, multi-channel quantum photonic processors. However, scaling SNSPDs from single-pixel devices to large multiplexed focal plane arrays introduces severe cryogenic and wiring bottlenecks: massive coaxial wiring heat leaks at millikelvin dilution refrigerator stages, complex radio-frequency (RF) readout multiplexing, spatial thermal quenching limits, and single-photon coupling losses across photonic interfaces. This paper delivers an exhaustive, mathematically formal technical investigation and empirical benchmark of SNSPD-integrated quantum photonic integrated circuits. We formalize hot-spot electrothermal hotspot formation equations, derive system detection efficiency (SDE) and timing jitter bounds, and model cryogen",
-      "source": "Zenodo (CERN European Organization for Nuclear Research)",
-      "category": "research",
-      "date": "2026-10-25",
-      "author": "Wahengbam Thouba Singh, Vishal Kumar, Dr. Vishal Shrivastava, Dr. Akhil Pandey",
-      "fetched_at": "2026-10-26T12:38:38+00:00",
-      "doi": "https://doi.org/10.5281/zenodo.23632167",
-      "open_access": true
-    },
-    {
-      "id": "https://doi.org/10.1038/s42005-026-02924-w",
-      "title": "Flat Chern bands and correlated states in spiral magnet",
-      "url": "https://doi.org/10.1038/s42005-026-02924-w",
-      "summary": "Flat topological bands provide a promising platform for realizing exotic correlated quantum phases such as fractional Chern insulators. Here, we predict the van der Waals monolayer ReAg 2 Cl 6 hosts isolated flat Chern bands at the Fermi level in its 120 ∘ antiferromagnetic ground state. Their flatness and nontrivial topology arise from the interplay between coplanar spin order and strong spin-orbit coupling within Re 5 d orbitals, providing a mechanism distinct from moiré systems. The spiral spin texture naturally enlarges the unit cell, reducing carrier densities while preserving sizable interaction scales. Many-body calculations show that fractional fillings of the flat bands can stabilize correlated phases, including fractional Chern insulators and charge-density-wave states. Moreover, the mechanism is generic to a broad family of Re-based compounds, with both spin configuration and flat band topology electrically tunable. These findings establish Re-based coplanar antiferromagnets as a robust, tunable, and experimentally accessible platform for flat Chern bands and correlated topological phases potentially at elevated temperatures.",
-      "source": "Communications Physics",
-      "category": "research",
-      "date": "2026-10-25",
-      "author": "Kejie Bao, Rui Shi, Huan Wang, Jiaxuan Guo et al.",
-      "fetched_at": "2026-10-26T12:38:38+00:00",
-      "doi": "https://doi.org/10.1038/s42005-026-02924-w",
-      "open_access": true
     }
   ],
   "refresh": {
-    "sources_succeeded": 3,
+    "sources_succeeded": 2,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 12
   }
 }
