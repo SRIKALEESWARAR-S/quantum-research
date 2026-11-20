@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-20T15:12:24+00:00",
+  "updated_at": "2026-11-20T23:52:27+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -199,6 +199,84 @@
       "open_access": true
     },
     {
+      "id": "https://doi.org/10.5267/j.ijdns.2026.12",
+      "title": "Bridging the intention–behavior gap in psychologically informed musculoskeletal rehabilitation: A con-vergent mixed-methods investigation and the triadic care model",
+      "url": "https://doi.org/10.5267/j.ijdns.2026.12",
+      "summary": "While clinical guidelines strongly endorse psychologically informed physiotherapy (PIP) and cognitive-behavioral techniques (CBT) for musculoskeletal pain, routine clinical uptake remains inconsistent.Most implementation research describes clinician attitudes without modeling the cognitive and systemic mechanisms that impede translation into daily practice.This study investigates the \"intention-behavior gap\" in psychologically informed musculoskeletal rehabilitation among Iranian physiotherapists using the COM-B (Capability, Opportunity, and Motivation -Behavior) framework and introduces the Triadic Care Model as an operational solution.A convergent mixed-methods design (QUAN + QUAL) compliant with the Good Reporting of A Mixed Methods Study (GRAMMS) guidelines was conducted between 2023 and 2024.The quantitative phase surveyed 450 licensed physiotherapists using the validated Psychological Practice and Skills Tool (PPST).Structural Equation Modeling (SEM) tested hypothesized paths linking psychological self-efficacy, systemic barriers, postgraduate education, and clinical utilization.The qualitative phase comprised semi-structured, in-depth interviews with 20 practicing physiotherapists analyzed via reflexive thematic analysis.Quantitative and qualitative findings were integrated via a joint display matrix.A pronounced intention-behavior gap was identified: 78.2% (n=352) of clinicians strongly endorsed the bio psychosocial model, yet only 24.4% (n=110) routinely implemented psychological techniques.SEM demonstrated excellent fit (χ2/df=2.15,CFI=.96,TLI=.95,RMSEA=.048[90% CI: .041-.055],SRMR=.042).Psychological self-efficacy directly predicted technique utilization (β=.41, p<.001), while postgraduate training indirectly enhanced utilization via self-efficacy (β=.34, p<.",
+      "source": "Healthcare Engineering",
+      "category": "research",
+      "date": "2027-01-01",
+      "author": "Atena Mahmoudi",
+      "fetched_at": "2026-11-20T23:52:26+00:00",
+      "doi": "https://doi.org/10.5267/j.ijdns.2026.12",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.5829/ije.2027.40.05b.11",
+      "title": "Detection of Unmarked Non-Metallic Underground Pipelines Using Fine-Grained Strontium Ferrite-Based Powders",
+      "url": "https://doi.org/10.5829/ije.2027.40.05b.11",
+      "summary": "An obvious global trend is the spread of plastic pipelines in the construction and repair of underground utilities, including gas distribution pipelines. Despite the advantages of non-metallic pipes, their use is associated with a number of specific problems characteristic of plastic materials. One of such significant problems facing the gas industry is the problem of detecting underground non-metallic utilities and selectively identifying them from adjacent facilities. Pipelines not linked to the global coordinate system in a timely manner can lead to significant economic costs in case of abnormal situations during construction and installation works. The paper investigates an original method of searching for non-metallic utilities associated with the introduction of magnetic powder into the gas flow. It is shown that in the case of the site location in the urban area it is a low-information and ambiguous method. On the contrary, in the open area, in the absence of third-party ferromagnetic interference, this method is not only potentially applicable, but deserves close attention and further research, for which the appropriate design of the test site is proposed. Potential application of the method will increase the informative value of data on the underground location of non-metallic pipelines by 15% for gas distribution pipelines of various diameters, considering the achievement of a magnetic induction level above the pipeline in the range of 60-120 nT.",
+      "source": "International Journal of Engineering",
+      "category": "research",
+      "date": "2027-01-01",
+      "author": "I. S. Leonov, Gulnur Zakirova, A. V. Borisov, V. S. Borisova et al.",
+      "fetched_at": "2026-11-20T23:52:26+00:00",
+      "doi": "https://doi.org/10.5829/ije.2027.40.05b.11",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.65908/gja.2026.8668.1078",
+      "title": "Perspectives on Cryptographically Relevant Quantum Computing: Integer Factoring, Discrete Logarithm Problems",
+      "url": "https://doi.org/10.65908/gja.2026.8668.1078",
+      "summary": "We present our perspectives on the current status of, integer factoring and discrete logarithm, algorithms underlying the strength of classical public-key cryptography protocols used in key-exchange, encryption and digital signatures. We present an expository overview of the algebraic, number-theoretic and algorithmic principles behind the canonical, powerful algorithms used in the factoring of large, composite RSA modulii. These cover the two main ideas of group order based methods, and quadratic congruence based methods. We provide the resource estimates for the record breaking factoring based on the general number field sieve. Next we present an overview of the algorithmic theory of quantum computation behind, the polynomial time Shor's quantum algorithm for, period finding in hidden subgroup structure problems. This algorithm has played a key role in advancing post-quantum cryptography, and also in the exciting, contemporary developments in quantum computing, networking, sensing, and materials science as a whole. Latest advances in quantum computing rest on a variety of physics, engineering, algorithms, compilation, hardware, software techniques. There are several tradeoffs based on number of qubits, coherence times, control issues, errors and fault tolerance. In this environment, nuances of mathematical ideas, behind every step of the intricate arithmetical and algebraic computations under quantum models plays a significant role. We provide an overview of some of the recent ideas behind such algorithms. We conclude with a recent deep question on the ultimate feasibility of ultra large-scale, error-free, discrete, quantum computations required typically in cryptanalysis.",
+      "source": "Galois Journal of Algebra",
+      "category": "research",
+      "date": "2026-12-31",
+      "author": "C. E. Veni Madhavan",
+      "fetched_at": "2026-11-20T23:52:26+00:00",
+      "doi": "https://doi.org/10.65908/gja.2026.8668.1078",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.22266/ijies2026.1231.55",
+      "title": "Bushbaby Optimization Algorithm: A Nature-inspired Metaheuristic Optimization Approach for Engineering Applications",
+      "url": "https://doi.org/10.22266/ijies2026.1231.55",
+      "summary": "Metaheuristic optimization algorithms are widely used to solve optimization problems; however, designing distinct search mechanisms for exploration and exploitation remains an important research challenge.A new algorithm, Bushbaby Optimization Algorithm (BOA), inspired by the behaviour of the bushbaby, is introduced in this paper.The animal's natural behaviour regarding movement, foraging, and hunting is examined, and two specific behaviours are selected to design the search mechanisms.\"Nocturnal spatial movement and foraging activity\", modeled to facilitate global search, expand search space coverage, and mitigate the risk of premature convergence, forms the basis of the exploration phase.Conversely, the \"prey attack and return movement\" behaviour is utilized to design the exploitation phase, serving as a mechanism for local search and refinement within promising regions.These behaviours are modeled as algorithmic abstractions within BOA and function as complementary mechanisms to manage the optimization process.The performance of BOA is evaluated using the CEC 2011 test suite, and the results are compared with existing metaheuristic optimization algorithms.The results demonstrate that BOA achieves the top rank in 19 out of 22 problems, representing a success rate of 86.36%.These findings indicate that BOA effectively balances exploration and exploitation and is suitable for a wide range of metaheuristic optimization problems.",
+      "source": "International journal of intelligent engineering and systems",
+      "category": "research",
+      "date": "2026-12-31",
+      "author": "Zeinab Montazeri, Mohammad Dehghani, Raed Abu Zitar, Omar Almomani et al.",
+      "fetched_at": "2026-11-20T23:52:26+00:00",
+      "doi": "https://doi.org/10.22266/ijies2026.1231.55",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.22266/ijies2026.1231.13",
+      "title": "Markhor Optimization Algorithm: A Novel Metaheuristic Algorithm for Solving Optimization Problems",
+      "url": "https://doi.org/10.22266/ijies2026.1231.13",
+      "summary": "This study aims to develop a new nature-inspired metaheuristic optimization algorithm called the Markhor Optimization Algorithm (MOA).The core concept of MOA is derived from the natural behaviors of the Markhor in rugged, rocky, and mountainous terrains.In this approach, predator-aware escape behavior and movement toward more suitable terrain guide exploration and global search, while the security-conscious use of suitable habitats and localized movements form the basis for exploitation and local refinement.These behaviors are translated into mathematical rules-serving as a computational abstraction-to simultaneously manage search space coverage and the gradual improvement of solutions.To evaluate the proposed method's performance, a simulation study is conducted using 23 standard benchmark functions, comprising unimodal test functions (F1-F7), high-dimensional multimodal test functions (F8-F13), and fixed-dimensional multimodal test functions (F14-F23).MOA is compared against nine other metaheuristic optimization algorithms across 20 independent runs and 1,000 iterations; performance is assessed using mean, standard deviation (std), rank, and convergence curves.The study's findings demonstrate that MOA delivers stable and highly competitive performance across all three categories of benchmark functions, achieving a rank of 1 for all 23 functions.Consequently, optimization analyses reveal that MOA-by securing the top rank in every benchmark function-acts as the best-performing optimizer with a 100% success rate, demonstrating superior competitiveness against rival algorithms.These results indicate that the design of MOA, leveraging two complementary Markhor behaviors, provides an effective framework for simultaneously managing exploration and exploitation in various opt",
+      "source": "International journal of intelligent engineering and systems",
+      "category": "research",
+      "date": "2026-12-31",
+      "author": "Zeinab Montazeri, Mohammad Dehghani, Raed Abu Zitar, Omar Almomani et al.",
+      "fetched_at": "2026-11-20T23:52:26+00:00",
+      "doi": "https://doi.org/10.22266/ijies2026.1231.13",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.26524/cm238",
+      "title": "Super Mean Graph Labeling: A Novel Cryptographic Framework Using Five-Star Graphs with Applications in Secure Communications and Epidemic Modeling",
+      "url": "https://doi.org/10.26524/cm238",
+      "summary": "This paper introduces an innovative cryptographic framework based on super mean labeling of five-star graphs K1,V1 ∪ K1,V2 ∪ K1,V3 ∪ K1,V4 ∪ K1,V5, where V1 ≤ V2 ≤ V3 ≤ V4 ≤ V5. We present a comprehensive mathematical foundation for super mean labeling and develop systematic methodologies for encoding messages through carefully constructed graph structures. Three distinct implementation approaches are demonstrated, incorporating computational techniques through C programming for alphabetical mapping, including subtraction-based and division-based numbering schemes. Each approach is thoroughly illustrated with complete message encoding examples, visual cryptography representations, and detailed security analysis. Beyond cryptographic applications, we extend the framework to epidemic modeling, demonstrating how super mean labeling can represent complex disease transmission dynamics in multi-population systems. The epidemic modeling application includes complete mathematical formulations of multi-population SIR models, transmission matrix encoding through graph labeling, and computational implementations for disease surveillance. Our results establish that five-star graphs with super mean labeling provide optimal balance between encoding capacity and structural complexity, offering robust security through multiple layers of mathematical obfuscation. The integration of graph theory with computational algorithms creates a versatile framework applicable to both secure communications and public health informatics.",
+      "source": "Journal of Computational Mathematica",
+      "category": "research",
+      "date": "2026-12-20",
+      "author": "Sudhakar V, Leena S, Anuradha P, DR. Indhumathi R - et al.",
+      "fetched_at": "2026-11-20T23:52:26+00:00",
+      "doi": "https://doi.org/10.26524/cm238",
+      "open_access": true
+    },
+    {
       "id": "https://dc.etsu.edu/etd/4759",
       "title": "Computational Studies of Triplet State Formation in Zinc Dipyrrin Complexes",
       "url": "https://dc.etsu.edu/etd/4759",
@@ -222,6 +300,19 @@
       "author": "Abd Elrahman S. Tawfic, Mohamed H. Abdo, El‐Sayed M. El‐Refaie, Diaa‐Eldin A. Mansour",
       "fetched_at": "2026-11-20T15:12:23+00:00",
       "doi": "https://doi.org/10.21608/astj.2025.411961.1089",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.12913/22998624/226854",
+      "title": "Machine-learning-assisted continuous inverse design of multiring optical fibres for beam shaping",
+      "url": "https://doi.org/10.12913/22998624/226854",
+      "summary": "This article presents a method for inverse design of multiring optical fibres using machine learning.It proposes fibre configurations expected to yield specified beam-shaping parameters and verifies selected off-grid configurations using independent OptiFiber simulations.The proposed method creates machine-learning surrogate models from numerical simulations performed in OptiFiber.It utilises differential evolution optimisation to predict and optimise the refractive index (RI) profiles of individual fibre layers for given beam parameters.The study reused a dataset comprising 721 valid three-layer optical-fibre configurations previously generated using OptiFiber.For each fibre configuration, the output light beam was simulated, and the full width at half maximum (FWHM), beam flatness and edge steepness were calculated.As the direct prediction of fibre configuration from beam parameters is ambiguous, a surrogate model was employed for subsequent use.The feasibility of using several regression models to create a surrogate model was analysed, including ExtraTrees, Random Forest, XGBoost, LightGBM, CatBoost, support vector regression, multi-layer perceptron, ridge regression and the k-nearest neighbours method.Ensemble tree-based models yielded the best predictive performance, with the ExtraTrees model providing the highest overall accuracy and a high degree of agreement between predicted and simulated beam parameters.An ablation study demonstrated that prediction accuracy can be improved by extending the feature set used to train the surrogate model to include descriptors of the differences between the RI values of individual optical fibre layers.The employed inverse design procedure enabled continuous estimation of the optical fibre configuration, reducing the need for exh",
+      "source": "Advances in Science and Technology – Research Journal",
+      "category": "research",
+      "date": "2026-12-01",
+      "author": "Marta Dziuba-Kozieł",
+      "fetched_at": "2026-11-20T23:52:26+00:00",
+      "doi": "https://doi.org/10.12913/22998624/226854",
       "open_access": true
     },
     {
@@ -6084,88 +6175,11 @@
       "date": "2026-10-27",
       "author": "",
       "fetched_at": "2026-10-29T22:38:47+00:00"
-    },
-    {
-      "id": "https://www.newspim.com/news/view/20261027000921",
-      "title": "동해 송정동 주민들 , LS전선 규탄 … 사원아파트 송정동에 건립하라",
-      "url": "https://www.newspim.com/news/view/20261027000921",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "newspim.com",
-      "category": "news",
-      "date": "2026-10-27",
-      "author": "",
-      "fetched_at": "2026-10-29T22:38:47+00:00"
-    },
-    {
-      "id": "https://www.vb.kg/doc/462610_v_kyrgyzstane_zapystili_vyezdnoe_obslyjivanie_inostrannyh_stydentov.html",
-      "title": "В Кыргызстане запустили выездное обслуживание иностранных студентов",
-      "url": "https://www.vb.kg/doc/462610_v_kyrgyzstane_zapystili_vyezdnoe_obslyjivanie_inostrannyh_stydentov.html",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "vb.kg",
-      "category": "news",
-      "date": "2026-10-27",
-      "author": "",
-      "fetched_at": "2026-10-29T22:38:47+00:00"
-    },
-    {
-      "id": "https://www.elconfidencial.com/bienestar/2026-10-27/ensayos-clinicos-espana-esmo-chema-pons_4452899",
-      "title": "Chema Pons ( BeOne ): España tiene todo para ser referente en ensayos clínicos , pero no podemos darlo por sentado",
-      "url": "https://www.elconfidencial.com/bienestar/2026-10-27/ensayos-clinicos-espana-esmo-chema-pons_4452899/",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "elconfidencial.com",
-      "category": "news",
-      "date": "2026-10-27",
-      "author": "",
-      "fetched_at": "2026-10-29T22:38:47+00:00"
-    },
-    {
-      "id": "https://www.chaozhoudaily.com/content/202610/27/c26089411.html",
-      "title": "2026年全省群众安全感满意度调查启动 潮州市民请积极参与 - 潮州新闻网 - 潮州日报官方网站",
-      "url": "https://www.chaozhoudaily.com/content/202610/27/c26089411.html",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "chaozhoudaily.com",
-      "category": "news",
-      "date": "2026-10-27",
-      "author": "",
-      "fetched_at": "2026-10-29T22:38:47+00:00"
-    },
-    {
-      "id": "https://www.finanznachrichten.de/nachrichten-2026-10/69941626-eqs-newswire-china-cosmetics-review-osm-wins-inpd-leading-grand-prize-showcasing-china-s-pearl-research-strength-to-the-world-023.htm",
-      "title": "EQS Newswire : China Cosmetics Review : OSM Wins INPD Leading Grand Prize , Showcasing China Pearl Research Strength to the World",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69941626-eqs-newswire-china-cosmetics-review-osm-wins-inpd-leading-grand-prize-showcasing-china-s-pearl-research-strength-to-the-world-023.htm",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "finanznachrichten.de",
-      "category": "news",
-      "date": "2026-10-27",
-      "author": "",
-      "fetched_at": "2026-10-29T22:38:47+00:00"
-    },
-    {
-      "id": "https://www.163.com/dy/article/LA8F8D0G0514R9P4.html",
-      "title": "OpenAI公布数学 、 计算机和物理学三项新发现 ， 含挂谷猜想 、 杨 – 米尔斯理论",
-      "url": "https://www.163.com/dy/article/LA8F8D0G0514R9P4.html",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "163.com",
-      "category": "news",
-      "date": "2026-10-27",
-      "author": "",
-      "fetched_at": "2026-10-29T22:38:47+00:00"
-    },
-    {
-      "id": "https://www.dailyecho.co.uk/news/26669277.freemason-raises-93-000-charity-challenges",
-      "title": "Freemason raises £93 , 000 through charity challenges",
-      "url": "https://www.dailyecho.co.uk/news/26669277.freemason-raises-93-000-charity-challenges/",
-      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
-      "source": "dailyecho.co.uk",
-      "category": "news",
-      "date": "2026-10-27",
-      "author": "",
-      "fetched_at": "2026-10-29T22:38:47+00:00"
     }
   ],
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 22
+    "new_items": 7
   }
 }
