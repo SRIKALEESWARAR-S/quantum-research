@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-21T18:57:37+00:00",
+  "updated_at": "2026-11-22T06:05:23+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -418,6 +418,138 @@
       "fetched_at": "2026-11-20T23:52:26+00:00",
       "doi": "https://doi.org/10.12913/22998624/226854",
       "open_access": true
+    },
+    {
+      "id": "https://www.diariosur.es/malaga-capital/flechas-ultimo-recurso-frenar-jabalies-malaga-capturas-20261112054508-nt.html",
+      "title": "Flechas como último recurso para frenar a los jabalíes en Málaga : 83 capturas en los dos últimos años",
+      "url": "https://www.diariosur.es/malaga-capital/flechas-ultimo-recurso-frenar-jabalies-malaga-capturas-20261112054508-nt.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "diariosur.es",
+      "category": "news",
+      "date": "2026-11-22",
+      "author": "",
+      "fetched_at": "2026-11-22T06:05:21+00:00"
+    },
+    {
+      "id": "https://kashmirreader.com/2026/11/22/google-gives-iit-kharagpur-5-mn-to-boost-advanced-ai-research-train-next-gen",
+      "title": "Google gives IIT Kharagpur $5 mn to boost advanced AI research , train next gen",
+      "url": "https://kashmirreader.com/2026/11/22/google-gives-iit-kharagpur-5-mn-to-boost-advanced-ai-research-train-next-gen/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "kashmirreader.com",
+      "category": "news",
+      "date": "2026-11-22",
+      "author": "",
+      "fetched_at": "2026-11-22T06:05:21+00:00"
+    },
+    {
+      "id": "https://baochinhphu.vn/acit-20-nam-gop-phan-nang-cao-nang-luc-tu-chu-nganh-dien-viet-nam-102261122120310298.htm",
+      "title": "ACIT - 20 năm góp phần nâng cao năng lực tự chủ ngành điện Việt Nam",
+      "url": "https://baochinhphu.vn/acit-20-nam-gop-phan-nang-cao-nang-luc-tu-chu-nganh-dien-viet-nam-102261122120310298.htm",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "baochinhphu.vn",
+      "category": "news",
+      "date": "2026-11-22",
+      "author": "",
+      "fetched_at": "2026-11-22T06:05:21+00:00"
+    },
+    {
+      "id": "https://gda.com/detalle-de-la-noticia/?article=6236994",
+      "title": "El club de los científicos que dudan | GDA – Grupo de Diarios América",
+      "url": "https://gda.com/detalle-de-la-noticia/?article=6236994",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "gda.com",
+      "category": "news",
+      "date": "2026-11-22",
+      "author": "",
+      "fetched_at": "2026-11-22T06:05:21+00:00"
+    },
+    {
+      "id": "https://www.intelligencer.ca/press-releases/newsfile/frost-sullivan-released-the-2026-global-medical-robots-industry-development-blue-book",
+      "title": "Frost & Sullivan Released the 2026 Global Medical Robots Industry Development Blue Book",
+      "url": "https://www.intelligencer.ca/press-releases/newsfile/frost-sullivan-released-the-2026-global-medical-robots-industry-development-blue-book/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "intelligencer.ca",
+      "category": "news",
+      "date": "2026-11-22",
+      "author": "",
+      "fetched_at": "2026-11-22T06:05:21+00:00"
+    },
+    {
+      "id": "https://www.jiji.com/jc/v8?id=2026korea70",
+      "title": "「 ハニートラップ 」 という名の心理戦◆フアン氏辞任騒動で考える 「 勝者は誰 」？【 礒﨑敦仁のコリア ・ ウオッチング 】： 時事ドットコム",
+      "url": "https://www.jiji.com/jc/v8?id=2026korea70",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "jiji.com",
+      "category": "news",
+      "date": "2026-11-22",
+      "author": "",
+      "fetched_at": "2026-11-22T06:05:21+00:00"
+    },
+    {
+      "id": "https://www.tj.gov.cn/sy/tjxw/202611/t20261122_7660563.html",
+      "title": "国家级生物制造大赛为何落子天津 _ 天津新闻 _ 天津政务网",
+      "url": "https://www.tj.gov.cn/sy/tjxw/202611/t20261122_7660563.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "tj.gov.cn",
+      "category": "news",
+      "date": "2026-11-22",
+      "author": "",
+      "fetched_at": "2026-11-22T06:05:21+00:00"
+    },
+    {
+      "id": "https://vietnam.vnanet.vn/spanish/tin-van/vietnam-y-azerbaiyan-acuerdan-prioridades-para-implementar-su-asociacion-estrategica-478500.html",
+      "title": "Vietnam y Azerbaiyán acuerdan prioridades para implementar su Asociación Estratégica",
+      "url": "https://vietnam.vnanet.vn/spanish/tin-van/vietnam-y-azerbaiyan-acuerdan-prioridades-para-implementar-su-asociacion-estrategica-478500.html",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "vietnam.vnanet.vn",
+      "category": "news",
+      "date": "2026-11-22",
+      "author": "",
+      "fetched_at": "2026-11-22T06:05:21+00:00"
+    },
+    {
+      "id": "https://kashmirreader.com/2026/11/22/india-has-shown-it-can-break-limits-unlock-possibilities-pm-modi",
+      "title": "India has shown it can break limits , unlock possibilities : PM Modi",
+      "url": "https://kashmirreader.com/2026/11/22/india-has-shown-it-can-break-limits-unlock-possibilities-pm-modi/",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "kashmirreader.com",
+      "category": "news",
+      "date": "2026-11-22",
+      "author": "",
+      "fetched_at": "2026-11-22T06:05:21+00:00"
+    },
+    {
+      "id": "https://www.latribunadealbacete.es/noticia/zf815e773-11a3-4fb3-b953cfac256fc962/202611/existe-una-importante-escasez-de-forenses",
+      "title": "« Existe una importante escasez de forenses » | Noticias La Tribuna de Albacete",
+      "url": "https://www.latribunadealbacete.es/noticia/zf815e773-11a3-4fb3-b953cfac256fc962/202611/existe-una-importante-escasez-de-forenses",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "latribunadealbacete.es",
+      "category": "news",
+      "date": "2026-11-22",
+      "author": "",
+      "fetched_at": "2026-11-22T06:05:21+00:00"
+    },
+    {
+      "id": "https://www.lavozdegalicia.es/noticia/deza/lalin/2026/11/22/lalin-ultima-puesta-marcha-aula-estudio-24-horas/0003_202611D22C2992.htm",
+      "title": "Lalín ultima la puesta en marcha del aula de estudio 24 horas",
+      "url": "https://www.lavozdegalicia.es/noticia/deza/lalin/2026/11/22/lalin-ultima-puesta-marcha-aula-estudio-24-horas/0003_202611D22C2992.htm",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "lavozdegalicia.es",
+      "category": "news",
+      "date": "2026-11-22",
+      "author": "",
+      "fetched_at": "2026-11-22T06:05:21+00:00"
+    },
+    {
+      "id": "https://www.blic.rs/vesti/svet/tri-jeziva-fenomena-se-poklapaju-ove-zime-polarni-vrtlog-puca-evropi-prete-led-i-mraz/5nn93n1",
+      "title": "Tri jeziva fenomena se poklapaju ove zime : Polarni vrtlog puca , Evropi prete led i mraz",
+      "url": "https://www.blic.rs/vesti/svet/tri-jeziva-fenomena-se-poklapaju-ove-zime-polarni-vrtlog-puca-evropi-prete-led-i-mraz/5nn93n1",
+      "summary": "News article discovered through GDELT. Open the publisher's page for the full story.",
+      "source": "blic.rs",
+      "category": "news",
+      "date": "2026-11-22",
+      "author": "",
+      "fetched_at": "2026-11-22T06:05:21+00:00"
     },
     {
       "id": "https://doi.org/10.1038/s41534-026-01407-8",
@@ -6027,161 +6159,11 @@
       "author": "Matvei Fedin, Andrey Morozov",
       "fetched_at": "2026-10-28T05:04:37+00:00",
       "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.37493v1",
-      "title": "Recovering classical gauge geometry from quantum master constraints",
-      "url": "https://arxiv.org/abs/2610.37493v1",
-      "summary": "Exact normalizable solutions of quantum constraints form a symplectic submanifold of the space of rays, whereas classical first-class constraints define a surface on which the symplectic form is degenerate. We ask how the degenerate directions can be recovered when quantum theory is regarded as fundamental and the constraints are imposed through a single positive master operator. For a nonnegative master function whose zero set is a Morse--Bott critical manifold, the image of the linearized Hamiltonian vector field is the symplectic orthogonal of the zero set, and coisotropy is equivalent to this linearization having square zero. The image is fixed by the zero set, but the theorem identifies it with the response of the master dynamics, which makes it accessible to quantum states. Three realizations follow. The exact quantum physical space is the opposite, rotational case of the same dichotomy. For quadratic masters, the bottom of the spectrum is $(\\hbar/2)\\Tr_+L$, so first-class zero sets carry no offset of order $\\hbar$; within the harmonic approximation this explains the $\\hbar$ versus $\\hbar^2$ offsets observed in tests of the master-constraint programme. Finally, the second time derivative of the limiting covariance of a semiclassical packet, which can be determined by bounded probes, has the gauge distribution as its image. Two oscillators at fixed total energy give exact master evolution, an exact realization of this covariance shear, and the reduced symplectic limit. For the non-Abelian SL(2,$\\R$) model we compute the coherent and Weyl master symbols, prove essential self-adjointness and a finite-time propagation estimate, and derive the spectral bottom $\\hbar^2/2$.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-27",
-      "author": "Alejandro Corichi",
-      "fetched_at": "2026-10-28T05:04:37+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.37491v1",
-      "title": "Adaptive Information Mining: Approaching the Quantum Limit of Super-Resolution Imaging",
-      "url": "https://arxiv.org/abs/2610.37491v1",
-      "summary": "The \"Rayleigh limit\" is not an intrinsic property of light, but a consequence of sub-optimal measurement of collected photons by the imaging instrument. To overcome this limitation, we present Adaptive Information Mining, a framework that achieves super-resolution by using sequentially refined measurements for incoming photons. Our approach employs a reconfigurable imaging system that dynamically reshapes the instrument measurement responses to maximize the Fisher information and guide scene estimation toward the fundamental quantum limit, even in deep sub-Rayleigh regimes. We demonstrate that this approach achieves an estimation error 2-5 times closer to the fundamental quantum limit than traditional direct imaging when imaging point sources, without requiring any prior knowledge of their positions and brightnesses. Importantly, we demonstrate that AIM can be extended to fully blind multi-parameter estimation in scenarios involving an unknown number of sources or turbulence-induced wavefront distortions. Our approach addresses the limitations of conventional fixed imaging, offering a practical path toward quantum-limited super-resolution imaging.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-27",
-      "author": "Seungman Choi, Peter Menart, Andrew Schramka, Zubin Jacob",
-      "fetched_at": "2026-10-28T05:04:37+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.37438v1",
-      "title": "Homodyne Unravelling and Parameter Estimation in Squeezed Thermal Baths",
-      "url": "https://arxiv.org/abs/2610.37438v1",
-      "summary": "We derive an alternative formulation of the stochastic master equation describing the evolution of quantum systems continuously measured via homodyne detection in a squeezed-thermal environment. This formulation allows us to identify two distinct collapse operators, corresponding respectively to the monitored and unmonitored channels, and to express the quantum state evolution directly in terms of Kraus-like operators. As a consequence, it facilitates the application of advanced numerical methods that account for higher-order corrections and discrete-time monitoring, and it also enables the efficient numerical evaluation of Cramér-Rao bounds in parameter estimation problems. To demonstrate the latter, we evaluate the Fisher information of the continuous homodyne monitoring for qubit frequency estimation in the presence of a squeezed-thermal bath. Our results show that exponential scaling of the steady-state Fisher information rate with squeezing is retained even at non-zero temperature.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-27",
-      "author": "Eoin O'Connor, Francesco Albarelli, Marco G. Genoni",
-      "fetched_at": "2026-10-28T05:04:37+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.37347v1",
-      "title": "Measurement incompatibility and noiseless quantum codes",
-      "url": "https://arxiv.org/abs/2610.37347v1",
-      "summary": "We construct a rank-one minimal informationally complete measurement (MIC) with an invertible dual operator and prove that, for arbitrary finite input and output dimensions, a channel universally preserves measurement incompatibility if and only if its input space contains a noiseless code subspace of the full output dimension. Preserving the compatibility threshold of a finite family of binary measurements already guarantees such a code. Furthermore, for every $d\\ge2$, there exists a family of binary measurements that is incompatible on the full space but compatible after compression to any proper subspace. These results resolve the conjecture of Chitambar and Zhang and the existence question posed by Uola and coauthors. We also give an explicit construction of exact encodings and show that, for a sufficiently small shift in the compatibility threshold, the transmission error of an approximate encoding is bounded by a constant times the square of the shift. These results establish a connection between measurement compatibility, quantum steering, and quantum error correction.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-27",
-      "author": "Yu-Xuan Zhang, Jing-Ling Chen",
-      "fetched_at": "2026-10-28T05:04:37+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.37337v1",
-      "title": "Security Analysis of Ekert-type QKD Protocol Coming Under Cloning Attacks",
-      "url": "https://arxiv.org/abs/2610.37337v1",
-      "summary": "We analyze the security of an Ekert type bipartite key distribution protocol coming under cloning attacks by an untrusted observer. Precisely, an eavesdropper is assumed to intercept and apply an asymmetric, phase-variant cloner on one or both qubits which are transmitted over public channel from an authenticated source to the trusted parties. We partially characterize two-qubit states from the perspective of designing a QKD protocol that can generate a distillable secret key among the trusted users even under such cloning attacks. We rely upon Devetak Winter framework for computing key rate so as to identify states, which when used in the protocol, secret-key can be distilled. Utility of an entangled state, for designing a successful QKD protocol, changes from single-qubit to double-qubits cloning attacks. Interestingly, we can distinguish some useful families of two-qubit entangled states when only one of the transmitted qubits is cloned by a malicious third party.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-27",
-      "author": "Kaushiki Mukherjee, Sumana Karmakar",
-      "fetched_at": "2026-10-28T05:04:37+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.37296v1",
-      "title": "Prepare-and-measure quantum key distribution from a bound on information leakage",
-      "url": "https://arxiv.org/abs/2610.37296v1",
-      "summary": "Every quantum key distribution (QKD) protocol must limit the information available outside the users' laboratories. In device-independent QKD this is essentially the only assumption made on the devices. In a prepare-and-measure setting it cannot be imposed strictly, since the sender's device must emit a signal that depends on her private input. The natural replacement, and a minimal one, is a leakage bound: a bound on how much information about the input leaves the sender's laboratory, through the intended signal or through any side channel. We ask how far this unavoidable requirement can replace a detailed model of the source. We show that this single bound, quantified by the probability of guessing the input from everything the source emits, suffices to prove security against collective attacks. In our analysis, nothing is assumed about the precise form of the emitted states, their dimension, energy or purity, nor about the receiver's measurement device, beyond the standard requirement that it does not leak Bob's data. The standard B92 and BB84 protocols do not certify any key under this minimal leakage bound assumption. But closely related protocols can and, in the ideal limit, achieve one secret bit per key round. For noisy implementations, we compute key rates using semidefinite programming relaxations. Our best protocols tolerate visibilities down to 0.84, corresponding to an 8% quantum bit error rate, compared with the 11% threshold of standard device-dependent BB84.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-27",
-      "author": "Abhishek Mishra, Michele Masini, Maria Balanzó-Juandó, Armin Tavakoli et al.",
-      "fetched_at": "2026-10-28T05:04:37+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://doi.org/10.22331/q-2026-10-27-2250",
-      "title": "Noncontextuality inequalities for prepare-transform-measure scenarios",
-      "url": "https://doi.org/10.22331/q-2026-10-27-2250",
-      "summary": "We provide the first systematic technique for deriving witnesses of contextuality in prepare-transform-measure scenarios. More specifically, we show how linear quantifier elimination can be used to compute a polytope of correlations consistent with generalized noncontextuality in such scenarios. This polytope is specified as a set of noncontextuality inequalities that are necessary and sufficient conditions for observed data in the scenario to admit of a classical explanation relative to any linear operational identities, if one ignores some constraints from diagram preservation. While including these latter constraints generally leads to tighter inequalities, it seems that nonlinear quantifier elimination would be required to systematically include them. We also provide a linear program which can certify the nonclassicality of a set of numerical data arising in a prepare-transform-measure experiment. We apply our results to get a robust noncontextuality inequality for transformations that can be violated within the stabilizer subtheory. Finally, we give a simple algorithm for computing all the linear operational identities holding among a given set of states, of transformations, or of measurements.",
-      "source": "Quantum",
-      "category": "research",
-      "date": "2026-10-27",
-      "author": "David Schmid, Roberto D. Baldijão, John H. Selby, Ana Belén Sainz et al.",
-      "fetched_at": "2026-10-28T12:31:43+00:00",
-      "doi": "https://doi.org/10.22331/q-2026-10-27-2250",
-      "open_access": true
-    },
-    {
-      "id": "https://doi.org/10.22331/q-2026-10-27-2249",
-      "title": "A General Framework for Gradient-Based Optimization of Superconducting Quantum Circuits using Qubit Discovery as a Case Study",
-      "url": "https://doi.org/10.22331/q-2026-10-27-2249",
-      "summary": "Engineering the Hamiltonian of a quantum system is fundamental to the design of quantum systems. Automating Hamiltonian design through gradient-based optimization can dramatically accelerate this process. However, computing the gradients of eigenvalues and eigenvectors of a Hamiltonian–a large, sparse matrix–relative to system properties poses a significant challenge, especially for arbitrary systems. Superconducting quantum circuits offer substantial flexibility in Hamiltonian design, making them an ideal platform for this task. In this work, we present a comprehensive framework for the gradient-based optimization of superconducting quantum circuits, leveraging the SQcircuit software package. By addressing the challenge of calculating the gradient of the eigensystem for large, sparse Hamiltonians and integrating automatic differentiation within SQcircuit, our framework enables efficient and precise computation of gradients for various circuit properties or custom-defined metrics, streamlining the optimization process. We apply this framework to the qubit discovery problem, demonstrating its effectiveness in identifying qubit designs with superior performance metrics. The optimized circuits show improvements in a heuristic measure of gate count, upper bounds on gate speed, decoherence time, and resilience to noise and fabrication errors compared to existing qubits. While this methodology is showcased through qubit optimization and discovery, it is versatile and can be extended to tackle other optimization challenges in superconducting quantum hardware design.",
-      "source": "Quantum",
-      "category": "research",
-      "date": "2026-10-27",
-      "author": "Taha Rajabzadeh, Alex Boulton-McKeehan, Sam Bonkowsky, David I. Schuster et al.",
-      "fetched_at": "2026-10-28T12:31:43+00:00",
-      "doi": "https://doi.org/10.22331/q-2026-10-27-2249",
-      "open_access": true
-    },
-    {
-      "id": "https://doi.org/10.1103/wkjv-zx9x",
-      "title": "Valley Hall viscosity in gapped graphene with and without a magnetic field",
-      "url": "https://doi.org/10.1103/wkjv-zx9x",
-      "summary": "Hall viscosity is conventionally defined through the stress response to time-dependent strain, a perturbation that is difficult to implement in solid-state experiments. We formulate a related viscoelastic response to static, spatially inhomogeneous electric fields and compare it with the strain-based response. For gapped graphene in a perpendicular magnetic field, the two formulations give the same Landau-level response, whose Hall viscosity is asymmetric between the two valleys. At zero magnetic field, a valley-even quantum-metric coefficient combines with the valley-odd Hall conductivity to produce equal and opposite valley-resolved responses; global time-reversal symmetry therefore forces the net Hall viscosity to vanish. In an insulating state, exact particle--hole symmetry eliminates this zero-field response, whereas particle--hole-symmetry breaking generates a cutoff-dependent geometric contribution from the occupied Fermi sea. These results connect valley-dependent viscoelasticity with electromagnetic response in gapped Dirac materials and clarify the conditions under which a valley Hall viscosity can arise.",
-      "source": "Physical review. B./Physical review. B",
-      "category": "research",
-      "date": "2026-10-27",
-      "author": "Danyu Shu, Hiroshi Funaki, Ai Yamakage, Ryotaro Sano et al.",
-      "fetched_at": "2026-10-28T12:31:43+00:00",
-      "doi": "https://doi.org/10.1103/wkjv-zx9x",
-      "open_access": true
-    },
-    {
-      "id": "https://doi.org/10.1137/25m1813317",
-      "title": "Numerical Computation of the Density of States of Aperiodic Multiscale Schrödinger Operators",
-      "url": "https://doi.org/10.1137/25m1813317",
-      "summary": "Abstract. Computing the electronic structure of incommensurate materials is a central challenge in condensed matter physics, requiring efficient ways to approximate spectral quantities such as the density of states (DoS). In this paper, we numerically investigate two distinct approaches for approximating the DoS of incommensurate Hamiltonians for small values of the incommensurability parameters [Formula: see text] (e.g., small twist angle, or small lattice mismatch): the first employs a momentum-space decomposition, and the second exploits a semiclassical expansion with respect to [Formula: see text]. In particular, we compare these two methods using a one-dimensional toy model. We check their consistency by comparing the asymptotic expansion terms of the DoS, and it is shown that, for full DoS, the two methods exhibit good agreement in the small [Formula: see text] limit, while discrepancies arise for less small [Formula: see text], which indicates the importance of higher-order corrections in the semiclassical method for such regimes. We find these discrepancies to be caused by oscillations in the DoS at the semiclassical analogues of Van Hove singularities, which can be explained qualitatively, and quantitatively for [Formula: see text] small enough, by a semiclassical approach. Reproducibility of computational results. This paper has been awarded the “SIAM Reproducibility Badge: Code and data available” as a recognition that the authors have followed reproducibility principles valued by SISC and the scientific computing community. Code and data that allow readers to reproduce the results in this paper are available at https://zenodo.org/records/20214148 and in the supplementary materials ( DOS_multiscale_supplementary_material.pdf [270KB], DOS_multiscale_supporting",
-      "source": "SIAM Journal on Scientific Computing",
-      "category": "research",
-      "date": "2026-10-27",
-      "author": "Eric Cancès B, Daniel Massatt, Long Meng, Étienne Polack et al.",
-      "fetched_at": "2026-10-28T12:31:43+00:00",
-      "doi": "https://doi.org/10.1137/25m1813317",
-      "open_access": true
-    },
-    {
-      "id": "https://doi.org/10.1103/nz94-2p7q",
-      "title": "Analysis of LIGO glitches using t-SNE during the first part of the fourth LIGO-Virgo-KAGRA observing run",
-      "url": "https://doi.org/10.1103/nz94-2p7q",
-      "summary": "This paper presents an analysis of noise transients observed in LIGO data during the first part of the fourth observing run, using the unsupervised machine learning technique t-distributed Stochastic Neighbor Embedding (t-SNE) to examine the behavior of glitch groups. Based on the t-SNE output, we apply Agglomerative Clustering in combination with the Silhouette Score to determine the optimal number of groups. We then track these groups over time and investigate correlations between their occurrence and environmental or instrumental conditions. At the Livingston observatory, the most common glitches during O4a were seasonal and associated with ground motion, whereas at Hanford, the most prevalent glitches were related to instrumental conditions.",
-      "source": "APS Open Science",
-      "category": "research",
-      "date": "2026-10-27",
-      "author": "T. A. Ferreira, Gabriela González, Osvaldo Salas",
-      "fetched_at": "2026-10-28T12:31:43+00:00",
-      "doi": "https://doi.org/10.1103/nz94-2p7q",
-      "open_access": true
-    },
-    {
-      "id": "https://doi.org/10.1103/m82l-n8gt",
-      "title": "Fabry-Pérot interferometry with stochastic anyonic sources",
-      "url": "https://doi.org/10.1103/m82l-n8gt",
-      "summary": "We investigate the interference of Laughlin quasiparticles (QPs) in the fractional quantum Hall regime that are stochastically injected into a Fabry--Pérot interferometer. We find that the effective Aharonov--Bohm (AB) phase accumulated along the interferometer loop acquires an additional contribution of $\\sin(2πλ)/2$ per QP present on it, where $πλ$ is the QP exchange phase. This contribution originates from time-domain braiding processes associated with injected QPs passing the interferometer quantum point contacts. In the limit of symmetric QP injection, the tunneling current noise exhibits AB oscillations as a function of the total injected current, providing access to the exchange phase $πλ$. In the regime of large total injection, we identify a universal Fano factor that displays power-law scaling and a characteristic phase shift reflecting time-domain QP braiding at the interferometer QPCs. These results are relevant for accessing anyonic exchange statistics in mesoscopic interferometers.",
-      "source": "Physical review. B./Physical review. B",
-      "category": "research",
-      "date": "2026-10-27",
-      "author": "Sarthak Girdhar, Edvin G. Idrisov, Thomas L. Schmidt",
-      "fetched_at": "2026-10-28T12:31:43+00:00",
-      "doi": "https://doi.org/10.1103/m82l-n8gt",
-      "open_access": true
     }
   ],
   "refresh": {
-    "sources_succeeded": 3,
+    "sources_succeeded": 4,
     "sources_total": 4,
-    "new_items": 8
+    "new_items": 12
   }
 }
