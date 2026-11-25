@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-24T22:12:23+00:00",
+  "updated_at": "2026-11-25T07:56:48+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -418,6 +418,150 @@
       "fetched_at": "2026-11-20T23:52:26+00:00",
       "doi": "https://doi.org/10.12913/22998624/226854",
       "open_access": true
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.33138v1",
+      "title": "Prospects and limitations of adaptive variational quantum algorithms for lattice field theories: a case study in 2+1 dimensions",
+      "url": "https://arxiv.org/abs/2611.33138v1",
+      "summary": "The variational quantum algorithm ADAPT-VQE has previously been used to prepare the vacuum of lattice gauge theories in $1+1D$. In this paper, we study whether it extends to higher dimensions. We identify two general limitations of ADAPT-VQE. First, if the qubit Hamiltonian and the initial state are real, i.e., invariant under qubit-level time-reversal, all real-valued pool operators have vanishing gradients and are never selected. Second, the algorithm can converge to excited eigenstates. We illustrate both limitations, also providing examples from literature, and present a first application of ADAPT-VQE to a lattice field theory in $2+1D$, namely free Wilson fermions, where both obstacles occur. Adding charge conjugation symmetry to the operator pool improves the results, and combining different pools with suitable initial states recovers the ground and first excited states over the full mass range. These findings give practical guidelines for applying ADAPT-VQE to lattice field theories beyond $1+1D$.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-24",
+      "author": "Nico Dichter, Andrea Bulgarelli, Lena Funcke, Stefan Kühn",
+      "fetched_at": "2026-11-25T07:56:48+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.33129v1",
+      "title": "A Koashi--Imoto Criterion for Holevo-Rate Visible Compression",
+      "url": "https://arxiv.org/abs/2611.33129v1",
+      "summary": "For a finite memoryless quantum source whose encoder knows the sequence of classical labels, we determine when the Holevo rate is achievable with shared classical randomness and no shared entanglement. In the maximal Koashi--Imoto decomposition of the signal ensemble, this occurs exactly when each signal is pure on the quantum part of every sector it occupies. For qubits, this means that the signals are all pure or commute pairwise. If any occupied quantum part is mixed, every code with sufficiently small mean local error has rate bounded away from the Holevo information, uniformly in blocklength. To prove the converse, we apply Fawzi--Renner recovery to a hypothetical sequence of visible codes approaching the Holevo rate at vanishing local error, then invoke a decoupling bound of Baghali Khanian and Winter for blind compression.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-24",
+      "author": "Anthony M. Polloreno",
+      "fetched_at": "2026-11-25T07:56:48+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.33128v1",
+      "title": "Classical algorithms for sparse random Hamiltonians via free probability",
+      "url": "https://arxiv.org/abs/2611.33128v1",
+      "summary": "The search for quantum advantage in average-case problems is a pressing open question in physics and computer science. The widest conjectured example of such an advantage is in simulation of quantum many-body systems, where sign problems and entanglement growth cause the breakdown of many classical methods. Nonetheless, theoretical evidence for or against such an advantage remains scarce. Here, we investigate this in sparse random non-local Hamiltonians. We design a classical algorithm for such Hamiltonians that enables accurate computation of spectral fluctuations, thermal values, and time-ordered and out-of-time-order correlation functions. For any subexponential precision $\\varepsilon$, our algorithm runs in time $(1/\\varepsilon)^{2+o(1)}$, nearly identical to a quantum simulation. Crucially, this applies even at late evolution times, low temperatures, and near critical points, where existing classical methods require exponential time. Rather than directly simulating a quantum state or operator, our algorithm first computes the model's mean behavior and then a short hierarchy of instance-dependent corrections. These corrections predict long-time behavior based on short-time data using free probability theory.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-24",
+      "author": "Matthew Ding, Robbie King, Thomas Schuster",
+      "fetched_at": "2026-11-25T07:56:48+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.33121v1",
+      "title": "Anomalies and the Berry Phase: From $π^0\\toγγ$ to the geometry of the fermion vacuum",
+      "url": "https://arxiv.org/abs/2611.33121v1",
+      "summary": "We review the chiral anomaly from a historical perspective, from the $π^0\\toγγ$ puzzle and the work of Adler, Bell and Jackiw, to the Wess-Zumino-Witten (WZW) term. We then describe how the WZW term was motivated from quantum chromodynamics in 1983-85. Integrating out the non-Abelian gauge fields, that have a gapped spectrum, gives a Nambu-Jona-Lasinio type theory of quarks, and integrating out the quarks, which are gapped by chiral symmetry breaking, gives the WZW model. The fermion determinant splits into a regulator-dependent modulus, which gives the dynamics of mesons, and a universal phase, which is fixed by the anomaly and is the WZW term. Restricted to the collective coordinates of the baryon soliton, the WZW term imposes a U(1) constraint that makes the baryon wave functions monopole harmonics and fixes their spin, statistics and flavour multiplets. We then explain that this phase is a Berry phase: the Schwinger terms of current algebra are the curvature of a U(1) connection on the space of chiral field configurations, and the WZW term is its holonomy, which we call a Berry-Wilson loop. In 1+1 dimensions we write the connection explicitly in terms of Euler angles, exhibiting a Dirac monopole whose quantised charge is the level of the current algebra.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-24",
+      "author": "Spenta R. Wadia",
+      "fetched_at": "2026-11-25T07:56:48+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.33112v1",
+      "title": "Robust growth of $α$-tantalum on sapphire at room temperature using atomically thin titanium seed layer",
+      "url": "https://arxiv.org/abs/2611.33112v1",
+      "summary": "Tantalum (Ta) based superconducting circuits have attracted attention for their low microwave loss. However, reproducible growth of high-quality $α$-phase Ta films remains challenging because film properties are highly sensitive to growth conditions. We present a robust, room-temperature route for $α$-Ta growth on sapphire substrates using an ultrathin Ti seed layer, which significantly widens the accessible deposition parameter space. We compare this approach to Ta films grown at high temperature without a seed layer and at room temperature with a Nb seed. We assess films using structural and surface characterization and quantify microwave loss with coplanar-waveguide (CPW) resonators measured in the quantum regime. We obtain two-level-system (TLS)-limited quality factors comparable to the state of the art for Ta-on-sapphire CPW resonators with similar geometries. In addition, temperature-dependent measurements reveal that high-temperature-grown films and films subjected to extended buffered-oxide etch treatment exhibit additional temperature activated loss, highlighting the role of growth route and post-processing in microwave performance. Our results establish ultrathin seed-layer engineering as a reliable alternative route to reproducible, low-loss $α$-Ta films and motivate closer study of the interfacial mechanisms that govern Ta phase formation.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-24",
+      "author": "Anand Kamlapure, Lucas Hak, Kishore Kumar Thiyagarajan, Hozanna Miro et al.",
+      "fetched_at": "2026-11-25T07:56:48+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.33063v1",
+      "title": "Finite-Temperature Superradiant Criticality and Thermal Emission in the Open Dicke Model",
+      "url": "https://arxiv.org/abs/2611.33063v1",
+      "summary": "Near the superradiant phase transition of the Dicke model, the lowest-frequency excitation softens and its losses can no longer be treated as a weak perturbation. We develop a finite-temperature theory of this transition in the open system, with no restriction on the strength of the system-bath coupling. The cavity mode and the atomic ensemble are coupled to independent reservoirs, the first at zero temperature and the second at temperature $T$, and we assume that the spins remain thermalized with their reservoir. We find that the reservoirs do not shift the temperature-dependent critical coupling for a broad class of spectral densities, while the polariton becomes overdamped in a finite interval of couplings around it. As expected, raising the temperature moves the transition to stronger couplings, and in the superradiant phase we find a faster decoupling of light and matter. The theoretical framework developed here yields the reflection and thermal emission spectra for arbitrary parameters in both the normal and the superradiant phase, and provides a basis for comparison with experiments on systems displaying ground-state condensation. We also identify conditions under which the system behaves, at specific frequencies, as both a perfect absorber and a perfect emitter.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-24",
+      "author": "Gabriele Orlando, Samuel Napoli, Salvatore Savasta, Omar Di Stefano",
+      "fetched_at": "2026-11-25T07:56:48+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.33055v1",
+      "title": "Class-resolved sifting for quantum key distribution with photon pairs hyperentangled in polarization and transverse spatial variables",
+      "url": "https://arxiv.org/abs/2611.33055v1",
+      "summary": "Photon pairs hyperentangled in polarization and transverse spatial variables can carry two key bits per pair in entanglement-based quantum key distribution. We develop class-resolved sifting for such sources: every detected pair is assigned to a class according to which degrees of freedom were measured in compatible bases, and error and key rates are estimated separately in each class. Applied to previously reported data from a two-crystal spontaneous parametric down-conversion source read out in intermediate fractional-Fourier planes, the method recovers the key yield of independent sifting and turns the comparison between classes into a quantitative consistency test for cross-dependencies between the two degrees of freedom. The measured dependence lies below the spatial-polarization coupling predicted for the source, at the edge of the present statistical sensitivity. Resolving the data by polarization-analyzer setting, we find an approximately twofold dependence of the spatial error on the polarization setting in one readout arm, attributable to the measurement apparatus rather than to the source and relevant to basis-dependent side channels. We compare the hyperentangled protocol with a single 4-dimensional system measured in two mutually unbiased bases. Fundamentally, both yield the same key per detected pair and obey the same entropic bound, but they differ in their tensor-product structure: hyperentanglement factors the bases into separate two-outcome measurements, which are simpler to implement and allow errors to be attributed to each degree of freedom, whereas a single variable gives access to non-product bases that can increase the noise tolerance. For the present source, whose polarization coherence is limited by partial which-crystal erasure, a single-varia",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-24",
+      "author": "Murilo H. Magiotto, Millena B. Novaes, Wesley B. Cardoso, Ardiley T. Avelar et al.",
+      "fetched_at": "2026-11-25T07:56:48+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.33027v1",
+      "title": "Polynomial Master Equations of Open Quantum Systems and an Analysis on the Critical Solutions",
+      "url": "https://arxiv.org/abs/2611.33027v1",
+      "summary": "The dynamics of open quantum systems exhibits in general a non-Markovian behavior, lying typically beyond the description of first-order differential equations. Traditional methods commonly turned to first-order integro-differential equations, which allowed for the standard interpretation of non-Markovianity as having its origin in the global history of the system evolution. We examine the possibility of an alternative, locally deterministic interpretation [arXiv:2607.09651] of the working of its dynamical hysteresis, where the evolution of a system is determined by its local behavior alone. The present work elaborates on our systematic method in deriving non-Markovian linear differential equations associated with matrix polynomials of higher order. Our methods will be demonstrated with exact analyses on two illustrative examples: one built upon the simplest non-trivial model concerning a two-qubit system, and another involving an unbounded Hamiltonian defined on an infinite-dimensional quantum system. We also analyze the critical parameters at which qualitative changes are observed in the system dynamics, and reveal how our polynomial equations account for the phenomena.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-24",
+      "author": "Miku Ishizaki, Jaeha Lee",
+      "fetched_at": "2026-11-25T07:56:48+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.32995v1",
+      "title": "Iterative Petz Protocols for Quantum State Recovery",
+      "url": "https://arxiv.org/abs/2611.32995v1",
+      "summary": "Noise is omnipresent in quantum systems, and thus, approximately reversing this noise is a central challenge towards quantum technologies. The Petz map provides a physically admissible recovery channel, but its performance depends critically on the choice of reference state. Here, we introduce and investigate the iterative Petz recovery (IPR) protocol, an adaptive multicopy strategy that begins from an unbiased reference state and uses each recovered output to construct the Petz map for the next iteration. We establish the stability of the protocol and develop a tomography-assisted finite-copy implementation with explicit control of error propagation and fidelity loss. For qubit depolarizing noise, we derive an exact recurrence for the fidelity of every pure input. For single-axis Pauli noise, we derive an exact recurrence for the six-state Pauli average and compare it numerically with the Haar average. We further benchmark finite-copy IPR against measure-and-prepare strategies based on local and collective measurements, revealing the associated finite-resource tradeoffs.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-24",
+      "author": "Lea Lautenbacher, Felix Ahnefeld, Susana F. Huelga, Martin B. Plenio",
+      "fetched_at": "2026-11-25T07:56:48+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.32968v1",
+      "title": "Quantum-Inspired Tensor Train Spectral Solver for High-Resolution PDEs with Non-Periodic Boundary Conditions",
+      "url": "https://arxiv.org/abs/2611.32968v1",
+      "summary": "Tensor train (TT) methods enable high-resolution computational mechanics simulations by exploiting low-rank structure in discretized fields and operators. While the superfast Fourier transform (SFFT) has enabled efficient TT-based spectral solvers for periodic problems, corresponding representations for non-periodic boundary conditions remain underexplored. We introduce the superfast cosine and sine transforms (SFCT and SFST), extending the TT spectral framework to homogeneous Neumann and Dirichlet boundary conditions, respectively. Building on a quantum-circuit construction of the discrete cosine and sine transforms, we derive both transforms from a shared TT operator representation and prove that their TT ranks are bounded by $6r_S$, independently of the discretization order, where $r_S$ is the rank of the SFFT at the prescribed accuracy. The measured ranks plateau near 32 for grid sizes up to $2^{26}$ points. For Rayleigh-Bénard convection, spectral pressure projection achieves up to a 7-fold speedup in the Poisson solve relative to a preconditioned physical-space TT solver while maintaining comparable accuracy. Three-dimensional computational homogenization achieves a 2-6-fold speedup and a 4-7-fold reduction in memory consumption compared with the existing TT-based approach. The results establish an efficient TT framework for spectral PDE solvers with non-periodic boundary conditions.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-24",
+      "author": "Sascha H. Hauck, Nis-Luca van Hülst, Matthias Kabel, Dieter Jaksch et al.",
+      "fetched_at": "2026-11-25T07:56:48+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.32961v1",
+      "title": "Anomalous front propagation in many-body quantum transport with memory-dependent resetting",
+      "url": "https://arxiv.org/abs/2611.32961v1",
+      "summary": "We introduce an exactly solvable framework for non-Markovian quantum many-body dynamics based on stochastic resetting with memory. Applicable to arbitrary time-independent Hamiltonians, including interacting systems, our framework provides an exact representation of the dynamics with memory in terms of the corresponding reset-free evolution, which can be accessed either analytically or numerically. We demonstrate the power of this approach by studying domain-wall melting in a one-dimensional chain of noninteracting fermions, obtaining exact analytical results for the density profile, the local structure of the front edge, the extreme-value statistics of the rightmost fermion, and the integrated current. Remarkably, memory transforms ballistic transport into logarithmically slow propagation without arresting spreading. While the macroscopic density profile retains its original scaling function, the front edge broadens as $\\sqrt{\\ln t}$ rather than $t^{1/3}$ at late times and develops a qualitatively different edge structure. Furthermore, the extreme-value statistics change from Tracy--Widom to Gaussian, while both the mean and variance of the integrated current grow logarithmically in time. Our predictions are in excellent agreement with numerical simulations. These results reveal how memory can fundamentally alter quantum many-body transport and its fluctuations.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-24",
+      "author": "Gabriele de Mauro, Manas Kulkarni, Satya N. Majumdar",
+      "fetched_at": "2026-11-25T07:56:48+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
+    },
+    {
+      "id": "https://arxiv.org/abs/2611.32942v1",
+      "title": "Quantum kernels on breast data: concentration, surrogates, and two ways an advantage gets manufactured",
+      "url": "https://arxiv.org/abs/2611.32942v1",
+      "summary": "Quantum-kernel advantage claims on breast data are usually a single number: one quantum arm, one comparator, one test split. We asked what that number measures once the full comparator set and selection history are visible. We report three active benchmarks, all exact classical statevector simulations of 8-qubit fidelity kernels with no quantum component in the inference path: a sample-efficiency sweep on Wisconsin Diagnostic Breast Cancer at ten training-set sizes; raw-versus-processed arms on 1,200 M-SYNTH simulated mammograms with a matched closed-form dequantisation surrogate, five classical methods at the same input and eleven kernel families; and a 30-seed selection-inflation measurement on BreastMNIST. A CMMD D1 clinical arm is withdrawn as a result arm because its frozen splits leak the label through patient serial order, a defect reported in a separate study; it is retained only as a worked example. All three active arms are negative. On M-SYNTH raw an apparent +0.1736 (p = 5.2e-06) against a tuned RBF-SVM falls to +0.0019 (p = 0.937) against a random forest at the same input, and a Laplacian kernel wins on validation. On WDBC, with model selection confined to training data, the quantum kernel is below the selected classical arm at every training-set size, with 2 of 200 paired subsamples ahead. Best-of-30 seed selection adds +0.0210 on BreastMNIST. One result does not fit: at bandwidth 2pi the matched closed-form Gaussian surrogate failed to reproduce the M-SYNTH raw kernel (0.5410 against 0.7045, p = 6.3e-06). Comparator choice and selection each produce effects larger than any quantum-classical difference we measured; we give a reporting standard that removes both.",
+      "source": "arXiv",
+      "category": "preprint",
+      "date": "2026-11-24",
+      "author": "Rana Saad, Achraf Toufah, Moulay Youssef El Hafidi",
+      "fetched_at": "2026-11-25T07:56:48+00:00",
+      "note": "Preprint; not necessarily peer reviewed."
     },
     {
       "id": "https://arxiv.org/abs/2611.31236v1",
@@ -5994,158 +6138,11 @@
       "author": "Jonas Wunder, Hendrik Weimer, Ricardo Costa de Almeida",
       "fetched_at": "2026-10-30T05:16:57+00:00",
       "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.40638v1",
-      "title": "Entanglement diagnostics of stochastic-resetting steady states: theory and measurement on superconducting qubits",
-      "url": "https://arxiv.org/abs/2610.40638v1",
-      "summary": "Stochastic resetting drives quantum systems into nonequilibrium stationary states unreachable under uninterrupted unitary evolution, and their entanglement depends on whether the reset history is resolved or averaged over. We study this interplay in the transverse-field Ising chain, deriving closed-form results for two qubits and evaluating chains of up to 12 qubits exactly. In the two-qubit system, these closed-form results show that phase matching between energy eigenstates produces resonances, and their visibility in the stationary state is determined by the symmetry of the reset state. Measurements on an IBM superconducting processor show the entropies evaluated before and after the reset average closely following noiseless predictions with no fitted parameter, while concurrence lies below prediction across most of the hardware measurements. The two diagnostics respond differently because they read different components of the same reconstructed state, and a depolarizing model captures the concurrence suppression with one fitted parameter. The difference between the two entropies, i. e., the Jensen gap of entanglement entropy, equals the Holevo information that a subsystem retains about the time since the last reset. With a Bell-state reset, this information grows with chain length across a half-chain cut over the sizes studied, without visible saturation at the smaller reset probabilities. Since reset times are sampled and recorded classically, the trajectory-averaged entropy, and with it the Jensen gap, is obtained without postselection, in contrast to monitored circuits, where trajectory-resolved entanglement requires sampling exponentially rare measurement records.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-29",
-      "author": "Jakob Murauer, Sabine Tornow, Manas Kulkarni, Eli Barkai et al.",
-      "fetched_at": "2026-10-30T05:16:57+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.40628v1",
-      "title": "Locality in Dissipative Ground-State Preparation",
-      "url": "https://arxiv.org/abs/2610.40628v1",
-      "summary": "Can the ground state of a local Hamiltonian be prepared by local dissipation? We address this question for free-fermion Hamiltonians, using a quadratic Lindbladian with linear jump operators for the dissipative ground-state preparation. For translation-invariant targets, Fourier correspondence relates spatial locality to momentum-space analyticity, allowing us to derive a complete spectral criterion for the existence of exponentially local linear jump operators that prepare the ground state. This criterion leads to a no-go theorem that, sign-changing Fermi-level crossings exclude exponentially local linear jump operators for preparing the ground state. While these crossings are the complete obstruction in one dimension, additional obstructions generally arise in higher dimensions. We illustrate these additional obstructions using two quadratic-band-touching models with algebraically decaying ground-state correlations. We further show that short-range ground-state correlations, although not necessary, are sufficient for local dissipative preparation even without translation invariance. Our results establish how the spectral structure of the target Hamiltonian governs the locality of dissipative ground-state preparation.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-29",
-      "author": "Qicheng Tang, Ruhanshi Barad, Xueda Wen",
-      "fetched_at": "2026-10-30T05:16:57+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.40624v1",
-      "title": "Left-Handed Transmission Lines for the Dynamical Casimir Effect",
-      "url": "https://arxiv.org/abs/2610.40624v1",
-      "summary": "Left-handed (LH) superconducting transmission lines, built with series capacitors and shunt inductors instead of the series inductors and shunt capacitors of a conventional right-handed (RH) line, have a spectrum with a nonzero lower band edge and modes that become sparse at high frequencies. We study the dynamical Casimir effect in a LH line terminated by a flux-modulated SQUID and compare it with an RH line built from the same elements and with a long coplanar waveguide terminated by the same SQUID. We derive the quantum Hamiltonian and show that the coupling between two modes factorizes into their amplitudes at the SQUID. Together, the LH spectrum and the mode dependence of this coupling determine which modes are populated and how fast. With equal elements, the LH coupling grows with frequency and exceeds the RH one above a crossover pump frequency set by the cell inductance and capacitance, and only the LH line has resonances above the RH band edge. Pumping two modes at once lets a weakly coupled mode borrow coupling from a strongly coupled one, while crossings of resonance lines populate three or four modes without increasing the growth rate. Compared with the coplanar waveguide, the LH line has a similar coupling but keeps the created particles in the target mode, whereas the nearly equidistant waveguide spreads them over many pairs and needs more pump energy.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-29",
-      "author": "Valentin E. Salari, Fernando C. Lombardo, Paula I. Villar",
-      "fetched_at": "2026-10-30T05:16:57+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.40623v1",
-      "title": "Optimal Diamond Distance Estimation for Unitary Channels",
-      "url": "https://arxiv.org/abs/2610.40623v1",
-      "summary": "The diamond distance between two quantum channels determines the optimal probability of distinguishing them from a single use. We give a quantum algorithm that estimates the diamond distance between two unknown $d$-dimensional unitary channels to within additive error $\\varepsilon$, using $O(\\sqrt{d}/\\varepsilon)$ queries to the unitary channels and their inverses. The query complexity is optimal, as it matches the lower bound due to Jeon and Oh (npj Quantum Inf. 2026).",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-29",
-      "author": "Jinge Bao, Qisheng Wang",
-      "fetched_at": "2026-10-30T05:16:57+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.40612v1",
-      "title": "Exceptional Points as Witnesses of Non-Gaussian Noise",
-      "url": "https://arxiv.org/abs/2610.40612v1",
-      "summary": "Efficient control of quantum devices requires the knowledge of their environmental noise, yet the commonly measured power spectrum does not fully characterize non-Gaussian fluctuations of realistic environments. Here we show that exceptional points (EPs) in the noise-averaged dephasing response can expose observable signatures of non-Gaussian statistics, distinguishing environments with identical lower-order statistics. We also introduce a theoretical model that describes dephasing environments in terms of identical independent noise sources while preserving the power spectrum. Given a calibrated single-source model, the largest EP order extracted from the measured dephasing response determines the number of sources and predicts the higher-order statistics of the combined noise. We illustrate an atomtronic readout that maps distinct EP signatures onto an evolving ensemble-averaged atomic interference pattern. Our results connect non-Hermitian dynamics to environmental noise statistics, providing a route to characterize noise in quantum devices used in computing, metrology, and precision measurement.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-29",
-      "author": "Aritra Ghosh, Subhashish Banerjee, M. Bhattacharya",
-      "fetched_at": "2026-10-30T05:16:57+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.40596v1",
-      "title": "Algebraic theory of abelian fractons and beyond",
-      "url": "https://arxiv.org/abs/2610.40596v1",
-      "summary": "We develop an algebraic theory of fusion, mobility, and statistics in abelian gapped fracton orders and topological phases. The framework generalizes the algebraic description of abelian anyons to systems with restricted-mobility and spatially extended excitations. We consider translation-invariant bosonic systems whose pointlike and extended excitations have finite fusion order. The basic objects are braided fusion complexes (BFCs): chain complexes encoding fusion and mobility, equipped with a braiding chain map encoding statistics. Their equivalence classes define braided fusion theories (BFTs). Our framework encompasses arbitrary translation-invariant Pauli codes, as well as all abelian anyon theories in two spatial dimensions, including chiral theories. We give evidence for the conjecture that every nondegenerate BFT can be realized as the excitation theory of a gapped phase and that the BFT describing such a phase is a phase invariant. We derive constraints on pointlike fusion and mobility, showing, for example, that neither the Pauli X nor Z sectors of the X-cube and anisotropic models can occur alone in a nondegenerate BFT. For nondegenerate theories with only pointlike excitations, we extract a simpler theory of mutual statistics, consisting of a fusion module and a map to its statistical dual. This theory of mutual statistics is an invariant of the BFT and, at odd fusion order, gives an equivalent description of the full braided fusion theory. We interpret remote detection as the generalization of mutual statistics to fracton orders. In the BFC setting, we give a precise formulation of the excitation-detector principle: every nontrivial excitation can be detected by an operator supported at spatial infinity, and every nontrivial detector detects some excitation",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-29",
-      "author": "Wilbur Shirley, Evan Wickenden, Bowen Yang, Agnès Beaudry et al.",
-      "fetched_at": "2026-10-30T05:16:57+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.40595v1",
-      "title": "Optimal detuning and gate time for strongly driven single-qubit gates beyond the rotating-wave approximation",
-      "url": "https://arxiv.org/abs/2610.40595v1",
-      "summary": "Single-qubit quantum gates are implemented as the time-controlled unitary evolution of a two-level system under harmonic driving. The rotating-wave approximation (RWA) provides closed-form gate parameters for weak coupling. Larger amplitudes, desirable to speed up the dynamics, make the RWA-designed gates inaccurate because of the neglected counter-rotating term, which also shifts the resonance (Bloch-Siegert shift). Here we study theoretically the infidelity of gates beyond the RWA, using the effective Magnus-Taylor Hamiltonian through second order in the inverse of the driving frequency. By detuning the driving frequency by an amplitude-dependent shift of Bloch-Siegert type and rescaling the operation time, the RWA gate conditions are recovered with corrected parameters. Numerical solutions of the Schrodinger equation show that these corrections lower the gate infidelity by several orders of magnitude, extending the range of usable amplitudes",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-29",
-      "author": "Alejandro D. Bendersky, Sergio S. Gomez, Rodolfo H. Romero",
-      "fetched_at": "2026-10-30T05:16:57+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.40593v1",
-      "title": "Probing fluctuations in photon emission statistics of spin injected quantum dots with time dependent electronic excitation",
-      "url": "https://arxiv.org/abs/2610.40593v1",
-      "summary": "Electrically spin-injected ensembles of InGaAs/GaAs quantum dots emit circularly polarized single photons, with the emission helicity determined by the spin polarization of the injected electrons. A ferromagnetic CoFeB spin-injection layer with perpendicular magnetic anisotropy, combined with an MgO tunnel barrier, enables spin-polarized electron injection into the quantum-dot active region, resulting in circularly polarized photon emission at zero applied magnetic field. These devices realize direct spin-charge-photon conversion in an electrically driven, microelectronics-compatible quantum light source that operates without an external pump laser. Using an extended Hanbury Brown-Twiss interferometer with four detectors and time-tagged readout, we measure time-resolved photon-number statistics that resolve up to $|2\\rangle$ Fock states within a single excitation cycle. While single-photon ($n=|1\\rangle$) emission tracks the electrical excitation pulse as expected, the two-photon ($n=|2\\rangle$) statistics exhibit pronounced fluctuations at multiple temporal positions within the pulse. These fluctuations vanish upon demagnetization of the spin-injection layer, establishing a direct link between the multi-photon emission dynamics and the spin polarization of the injected carriers. The observations indicate that spin injection controls not only the helicity of the emitted photons but also higher-order temporal correlations of the emission. The behavior is phenomenologically captured by inserting both a variable excitation mechanism and a set of multi-emitter collapse operators within a stochastic wave function evolution. The platform thus opens a route to electrically driven, spin-controlled single and multi-photon Fock-state sources and provides a testbed for spin-condit",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-29",
-      "author": "Chiran Wijesundara, Vincent Iglesias-Cardinale, Yuan Lu, Herbert Fotso et al.",
-      "fetched_at": "2026-10-30T05:16:57+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.40592v1",
-      "title": "Toric codes all the way down: decoupling translation-invariant topological CSS codes in higher dimensions",
-      "url": "https://arxiv.org/abs/2610.40592v1",
-      "summary": "Topological Calderbank-Shor-Steane (CSS) codes in more than two spatial dimensions offer features useful for fault-tolerant quantum computation, such as transversal non-Clifford gates and single-shot decoding, but a systematic understanding of them is still lacking. One approach is to decouple a code: map it to a stack of higher-form toric codes by a finite-depth local CSS-preserving Clifford circuit, possibly after adding ancillas. For translation-invariant $p$-ary CSS codes, where $p$ is prime ($p=2$ for qubits), we require the circuit to commute with the translations of a superlattice. In two dimensions, such a decoupling exists once these translations act trivially on every anyon type. In higher dimensions, excitations are sorted by their dimension into superselection layers, which can remain glued together even when translations act trivially on each layer. We show that this gluing is the only remaining obstruction: a code can be decoupled on a superlattice exactly when, after coarse-graining to it, translations act trivially on every layer and the gluing vanishes. Moreover, for a code with finitely many excitation types in each layer and $m$ nonzero layers, once translations act trivially on every layer, further coarse-graining by a factor of $p^{m-1}$ in every direction removes the aforementioned gluing. Physically, the same criterion determines when the code encodes the maximal number of logical qudits on a finite torus. Finally, we give an explicit algorithm that constructs the decoupling as a circuit of SUM (qudit CNOT) and SWAP gates.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-29",
-      "author": "Mingxin He, Yifei Wang, Hao Song, Yingfei Gu",
-      "fetched_at": "2026-10-30T05:16:57+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://doi.org/10.1137/24m1690291",
-      "title": "Rank and Symmetries of Signature Tensors",
-      "url": "https://doi.org/10.1137/24m1690291",
-      "summary": "Abstract. The signature of a path is a sequence of tensors which allows for the unique reconstruction of a path. In this paper, we propose a systematic study of basic properties of signature tensors starting from their rank, symmetries, and conciseness. We prove a sharp upper bound on the rank of signature tensors of piecewise linear paths. We show that there are no skew-symmetric signature tensors of order three or more and prove that specific instances of partial symmetry can only happen for tensors of order three. Finally, we give a simple geometric characterization of paths whose signature tensors are not concise.",
-      "source": "SIAM Journal on Applied Algebra and Geometry",
-      "category": "research",
-      "date": "2026-10-29",
-      "author": "Francesco Galuppi, Pierpaola Santarsiero",
-      "fetched_at": "2026-10-30T22:08:19+00:00",
-      "doi": "https://doi.org/10.1137/24m1690291",
-      "open_access": true
-    },
-    {
-      "id": "https://doi.org/10.21468/scipostphyscore.9.4.072",
-      "title": "Confinement in the three-state Potts quantum spin chain in extreme ferromagnetic limit",
-      "url": "https://doi.org/10.21468/scipostphyscore.9.4.072",
-      "summary": "We investigate the dynamics of the three-state Potts quantum spin chain in the extreme ferromagnetic limit using a perturbative expansion in the transverse magnetic field. We demonstrate that a perturbative approach provides access to important features beyond the reach of previous studies, most notably the description of resonant excitations and the analytic prediction of post-quench time evolution. A central focus is the oblique quench regime — a feature unique to the Potts model with no Ising counterpart — in which unconfined kink excitations hybridise with the two-kink bound states. We provide a detailed examination of the analytic structure of the two-kink scattering amplitude, tracing the transformation of stable excitations into resonances near stability thresholds. Our analytical results for the excitation spectra and magnetisation dynamics show excellent agreement with numerical simulations of non-equilibrium dynamics.",
-      "source": "SciPost Physics Core",
-      "category": "research",
-      "date": "2026-10-29",
-      "author": "Anna Krasznai, S. B. Rutkevich, G. Takács",
-      "fetched_at": "2026-10-30T22:08:19+00:00",
-      "doi": "https://doi.org/10.21468/scipostphyscore.9.4.072",
-      "open_access": true
-    },
-    {
-      "id": "https://doi.org/10.1088/1674-1137/aebb15",
-      "title": "Temperature dependence of the nucleon–nucleon inelastic cross section in an isospin-asymmetric nuclear medium",
-      "url": "https://doi.org/10.1088/1674-1137/aebb15",
-      "summary": "Abstract The nucleon-nucleon ($NN$) inelastic cross section plays an important role in constraining the nuclear equation of state at high baryon densities and in transport descriptions of heavy-ion collisions. In this work, the temperature dependence of $\\Delta^{++}$ and $\\Delta^{-}$ production cross sections in isospin-symmetric and asymmetric nuclear matter is investigated within the relativistic Boltzmann-Uehling-Uhlenbeck (RBUU) framework. Two relativistic mean-field parameterizations are employed: the density-dependent parameterization (called DD-ME$\\delta$) and the nonlinear-dependent parameterization (called OMEG). The cross sections generally decrease with increasing density, whereas their thermal enhancement becomes more pronounced. The two parameterizations predict comparable temperature effects at densities up to approximately $1.5\\rho_0$, while OMEG exhibits a stronger temperature dependence at higher densities. In isospin-asymmetric nuclear matter, the cross section splitting results from the interplay between the effective mass splitting and vector self-energies and therefore depends on the mean-field parameterization. The temperature dependence of the splitting is relatively weak for $nn\\rightarrow p\\Delta^{-}$ but more pronounced for $pp\\rightarrow n\\Delta^{++}$. These findings provide quantitative information on the temperature dependence of the in-medium $NN\\rightarrow N\\Delta$ process and may be useful for future transport-model implementations.",
-      "source": "Chinese Physics C",
-      "category": "research",
-      "date": "2026-10-29",
-      "author": "Manzi Nan, Pengcheng Li, Ying Wang, Guojun Wei et al.",
-      "fetched_at": "2026-10-30T22:08:19+00:00",
-      "doi": "https://doi.org/10.1088/1674-1137/aebb15",
-      "open_access": true
     }
   ],
   "refresh": {
     "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 12
   }
 }
