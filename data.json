@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated_at": "2026-11-27T07:47:39+00:00",
+  "updated_at": "2026-11-27T20:57:35+00:00",
   "items": [
     {
       "id": "https://doi.org/10.15556/ijsim.03.02.003",
@@ -326,6 +326,32 @@
       "author": "M. Brady, Rachel Crespo‐Otero",
       "fetched_at": "2026-11-21T18:57:36+00:00",
       "doi": "https://doi.org/10.1039/d6fd00065g",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1039/d6fd00088f",
+      "title": "Real-space imaging of valence-electron bonding dynamics with ultrafast hard X-ray scattering",
+      "url": "https://doi.org/10.1039/d6fd00088f",
+      "summary": "Chemical reactivity is governed by the time-dependent redistribution of valence electron density, yet ultrafast diffractive imaging probes are typically dominated by scattering from the atoms and/or core electrons and therefore primarily report nuclear motion. Building on recent hard X-ray time-resolved scattering measurements of photoexcited deuterated ammonia, we extend ultrafast X-ray scattering off the evolving valence electron density into a real-space framework by retrieving the time-dependent electron pair density (PD). Using scattering difference signals, we reconstruct transient real-space ΔPDs that directly recover: (i) the prompt redistribution of valence electron density following excitation into a diffuse Rydberg orbital, (ii) the subsequent localization of the electron density on the fragments following N-D bond fission, and (iii) distinct electronic-structure fingerprints of ballistic dissociation channels. These ΔPDs provide an intuitive, chemically interpretable measure of bond breaking and rearrangement by tracking the emergence, displacement, and loss of electron density between atomic centers while retaining femtosecond time resolution. Comparison with ab initio simulations guides the interpretation of the recovered ΔPDs and supports the inferred pathway assignments.",
+      "source": "Faraday Discussions",
+      "category": "research",
+      "date": "2027-01-01",
+      "author": "Yibo Wang, Felix Allum, Surjendu Bhattacharyya, Mathew A. Britton et al.",
+      "fetched_at": "2026-11-27T20:57:34+00:00",
+      "doi": "https://doi.org/10.1039/d6fd00088f",
+      "open_access": true
+    },
+    {
+      "id": "https://doi.org/10.1039/d6rp00145a",
+      "title": "Empirical study of analogical reasoning in a model experiment on flour-dust explosion",
+      "url": "https://doi.org/10.1039/d6rp00145a",
+      "summary": "Model experiments are widely used in chemistry education to make inaccessible phenomena tangible, yet the conditions under which learners successfully draw inferences from a model experiment about a real-world phenomenon via analogical reasoning remain unclear. This study examines how young learners use a model experiment on flour-dust explosion to explain an industrial dust explosion incident and identifies prerequisites associated with successful analogical reasoning. We analyzed audio-recorded analogical reasoning processes in 186 parent–child dyads (children's mean age: 9.92 years old) and 114 student–student dyads (mean age: 10.38 years old). Parent–child dyads reached relational mappings for three of the five conditions necessary for a dust explosion to occur, while the more abstract conditions – oxidant as an invisible reactant and confinement as a causal precondition – were frequently left out. Across both dyad types, complementary contributions were observed, with shared analogical reasoning exceeding both partners’ individual contributions in 39.2% of parent–child and 37.7% of student–student dyads. Children's cognitive ability was positively associated with their individual analogical reasoning performance. Parents’ prior knowledge was positively associated with the dyad's shared performance. Compared with student–student dyads, children in parent–child dyads showed higher individual and shared scores. Adjusted analyses indicated an association between dyad type and both outcomes, with the difference being more robust for shared performance. This suggests that young learners may benefit from collaborating with parents when engaging in analogical reasoning. Overall, these findings highlight parents as valuable learning partners for analogical reasoning and mot",
+      "source": "Chemistry Education Research and Practice",
+      "category": "research",
+      "date": "2027-01-01",
+      "author": "Richard Fisch, Katrin Sommer",
+      "fetched_at": "2026-11-27T20:57:34+00:00",
+      "doi": "https://doi.org/10.1039/d6rp00145a",
       "open_access": true
     },
     {
@@ -6114,35 +6140,11 @@
       "author": "Tanay Roy",
       "fetched_at": "2026-11-02T05:28:17+00:00",
       "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.42131v1",
-      "title": "Time-optimal quantum dynamics under fixed-norm generators",
-      "url": "https://arxiv.org/abs/2610.42131v1",
-      "summary": "We investigate the dynamics of quantum systems whose evolution is governed by linear generators of fixed unitarily invariant norm. For this broad class of evolutions, we derive a universal time-optimal generator of the dynamics converting one given state into another. It provides a time-optimal non-Hermitian Hamiltonian for pure state conversion. We then use this general result to derive quantum speed limits for mixed-state evolutions governed by Lindbladians and non-Hermitian Hamiltonians. Our findings follow from the geometric properties of the group $GL(n,\\mathbb{C})$, in particular the geodesic distance. The derived bounds hold for an arbitrary system size $n$, depend only on the norms of the evolution generator and the initial and final states, and do not require performing any time-averaging.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-30",
-      "author": "Oskar A. Prośniak, Karol Życzkowski",
-      "fetched_at": "2026-11-02T05:28:17+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
-    },
-    {
-      "id": "https://arxiv.org/abs/2610.42129v1",
-      "title": "Weighted hypergraph states as a resource for quantum metrology",
-      "url": "https://arxiv.org/abs/2610.42129v1",
-      "summary": "Quantum correlations can be used to improve sensing precision beyond classical limits, yet the correlated resource states needed can be challenging to prepare and preserve. Here, we study the family of weighted hypergraph states and identify subclasses characterized by their underlying graph topology that exhibit enhanced metrological performance. Using the quantum Fisher information and a novel Dicke state basis representation, we show that these subclasses outperform both separable and standard weighted graph state benchmarks over broad ranges of edge weights corresponding to weak controlled operations between qubits representing the vertices of the graph. We provide analytical formulas for an arbitrary number $N$ of qubits, supplemented by a general study, while focusing a detailed analysis on the example case of $N=4$. By identifying the critical probabilities for local dephasing, we show that adding higher-order weighted hyperedges for $N$ qubits can enhance metrological robustness, allowing the resulting states to retain a quantum advantage at higher noise levels. These probe states exhibit favorable scaling, enhanced precision, and noise tolerance. Our findings establish weighted hypergraph states as viable, structurally tunable and robust resources for quantum-enhanced metrology.",
-      "source": "arXiv",
-      "category": "preprint",
-      "date": "2026-10-30",
-      "author": "B. J. Alexander, M. S. Tame",
-      "fetched_at": "2026-11-02T05:28:17+00:00",
-      "note": "Preprint; not necessarily peer reviewed."
     }
   ],
   "refresh": {
-    "sources_succeeded": 2,
+    "sources_succeeded": 3,
     "sources_total": 4,
-    "new_items": 0
+    "new_items": 2
   }
 }
